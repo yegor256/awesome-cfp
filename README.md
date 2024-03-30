@@ -39,7 +39,7 @@ and suggest the conferences (and journals) that deserve it.
 
 ## Programming Languages
 
-* [TOPLAS](https://dl.acm.org/journal/toplas/author-guidelines) (journal)
+* [ACM TOPLAS](https://dl.acm.org/journal/toplas/author-guidelines) (journal)
 
 * PLDI'25
   ([A*](https://portal.core.edu.au/conf-ranks/84/)): not yet
