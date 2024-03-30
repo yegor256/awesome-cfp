@@ -8,19 +8,26 @@ and suggest the conferences (and journals) that deserve it.
 
 * [IEEE TSE](https://www.computer.org/csdl/journal/ts/write-for-us/15090) (journal)
 
-* [ICSE'25](https://conf.researchr.org/home/icse-2025) ([A*](https://portal.core.edu.au/conf-ranks/1209/)): 2-Aug
+* [ICSE'25](https://conf.researchr.org/home/icse-2025)
+  ([A*](https://portal.core.edu.au/conf-ranks/1209/)): 2-Aug
+
   * [NIER](https://conf.researchr.org/track/icse-2025/icse-2025-nier): 10-Oct
   * [SRC](https://conf.researchr.org/track/icse-2025/icse-2025-SRC): ?
 
-* [ESEC/FSE'25](https://conf.researchr.org/home/fse-2025): not yet
+* [FSE'25](https://conf.researchr.org/home/fse-2025)
+  ([A*](https://portal.core.edu.au/conf-ranks/52/)): not yet
 
-* [MSR'25](https://www.msrconf.org/): not yet
+* [ASPLOS'25](https://www.asplos-conference.org/asplos-2025-call-for-papers/)
+  ([A*](https://portal.core.edu.au/conf-ranks/147/)): 24-Jun
 
-* [SANER'25](https://conf.researchr.org/series/saner): not yet
+* [MSR'25](https://www.msrconf.org/)
+  ([A](https://portal.core.edu.au/conf-ranks/711/)): not yet
 
-* [ASPLOS'25](https://www.asplos-conference.org/asplos-2025-call-for-papers/): 24-Jun
+* [SANER'25](https://conf.researchr.org/series/saner)
+  ([A](https://portal.core.edu.au/conf-ranks/2280/)): not yet
 
-* [ICPC'25](https://conf.researchr.org/home/icpc-2024): not yet
+* [ICPC'25](https://conf.researchr.org/home/icpc-2024)
+  ([A](https://portal.core.edu.au/conf-ranks/1181/)): not yet
 
 * [SEAA'24](https://dsd-seaa.com/seaa2024/) ([B](https://portal.core.edu.au/conf-ranks/464/)): 5-May
 
