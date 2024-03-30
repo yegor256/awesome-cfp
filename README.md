@@ -1,3 +1,5 @@
+# Curated List of CFPs
+
 This is a curated list of currently open Calls for Papers for computer science conferences.
 You are welcome to make changes and suggest conferences (and journals) that deserve inclusion.
 Obviously, our list is not complete and is not intended to be.
@@ -77,7 +79,7 @@ you may check the [WikiCFP](http://www.wikicfp.com/cfp/) and
 * [PPDP'24](https://ppdp2024.github.io/)
   ([C](https://portal.core.edu.au/conf-ranks/1176/)): 13-May
 
-<hr/>
+---
 
 **SRC** stands for "Student Research Competition," where they expect
 2-pages papers (sometimes up to three pages)
