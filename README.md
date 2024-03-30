@@ -35,3 +35,4 @@ and suggest the conferences (and journals) that deserve it.
 * [ETAPS'25](https://etaps.org/2025/cfp/)
   * [ESOP](https://etaps.org/2025/conferences/esop/): 30-May
 
+* [TOPLAS](https://dl.acm.org/journal/toplas/author-guidelines) (journal)
