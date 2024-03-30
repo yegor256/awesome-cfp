@@ -42,12 +42,15 @@ and suggest the conferences (and journals) that deserve it.
   * [SAS](https://2024.splashcon.org/home/sas-2024): 5-May
   * [Onward!](https://2024.splashcon.org/track/splash-2024-Onward-Essays): 25-Apr
 
-* PLDI'25: not yet
+* PLDI'25
+  ([A*](https://portal.core.edu.au/conf-ranks/84/)): not yet
 
-* [POPL'25](https://conf.researchr.org/home/POPL-2025): 11-Jul
+* [POPL'25](https://conf.researchr.org/home/POPL-2025)
+  ([A*](https://portal.core.edu.au/conf-ranks/82/)): 11-Jul
 
-* CGO'25: not yet
+* CGO'25
+  ([A](https://portal.core.edu.au/conf-ranks/1362/)): not yet
 
-* [ETAPS'25](https://etaps.org/2025/cfp/)
-  * [ESOP](https://etaps.org/2025/conferences/esop/): 30-May
+* [ESOP'25](https://etaps.org/2025/conferences/esop/)
+  ([A](https://portal.core.edu.au/conf-ranks/514/)): 30-May
 
