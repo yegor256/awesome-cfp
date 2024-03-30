@@ -58,6 +58,10 @@ and suggest the conferences (and journals) that deserve it.
 * [ESOP'25](https://etaps.org/2025/conferences/esop/)
   ([A](https://portal.core.edu.au/conf-ranks/514/)): 30-May
 
+* [CC'25](https://conf.researchr.org/series/CC)
+  ([B](https://portal.core.edu.au/conf-ranks/936/)): not yet
+
+
 
 <hr/>
 
