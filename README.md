@@ -38,7 +38,8 @@ and suggest the conferences (and journals) that deserve it.
 
 * [TOPLAS](https://dl.acm.org/journal/toplas/author-guidelines) (journal)
 
-* [SPLASH'24](https://2024.splashcon.org/): closed
+* [SPLASH'24](https://2024.splashcon.org/)
+  ([A](https://portal.core.edu.au/conf-ranks/18/)): closed
   * [SAS](https://2024.splashcon.org/home/sas-2024): 5-May
   * [Onward!](https://2024.splashcon.org/track/splash-2024-Onward-Essays): 25-Apr
 
