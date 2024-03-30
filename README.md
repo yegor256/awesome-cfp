@@ -20,6 +20,9 @@ and suggest the conferences (and journals) that deserve it.
 * [ASPLOS'25](https://www.asplos-conference.org/asplos-2025-call-for-papers/)
   ([A*](https://portal.core.edu.au/conf-ranks/147/)): 24-Jun
 
+* [ICSA'25](https://conf.researchr.org/home/icsa-2024)
+  ([A](https://portal.core.edu.au/conf-ranks/791/)): not yet
+
 * [MSR'25](https://www.msrconf.org/)
   ([A](https://portal.core.edu.au/conf-ranks/711/)): not yet
 
