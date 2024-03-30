@@ -47,8 +47,14 @@ and suggest the conferences (and journals) that deserve it.
 * [POPL'25](https://conf.researchr.org/home/POPL-2025)
   ([A*](https://portal.core.edu.au/conf-ranks/82/)): 11-Jul
 
+* [ICFP'24](https://icfp24.sigplan.org/)
+  ([A](https://portal.core.edu.au/conf-ranks/1037/)): closed
+
+  * [SRC](https://icfp24.sigplan.org/track/icfp-2024-student-research-competition): 23-May
+
 * [SPLASH'24](https://2024.splashcon.org/)
   ([A](https://portal.core.edu.au/conf-ranks/18/)): closed
+
   * [SAS](https://2024.splashcon.org/home/sas-2024): 5-May
   * [Onward!](https://2024.splashcon.org/track/splash-2024-Onward-Essays): 25-Apr
 
@@ -62,12 +68,11 @@ and suggest the conferences (and journals) that deserve it.
   ([B](https://portal.core.edu.au/conf-ranks/936/)): not yet
 
 
-
 <hr/>
 
 **SRC** stands for "Student Research Competition," where they expect
-2-pages papers from a single student, who must attend the
-event personally.
+2-pages papers (sometimes up to three pages)
+from a single student, who must physically attend the event.
 
 **NIER** stands for "New Ideas and Emerging Results," where
 they expect 4-pages papers.
