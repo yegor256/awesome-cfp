@@ -38,7 +38,11 @@ you may check the [WikiCFP](http://www.wikicfp.com/cfp/) and
 * [ICPC'25](https://conf.researchr.org/home/icpc-2024)
   ([A](https://portal.core.edu.au/conf-ranks/1181/)): not yet
 
-* [SEAA'24](https://dsd-seaa.com/seaa2024/) ([B](https://portal.core.edu.au/conf-ranks/464/)): 5-May
+* [SEAA'24](https://dsd-seaa.com/seaa2024/)
+  ([B](https://portal.core.edu.au/conf-ranks/464/)): 5-May
+
+* [ICFEM'24]
+  ([C](https://portal.core.edu.au/conf-ranks/1031/)): 24-Jun
 
 ## Programming Languages
 
