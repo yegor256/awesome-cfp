@@ -16,6 +16,8 @@ and suggest the conferences (and journals) that deserve it.
 
 * [ASPLOS'25](https://www.asplos-conference.org/asplos-2025-call-for-papers/): 24-Jun
 
+* [ICPC'25](https://conf.researchr.org/home/icpc-2024): not yet
+
 * [ACM TOSEM Frontiers](https://dl.acm.org/journal/tosem/frontiers) (journal)
 
 * [IEEE TSE](https://www.computer.org/csdl/journal/ts/write-for-us/15090) (journal)
