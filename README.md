@@ -18,6 +18,8 @@ and suggest the conferences (and journals) that deserve it.
 
 * [ICPC'25](https://conf.researchr.org/home/icpc-2024): not yet
 
+* [SEAA'24](https://dsd-seaa.com/seaa2024/) ([B](https://portal.core.edu.au/conf-ranks/464/)): 5-May
+
 * [ACM TOSEM Frontiers](https://dl.acm.org/journal/tosem/frontiers) (journal)
 
 * [IEEE TSE](https://www.computer.org/csdl/journal/ts/write-for-us/15090) (journal)
