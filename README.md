@@ -4,7 +4,7 @@ and suggest the conferences (and journals) that deserve it.
 
 ## Software Engineering
 
-* [ICSE'25](https://conf.researchr.org/home/icse-2025) (2-Aug)
+* [ICSE'25](https://conf.researchr.org/home/icse-2025) ([A*](https://portal.core.edu.au/conf-ranks/1209/)): 2-Aug
   * [NIER](https://conf.researchr.org/track/icse-2025/icse-2025-nier): 10-Oct
   * [SRC](https://conf.researchr.org/track/icse-2025/icse-2025-SRC): ?
 
