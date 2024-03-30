@@ -1,8 +1,8 @@
-This is a curated list of currently open Call-for-Papers of
-computer science conferences. You are welcome to make changes
-and suggest the conferences (and journals) that deserve it.
-For a larger and more complete list of currently open CFPs you
-may check [WikiCFP](http://www.wikicfp.com/cfp/) and
+This is a curated list of currently open Calls for Papers for computer science conferences.
+You are welcome to make changes and suggest conferences (and journals) that deserve inclusion.
+Obviously, our list is not complete and is not intended to be.
+For a larger and more complete list of currently open CFPs,
+you may check the [WikiCFP](http://www.wikicfp.com/cfp/) and
 [call4paper](https://www.call4paper.com/) websites.
 
 ## Software Engineering
