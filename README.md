@@ -4,6 +4,10 @@ and suggest the conferences (and journals) that deserve it.
 
 ## Software Engineering
 
+* [ACM TOSEM Frontiers](https://dl.acm.org/journal/tosem/frontiers) (journal)
+
+* [IEEE TSE](https://www.computer.org/csdl/journal/ts/write-for-us/15090) (journal)
+
 * [ICSE'25](https://conf.researchr.org/home/icse-2025) ([A*](https://portal.core.edu.au/conf-ranks/1209/)): 2-Aug
   * [NIER](https://conf.researchr.org/track/icse-2025/icse-2025-nier): 10-Oct
   * [SRC](https://conf.researchr.org/track/icse-2025/icse-2025-SRC): ?
@@ -20,11 +24,9 @@ and suggest the conferences (and journals) that deserve it.
 
 * [SEAA'24](https://dsd-seaa.com/seaa2024/) ([B](https://portal.core.edu.au/conf-ranks/464/)): 5-May
 
-* [ACM TOSEM Frontiers](https://dl.acm.org/journal/tosem/frontiers) (journal)
-
-* [IEEE TSE](https://www.computer.org/csdl/journal/ts/write-for-us/15090) (journal)
-
 ## Programming Languages
+
+* [TOPLAS](https://dl.acm.org/journal/toplas/author-guidelines) (journal)
 
 * [SPLASH'24](https://2024.splashcon.org/): closed
   * [SAS](https://2024.splashcon.org/home/sas-2024): 5-May
@@ -39,4 +41,3 @@ and suggest the conferences (and journals) that deserve it.
 * [ETAPS'25](https://etaps.org/2025/cfp/)
   * [ESOP](https://etaps.org/2025/conferences/esop/): 30-May
 
-* [TOPLAS](https://dl.acm.org/journal/toplas/author-guidelines) (journal)
