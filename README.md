@@ -26,6 +26,9 @@ and suggest the conferences (and journals) that deserve it.
 * [SANER'25](https://conf.researchr.org/series/saner)
   ([A](https://portal.core.edu.au/conf-ranks/2280/)): not yet
 
+* [ISSTA'25](https://conf.researchr.org/home/issta-2025)
+  ([A](https://portal.core.edu.au/conf-ranks/1412/)): not yet
+
 * [ICPC'25](https://conf.researchr.org/home/icpc-2024)
   ([A](https://portal.core.edu.au/conf-ranks/1181/)): not yet
 
