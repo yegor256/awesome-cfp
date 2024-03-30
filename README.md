@@ -38,16 +38,16 @@ and suggest the conferences (and journals) that deserve it.
 
 * [TOPLAS](https://dl.acm.org/journal/toplas/author-guidelines) (journal)
 
-* [SPLASH'24](https://2024.splashcon.org/)
-  ([A](https://portal.core.edu.au/conf-ranks/18/)): closed
-  * [SAS](https://2024.splashcon.org/home/sas-2024): 5-May
-  * [Onward!](https://2024.splashcon.org/track/splash-2024-Onward-Essays): 25-Apr
-
 * PLDI'25
   ([A*](https://portal.core.edu.au/conf-ranks/84/)): not yet
 
 * [POPL'25](https://conf.researchr.org/home/POPL-2025)
   ([A*](https://portal.core.edu.au/conf-ranks/82/)): 11-Jul
+
+* [SPLASH'24](https://2024.splashcon.org/)
+  ([A](https://portal.core.edu.au/conf-ranks/18/)): closed
+  * [SAS](https://2024.splashcon.org/home/sas-2024): 5-May
+  * [Onward!](https://2024.splashcon.org/track/splash-2024-Onward-Essays): 25-Apr
 
 * CGO'25
   ([A](https://portal.core.edu.au/conf-ranks/1362/)): not yet
