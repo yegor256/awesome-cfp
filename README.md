@@ -55,3 +55,12 @@ and suggest the conferences (and journals) that deserve it.
 * [ESOP'25](https://etaps.org/2025/conferences/esop/)
   ([A](https://portal.core.edu.au/conf-ranks/514/)): 30-May
 
+
+<hr/>
+
+**SRC** stands for "Student Research Competition," where they expect
+2-pages papers from a single student, who must attend the
+event personally.
+
+**NIER** stands for "New Ideas and Emerging Results," where
+they expect 4-pages papers.
