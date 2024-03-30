@@ -70,6 +70,8 @@ you may check the [WikiCFP](http://www.wikicfp.com/cfp/) and
 * [CC'25](https://conf.researchr.org/series/CC)
   ([B](https://portal.core.edu.au/conf-ranks/936/)): not yet
 
+* [PPDP'24](https://ppdp2024.github.io/)
+  ([C](https://portal.core.edu.au/conf-ranks/1176/)): 13-May
 
 <hr/>
 
