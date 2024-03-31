@@ -7,16 +7,6 @@ For a larger and more complete list of currently open CFPs,
 you may check the [WikiCFP](http://www.wikicfp.com/cfp/) and
 [call4paper](https://www.call4paper.com/) websites.
 
-## Journals
-
-| Name | Publisher | Quartile | H-Index | Scope |
-| --- | --- | --- | --- | --- |
-| [TOPLAS](https://dl.acm.org/journal/toplas/author-guidelines) | ACM | Q1 | ? | PL |
-| [TOSEM Frontiers](https://dl.acm.org/journal/tosem/frontiers) | ACM | Q1 | ? | SE |
-| [TSE](https://www.computer.org/csdl/journal/ts/write-for-us/15090) | IEEE | Q1 | [180](https://www.scimagojr.com/journalsearch.php?q=18711) | SE |
-
-## Conferences
-
 | Name | Publisher | CORE | Scope | CFP |
 | --- | --- | --- | --- | --- |
 | [PLDI'25](https://conf.researchr.org/series/pldi) | ACM | [A*](https://portal.core.edu.au/conf-ranks/84/) | PL | ? |
@@ -47,8 +37,6 @@ you may check the [WikiCFP](http://www.wikicfp.com/cfp/) and
 | [PPDP'24](https://ppdp2024.github.io/) | ACM | [C](https://portal.core.edu.au/conf-ranks/1176/) | PL | 13-May |
 | [ICFEM'24](https://icfem2024.info/) | Springer | [C](https://portal.core.edu.au/conf-ranks/1031/) | SE | 24-Jun |
 | [SCAM'24](https://conf.researchr.org/home/scam-2024) | IEEE | [C](https://portal.core.edu.au/conf-ranks/718/) | SE | 21-Jun |
-
----
 
 **SE** stands for "Software Engineering",
 **SA** for "Software Architecture",
