@@ -19,7 +19,7 @@ you may check the [WikiCFP](http://www.wikicfp.com/cfp/) and
 
 | Name | Publisher | CORE | Scope | CFP |
 | --- | --- | --- | --- | --- |
-| PLDI'25 | ACM | [A*](https://portal.core.edu.au/conf-ranks/84/) | PL | ? |
+| [PLDI'25](https://conf.researchr.org/series/pldi) | ACM | [A*](https://portal.core.edu.au/conf-ranks/84/) | PL | ? |
 | [POPL'25](https://conf.researchr.org/home/POPL-2025) | ACM | [A*](https://portal.core.edu.au/conf-ranks/82/) | PL | 11-Jul |
 | [ICSE'25](https://conf.researchr.org/home/icse-2025) | IEEE | [A*](https://portal.core.edu.au/conf-ranks/1209/) | SE | 2-Aug |
 | ↦ [NIER](https://conf.researchr.org/track/icse-2025/icse-2025-nier) | | | | 10-Oct |
