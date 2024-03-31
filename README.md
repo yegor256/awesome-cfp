@@ -40,7 +40,7 @@ you may check the [WikiCFP](http://www.wikicfp.com/cfp/) and
 | [ICPC'25](https://conf.researchr.org/home/icpc-2024) | ACM | [A](https://portal.core.edu.au/conf-ranks/1181/) | SE | ? |
 | [CC'25](https://conf.researchr.org/series/CC) | ACM | [B](https://portal.core.edu.au/conf-ranks/936/) | PL | ? |
 | [APLAS'24](https://conf.researchr.org/home/aplas-2024/) | Springer | [B](https://portal.core.edu.au/conf-ranks/171/) | PL | 24-May |
-| [PPoP'25](https://conf.researchr.org/home/ppopp-2024) | ACM | [B](https://portal.core.edu.au/conf-ranks/1691/) | PL | ? |
+| [PPoPP'25](https://conf.researchr.org/home/ppopp-2024) | ACM | [B](https://portal.core.edu.au/conf-ranks/1691/) | PL | ? |
 | [SEAA'24](https://dsd-seaa.com/seaa2024/) | IEEE | [B](https://portal.core.edu.au/conf-ranks/464/) | SE, PL | 5-May |
 | [PPDP'24](https://ppdp2024.github.io/) | ACM | [C](https://portal.core.edu.au/conf-ranks/1176/) | PL | 13-May |
 | [ICFEM'24](https://icfem2024.info/) | Springer | [C](https://portal.core.edu.au/conf-ranks/1031/) | SE | 24-Jun |
