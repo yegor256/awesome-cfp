@@ -34,6 +34,7 @@ you may check the [WikiCFP](http://www.wikicfp.com/cfp/) and
 | [CGO'25](https://conf.researchr.org/series/cgo) | ACM | [A](https://portal.core.edu.au/conf-ranks/1362/) | PL | ? |
 | [ICSA'25](https://conf.researchr.org/home/icsa-2024) | IEEE | [A](https://portal.core.edu.au/conf-ranks/791/) | SE, SA | ? |
 | [MSR'25](https://www.msrconf.org/) | IEEE | [A](https://portal.core.edu.au/conf-ranks/711/) | SE | ? |
+| [ICSME'24](https://conf.researchr.org/home/icsme-2024) | IEEE | [A](https://portal.core.edu.au/conf-ranks/676/) | SE | ? |
 | [SANER'25](https://conf.researchr.org/series/saner) | IEEE | [A](https://portal.core.edu.au/conf-ranks/2280/) | SE | ? |
 | [ISSTA'25](https://conf.researchr.org/home/issta-2025) | ACM | [A](https://portal.core.edu.au/conf-ranks/1412/) | ST | ? |
 | [ESOP'25](https://etaps.org/2025/conferences/esop/) | ACM | [A](https://portal.core.edu.au/conf-ranks/514/) | PL | 30-May |
@@ -44,6 +45,7 @@ you may check the [WikiCFP](http://www.wikicfp.com/cfp/) and
 | [SEAA'24](https://dsd-seaa.com/seaa2024/) | IEEE | [B](https://portal.core.edu.au/conf-ranks/464/) | SE, PL | 5-May |
 | [PPDP'24](https://ppdp2024.github.io/) | ACM | [C](https://portal.core.edu.au/conf-ranks/1176/) | PL | 13-May |
 | [ICFEM'24](https://icfem2024.info/) | Springer | [C](https://portal.core.edu.au/conf-ranks/1031/) | SE | 24-Jun |
+| [SCAM'24](https://conf.researchr.org/home/scam-2024) | IEEE | [C](https://portal.core.edu.au/conf-ranks/718/) | SE | 21-Jun |
 
 ---
 
