@@ -34,6 +34,7 @@ please send us a pull request.
 | [ICSME'24](https://conf.researchr.org/home/icsme-2024) | IEEE | [A](https://portal.core.edu.au/conf-ranks/676/) | SE | ? |
 | [SANER'25](https://conf.researchr.org/series/saner) | IEEE | [A](https://portal.core.edu.au/conf-ranks/2280/) | SE | ? |
 | [ISSTA'25](https://conf.researchr.org/home/issta-2025) | ACM | [A](https://portal.core.edu.au/conf-ranks/1412/) | ST | ? |
+| [ICSM'25](https://waset.org/software-maintenance-conference-in-july-2024-in-london) | ? | [A](https://portal.core.edu.au/conf-ranks/676/) | SE | ? |
 | [ESOP'25](https://etaps.org/2025/conferences/esop/) | ACM | [A](https://portal.core.edu.au/conf-ranks/514/) | PL | 30-May |
 | [ICPC'25](https://conf.researchr.org/home/icpc-2024) | ACM | [A](https://portal.core.edu.au/conf-ranks/1181/) | SE | ? |
 | [CC'25](https://conf.researchr.org/series/CC) | ACM | [B](https://portal.core.edu.au/conf-ranks/936/) | PL | ? |
