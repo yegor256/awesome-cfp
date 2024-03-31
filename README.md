@@ -30,8 +30,8 @@ you may check the [WikiCFP](http://www.wikicfp.com/cfp/) and
 | ↦ [NIER](https://conf.researchr.org/track/icse-2025/icse-2025-nier) | | | | 10-Oct |
 | ↦ [SRC](https://conf.researchr.org/track/icse-2025/icse-2025-SRC) | | | | ? |
 | CGO'25 | ? | [A](https://portal.core.edu.au/conf-ranks/1362/) | PL | ? |
-| [FSE'25](https://conf.researchr.org/home/fse-2025) | ? | [A*](https://portal.core.edu.au/conf-ranks/52/) | SE | ? |
-| [ASPLOS'25](https://www.asplos-conference.org/asplos-2025-call-for-papers/) | ? | [A*](https://portal.core.edu.au/conf-ranks/147/) | SE | 24-Jun |
+| [FSE'25](https://conf.researchr.org/home/fse-2025) | ACM | [A*](https://portal.core.edu.au/conf-ranks/52/) | SE | ? |
+| [ASPLOS'25](https://www.asplos-conference.org/asplos-2025-call-for-papers/) | ACM | [A*](https://portal.core.edu.au/conf-ranks/147/) | SE | 24-Jun |
 | [ICSA'25](https://conf.researchr.org/home/icsa-2024) | IEEE | [A](https://portal.core.edu.au/conf-ranks/791/) | SE, SA | ? |
 | [MSR'25](https://www.msrconf.org/) | ? | [A](https://portal.core.edu.au/conf-ranks/711/) | SE | ? |
 | [SANER'25](https://conf.researchr.org/series/saner) | ? | [A](https://portal.core.edu.au/conf-ranks/2280/) | SE | ? |
