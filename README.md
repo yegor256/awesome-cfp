@@ -13,8 +13,8 @@ you don't need to visit all conference websites. If you want your favorite
 conference to be included so you won't miss its deadline,
 please send us a pull request.
 
-| Name | Publisher | CORE | Scope | Size | CFP |
-| --- | --- | --- | --- | --- |
+| Name | Publisher | CORE | Scope | Pages | CFP |
+| --- | --- | --- | --- | --- | --- |
 | [PLDI'25](https://conf.researchr.org/series/pldi) | ACM | [A*](https://portal.core.edu.au/conf-ranks/84/) | PL | | ? |
 | [POPL'25](https://conf.researchr.org/home/POPL-2025) | ACM | [A*](https://portal.core.edu.au/conf-ranks/82/) | PL | | 11-Jul |
 | [ICSE'25](https://conf.researchr.org/home/icse-2025) | IEEE | [A*](https://portal.core.edu.au/conf-ranks/1209/) | SE | | 2-Aug |
