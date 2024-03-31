@@ -79,6 +79,8 @@ you may check the [WikiCFP](http://www.wikicfp.com/cfp/) and
 * [PPDP'24](https://ppdp2024.github.io/)
   ([C](https://portal.core.edu.au/conf-ranks/1176/)): 13-May
 
+* [APLAS'2024](https://conf.researchr.org/home/aplas-2024/)([B](https://portal.core.edu.au/conf-ranks/171/)): 24-May
+
 ---
 
 **SRC** stands for "Student Research Competition," where they expect
