@@ -76,10 +76,10 @@ you may check the [WikiCFP](http://www.wikicfp.com/cfp/) and
 * [CC'25](https://conf.researchr.org/series/CC)
   ([B](https://portal.core.edu.au/conf-ranks/936/)): not yet
 
-* [PPDP'24](https://ppdp2024.github.io/)
-  ([C](https://portal.core.edu.au/conf-ranks/1176/)): 13-May
-
-* [APLAS'2024](https://conf.researchr.org/home/aplas-2024/)([B](https://portal.core.edu.au/conf-ranks/171/)): 24-May
+| Name | Publisher | CORE | CFP |
+| --- | --- | --- | --- |
+| [APLAS'2024](https://conf.researchr.org/home/aplas-2024/) | Springer | [B](https://portal.core.edu.au/conf-ranks/171/) | 24-May |
+| [PPDP'24](https://ppdp2024.github.io/) | ACM | [C](https://portal.core.edu.au/conf-ranks/1176/) | 13-May |
 
 ---
 
