@@ -18,7 +18,7 @@ you may check the [WikiCFP](http://www.wikicfp.com/cfp/) and
 ## Conferences
 
 | Name | Publisher | CORE | Scope | CFP |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | PLDI'25 | ACM | [A*](https://portal.core.edu.au/conf-ranks/84/) | PL | ? |
 | [POPL'25](https://conf.researchr.org/home/POPL-2025) | ACM | [A*](https://portal.core.edu.au/conf-ranks/82/) | PL | 11-Jul |
 | [ICFP'24](https://icfp24.sigplan.org/) | ACM | [A](https://portal.core.edu.au/conf-ranks/1037/) | PL | closed |
