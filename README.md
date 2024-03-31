@@ -9,11 +9,11 @@ you may check the [WikiCFP](http://www.wikicfp.com/cfp/) and
 
 ## Journals
 
-| Name | Publisher | Q | Scope |
+| Name | Publisher | Quartile | H-Index | Scope |
 | --- | --- | --- | --- |
-| [TOPLAS](https://dl.acm.org/journal/toplas/author-guidelines) | ACM | ? | PL |
-| [TOSEM Frontiers](https://dl.acm.org/journal/tosem/frontiers) | ACM | ? | SE |
-| [TSE](https://www.computer.org/csdl/journal/ts/write-for-us/15090) | IEEE | ? | SE |
+| [TOPLAS](https://dl.acm.org/journal/toplas/author-guidelines) | ACM | Q1 | ? | PL |
+| [TOSEM Frontiers](https://dl.acm.org/journal/tosem/frontiers) | ACM | Q1 | ? | SE |
+| [TSE](https://www.computer.org/csdl/journal/ts/write-for-us/15090) | IEEE | Q1 | [180](https://www.scimagojr.com/journalsearch.php?q=18711) | SE |
 
 ## Conferences
 
