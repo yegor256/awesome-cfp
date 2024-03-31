@@ -61,24 +61,15 @@ you may check the [WikiCFP](http://www.wikicfp.com/cfp/) and
 
   * [SRC](https://icfp24.sigplan.org/track/icfp-2024-student-research-competition): 23-May
 
-* [SPLASH'24](https://2024.splashcon.org/)
-  ([A](https://portal.core.edu.au/conf-ranks/18/)): closed
-
-  * [SAS](https://2024.splashcon.org/home/sas-2024): 5-May
-  * [Onward!](https://2024.splashcon.org/track/splash-2024-Onward-Essays): 25-Apr
-
-* CGO'25
-  ([A](https://portal.core.edu.au/conf-ranks/1362/)): not yet
-
-* [ESOP'25](https://etaps.org/2025/conferences/esop/)
-  ([A](https://portal.core.edu.au/conf-ranks/514/)): 30-May
-
-* [CC'25](https://conf.researchr.org/series/CC)
-  ([B](https://portal.core.edu.au/conf-ranks/936/)): not yet
-
 | Name | Publisher | CORE | CFP |
 | --- | --- | --- | --- |
-| [APLAS'2024](https://conf.researchr.org/home/aplas-2024/) | Springer | [B](https://portal.core.edu.au/conf-ranks/171/) | 24-May |
+| [SPLASH'24](https://2024.splashcon.org/) | ACM | [A](https://portal.core.edu.au/conf-ranks/18/) | closed |
+| ↦ [SAS](https://2024.splashcon.org/home/sas-2024) | ACM | - | 5-May |
+| ↦ [Onward!](https://2024.splashcon.org/track/splash-2024-Onward-Essays) | ACM | - | 25-Apr |
+| CGO'25 | ? | [A](https://portal.core.edu.au/conf-ranks/1362/) | ? |
+| [ESOP'25](https://etaps.org/2025/conferences/esop/) | ? | [A](https://portal.core.edu.au/conf-ranks/514/) | 30-May |
+| [CC'25](https://conf.researchr.org/series/CC) | ? | [B](https://portal.core.edu.au/conf-ranks/936/) | ? |
+| [APLAS'24](https://conf.researchr.org/home/aplas-2024/) | Springer | [B](https://portal.core.edu.au/conf-ranks/171/) | 24-May |
 | [PPDP'24](https://ppdp2024.github.io/) | ACM | [C](https://portal.core.edu.au/conf-ranks/1176/) | 13-May |
 
 ---
