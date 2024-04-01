@@ -16,7 +16,7 @@ please send us a pull request.
 | Name | Publisher | CORE | Scope | Pages | CFP |
 | --- | --- | --- | --- | --- | --- |
 | [PLDI'25](https://conf.researchr.org/series/pldi) | ACM | [A*](https://portal.core.edu.au/conf-ranks/84/) | PL | | ? |
-| [POPL'25](https://conf.researchr.org/home/POPL-2025) | ACM | [A*](https://portal.core.edu.au/conf-ranks/82/) | PL | | 11-Jul |
+| [POPL'25](https://conf.researchr.org/home/POPL-2025) | ACM | [A*](https://portal.core.edu.au/conf-ranks/82/) | PL | 25 | 11-Jul |
 | [ICSE'25](https://conf.researchr.org/home/icse-2025) | IEEE | [A*](https://portal.core.edu.au/conf-ranks/1209/) | SE | | 2-Aug |
 | ↦ [NIER](https://conf.researchr.org/track/icse-2025/icse-2025-nier) | | | | | 10-Oct |
 | ↦ [SRC](https://conf.researchr.org/track/icse-2025/icse-2025-SRC) | | | | | ? |
