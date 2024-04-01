@@ -43,6 +43,7 @@ please send us a pull request.
 | ↦ [SRC](https://conf.researchr.org/track/aplas-2024/src-and-posters) | | | | 3 | 19-Jul |
 | [PPoPP'25](https://conf.researchr.org/home/ppopp-2024) | ACM | [B](https://portal.core.edu.au/conf-ranks/1691/) | PL | 10 | ? |
 | [SEAA'24](https://dsd-seaa.com/seaa2024/) | IEEE | [B](https://portal.core.edu.au/conf-ranks/464/) | SE, PL | 4, 8 | 5-May |
+| [SLE'24](http://www.sleconf.org/2024/) | ACM | [B](https://portal.core.edu.au/conf-ranks/1215/) | SE, PL | 12 | 14-Jun |
 | [PPDP'24](https://ppdp2024.github.io/) | ACM | [C](https://portal.core.edu.au/conf-ranks/1176/) | PL | 12 | 13-May |
 | [ICFEM'24](https://icfem2024.info/) | Springer | [C](https://portal.core.edu.au/conf-ranks/1031/) | SE | 12, 18 | 24-Jun |
 | [SCAM'24](https://conf.researchr.org/home/scam-2024) | IEEE | [C](https://portal.core.edu.au/conf-ranks/718/) | SE | 12 | 21-Jun |
