@@ -22,7 +22,7 @@ please send us a pull request.
 | ↦ [SRC](https://conf.researchr.org/track/icse-2025/icse-2025-SRC) | | | | 2 | ? |
 | [FSE'25](https://conf.researchr.org/home/fse-2025) | ACM | [A*](https://portal.core.edu.au/conf-ranks/52/) | SE | 18 | ? |
 | [ASE'24](https://conf.researchr.org/home/ase-2024) | ACM | [A*](https://portal.core.edu.au/conf-ranks/279/) | SE | 10 | 7-Jun |
-| [ASPLOS'25](https://www.asplos-conference.org/asplos-2025-call-for-papers/) | ACM | [A*](https://portal.core.edu.au/conf-ranks/147/) | SE | | 24-Jun |
+| [ASPLOS'25](https://www.asplos-conference.org/asplos-2025-call-for-papers/) | ACM | [A*](https://portal.core.edu.au/conf-ranks/147/) | SE | 11 | 24-Jun |
 | [ICFP'24](https://icfp24.sigplan.org/) | ACM | [A](https://portal.core.edu.au/conf-ranks/1037/) | PL | | closed |
 | ↦ [SRC](https://icfp24.sigplan.org/track/icfp-2024-student-research-competition) | | | | | 23-May |
 | [SPLASH'24](https://2024.splashcon.org/) | ACM | [A](https://portal.core.edu.au/conf-ranks/18/) | PL | | closed |
