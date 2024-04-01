@@ -38,6 +38,7 @@ please send us a pull request.
 | [ESOP'25](https://etaps.org/2025/conferences/esop/) | ACM | [A](https://portal.core.edu.au/conf-ranks/514/) | PL | 25 LNCS | 30-May |
 | [ICPC'25](https://conf.researchr.org/home/icpc-2024) | ACM | [A](https://portal.core.edu.au/conf-ranks/1181/) | SE | | ? |
 | [ECSA'24](https://conf.researchr.org/home/ecsa-2024) | Springer | [A](https://portal.core.edu.au/conf-ranks/2165/) | SA | 16 LNCS | 18-Apr |
+| [ICST'25](https://conf.researchr.org/series/icst) | IEEE | [A](https://portal.core.edu.au/conf-ranks/1221/) | ST | | ? |
 | [CC'25](https://conf.researchr.org/series/CC) | ACM | [B](https://portal.core.edu.au/conf-ranks/936/) | PL | | ? |
 | [APLAS'24](https://conf.researchr.org/home/aplas-2024/) | Springer | [B](https://portal.core.edu.au/conf-ranks/171/) | PL | 17 LNCS | 24-May |
 | ↦ [SRC](https://conf.researchr.org/track/aplas-2024/src-and-posters) | | | | 3 | 19-Jul |
