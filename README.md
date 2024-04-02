@@ -23,31 +23,31 @@ please send us a pull request.
 | [FSE'25](https://conf.researchr.org/home/fse-2025) | ACM | [A*](https://portal.core.edu.au/conf-ranks/52/) | SE | | 18 | | ? |
 | [ASE'24](https://conf.researchr.org/home/ase-2024) | ACM | [A*](https://portal.core.edu.au/conf-ranks/279/) | SE | | 10 | | 7-Jun |
 | [ASPLOS'25](https://www.asplos-conference.org/asplos-2025-call-for-papers/)    | ACM  | [A*](https://portal.core.edu.au/conf-ranks/147/)  | SE     |   | 11    |   | 24-Jun |
-| [ICFP'24](https://icfp24.sigplan.org/)      | ACM  | [A](https://portal.core.edu.au/conf-ranks/1037/)  | PL     | 12     | 25    |   | closed |
-| ↦ [SRC](https://icfp24.sigplan.org/track/icfp-2024-student-research-competition)    | |      |   | 3 |  |   | 23-May |
+| [ICFP'24](https://icfp24.sigplan.org/) | ACM  | [A](https://portal.core.edu.au/conf-ranks/1037/)  | PL     | 12     | 25    |   | closed |
+| ↦ [SRC](https://icfp24.sigplan.org/track/icfp-2024-student-research-competition)    | | |   | 3 |  |   | 23-May |
 | [SPLASH'24](https://2024.splashcon.org/)    | ACM  | [A](https://portal.core.edu.au/conf-ranks/18/)    | PL     |   |  |   | closed |
-| ↦ [SAS](https://2024.splashcon.org/home/sas-2024)     | |      |   |   |  |   | 5-May  |
-| ↦ [Onward!](https://2024.splashcon.org/track/splash-2024-Onward-Essays)   | |      |   |   |  |   | 25-Apr |
-| [CGO'25](https://conf.researchr.org/series/cgo)       | ACM  | [A](https://portal.core.edu.au/conf-ranks/1362/)  | PL     |   |  |   | ? |
-| [ICSA'25](https://conf.researchr.org/home/icsa-2024)       | IEEE | [A](https://portal.core.edu.au/conf-ranks/791/)   | SE, SA |   |  |   | ? |
-| [MSR'25](https://www.msrconf.org/)          | IEEE | [A](https://portal.core.edu.au/conf-ranks/711/)   | SE     |   |  |   | ? |
+| ↦ [SAS](https://2024.splashcon.org/home/sas-2024)     | | |   |   |  |   | 5-May  |
+| ↦ [Onward!](https://2024.splashcon.org/track/splash-2024-Onward-Essays)   | | |   |   |  |   | 25-Apr |
+| [CGO'25](https://conf.researchr.org/series/cgo)  | ACM  | [A](https://portal.core.edu.au/conf-ranks/1362/)  | PL     |   |  |   | ? |
+| [ICSA'25](https://conf.researchr.org/home/icsa-2024)  | IEEE | [A](https://portal.core.edu.au/conf-ranks/791/)   | SE, SA |   |  |   | ? |
+| [MSR'25](https://www.msrconf.org/)     | IEEE | [A](https://portal.core.edu.au/conf-ranks/711/)   | SE     |   |  |   | ? |
 | [ICSME'24](https://conf.researchr.org/home/icsme-2024)     | IEEE | [A](https://portal.core.edu.au/conf-ranks/676/)   | SE     |   |  |   | ? |
 | [SANER'25](https://conf.researchr.org/series/saner)   | IEEE | [A](https://portal.core.edu.au/conf-ranks/2280/)  | SE     |   |  |   | ? |
 | [ISSTA'25](https://conf.researchr.org/home/issta-2025)     | ACM  | [A](https://portal.core.edu.au/conf-ranks/1412/)  | ST     |   |  |   | ? |
 | [ICSM'25](https://waset.org/software-maintenance-conference-in-july-2024-in-london) | ?    | [A](https://portal.core.edu.au/conf-ranks/676/)   | SE     |   |  |   | ? |
 | [ESOP'25](https://etaps.org/2025/conferences/esop/)   | ACM  | [A](https://portal.core.edu.au/conf-ranks/514/)   | PL     |   | 25    | LNCS   | 30-May |
-| [ICPC'25](https://conf.researchr.org/home/icpc-2024)       | ACM  | [A](https://portal.core.edu.au/conf-ranks/1181/)  | SE     |   |  |   | ? |
-| [ECSA'24](https://conf.researchr.org/home/ecsa-2024)       | Springer  | [A](https://portal.core.edu.au/conf-ranks/2165/)  | SA     |   | 16    | LNCS   | 18-Apr |
+| [ICPC'25](https://conf.researchr.org/home/icpc-2024)  | ACM  | [A](https://portal.core.edu.au/conf-ranks/1181/)  | SE     |   |  |   | ? |
+| [ECSA'24](https://conf.researchr.org/home/ecsa-2024)  | Springer  | [A](https://portal.core.edu.au/conf-ranks/2165/)  | SA     |   | 16    | LNCS   | 18-Apr |
 | [ICST'25](https://conf.researchr.org/series/icst)     | IEEE | [A](https://portal.core.edu.au/conf-ranks/1221/)  | ST     |   |  |   | ? |
 | [CC'25](https://conf.researchr.org/series/CC)    | ACM  | [B](https://portal.core.edu.au/conf-ranks/936/)   | PL     |   |  |   | ? |
 | [APLAS'24](https://conf.researchr.org/home/aplas-2024/)    | Springer  | [B](https://portal.core.edu.au/conf-ranks/171/)   | PL     |   | 17    | LNCS   | 24-May |
-| ↦ [SRC](https://conf.researchr.org/track/aplas-2024/src-and-posters)      | |      |   | 3 |  |   | 19-Jul |
+| ↦ [SRC](https://conf.researchr.org/track/aplas-2024/src-and-posters) | | |   | 3 |  |   | 19-Jul |
 | [PPoPP'25](https://conf.researchr.org/home/ppopp-2024)     | ACM  | [B](https://portal.core.edu.au/conf-ranks/1691/)  | PL     |   | 10    |   | ? |
-| [SEAA'24](https://dsd-seaa.com/seaa2024/)        | IEEE | [B](https://portal.core.edu.au/conf-ranks/464/)   | SE, PL | 4 | 8     |   | 5-May  |
-| [SLE'24](http://www.sleconf.org/2024/)      | ACM  | [B](https://portal.core.edu.au/conf-ranks/1215/)  | SE, PL |   | 12    |   | 14-Jun |
-| [PPDP'24](https://ppdp2024.github.io/)      | ACM  | [C](https://portal.core.edu.au/conf-ranks/1176/)  | PL     |   | 12    |   | 13-May |
-| [ICFEM'24](https://icfem2024.info/)         | Springer  | [C](https://portal.core.edu.au/conf-ranks/1031/)  | SE     | 12     | 18    |   | 24-Jun |
-| [SCAM'24](https://conf.researchr.org/home/scam-2024)       | IEEE | [C](https://portal.core.edu.au/conf-ranks/718/)   | SE     |   | 12    |   | 21-Jun |
+| [SEAA'24](https://dsd-seaa.com/seaa2024/)   | IEEE | [B](https://portal.core.edu.au/conf-ranks/464/)   | SE, PL | 4 | 8     |   | 5-May  |
+| [SLE'24](http://www.sleconf.org/2024/) | ACM  | [B](https://portal.core.edu.au/conf-ranks/1215/)  | SE, PL |   | 12    |   | 14-Jun |
+| [PPDP'24](https://ppdp2024.github.io/) | ACM  | [C](https://portal.core.edu.au/conf-ranks/1176/)  | PL     |   | 12    |   | 13-May |
+| [ICFEM'24](https://icfem2024.info/)    | Springer  | [C](https://portal.core.edu.au/conf-ranks/1031/)  | SE     | 12     | 18    |   | 24-Jun |
+| [SCAM'24](https://conf.researchr.org/home/scam-2024)  | IEEE | [C](https://portal.core.edu.au/conf-ranks/718/)   | SE     |   | 12    |   | 21-Jun |
 
 **SE** stands for "Software Engineering",
 **SA** for "Software Architecture",
