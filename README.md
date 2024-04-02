@@ -15,16 +15,16 @@ please send us a pull request.
 
 | Name | Publisher | CORE | Scope | Pages | CFP |
 | --- | --- | --- | --- | --- | --- |
-| [PLDI'25](https://conf.researchr.org/series/pldi) | ACM | [A*](https://portal.core.edu.au/conf-ranks/84/) | PL | | ? |
-| [POPL'25](https://conf.researchr.org/home/POPL-2025) | ACM | [A*](https://portal.core.edu.au/conf-ranks/82/) | PL | | 11-Jul |
-| [ICSE'25](https://conf.researchr.org/home/icse-2025) | IEEE | [A*](https://portal.core.edu.au/conf-ranks/1209/) | SE | | 2-Aug |
-| ↦ [NIER](https://conf.researchr.org/track/icse-2025/icse-2025-nier) | | | | | 10-Oct |
-| ↦ [SRC](https://conf.researchr.org/track/icse-2025/icse-2025-SRC) | | | | | ? |
-| [FSE'25](https://conf.researchr.org/home/fse-2025) | ACM | [A*](https://portal.core.edu.au/conf-ranks/52/) | SE | | ? |
-| [ASE'24](https://conf.researchr.org/home/ase-2024) | ACM | [A*](https://portal.core.edu.au/conf-ranks/279/) | SE | | 7-Jun |
-| [ASPLOS'25](https://www.asplos-conference.org/asplos-2025-call-for-papers/) | ACM | [A*](https://portal.core.edu.au/conf-ranks/147/) | SE | | 24-Jun |
-| [ICFP'24](https://icfp24.sigplan.org/) | ACM | [A](https://portal.core.edu.au/conf-ranks/1037/) | PL | | closed |
-| ↦ [SRC](https://icfp24.sigplan.org/track/icfp-2024-student-research-competition) | | | | | 23-May |
+| [PLDI'25](https://conf.researchr.org/series/pldi) | ACM | [A*](https://portal.core.edu.au/conf-ranks/84/) | PL | 20 | ? |
+| [POPL'25](https://conf.researchr.org/home/POPL-2025) | ACM | [A*](https://portal.core.edu.au/conf-ranks/82/) | PL | 25 | 11-Jul |
+| [ICSE'25](https://conf.researchr.org/home/icse-2025) | IEEE | [A*](https://portal.core.edu.au/conf-ranks/1209/) | SE | 10 | 2-Aug |
+| ↦ [NIER](https://conf.researchr.org/track/icse-2025/icse-2025-nier) | | | | 4 | 10-Oct |
+| ↦ [SRC](https://conf.researchr.org/track/icse-2025/icse-2025-SRC) | | | | 2 | ? |
+| [FSE'25](https://conf.researchr.org/home/fse-2025) | ACM | [A*](https://portal.core.edu.au/conf-ranks/52/) | SE | 18 | ? |
+| [ASE'24](https://conf.researchr.org/home/ase-2024) | ACM | [A*](https://portal.core.edu.au/conf-ranks/279/) | SE | 10 | 7-Jun |
+| [ASPLOS'25](https://www.asplos-conference.org/asplos-2025-call-for-papers/) | ACM | [A*](https://portal.core.edu.au/conf-ranks/147/) | SE | 11 | 24-Jun |
+| [ICFP'24](https://icfp24.sigplan.org/) | ACM | [A](https://portal.core.edu.au/conf-ranks/1037/) | PL | 12, 25 | closed |
+| ↦ [SRC](https://icfp24.sigplan.org/track/icfp-2024-student-research-competition) | | | | 3 | 23-May |
 | [SPLASH'24](https://2024.splashcon.org/) | ACM | [A](https://portal.core.edu.au/conf-ranks/18/) | PL | | closed |
 | ↦ [SAS](https://2024.splashcon.org/home/sas-2024) | | | | | 5-May |
 | ↦ [Onward!](https://2024.splashcon.org/track/splash-2024-Onward-Essays) | | | | | 25-Apr |
