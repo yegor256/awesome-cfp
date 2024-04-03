@@ -1,19 +1,15 @@
 ---
 - row:
-    - name:
-    - publisher:
+    - event:
+        - name: PLDI'25
+        - url: https://conf.researchr.org/series/pldi
+    - publisher: ACM
     - CORE:
-    - Scope:
+        - rank: A*
+        - url: https://portal.core.edu.au/conf-ranks/84/
+    - Scope: PL
     - Short pages:
-    - Full pages:
+    - Full pages: 20
     - Format:
     - CFP:
-- row:
-    - name:
-    - publisher:
-    - CORE:
-    - Scope:
-    - Short pages:
-    - Full pages:
-    - Format:
-    - CFP:
+
