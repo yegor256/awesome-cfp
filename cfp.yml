@@ -1,5 +1,5 @@
 "PLDI'25":
-  - url: https://conf.researchr.org/series/pldi
+  - url: "[PLDI'25](https://conf.researchr.org/series/pldi)"
   - publisher: ACM
   - CORE: "[A*](https://portal.core.edu.au/conf-ranks/84/)"
   - Scope: PL
@@ -9,7 +9,7 @@
   - CFP: 01.01.2025
 
 "POPL'25":
-  - url: https://conf.researchr.org/home/POPL-2025
+  - url: "[POPL'25](https://conf.researchr.org/home/POPL-2025)"
   - publisher: ACM
   - CORE: "[A*](https://portal.core.edu.au/conf-ranks/82/)"
   - Scope: SE
