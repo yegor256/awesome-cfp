@@ -52,5 +52,5 @@ Format should be either LNCS, 2C (two columns), or 1C (one column).
 '''
 markdown_table += bottom
 
-with open('generated.md', 'w') as markdown_file:
+with open('README.md', 'w') as markdown_file:
     markdown_file.write(markdown_table)
