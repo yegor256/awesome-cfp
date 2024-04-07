@@ -1,0 +1,11 @@
+---
+name: py-lint
+on: [ "push", "pull_request" ]
+jobs:
+  py-lint:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Python Lint
+        uses: cclauss/GitHub-Action-for-pylint@0.7.0
+        with:
+          args: "pylint **/*.py"
