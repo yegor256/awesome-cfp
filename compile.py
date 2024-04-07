@@ -44,9 +44,11 @@ for x in li:
 markdown += markdown_table
 
 bottom = '''
-SE stands for "Software Engineering", SA for "Software Architecture", PL for "Programming Languages", ST for "Software Testing".
+SE stands for "Software Engineering", SA for "Software Architecture", PL for "Programming Languages",
+ST for "Software Testing".
 
-SRC stands for "Student Research Competition," where they usually expect 2-pages papers (sometimes up to three pages) from a single student, who must physically attend the event.
+SRC stands for "Student Research Competition," where they usually expect 2-pages papers (sometimes up to three pages)
+from a single student, who must physically attend the event.
 
 NIER stands for "New Ideas and Emerging Results," where they usually expect 4-pages papers.
 
