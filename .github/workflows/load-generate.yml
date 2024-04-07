@@ -1,0 +1,29 @@
+---
+name: load-generate
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.11'
+
+      - run: |
+          pip install -r requirements.txt
+
+      - run: python compile.py
+
+      - run: |
+          git add -A
+          git commit -m "update data" -a
+
+      - uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
