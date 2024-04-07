@@ -24,7 +24,7 @@ please send us a pull request.
 markdown = header
 markdown += "\n"
 
-headers = ['name', 'publisher', 'CORE', 'Scope', 'Short pages', 'Full pages', 'Format', 'CFP']
+headers = ['name', 'publisher', 'CORE', 'Scope', 'Short pages', 'Full pages', 'Format', 'CFP', 'Country']
 
 markdown_table = "| " + " | ".join(headers) + " |\n"
 markdown_table += "| " + " | ".join(["---"] * len(headers)) + " |\n"
