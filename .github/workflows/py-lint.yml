@@ -5,5 +5,5 @@ jobs:
   py-lint:
     runs-on: ubuntu-22.04
     steps:
-      - name: Python Lint
-        uses: cclauss/GitHub-Action-for-pylint@0.7.0
+      - uses: actions/checkout@
+      - uses: cclauss/GitHub-Action-for-pylint@0.7.0
