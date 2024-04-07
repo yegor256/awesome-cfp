@@ -41,5 +41,16 @@ for x in li:
                 markdown_table += v + " | "
         markdown_table += "\n"
 
+bottom = '''
+SE stands for "Software Engineering", SA for "Software Architecture", PL for "Programming Languages", ST for "Software Testing".
+
+SRC stands for "Student Research Competition," where they usually expect 2-pages papers (sometimes up to three pages) from a single student, who must physically attend the event.
+
+NIER stands for "New Ideas and Emerging Results," where they usually expect 4-pages papers.
+
+Format should be either LNCS, 2C (two columns), or 1C (one column).
+'''
+markdown_table += bottom
+
 with open('generated.md', 'w') as markdown_file:
     markdown_file.write(markdown_table)
