@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
-      - uses: cclauss/GitHub-Action-for-pylint@0.7.0\
+      - uses: cclauss/GitHub-Action-for-pylint@0.7.0
   pep8:
     runs-on: ubuntu-22.04
     steps:
