@@ -1,9 +1,9 @@
 import yaml
 
-li = []
+rows = []
 with open('cfp.yml', 'r') as stream:
     yaml_content = yaml.safe_load(stream)
-    li.append(dict(yaml_content))
+    rows.append(dict(yaml_content))
 
 header = '''# Curated List of CFPs
 
@@ -29,8 +29,8 @@ headers = ['name', 'publisher', 'CORE', 'Scope', 'Short pages', 'Full pages', 'F
 markdown_table = "| " + " | ".join(headers) + " |\n"
 markdown_table += "| " + " | ".join(["---"] * len(headers)) + " |\n"
 
-for x in li:
-    for v in x.values():
+for item in rows:
+    for v in item.values():
         markdown_table += "| "
         for i in v:
             for k, v in i.items():
