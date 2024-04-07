@@ -7,5 +7,3 @@ jobs:
     steps:
       - name: Python Lint
         uses: cclauss/GitHub-Action-for-pylint@0.7.0
-        with:
-          args: "pylint **/*.py"
