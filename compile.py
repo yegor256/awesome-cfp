@@ -21,12 +21,12 @@ conference to be included so you won't miss its deadline,
 please send us a pull request.
 '''
 
-markdown_table = header
-markdown_table += "\n"
+markdown = header
+markdown += "\n"
 
 headers = ['name', 'publisher', 'CORE', 'Scope', 'Short pages', 'Full pages', 'Format', 'CFP']
 
-markdown_table += "| " + " | ".join(headers) + " |\n"
+markdown_table = "| " + " | ".join(headers) + " |\n"
 markdown_table += "| " + " | ".join(["---"] * len(headers)) + " |\n"
 
 for x in li:
@@ -41,6 +41,8 @@ for x in li:
                 markdown_table += v + " | "
         markdown_table += "\n"
 
+markdown += markdown_table
+
 bottom = '''
 SE stands for "Software Engineering", SA for "Software Architecture", PL for "Programming Languages", ST for "Software Testing".
 
@@ -50,7 +52,7 @@ NIER stands for "New Ideas and Emerging Results," where they usually expect 4-pa
 
 Format should be either LNCS, 2C (two columns), or 1C (one column).
 '''
-markdown_table += bottom
+markdown += bottom
 
 with open('README.md', 'w') as markdown_file:
-    markdown_file.write(markdown_table)
+    markdown_file.write(markdown)
