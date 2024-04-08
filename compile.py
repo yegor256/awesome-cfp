@@ -24,6 +24,9 @@ please send us a pull request.
 markdown = header
 markdown += "\n"
 
+sep = "<!-- events -->"
+markdown += sep
+
 headers = ['name', 'publisher', 'CORE', 'Scope', 'Short pages', 'Full pages', 'Format', 'CFP', 'Country']
 
 markdown_table = "| " + " | ".join(headers) + " |\n"
@@ -39,9 +42,11 @@ for item in rows:
                 if type(v) is int:
                     v = str(v)
                 markdown_table += v + " | "
+        markdown_table.rstrip()
         markdown_table += "\n"
 
 markdown += markdown_table
+markdown += sep
 
 bottom = '''
 **SE** stands for "Software Engineering",
@@ -60,5 +65,14 @@ they _usually_ expect 4-pages papers.
 '''
 markdown += bottom
 
-with open('README.md', 'w') as markdown_file:
-    markdown_file.write(markdown)
+readme = ""
+with open("README.md", "r") as f:
+    readme = f.read()
+
+p = readme.split(sep)
+
+p[1] = "\n" + markdown_table + "\n"
+new = sep.join(p)
+
+with open("README.md", "w") as f:
+    f.write(new)
