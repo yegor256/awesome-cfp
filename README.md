@@ -13,6 +13,7 @@ you don't need to visit all conference websites. If you want your favorite
 conference to be included so you won't miss its deadline,
 please send us a pull request.
 
+<!-- events -->
 | Name | Publisher | CORE | Scope | Short pages | Full pages | Format | CFP | Country |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [PLDI'25](https://conf.researchr.org/series/pldi) | ACM | [A*](https://portal.core.edu.au/conf-ranks/84/) | PL | | 20 | | ? | |
@@ -51,6 +52,7 @@ please send us a pull request.
 | [ICFEM'24](https://icfem2024.info/) | Springer | [C](https://portal.core.edu.au/conf-ranks/1031/) | SE | 12 | 18 | | 24-Jun | |
 | [SCAM'24](https://conf.researchr.org/home/scam-2024) | IEEE | [C](https://portal.core.edu.au/conf-ranks/718/) | SE | | 12 | | 21-Jun | |
 | [QRS'24](https://qrs24.techconf.org/) | IEEE | [C](https://portal.core.edu.au/conf-ranks/1185/) | SE | 10 | 12 | 2C | 15-Apr | United Kingdom |
+<!-- events -->
 
 **SE** stands for "Software Engineering",
 **SA** for "Software Architecture",
