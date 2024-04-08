@@ -44,15 +44,19 @@ for item in rows:
 markdown += markdown_table
 
 bottom = '''
-SE stands for "Software Engineering", SA for "Software Architecture", PL for "Programming Languages",
-ST for "Software Testing".
+**SE** stands for "Software Engineering",
+**SA** for "Software Architecture",
+**PL** for "Programming Languages",
+**ST** for "Software Testing".
 
-SRC stands for "Student Research Competition," where they usually expect 2-pages papers (sometimes up to three pages)
+**SRC** stands for "Student Research Competition," where they _usually_ expect
+2-pages papers (sometimes up to three pages)
 from a single student, who must physically attend the event.
 
-NIER stands for "New Ideas and Emerging Results," where they usually expect 4-pages papers.
+**NIER** stands for "New Ideas and Emerging Results," where
+they _usually_ expect 4-pages papers.
 
-Format should be either LNCS, 2C (two columns), or 1C (one column).
+**Format** should be either LNCS, 2C (two columns), or 1C (one column).
 '''
 markdown += bottom
 
