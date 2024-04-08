@@ -1,7 +1,8 @@
 "PLDI'25":
   - url: "[PLDI'25](https://conf.researchr.org/series/pldi)"
   - publisher: ACM
-  - CORE: "[A*](https://portal.core.edu.au/conf-ranks/84/)"
+  - rank: "A*"
+  - CORE: "https://portal.core.edu.au/conf-ranks/84/"
   - Scope: PL
   - Short pages:
   - Full pages: 20
@@ -12,7 +13,8 @@
 "POPL'25":
   - url: "[POPL'25](https://conf.researchr.org/home/POPL-2025)"
   - publisher: ACM
-  - CORE: "[A*](https://portal.core.edu.au/conf-ranks/82/)"
+  - rank: "A*"
+  - CORE: "https://portal.core.edu.au/conf-ranks/82/"
   - Scope: SE
   - Short pages:
   - Full pages: 25
