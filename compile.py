@@ -27,7 +27,7 @@ markdown += "\n"
 sep = "<!-- events -->"
 markdown += sep
 
-headers = ['name', 'publisher', 'CORE', 'Scope', 'Short pages', 'Full pages', 'Format', 'CFP', 'Country']
+headers = ['year', 'name', 'publisher', 'rank', 'core', 'scope', 'short', 'full', 'format', 'cfp', 'country']
 
 markdown_table = "| " + " | ".join(headers) + " |\n"
 markdown_table += "| " + " | ".join(["---"] * len(headers)) + " |\n"
