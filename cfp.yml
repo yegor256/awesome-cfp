@@ -1,4 +1,5 @@
-"PLDI'25":
+"PLDI":
+  - year: 2025
   - url: "[PLDI'25](https://conf.researchr.org/series/pldi)"
   - publisher: ACM
   - rank: "A*"
@@ -10,7 +11,8 @@
   - cfp:
   - country: Denmark
 
-"POPL'25":
+"POPL":
+  - year: 2025
   - url: "[POPL'25](https://conf.researchr.org/home/POPL-2025)"
   - publisher: ACM
   - rank: "A*"
