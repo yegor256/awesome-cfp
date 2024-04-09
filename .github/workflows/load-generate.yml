@@ -16,7 +16,7 @@ jobs:
           cache: 'pip'
       - run: pip install -r requirements.txt
 
-      - run: python compile.py
+      - run: python compile.py cfp.yml README.md
 
       - run: |
           git fetch --tags --force && \
