@@ -25,7 +25,7 @@ for item in rows:
                 if type(v) is int:
                     v = str(v)
                 markdown_table += v + " | "
-        markdown_table.rstrip()
+            markdown_table.rstrip()
         markdown_table += "\n"
 
 with open(md_path, "r") as f:
