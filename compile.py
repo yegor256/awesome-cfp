@@ -1,7 +1,11 @@
 import yaml
+import sys
+
+yaml_path = sys.argv[1]
+md_path = sys.argv[2]
 
 rows = []
-with open('cfp.yml', 'r') as stream:
+with open(yaml_path, 'r') as stream:
     yaml_content = yaml.safe_load(stream)
     rows.append(dict(yaml_content))
 
@@ -24,7 +28,7 @@ for item in rows:
         markdown_table.rstrip()
         markdown_table += "\n"
 
-with open("README.md", "r") as f:
+with open(md_path, "r") as f:
     readme = f.read()
 
 p = readme.split(sep)
