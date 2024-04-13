@@ -25,6 +25,7 @@ def generate(yaml_path, md_path):
                         v = str(v)
                     markdown_table += v + " | "
                 markdown_table.rstrip()
+            markdown_table = markdown_table[:-1]
             markdown_table += "\n"
 
     with open(md_path, "r") as f:
