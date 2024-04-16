@@ -31,7 +31,7 @@ def generate_yaml():
     '''
     with open('test.yml', 'w') as f:
         f.write(yml_content)
-        
+
 
 def generate_md():
     header = "# Curated List of CFPs\n"
