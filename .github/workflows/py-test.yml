@@ -12,4 +12,4 @@ jobs:
           python-version: '3.9'
           cache: 'pip'
       - run: pip install -r requirements.txt
-      - run: pytest text-compile.py -vv
+      - run: pytest test-compile.py -vv
