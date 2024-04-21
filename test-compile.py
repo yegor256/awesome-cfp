@@ -1,6 +1,7 @@
 import pytest
 from compile import generate
 
+
 def generate_yaml():
     yml_content = '''
     "ABC":
