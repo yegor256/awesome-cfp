@@ -1,4 +1,5 @@
 # Curated List of CFPs
+
 This is a curated list of currently open Calls for Papers for computer
 science conferences. You are welcome to make changes and suggest conferences
 (and journals) that deserve inclusion. Obviously, our list is not complete
