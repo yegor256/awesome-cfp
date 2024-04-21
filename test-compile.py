@@ -1,18 +1,5 @@
-import filecmp
-import unittest
-
+import pytest
 from compile import generate
-
-
-class MyTestCase(unittest.TestCase):
-    def test_something(self):
-        run()
-        f = open("test.md", "w")
-        g = open("README.md", "w")
-        self.assertEqual(f, g)
-        f.close()
-        g.close()
-
 
 def generate_yaml():
     yml_content = '''
@@ -101,12 +88,8 @@ def run():
 
 def test_compile():
     run()
-    t = "test.md"
-    r = "README.md"
-    result = filecmp.cmp(t, r)
-    print(result)
-    result = filecmp.cmp(t, r, shallow=False)
-    print(result)
+    with open("test.md", "r") as f, open("test_README.md", "r") as g:
+        assert f.read() == g.read()
 
 
 if __name__ == '__main__':
