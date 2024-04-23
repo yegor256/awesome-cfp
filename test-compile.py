@@ -46,7 +46,7 @@ please send us a pull request.\n'''
 from a single student, who must physically attend the event.
 **NIER** stands for "New Ideas and Emerging Results," where
 they _usually_ expect 4-pages papers.
-**Format** should be either LNCS, 2C (two columns), or 1C (one column).'''
+**Format** should be either LNCS, 2C (two columns), or 1C (one column).\n'''
     md_content = header + sep + "\n" + sep + bottom
     with open("test.md", "w") as f:
         f.write(md_content)
