@@ -59,7 +59,7 @@ they _usually_ expect 4-pages papers.
     markdown_table += "[ABC'99](https://conf.researchr.org/series/abc)" + " | "
     markdown_table += "IEEE" + " | "
     markdown_table += "C" + " | "
-    markdown_table += "(https://portal.core.edu.au/conf-ranks/2099/)" + " | "
+    markdown_table += "[link](https://portal.core.edu.au/conf-ranks/2099)" + " | "
     markdown_table += "SE" + " | "
     markdown_table += "2" + " | "
     markdown_table += "10" + " | "
