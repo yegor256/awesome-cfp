@@ -9,7 +9,7 @@ def generate_yaml():
       - url: "[ABC'99](https://conf.researchr.org/series/abc)"
       - publisher: IEEE
       - rank: "C"
-      - core: "https://portal.core.edu.au/conf-ranks/2099"
+      - core: "<https://portal.core.edu.au/conf-ranks/2099>"
       - scope: "SE"
       - short: "2"
       - full: "10"
