@@ -17,16 +17,16 @@ def generate_yaml():
       - cfp: "2099-12-31"
       - country: Antarctica
     '''
-    with open('test.yml', 'w') as f:
+    with open("target/test.yml", "w+") as f:
         f.write(yml_content)
 
 
 def generate_md():
     header = "# Curated List of CFPs\n"
-    sep = "<!-- events -->"
+    sep = "<!-- events -->\n"
     bottom = "Explanations for abbreviations.\n"
-    md_content = header + "\n" + sep + "\n" + sep + "\n" + bottom
-    with open("test.md", "w") as f:
+    md_content = header + sep + sep + bottom
+    with open("target/test.md", "w+") as f:
         f.write(md_content)
 
     headers = ['year', 'name', 'publisher', 'rank', 'core', 'scope', 'short', 'full', 'format', 'cfp', 'country']
@@ -47,7 +47,7 @@ def generate_md():
     markdown_table.rstrip()
     markdown_table += "\n"
 
-    with open("test.md", "r") as f:
+    with open("target/test.md", "r") as f:
         readme = f.read()
 
     p = readme.split(sep)
@@ -55,19 +55,30 @@ def generate_md():
     p[1] = "\n" + markdown_table + "\n"
     new = sep.join(p)
 
-    with open("test.md", "w") as f:
+    with open("target/test.md", "w+") as f:
         f.write(new)
+
+
+def create_test_readme():
+    header = "# Curated List of CFPs\n"
+    sep = "<!-- events -->\n"
+    table = "| year | name | publisher | rank | core | scope | short | full | format | cfp | country |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 2099 | [ABC'99](https://conf.researchr.org/series/abc) | IEEE | C | [link](https://portal.core.edu.au/conf-ranks/2099) | SE | 2 | 10 | 1C | 2099-12-31 | Antarctica |\n"
+    bottom = "Explanations for abbreviations.\n"
+    md_content = header + sep + "\n" + table + "\n" + sep + bottom
+    with open("target/test_README.md", "w+") as f:
+        f.write(md_content)
 
 
 def run():
     generate_yaml()
     generate_md()
+    create_test_readme()
     generate('test.yml', 'README.md')
 
 
 def test_compile():
     run()
-    with open("test.md", "r") as f, open("test_README.md", "r") as g:
+    with open("target/test.md", "r") as f, open("target/test_README.md", "r") as g:
         assert f.read() == g.read()
 
 

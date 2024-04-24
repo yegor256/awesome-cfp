@@ -36,7 +36,7 @@ def generate(yaml_path, md_path):
     p[1] = "\n" + markdown_table + "\n"
     new = sep.join(p)
 
-    with open("README.md", "w") as f:
+    with open("README.md", "w+") as f:
         f.write(new)
 
 
