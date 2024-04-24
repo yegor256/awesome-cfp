@@ -9,7 +9,7 @@
   - full: 20
   - format: 1C
   - cfp:
-  - country: Denmark
+  - country: DK
 
 "POPL":
   - year: 2025
@@ -22,4 +22,4 @@
   - full: 25
   - format:
   - cfp: "2025-07-11"
-  - country: United States
+  - country: US
