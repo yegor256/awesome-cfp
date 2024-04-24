@@ -17,7 +17,7 @@ def generate_yaml():
       - cfp: "2099-12-31"
       - country: Antarctica
     '''
-    with open("target/test.yml", "w+") as f:
+    with open("target/test.yml", "w") as f:
         f.write(yml_content)
 
 
