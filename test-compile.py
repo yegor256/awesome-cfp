@@ -9,7 +9,7 @@ def generate_yaml():
       - url: "[ABC'99](https://conf.researchr.org/series/abc)"
       - publisher: IEEE
       - rank: "C"
-      - core: "https://portal.core.edu.au/conf-ranks/2099"
+      - core: "<https://portal.core.edu.au/conf-ranks/2099>"
       - scope: "SE"
       - short: "2"
       - full: "10"
@@ -37,7 +37,7 @@ def generate_md():
     markdown_table += "[ABC'99](https://conf.researchr.org/series/abc)" + " | "
     markdown_table += "IEEE" + " | "
     markdown_table += "C" + " | "
-    markdown_table += "[link](https://portal.core.edu.au/conf-ranks/2099)" + " | "
+    markdown_table += "<https://portal.core.edu.au/conf-ranks/2099>" + " | "
     markdown_table += "SE" + " | "
     markdown_table += "2" + " | "
     markdown_table += "10" + " | "
@@ -62,7 +62,10 @@ def generate_md():
 def create_test_readme():
     header = "# Curated List of CFPs\n"
     sep = "<!-- events -->\n"
-    table = "| year | name | publisher | rank | core | scope | short | full | format | cfp | country |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 2099 | [ABC'99](https://conf.researchr.org/series/abc) | IEEE | C | [link](https://portal.core.edu.au/conf-ranks/2099) | SE | 2 | 10 | 1C | 2099-12-31 | Antarctica |\n"
+    table = ("| year | name | publisher | rank | core | scope | short | full | format | cfp | country |\n| --- | --- | "
+             "--- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 2099 | [ABC'99]("
+             "https://conf.researchr.org/series/abc) | IEEE | C | <https://portal.core.edu.au/conf-ranks/2099> "
+             "| SE | 2 | 10 | 1C | 2099-12-31 | Antarctica |\n")
     bottom = "Explanations for abbreviations.\n"
     md_content = header + sep + "\n" + table + "\n" + sep + bottom
     with open("target/test_README.md", "w+") as f:
