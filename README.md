@@ -16,7 +16,8 @@ please send us a pull request.
 <!-- events -->
 | year | name | publisher | rank | core | scope | short | full | format | cfp | country |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2099 | [ABC'99](https://conf.researchr.org/series/abc) | IEEE | C | https://portal.core.edu.au/conf-ranks/2099 | SE | 2 | 10 | 1C | 2099-12-31 | Antarctica |
+| 2025 | <https://conf.researchr.org/series/pldi> | ACM | A* | <https://portal.core.edu.au/conf-ranks/84> | PL |   | 20 | 1C |   | DK |
+| 2025 | <https://conf.researchr.org/home/POPL-2025> | ACM | A* | <https://portal.core.edu.au/conf-ranks/82> | SE |   | 25 |   | 2025-07-11 | US |
 
 <!-- events -->
 

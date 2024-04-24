@@ -1,9 +1,9 @@
 "PLDI":
   - year: 2025
-  - url: "https://conf.researchr.org/series/pldi"
+  - url: "<https://conf.researchr.org/series/pldi>"
   - publisher: ACM
   - rank: "A*"
-  - core: "https://portal.core.edu.au/conf-ranks/84"
+  - core: "<https://portal.core.edu.au/conf-ranks/84>"
   - scope: PL
   - short:
   - full: 20
@@ -13,10 +13,10 @@
 
 "POPL":
   - year: 2025
-  - url: "https://conf.researchr.org/home/POPL-2025"
+  - url: "<https://conf.researchr.org/home/POPL-2025>"
   - publisher: ACM
   - rank: "A*"
-  - core: "https://portal.core.edu.au/conf-ranks/82"
+  - core: "<https://portal.core.edu.au/conf-ranks/82>"
   - scope: SE
   - short:
   - full: 25
