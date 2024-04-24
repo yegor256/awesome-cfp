@@ -10,7 +10,7 @@ def generate_yaml():
       - publisher: IEEE
       - rank: "C"
       - core: "(https://portal.core.edu.au/conf-ranks/2099/)"
-      - score: "SE"
+      - scope: "SE"
       - short: "2"
       - full: "10"
       - format: 1C

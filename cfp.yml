@@ -4,7 +4,7 @@
   - publisher: ACM
   - rank: "A*"
   - core: "https://portal.core.edu.au/conf-ranks/84/"
-  - score: PL
+  - scope: PL
   - short:
   - full: 20
   - format: 1C
