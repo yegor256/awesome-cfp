@@ -2,30 +2,11 @@ import pytest
 from compile import generate
 
 
-def generate_yaml():
-    yml_content = '''
-    "ABC":
-      - year: "2099"
-      - url: "[ABC'99](https://conf.researchr.org/series/abc)"
-      - publisher: IEEE
-      - rank: "C"
-      - core: "<https://portal.core.edu.au/conf-ranks/2099>"
-      - scope: "SE"
-      - short: "2"
-      - full: "10"
-      - format: 1C
-      - cfp: "2099-12-31"
-      - country: Antarctica
-    '''
-    with open("target/test.yml", "w") as f:
-        f.write(yml_content)
-
-
 def generate_md():
     header = "# Curated List of CFPs\n"
-    sep = "<!-- events -->\n"
+    sep = "<!-- events -->"
     bottom = "Explanations for abbreviations.\n"
-    md_content = header + sep + sep + bottom
+    md_content = header + sep + sep + "\n" + bottom
     with open("target/test.md", "w+") as f:
         f.write(md_content)
 
@@ -73,10 +54,9 @@ def create_test_readme():
 
 
 def run():
-    generate_yaml()
     generate_md()
     create_test_readme()
-    generate('test.yml', 'README.md')
+    generate('target/test.yml', 'target/test_README.md')
 
 
 def test_compile():
