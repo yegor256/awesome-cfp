@@ -7,7 +7,7 @@ def generate_md():
     sep = "<!-- events -->"
     bottom = "Explanations for abbreviations.\n"
     md_content = header + sep + sep + "\n" + bottom
-    with open("target/test.md", "w+") as f:
+    with open("fixtures/simple/input.md", "w+") as f:
         f.write(md_content)
 
     headers = ['year', 'name', 'publisher', 'rank', 'core', 'scope', 'short', 'full', 'format', 'cfp', 'country']
@@ -28,7 +28,7 @@ def generate_md():
     markdown_table.rstrip()
     markdown_table += "\n"
 
-    with open("target/test.md", "r") as f:
+    with open("fixtures/simple/input.md", "r") as f:
         readme = f.read()
 
     p = readme.split(sep)
@@ -36,7 +36,7 @@ def generate_md():
     p[1] = "\n" + markdown_table + "\n"
     new = sep.join(p)
 
-    with open("target/test.md", "w+") as f:
+    with open("fixtures/simple/input.md", "w+") as f:
         f.write(new)
 
 
@@ -49,19 +49,19 @@ def create_test_readme():
              "| SE | 2 | 10 | 1C | 2099-12-31 | Antarctica |\n")
     bottom = "Explanations for abbreviations.\n"
     md_content = header + sep + "\n" + table + "\n" + sep + bottom
-    with open("target/test_README.md", "w+") as f:
+    with open("fixtures/simple/expected.md", "w+") as f:
         f.write(md_content)
 
 
 def run():
     generate_md()
     create_test_readme()
-    generate('target/test.yml', 'target/test_README.md')
+    generate('fixtures/simple/input.yml', 'fixtures/simple/expected.md')
 
 
 def test_compile():
     run()
-    with open("target/test.md", "r") as f, open("target/test_README.md", "r") as g:
+    with open("fixtures/simple/input.md", "r") as f, open("fixtures/simple/expected.md", "r") as g:
         assert f.read() == g.read()
 
 
