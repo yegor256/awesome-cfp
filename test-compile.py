@@ -53,14 +53,11 @@ def create_test_readme():
         f.write(md_content)
 
 
-def run():
+def test_compile():
     generate_md()
     create_test_readme()
     generate('fixtures/simple/input.yml', 'fixtures/simple/expected.md')
 
-
-def test_compile():
-    run()
     with open("fixtures/simple/input.md", "r") as f, open("fixtures/simple/expected.md", "r") as g:
         assert f.read() == g.read()
 
