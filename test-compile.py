@@ -2,7 +2,7 @@ import pytest
 from compile import generate
 
 
-def generate_md(yaml_path):
+def generate_simple_md(yaml_path):
     header = "# Curated List of CFPs\n"
     sep = "<!-- events -->"
     bottom = "Explanations for abbreviations.\n"
@@ -41,7 +41,7 @@ def generate_md(yaml_path):
         f.write(new)
 
 
-def create_test_readme():
+def generate_simple_expected_md(expected_md_path):
     header = "# Curated List of CFPs\n"
     sep = "<!-- events -->\n"
     table = ("| year | name | publisher | rank | core | scope | short | full | format | cfp | country |\n| --- | --- | "
@@ -50,13 +50,13 @@ def create_test_readme():
              "| SE | 2 | 10 | 1C | 2099-12-31 | Antarctica |\n")
     bottom = "Explanations for abbreviations.\n"
     md_content = header + sep + "\n" + table + "\n" + sep + bottom
-    with open("fixtures/simple/expected.md", "w+") as f:
+    with open(expected_md_path, "w+") as f:
         f.write(md_content)
 
 
 def test_compile():
-    generate_md('fixtures/simple/input.yml')
-    create_test_readme()
+    generate_simple_md('fixtures/simple/input.yml')
+    generate_simple_expected_md('fixtures/simple/expected.md')
     generate('fixtures/simple/input.yml', 'fixtures/simple/expected.md')
 
     with open("fixtures/simple/input.md", "r") as f, open("fixtures/simple/expected.md", "r") as g:
