@@ -2,12 +2,13 @@ import pytest
 from compile import generate
 
 
-def generate_md():
+def generate_md(yaml_path):
     header = "# Curated List of CFPs\n"
     sep = "<!-- events -->"
     bottom = "Explanations for abbreviations.\n"
     md_content = header + sep + sep + "\n" + bottom
-    with open("fixtures/simple/input.md", "w+") as f:
+    md_path = yaml_path[:yaml_path.rfind("yml")] + "md"
+    with open(md_path, "w+") as f:
         f.write(md_content)
 
     headers = ['year', 'name', 'publisher', 'rank', 'core', 'scope', 'short', 'full', 'format', 'cfp', 'country']
@@ -54,7 +55,7 @@ def create_test_readme():
 
 
 def test_compile():
-    generate_md()
+    generate_md('fixtures/simple/input.yml')
     create_test_readme()
     generate('fixtures/simple/input.yml', 'fixtures/simple/expected.md')
 
