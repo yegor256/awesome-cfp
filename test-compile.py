@@ -49,7 +49,7 @@ def generate_simple_expected_md(expected_md_path):
              "https://conf.researchr.org/series/abc) | IEEE | C | <https://portal.core.edu.au/conf-ranks/2099> "
              "| SE | 2 | 10 | 1C | 2099-12-31 | Antarctica |\n")
     bottom = "Explanations for abbreviations.\n"
-    md_content = header + sep + "\n" + table + "\n" + sep + bottom
+    md_content = header + sep + table + "\n" + sep + bottom
     with open(expected_md_path, "w+") as f:
         f.write(md_content)
 
