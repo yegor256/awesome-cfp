@@ -2,6 +2,45 @@ import pytest
 from compile import generate
 
 
+def generate_simple_md(yaml_path):
+    header = "# Curated List of CFPs\n"
+    sep = "<!-- events -->"
+    bottom = "Explanations for abbreviations.\n"
+    md_content = header + sep + sep + "\n" + bottom
+    md_path = yaml_path[:yaml_path.rfind("yml")] + "md"
+    with open(md_path, "w+") as f:
+        f.write(md_content)
+
+    headers = ['year', 'name', 'publisher', 'rank', 'core', 'scope', 'short', 'full', 'format', 'cfp', 'country']
+
+    markdown_table = "| " + " | ".join(headers) + " |\n"
+    markdown_table += "| " + " | ".join(["---"] * len(headers)) + " |\n"
+    markdown_table += "| " + "2099" + " | "
+    markdown_table += "[ABC'99](https://conf.researchr.org/series/abc)" + " | "
+    markdown_table += "IEEE" + " | "
+    markdown_table += "C" + " | "
+    markdown_table += "<https://portal.core.edu.au/conf-ranks/2099>" + " | "
+    markdown_table += "SE" + " | "
+    markdown_table += "2" + " | "
+    markdown_table += "10" + " | "
+    markdown_table += "1C" + " | "
+    markdown_table += "2099-12-31" + " | "
+    markdown_table += "Antarctica" + " |"
+    markdown_table.rstrip()
+    markdown_table += "\n"
+
+    with open("fixtures/simple/input.md", "r") as f:
+        readme = f.read()
+
+    p = readme.split(sep)
+
+    p[1] = "\n" + markdown_table + "\n"
+    new = sep.join(p)
+
+    with open("fixtures/simple/input.md", "w+") as f:
+        f.write(new)
+
+
 def generate_simple_expected_md(expected_md_path):
     header = "# Curated List of CFPs\n"
     sep = "<!-- events -->\n"
@@ -16,6 +55,7 @@ def generate_simple_expected_md(expected_md_path):
 
 
 def test_compile():
+    generate_simple_md('fixtures/simple/input.yml')
     generate_simple_expected_md('fixtures/simple/expected.md')
     generate('fixtures/simple/input.yml', 'fixtures/simple/input.md')
 
