@@ -55,7 +55,6 @@ def generate_simple_expected_md(expected_md_path):
 
 
 def test_compile():
-    generate_simple_md('fixtures/simple/input.yml')
     generate_simple_expected_md('fixtures/simple/expected.md')
     generate('fixtures/simple/input.yml', 'fixtures/simple/input.md')
 
