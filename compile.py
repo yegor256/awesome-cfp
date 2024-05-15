@@ -11,6 +11,13 @@ def generate(yaml_path, md_path):
     sep = "<!-- events -->"
     headers = ['year', 'name', 'publisher', 'rank', 'core', 'scope', 'short', 'full', 'format', 'cfp', 'country']
 
+    header = "# Curated List of CFPs\n"
+    sep = "<!-- events -->"
+    bottom = "Explanations for abbreviations.\n"
+    md_content = header + sep + sep + "\n" + bottom
+    with open(md_path, "w+") as f:
+        f.write(md_content)
+
     markdown_table = "| " + " | ".join(headers) + " |\n"
     markdown_table += "| " + " | ".join(["---"] * len(headers)) + " |\n"
 
