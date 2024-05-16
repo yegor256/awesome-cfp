@@ -10,5 +10,5 @@ do
   else
     echo "Test failed for $dir"
   fi
-  rm -rf temp
+  rm "$dir/README.md"
 done
