@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash
 
 for dir in fixtures/*
 do
