@@ -30,8 +30,6 @@ def generate(yaml_path, md_path):
                         v = " "
                     if type(v) is int:
                         v = str(v)
-                    if k in ("url", "core"):
-                        v = f'<{v}>'
                     markdown_table += v + " | "
                 markdown_table.rstrip()
             markdown_table = markdown_table[:-1]
