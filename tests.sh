@@ -9,5 +9,4 @@ do
   else
     echo "Test failed for $dir"
   fi
-  rm "$dir/README.md"
 done
