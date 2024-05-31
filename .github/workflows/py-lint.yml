@@ -1,0 +1,17 @@
+---
+name: py-lint
+on: [ "push", "pull_request" ]
+jobs:
+  py-lint:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cclauss/GitHub-Action-for-pylint@0.7.0
+  pep8:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: 'Run PEP8'
+        uses: quentinguidee/pep8-action@v1
+        with:
+          arguments: '--max-line-length=120'

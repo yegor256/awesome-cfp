@@ -51,6 +51,7 @@ please send us a pull request.
 | [ICFEM'24](https://icfem2024.info/) | Springer | [C](https://portal.core.edu.au/conf-ranks/1031/) | SE | 12 | 18 | | 24-Jun | |
 | [SCAM'24](https://conf.researchr.org/home/scam-2024) | IEEE | [C](https://portal.core.edu.au/conf-ranks/718/) | SE | | 12 | | 21-Jun | |
 | [QRS'24](https://qrs24.techconf.org/) | IEEE | [C](https://portal.core.edu.au/conf-ranks/1185/) | SE | 10 | 12 | 2C | 15-Apr | United Kingdom |
+| [ISSRE'24](https://issre.github.io/2024/) | IEEE | [A](https://portal.core.edu.au/conf-ranks/1411/) | SE | 10 | 12 | 2C | 15-May | Japan |
 
 **SE** stands for "Software Engineering",
 **SA** for "Software Architecture",
