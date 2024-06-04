@@ -23,3 +23,16 @@
   - format:
   - cfp: "2025-07-11"
   - country: US
+
+"ICSE":
+  - year: 2025
+  - url: "https://conf.researchr.org/home/icse-2025"
+  - publisher: ACM
+  - rank: "A*"
+  - core: "https://portal.core.edu.au/conf-ranks/1209"
+  - scope: SE
+  - short:
+  - full: 10
+  - format:
+  - cfp: "2025-08-02"
+  - country: CA
