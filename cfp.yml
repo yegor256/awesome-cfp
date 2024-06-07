@@ -40,7 +40,7 @@
 "ICSE-NIER":
   - year: 2025
   - url: "https://conf.researchr.org/track/icse-2025/icse-2025-nier"
-  - publisher: IEEE
+  - publisher: ACM
   - rank: "A*"
   - core: "https://portal.core.edu.au/conf-ranks/1209"
   - scope: SE
@@ -53,7 +53,7 @@
 "ICSE-SRC":
   - year: 2025
   - url: "https://conf.researchr.org/track/icse-2025/icse-2025-SRC"
-  - publisher: IEEE
+  - publisher: ACM
   - rank: "A*"
   - core: "https://portal.core.edu.au/conf-ranks/1209"
   - scope: SE
