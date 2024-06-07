@@ -50,3 +50,15 @@
   - cfp: "2025-10-10"
   - country: CA
   
+"ICSE-SRC":
+  - year: 2025
+  - url: "https://conf.researchr.org/track/icse-2025/icse-2025-SRC"
+  - publisher: IEEE
+  - rank: "A*"
+  - core: "https://portal.core.edu.au/conf-ranks/1209"
+  - scope: SE
+  - short: 2
+  - full:
+  - format:
+  - cfp:
+  - country: CA
