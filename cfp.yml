@@ -62,3 +62,17 @@
   - format:
   - cfp:
   - country: CA
+
+"FSE":
+  - year: 2025
+  - url: "https://conf.researchr.org/home/fse-2025"
+  - publisher: ACM
+  - rank: "A*"
+  - core: "https://portal.core.edu.au/conf-ranks/52"
+  - scope: SE
+  - short:
+  - full: 18
+  - format:
+  - cfp: "2024-09-05"
+  - country: NO
+  
