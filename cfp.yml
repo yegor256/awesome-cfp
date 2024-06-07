@@ -36,3 +36,17 @@
   - format:
   - cfp: "2025-08-02"
   - country: CA
+
+"ICSE-NIER":
+  - year: 2025
+  - url: "https://conf.researchr.org/track/icse-2025/icse-2025-nier"
+  - publisher: IEEE
+  - rank: "A*"
+  - core: "https://portal.core.edu.au/conf-ranks/1209"
+  - scope: SE
+  - short: 4
+  - full:
+  - format:
+  - cfp: "2025-10-10"
+  - country: CA
+  
