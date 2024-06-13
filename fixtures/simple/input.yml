@@ -1,7 +1,7 @@
 ---
 "ABC":
   - year: "2099"
-  - url: "[ABC'99](https://conf.researchr.org/series/abc)"
+  - url: "https://conf.researchr.org/series/abc"
   - publisher: IEEE
   - rank: "C"
   - core: "<https://portal.core.edu.au/conf-ranks/2099>"
