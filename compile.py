@@ -21,7 +21,7 @@ def generate(yaml_path, md_path):
                 for k, v in i.items():
                     if v is None:
                         v = " "
-                    if type(v) is int:
+                    if type(v) is not str:
                         v = str(v)
                     markdown_table += v + " | "
                 markdown_table.rstrip()
