@@ -89,4 +89,17 @@
   - cfp: "2024-06-07"
   - country: US
 
+"ASPLOS":
+  - year: 2025
+  - url: "https://www.asplos-conference.org/asplos-2025-call-for-papers"
+  - publisher: ACM
+  - rank: "A*"
+  - core: "https://portal.core.edu.au/conf-ranks/147"
+  - scope: SE
+  - short:
+  - full: 11
+  - format:
+  - cfp: "2025-06-24"
+  - country: US
+
 
