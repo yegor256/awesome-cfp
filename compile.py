@@ -14,8 +14,9 @@ def generate(yaml_path, md_path):
     markdown_table = "| " + " | ".join(headers) + " |\n"
     markdown_table += "| " + " | ".join(["---"] * len(headers)) + " |\n"
 
-    for item in rows:
-        for val in item.values():
+    for row in rows:
+        for key, val in row.items():
+            title = key
             markdown_table += "| "
             for i in val:
                 for k, v in i.items():
@@ -23,6 +24,10 @@ def generate(yaml_path, md_path):
                         v = " "
                     if type(v) is not str:
                         v = str(v)
+                    if k == "year":
+                        title += f"'{v}"
+                    if k == "url":
+                        v = f"[{title}]({v})"
                     markdown_table += v + " | "
                 markdown_table.rstrip()
             markdown_table = markdown_table[:-1]
