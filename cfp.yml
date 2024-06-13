@@ -49,7 +49,7 @@
   - format:
   - cfp: "2025-10-10"
   - country: CA
-  
+
 "ICSE-SRC":
   - year: 2025
   - url: "https://conf.researchr.org/track/icse-2025/icse-2025-SRC"
@@ -75,4 +75,18 @@
   - format:
   - cfp: "2024-09-05"
   - country: NO
-  
+
+"ASE":
+  - year: 2024
+  - url: "https://conf.researchr.org/home/ase-2024"
+  - publisher: ACM
+  - rank: "A*"
+  - core: "https://portal.core.edu.au/conf-ranks/279"
+  - scope: SE
+  - short:
+  - full: 10
+  - format:
+  - cfp: "2024-06-07"
+  - country: US
+
+
