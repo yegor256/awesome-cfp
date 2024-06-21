@@ -115,4 +115,17 @@
   - cfp:
   - country: IT
 
+"ICFP-SRC":
+  - year: 2024
+  - url: "https://icfp24.sigplan.org/track/icfp-2024-student-research-competition"
+  - publisher: ACM
+  - rank: "A"
+  - core: "https://portal.core.edu.au/conf-ranks/1037"
+  - scope: PL
+  - short: 3
+  - full:
+  - format: 1C
+  - cfp: "2024-05-23"
+  - country: IT
+
 
