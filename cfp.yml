@@ -141,4 +141,17 @@
   - cfp: "closed"
   - country: US
 
+"SPLASH-SAS":
+  - year: 2024
+  - url: "https://2024.splashcon.org/home/sas-2024"
+  - publisher: ACM
+  - rank: "A"
+  - core: "https://portal.core.edu.au/conf-ranks/18"
+  - scope: PL
+  - short:
+  - full:
+  - format:
+  - cfp: "2024-05-05"
+  - country: US
+
 
