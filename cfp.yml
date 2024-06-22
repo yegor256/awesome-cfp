@@ -167,4 +167,15 @@
   - cfp: "2024-04-25"
   - country: US
 
-
+"CGO":
+  - year: 2025
+  - url: "https://conf.researchr.org/series/cgo"
+  - publisher: ACM
+  - rank: "A"
+  - core: "https://portal.core.edu.au/conf-ranks/1362"
+  - scope: PL
+  - short:
+  - full:
+  - format:
+  - cfp: ""
+  - country: US
