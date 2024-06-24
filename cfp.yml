@@ -205,3 +205,16 @@
   - format:
   - cfp: ""
   - country: CA
+
+"ICSME":
+  - year: 2024
+  - url: "https://conf.researchr.org/home/icsme-2024"
+  - publisher: IEEE
+  - rank: "A"
+  - core: "https://portal.core.edu.au/conf-ranks/676"
+  - scope: SE
+  - short:
+  - full: 10
+  - format:
+  - cfp: "2024-04-11"
+  - country: US
