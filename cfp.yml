@@ -192,3 +192,16 @@
   - format:
   - cfp: "2024-10-28"
   - country: DK
+
+"MSR":
+  - year: 2025
+  - url: "https://www.msrconf.org"
+  - publisher: IEEE
+  - rank: "A"
+  - core: "https://portal.core.edu.au/conf-ranks/711"
+  - scope: SE
+  - short: 4
+  - full: 10
+  - format:
+  - cfp: ""
+  - country: CA
