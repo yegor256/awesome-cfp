@@ -244,3 +244,16 @@
   - format: 1C
   - cfp: "2024-10-31"
   - country: "NO"
+
+"ICSM":
+  - year: 2024
+  - url: "https://waset.org/software-maintenance-conference-in-july-2024-in-london"
+  - publisher:
+  - rank: "A"
+  - core: "https://portal.core.edu.au/conf-ranks/676"
+  - scope: SE
+  - short:
+  - full:
+  - format:
+  - cfp: "2024-03-25"
+  - country: UK
