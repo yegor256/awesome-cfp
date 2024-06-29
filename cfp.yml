@@ -400,3 +400,16 @@
   - format:
   - cfp: "2024-05-05"
   - country: FR
+
+"SLE":
+  - year: 2024
+  - url: "http://www.sleconf.org/2024"
+  - publisher: ACM
+  - rank: "B"
+  - core: "https://portal.core.edu.au/conf-ranks/1215"
+  - scope: SE, PL
+  - short: 6
+  - full: 12
+  - format: 2C
+  - cfp: "2024-06-14"
+  - country: US
