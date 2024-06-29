@@ -257,3 +257,16 @@
   - format:
   - cfp: "2024-03-25"
   - country: UK
+
+"ESOP":
+  - year: 2024
+  - url: "https://etaps.org/2025/conferences/esop/"
+  - publisher:
+  - rank: "A"
+  - core: "https://portal.core.edu.au/conf-ranks/514"
+  - scope: PL
+  - short:
+  - full: 25
+  - format: LNCS
+  - cfp: "2024-05-30"
+  - country: CZ
