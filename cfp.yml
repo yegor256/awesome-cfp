@@ -439,3 +439,16 @@
   - format: LNCS
   - cfp: "2024-06-24"
   - country: JP
+      
+"SCAM":
+  - year: 2024
+  - url: "https://conf.researchr.org/home/scam-2024"
+  - publisher: IEEE
+  - rank: "C"
+  - core: "https://portal.core.edu.au/conf-ranks/718"
+  - scope: SE
+  - short:
+  - full: 12
+  - format:
+  - cfp: "2024-06-21"
+  - country: US
