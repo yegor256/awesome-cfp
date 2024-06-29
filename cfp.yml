@@ -362,3 +362,15 @@
   - cfp: "2024-05-24"
   - country: JP
       
+"APLAS-SRC":
+  - year: 2025
+  - url: "https://conf.researchr.org/track/aplas-2024/src-and-posters"
+  - publisher: ACM
+  - rank: "B"
+  - core: "https://portal.core.edu.au/conf-ranks/936"
+  - scope: PL
+  - short: 3
+  - full:
+  - format: LNCS
+  - cfp: "2024-07-19"
+  - country: JP
