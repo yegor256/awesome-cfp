@@ -284,3 +284,15 @@
   - cfp:
   - country: PT
 
+"ECSA":
+  - year: 2024
+  - url: "https://conf.researchr.org/home/ecsa-2024"
+  - publisher: Springer
+  - rank: "A"
+  - core: "https://portal.core.edu.au/conf-ranks/2165"
+  - scope: SA
+  - short:
+  - full: 16
+  - format: LNCS
+  - cfp: "2024-04-18"
+  - country: LU
