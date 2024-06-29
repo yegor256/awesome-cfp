@@ -296,3 +296,16 @@
   - format: LNCS
   - cfp: "2024-04-18"
   - country: LU
+
+"ICST":
+  - year: 2025
+  - url: "https://conf.researchr.org/series/icst"
+  - publisher: IEEE
+  - rank: "A"
+  - core: "https://portal.core.edu.au/conf-ranks/1221"
+  - scope: ST
+  - short:
+  - full: 10
+  - format: 2C
+  - cfp: "2024-09-25"
+  - country: IT
