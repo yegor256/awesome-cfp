@@ -387,3 +387,16 @@
   - format:
   - cfp:
   - country: UK
+
+"SEAA":
+  - year: 2024
+  - url: "https://dsd-seaa.com/seaa2024"
+  - publisher: IEEE
+  - rank: "B"
+  - core: "https://portal.core.edu.au/conf-ranks/464"
+  - scope: SE, PL
+  - short: 4
+  - full: 8
+  - format:
+  - cfp: "2024-05-05"
+  - country: FR
