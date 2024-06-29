@@ -361,7 +361,7 @@
   - format: LNCS
   - cfp: "2024-05-24"
   - country: JP
-      
+
 "APLAS-SRC":
   - year: 2025
   - url: "https://conf.researchr.org/track/aplas-2024/src-and-posters"
@@ -374,3 +374,16 @@
   - format: LNCS
   - cfp: "2024-07-19"
   - country: JP
+
+"PPoPP":
+  - year: 2024
+  - url: "https://conf.researchr.org/home/ppopp-2024"
+  - publisher: ACM
+  - rank: "B"
+  - core: "https://portal.core.edu.au/conf-ranks/1691"
+  - scope: PL
+  - short:
+  - full: 10
+  - format:
+  - cfp:
+  - country: UK
