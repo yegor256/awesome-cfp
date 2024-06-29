@@ -322,3 +322,17 @@
   - format:
   - cfp: "2024-01-18"
   - country: IT
+
+"EASE-NIER":
+  - year: 2024
+  - url: "https://conf.researchr.org/track/ease-2024/ease-2024-nier"
+  - publisher: ACM
+  - rank: "A"
+  - core: "https://portal.core.edu.au/conf-ranks/1221"
+  - scope: SE
+  - short: 6
+  - full:
+  - format:
+  - cfp: "2024-03-10"
+  - country: IT
+
