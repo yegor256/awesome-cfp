@@ -348,3 +348,17 @@
   - format: 2C
   - cfp:
   - country: UK
+
+"APLAS":
+  - year: 2024
+  - url: "https://conf.researchr.org/home/aplas-2024"
+  - publisher: Springer
+  - rank: "B"
+  - core: "https://portal.core.edu.au/conf-ranks/171"
+  - scope: PL
+  - short:
+  - full: 17
+  - format: LNCS
+  - cfp: "2024-05-24"
+  - country: JP
+      
