@@ -336,3 +336,15 @@
   - cfp: "2024-03-10"
   - country: IT
 
+"CC":
+  - year: 2025
+  - url: "https://conf.researchr.org/series/CC"
+  - publisher: ACM
+  - rank: "B"
+  - core: "https://portal.core.edu.au/conf-ranks/936"
+  - scope: PL
+  - short:
+  - full: 10
+  - format: 2C
+  - cfp:
+  - country: UK
