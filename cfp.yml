@@ -259,7 +259,7 @@
   - country: UK
 
 "ESOP":
-  - year: 2024
+  - year: 2025
   - url: "https://etaps.org/2025/conferences/esop/"
   - publisher:
   - rank: "A"
@@ -270,3 +270,17 @@
   - format: LNCS
   - cfp: "2024-05-30"
   - country: CZ
+
+"ICPC":
+  - year: 2024
+  - url: "https://conf.researchr.org/home/icpc-2024"
+  - publisher: ACM
+  - rank: "A"
+  - core: "https://portal.core.edu.au/conf-ranks/1181"
+  - scope: SE
+  - short:
+  - full: 10
+  - format:
+  - cfp:
+  - country: PT
+
