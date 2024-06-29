@@ -413,3 +413,16 @@
   - format: 2C
   - cfp: "2024-06-14"
   - country: US
+
+"PPDP":
+  - year: 2024
+  - url: "https://ppdp2024.github.io"
+  - publisher: ACM
+  - rank: "C"
+  - core: "https://portal.core.edu.au/conf-ranks/1176"
+  - scope: PL
+  - short: 5
+  - full: 12
+  - format: 2C
+  - cfp: "2024-05-13"
+  - country: IT
