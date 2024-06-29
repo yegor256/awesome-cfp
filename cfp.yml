@@ -439,7 +439,7 @@
   - format: LNCS
   - cfp: "2024-06-24"
   - country: JP
-      
+
 "SCAM":
   - year: 2024
   - url: "https://conf.researchr.org/home/scam-2024"
@@ -452,3 +452,16 @@
   - format:
   - cfp: "2024-06-21"
   - country: US
+
+"QRS":
+  - year: 2024
+  - url: "https://qrs24.techconf.org"
+  - publisher: IEEE
+  - rank: "C"
+  - core: "https://portal.core.edu.au/conf-ranks/1185"
+  - scope: SE
+  - short: 10
+  - full: 12
+  - format: 2C
+  - cfp: "2024-04-15"
+  - country: UK
