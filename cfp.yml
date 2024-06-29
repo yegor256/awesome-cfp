@@ -426,3 +426,16 @@
   - format: 2C
   - cfp: "2024-05-13"
   - country: IT
+
+"ICFEM":
+  - year: 2024
+  - url: "https://icfem2024.info"
+  - publisher: Springer
+  - rank: "C"
+  - core: "https://portal.core.edu.au/conf-ranks/1031"
+  - scope: SE
+  - short: 12
+  - full: 18
+  - format: LNCS
+  - cfp: "2024-06-24"
+  - country: JP
