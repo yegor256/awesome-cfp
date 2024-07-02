@@ -1,0 +1,24 @@
+---
+name: load-generate
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - run: pip install -r requirements.txt
+
+      - run: python compile.py cfp.yml README.md
+
+      - uses: peter-evans/create-pull-request@v6
+        with:
+          branch: load-data
+          commit-message: 'new CFP data'
+          delete-branch: true
+          title: 'New CFP data'
+          assignees: uchitsa
+          base: master
