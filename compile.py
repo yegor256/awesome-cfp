@@ -28,7 +28,9 @@ def generate(yaml_path, md_path):
                         title += f"'{v[-2:]}"
                         continue
                     if k == "url":
-                        v = f"[{title}]({v})"
+                        v = f"[{title}](<{v}>)"
+                    if k == "core":
+                        v = f"<{v}>"
                     markdown_table += v + " | "
                 markdown_table.rstrip()
             markdown_table = markdown_table[:-1]
