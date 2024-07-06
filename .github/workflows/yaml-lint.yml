@@ -1,0 +1,11 @@
+---
+name: yaml-lint
+on: [ "push", "pull_request" ]
+jobs:
+  yaml-lint:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ibiqlik/action-yamllint@v3
+        with:
+          config_file: .yamllint.yml
