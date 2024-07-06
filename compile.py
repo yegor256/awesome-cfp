@@ -8,7 +8,7 @@ def generate(yaml_path, md_path):
         yaml_content = yaml.safe_load(stream)
         rows.append(dict(yaml_content))
 
-    headers = ['name', 'publisher', 'rank', 'core', 'scope', 'short', 'full', 'format', 'cfp', 'country']
+    headers = ['name', 'publisher', 'rank', 'scope', 'short', 'full', 'format', 'cfp', 'country']
 
     sep = "<!-- events -->"
     markdown_table = "| " + " | ".join(headers) + " |\n"
@@ -29,8 +29,11 @@ def generate(yaml_path, md_path):
                         continue
                     if k == "url":
                         v = f"[{title}](<{v}>)"
+                    if k == "rank":
+                        rank = v
+                        continue
                     if k == "core":
-                        v = f"<{v}>"
+                        v = f"[{rank}](<{v}>)"
                     markdown_table += v + " | "
                 markdown_table.rstrip()
             markdown_table = markdown_table[:-1]
