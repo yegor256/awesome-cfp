@@ -1,0 +1,21 @@
+---
+name: check-dates
+on: [ "push", "pull_request" ]
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - run: pip install -r requirements.txt
+      - run: |
+          python .github/scripts/check_dates.py
+      - uses: peter-evans/create-pull-request@v6
+        with:
+          branch: update-past-dates
+          commit-message: 'update past dates to closed'
+          delete-branch: true
+          title: 'update past dates to closed'
+          assignees: uchitsa
