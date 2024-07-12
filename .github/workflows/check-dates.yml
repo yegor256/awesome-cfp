@@ -40,3 +40,4 @@ jobs:
           delete-branch: true
           title: 'update past dates to closed'
           assignees: uchitsa
+          base: master
