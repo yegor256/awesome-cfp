@@ -20,13 +20,13 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 ---
-name: tests
-on:
-  push:
+name: yaml-lint
+on: [ "push", "pull_request" ]
 jobs:
-  build:
+  yaml-lint:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
-      - run: chmod +x ./tests.sh
-      - run: ./tests.sh
+      - uses: ibiqlik/action-yamllint@v3
+        with:
+          config_file: .yamllint.yml
