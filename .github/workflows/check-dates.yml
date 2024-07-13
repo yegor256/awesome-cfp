@@ -21,7 +21,10 @@
 # SOFTWARE.
 ---
 name: check-dates
-on: [ "push", "pull_request" ]
+on:
+  push:
+    branches:
+      - master
 jobs:
   build:
     runs-on: ubuntu-22.04
