@@ -22,13 +22,12 @@
 
 import yaml
 import sys
+from pathlib import Path
 
 
 def generate(yaml_path, md_path):
     rows = []
-    with open(yaml_path, 'r') as stream:
-        yaml_content = yaml.safe_load(stream)
-        rows.append(dict(yaml_content))
+    yaml_content = yaml.safe_load(Path(yaml_path).read_text())
 
     headers = ['name', 'publisher', 'rank', 'scope', 'short', 'full', 'format', 'cfp', 'country']
 
@@ -61,16 +60,14 @@ def generate(yaml_path, md_path):
             markdown_table = markdown_table[:-1]
             markdown_table += "\n"
 
-    with open(md_path, "r") as f:
-        readme = f.read()
+    readme = Path(md_path).read_text(md_path)
 
     p = readme.split(sep)
 
     p[1] = "\n" + markdown_table + "\n"
     new = sep.join(p)
 
-    with open(md_path, "w+") as f:
-        f.write(new)
+    Path(md_path).write_text(new)
 
 
 if __name__ == '__main__':
