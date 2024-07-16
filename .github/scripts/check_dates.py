@@ -20,6 +20,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 import re
+import sys
 from datetime import datetime
 
 
@@ -27,14 +28,15 @@ def date_in_past(date):
     return datetime.strptime(date, "%Y-%m-%d") < datetime.now()
 
 
-date_pattern = re.compile(r"\b\d{4}-\d{2}-\d{2}\b")
+def main():
+    date_pattern = re.compile(r"\b\d{4}-\d{2}-\d{2}\b")
 
-new_readme_content = ""
-with open("README.md", "r") as f:
-    for line in f.readlines():
-        new_readme_content += date_pattern.sub(
-            lambda match: "closed" if date_in_past(match.group(0)) else match.group(0),
-            line)
+    with open("README.md", "r") as f:
+        for line in f.readlines():
+            date_pattern.sub(
+                lambda match: sys.exit(1) if date_in_past(match.group(0)) else match.group(0),
+                line)
 
-with open("README.md", "w") as f:
-    f.writelines(new_readme_content)
+
+if __name__ == "__main__":
+    main()
