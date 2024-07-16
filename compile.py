@@ -28,6 +28,7 @@ from pathlib import Path
 def generate(yaml_path, md_path):
     rows = []
     yaml_content = yaml.safe_load(Path(yaml_path).read_text())
+    rows.append(yaml_content)
 
     headers = ['name', 'publisher', 'rank', 'scope', 'short', 'full', 'format', 'cfp', 'country']
 
