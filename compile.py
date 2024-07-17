@@ -55,10 +55,32 @@ def _build_name(conf_name: str, conf_info: ConfInfoDict) -> str:
     return "[{0}'{1}](<{2}>)".format(conf_name, year_last_two_digit, conf_info["url"])
 
 
+def _build_row(conf_name: str, conf_info: ConfInfoDict, markdown_table_row_template: str):
+    conf_info_dict = {}
+    for row in conf_info:
+        conf_info_dict[next(iter(row.keys()))] = next(iter(row.values()))
+    return markdown_table_row_template.format(
+        name=_build_name(conf_name, conf_info_dict),
+        publisher=conf_info_dict["publisher"],
+        rank="[{0}](<{1}>)".format(conf_info_dict["rank"], conf_info_dict["core"]),
+        scope=conf_info_dict["scope"],
+        short=conf_info_dict["short"],
+        full=conf_info_dict["full"],
+        format=conf_info_dict["format"],
+        cfp=conf_info_dict["cfp"],
+        country=conf_info_dict["country"],
+    )
+
+
+def _md_rows(yaml_as_dict: dict[str, ConfInfoDict], markdown_table_row_template: str):
+    return [
+        _build_row(conf_name, conf_info, markdown_table_row_template)
+        for conf_name, conf_info in yaml_as_dict.items()
+    ]
+
+
 def generate(yaml_path, md_path):
-    yaml_content = yaml.safe_load(Path(yaml_path).read_text())
     headers = ["name", "publisher", "rank", "scope", "short", "full", "format", "cfp", "country"]
-    sep = "<!-- events -->"
     markdown_table_row_template = "".join([
         "| {name} ",
         "| {publisher} ",
@@ -72,28 +94,16 @@ def generate(yaml_path, md_path):
     ])
     markdown_table_rows = ["| {0} |".format(" | ".join(headers))]
     markdown_table_rows.append("| {0} |".format(" | ".join(["---"] * len(headers))))
-    for conf_name, conf_info in yaml_content.items():
-        conf_info_dict = {}
-        for row in conf_info:
-            conf_info_dict[next(iter(row.keys()))] = next(iter(row.values()))
-        markdown_table_rows.append(
-            markdown_table_row_template.format(
-                name=_build_name(conf_name, conf_info_dict),
-                publisher=conf_info_dict["publisher"],
-                rank="[{0}](<{1}>)".format(conf_info_dict["rank"], conf_info_dict["core"]),
-                scope=conf_info_dict["scope"],
-                short=conf_info_dict["short"],
-                full=conf_info_dict["full"],
-                format=conf_info_dict["format"],
-                cfp=conf_info_dict["cfp"],
-                country=conf_info_dict["country"],
-            )
+    markdown_table_rows.extend(
+        _md_rows(
+            yaml.safe_load(Path(yaml_path).read_text()),
+            markdown_table_row_template,
         )
-    readme = Path(md_path).read_text()
-    p = readme.split(sep)
-    p[1] = "\n" + "\n".join(markdown_table_rows) + "\n"
-    new = sep.join(p)
-    Path(md_path).write_text(new)
+    )
+    sep = "<!-- events -->"
+    splitted_md = Path(md_path).read_text().split(sep)
+    splitted_md[1] = "\n{0}\n".format("\n".join(markdown_table_rows))
+    Path(md_path).write_text(sep.join(splitted_md))
 
 
 if __name__ == '__main__':
