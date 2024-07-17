@@ -48,8 +48,10 @@ def build_name(conf_name: str, conf_info: ConfInfoDict) -> str:
 
     >>> build_name('ABC', {'year': '2099', 'url': 'https://google.com'})
     "[ABC'99](<https://google.com>)"
+    >>> build_name('ABC', {'year': 2099, 'url': 'https://google.com'})
+    "[ABC'99](<https://google.com>)"
     """
-    year_last_two_digit = conf_info["year"][-2:]
+    year_last_two_digit = str(conf_info["year"])[-2:]
     return "[{0}'{1}](<{2}>)".format(conf_name, year_last_two_digit, conf_info["url"])
 
 
