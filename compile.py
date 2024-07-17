@@ -43,7 +43,7 @@ class ConfInfoDict(TypedDict):
     country: str
 
 
-def _build_name(conf_name: str, conf_info: ConfInfoDict) -> str:
+def build_name(conf_name: str, conf_info: ConfInfoDict) -> str:
     """Build name.
 
     >>> _build_name('ABC', {'year': '2099', 'url': 'https://google.com'})
@@ -55,14 +55,14 @@ def _build_name(conf_name: str, conf_info: ConfInfoDict) -> str:
     return "[{0}'{1}](<{2}>)".format(conf_name, year_last_two_digit, conf_info["url"])
 
 
-def _build_row(conf_name: str, conf_info: ConfInfoDict, markdown_table_row_template: str):
+def build_row(conf_name: str, conf_info: ConfInfoDict, markdown_table_row_template: str):
     conf_info_dict = {}
     for row in conf_info:
         row_key = next(iter(row.keys()))
         row_value = next(iter(row.values()))
         conf_info_dict[row_key] = row_value
     return markdown_table_row_template.format(
-        name=_build_name(conf_name, conf_info_dict),
+        name=build_name(conf_name, conf_info_dict),
         publisher=conf_info_dict["publisher"],
         rank="[{0}](<{1}>)".format(conf_info_dict["rank"], conf_info_dict["core"]),
         scope=conf_info_dict["scope"],
@@ -74,9 +74,9 @@ def _build_row(conf_name: str, conf_info: ConfInfoDict, markdown_table_row_templ
     )
 
 
-def _md_rows(yaml_as_dict: dict[str, ConfInfoDict], markdown_table_row_template: str):
+def md_rows(yaml_as_dict: dict[str, ConfInfoDict], markdown_table_row_template: str):
     return [
-        _build_row(conf_name, conf_info, markdown_table_row_template)
+        build_row(conf_name, conf_info, markdown_table_row_template)
         for conf_name, conf_info in yaml_as_dict.items()
     ]
 
@@ -101,7 +101,7 @@ def generate(yaml_path, md_path):
         ),
     )
     markdown_table_rows.extend(
-        _md_rows(
+        md_rows(
             yaml.safe_load(Path(yaml_path).read_text()),
             markdown_table_row_template,
         ),
