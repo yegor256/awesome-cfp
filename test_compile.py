@@ -20,15 +20,38 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-import pytest
-
 from pathlib import Path
 
-from compile import generate
+import pytest
+import httpx
+
+from compile import generate, InvalidUrlError
 
 
+@pytest.fixture
+def _mock_http(respx_mock):
+    respx_mock.route(path__regex=".*")
+    yield
+
+
+@pytest.fixture
+def _mock_fail_http(respx_mock):
+    route = respx_mock.route(path__regex=".*")
+    def _side_effect(request):
+        return httpx.Response(404)
+    route.side_effect = _side_effect
+    yield
+
+
+@pytest.mark.usefixtures("_mock_http")
 @pytest.mark.parametrize("fixture_dir", list(Path("fixtures").iterdir()))
-def test(fixture_dir):
+def test_format(fixture_dir):
     generate(fixture_dir / "input.yml", fixture_dir / "README.md")
 
     assert (fixture_dir / "README.md").read_text() == (fixture_dir / "expected.md").read_text()
+
+
+@pytest.mark.usefixtures("_mock_fail_http")
+def test_http_fail():
+    with pytest.raises(InvalidUrlError):
+        generate("fixtures/simple/input.yml", "fixtures/simple/README.md")

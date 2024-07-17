@@ -26,6 +26,11 @@ from pathlib import Path
 from typing import Literal, TypeAlias, TypedDict
 
 import yaml
+import httpx
+
+
+class InvalidUrlError(Exception):
+    """Exception throwed on fail ping url."""
 
 DateAsStrT: TypeAlias = str
 RawDateT: TypeAlias = DateAsStrT | Literal["closed"]
@@ -56,7 +61,7 @@ def build_name(conf_name: str, conf_info: ConfInfoDict) -> str:
     "[ABC'99](<https://google.com>)"
     """
     year_last_two_digit = str(conf_info["year"])[-2:]
-    return "[{0}'{1}](<{2}>)".format(conf_name, year_last_two_digit, conf_info["url"])
+    return "[{0}'{1}](<{2}>)".format(conf_name, year_last_two_digit, validate_url(conf_info["url"]))
 
 
 def render_date(raw_date: RawDateT | None):
@@ -85,7 +90,7 @@ def build_row(conf_name: str, conf_info: list[dict], markdown_table_row_template
     return markdown_table_row_template.format(
         name=build_name(conf_name, conf_info_dict),
         publisher=conf_info_dict["publisher"],
-        rank="[{0}](<{1}>)".format(conf_info_dict["rank"], conf_info_dict["core"]),
+        rank="[{0}](<{1}>)".format(conf_info_dict["rank"], validate_url(conf_info_dict["core"])),
         scope=conf_info_dict["scope"],
         short=conf_info_dict["short"],
         full=conf_info_dict["full"],
@@ -100,6 +105,13 @@ def md_rows(yaml_as_dict: dict[str, ConfInfoDict], markdown_table_row_template: 
         build_row(conf_name, conf_info, markdown_table_row_template)
         for conf_name, conf_info in yaml_as_dict.items()
     ]
+
+
+def validate_url(url: str) -> str:
+    response = httpx.get(url)
+    if response.status_code != 200:
+        raise InvalidUrlError("Url = '{0}' return status = {1}".format(url, response.status_code))
+    return url
 
 
 def generate(yaml_path, md_path):
