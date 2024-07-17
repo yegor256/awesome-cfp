@@ -30,8 +30,8 @@ def generate(yaml_path, md_path):
     yaml_content = yaml.safe_load(Path(yaml_path).read_text())
     headers = ["name", "publisher", "rank", "scope", "short", "full", "format", "cfp", "country"]
     sep = "<!-- events -->"
-    markdown_table = "| " + " | ".join(headers) + " |\n"
-    markdown_table += "| " + " | ".join(["---"] * len(headers)) + " |\n"
+    markdown_table = "| {0} |\n".format(" | ".join(headers))
+    markdown_table += "| {0} |\n".format(" | ".join(["---"] * len(headers)))
     for key, val in yaml_content.items():
         title = key
         markdown_table += "| "
@@ -42,15 +42,15 @@ def generate(yaml_path, md_path):
                 if not isinstance(v, str):
                     v = str(v)
                 if k == "year":
-                    title += f"'{v[-2:]}"
+                    title += "'{0}".format(v[-2:])
                     continue
                 if k == "url":
-                    v = f"[{title}](<{v}>)"
+                    v = "[{0}](<{1}>)".format(title, v)
                 if k == "rank":
                     rank = v
                     continue
                 if k == "core":
-                    v = f"[{rank}](<{v}>)"
+                    v = "[{0}](<{1}>)".format(rank, v)
                 markdown_table += v + " | "
             markdown_table.rstrip()
         markdown_table = markdown_table[:-1]
