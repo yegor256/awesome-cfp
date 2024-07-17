@@ -44,7 +44,7 @@ def generate(yaml_path, md_path):
                 for k, v in i.items():
                     if v is None:
                         v = " "
-                    if type(v) is not str:
+                    if not isinstance(v, str):
                         v = str(v)
                     if k == "year":
                         title += f"'{v[-2:]}"
