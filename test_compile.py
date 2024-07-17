@@ -19,14 +19,16 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
----
-name: copyrights
-'on':
-  push:
-  pull_request:
-jobs:
-  copyrights:
-    runs-on: ubuntu-22.04
-    steps:
-      - uses: actions/checkout@v4
-      - uses: yegor256/copyrights-action@0.0.5
+
+import pytest
+
+from pathlib import Path
+
+from compile import generate
+
+
+@pytest.mark.parametrize("fixture_dir", list(Path("fixtures").iterdir()))
+def test(fixture_dir):
+    generate(fixture_dir / "input.yml", fixture_dir / "README.md")
+
+    assert (fixture_dir / "README.md").read_text() == (fixture_dir / "expected.md").read_text()
