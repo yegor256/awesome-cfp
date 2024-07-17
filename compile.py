@@ -59,14 +59,18 @@ def build_name(conf_name: str, conf_info: ConfInfoDict) -> str:
     return "[{0}'{1}](<{2}>)".format(conf_name, year_last_two_digit, conf_info["url"])
 
 
-def render_date(raw_date: RawDateT):
+def render_date(raw_date: RawDateT | None):
     """Render date.
 
     >>> render_date("2020-01-01")
     '20-Jan'
     >>> render_date("closed")
     'closed'
+    >>> render_date(None)
+    ''
     """
+    if not raw_date:
+        return ""
     if raw_date == "closed":
         return "closed"
     return datetime.datetime.strptime(raw_date, "%Y-%m-%d").strftime("%y-%b")
