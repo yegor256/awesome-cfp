@@ -39,6 +39,7 @@ def _mock_fail_http(respx_mock):
     route = respx_mock.route(path__regex=".*")
     def _side_effect(request):
         return httpx.Response(404)
+
     route.side_effect = _side_effect
     yield
 
