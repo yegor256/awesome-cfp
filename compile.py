@@ -20,6 +20,8 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+# flake8: noqa: WPS202
+
 import datetime
 import sys
 from pathlib import Path
@@ -31,6 +33,7 @@ import yaml
 
 class InvalidUrlError(Exception):
     """Exception throwed on fail ping url."""
+
 
 DateAsStrT: TypeAlias = str
 RawDateT: TypeAlias = DateAsStrT | Literal["closed"]
@@ -109,7 +112,9 @@ def md_rows(yaml_as_dict: dict[str, ConfInfoDict], markdown_table_row_template: 
 
 def validate_url(url: str) -> str:
     response = httpx.get(url)
-    if not (httpx.codes.is_success(response.status_code) or httpx.codes.is_redirect(response.status_code)):
+    status_success = httpx.codes.is_success(response.status_code)
+    allow_status = status_success or httpx.codes.is_redirect(response.status_code)
+    if not allow_status:
         raise InvalidUrlError("Url = '{0}' return status = {1}".format(url, response.status_code))
     return url
 
