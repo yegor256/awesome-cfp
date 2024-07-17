@@ -27,37 +27,34 @@ import yaml
 
 
 def generate(yaml_path, md_path):
-    rows = []
     yaml_content = yaml.safe_load(Path(yaml_path).read_text())
-    rows.append(yaml_content)
     headers = ["name", "publisher", "rank", "scope", "short", "full", "format", "cfp", "country"]
     sep = "<!-- events -->"
     markdown_table = "| " + " | ".join(headers) + " |\n"
     markdown_table += "| " + " | ".join(["---"] * len(headers)) + " |\n"
-    for row in rows:
-        for key, val in row.items():
-            title = key
-            markdown_table += "| "
-            for i in val:
-                for k, v in i.items():
-                    if v is None:
-                        v = " "
-                    if not isinstance(v, str):
-                        v = str(v)
-                    if k == "year":
-                        title += f"'{v[-2:]}"
-                        continue
-                    if k == "url":
-                        v = f"[{title}](<{v}>)"
-                    if k == "rank":
-                        rank = v
-                        continue
-                    if k == "core":
-                        v = f"[{rank}](<{v}>)"
-                    markdown_table += v + " | "
-                markdown_table.rstrip()
-            markdown_table = markdown_table[:-1]
-            markdown_table += "\n"
+    for key, val in yaml_content.items():
+        title = key
+        markdown_table += "| "
+        for i in val:
+            for k, v in i.items():
+                if v is None:
+                    v = " "
+                if not isinstance(v, str):
+                    v = str(v)
+                if k == "year":
+                    title += f"'{v[-2:]}"
+                    continue
+                if k == "url":
+                    v = f"[{title}](<{v}>)"
+                if k == "rank":
+                    rank = v
+                    continue
+                if k == "core":
+                    v = f"[{rank}](<{v}>)"
+                markdown_table += v + " | "
+            markdown_table.rstrip()
+        markdown_table = markdown_table[:-1]
+        markdown_table += "\n"
     readme = Path(md_path).read_text()
     p = readme.split(sep)
     p[1] = "\n" + markdown_table + "\n"
