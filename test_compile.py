@@ -19,21 +19,16 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
----
-name: tests
-on: [ "push", "pull_request" ]
-jobs:
-  build:
-    runs-on: ubuntu-22.04
-    steps:
-      - uses: actions/checkout@v4
-      - run: chmod +x ./tests.sh
-      - run: ./tests.sh
-      - name: Set up Python 3.12
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12.4"
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-      - name: Run pytest
-        run: pytest test_compile.py
+
+import pytest
+
+from pathlib import Path
+
+from compile import generate
+
+
+@pytest.mark.parametrize("fixture_dir", list(Path("fixtures").iterdir()))
+def test(fixture_dir):
+    generate(fixture_dir / "input.yml", fixture_dir / "README.md")
+
+    assert (fixture_dir / "README.md").read_text() == (fixture_dir / "expected.md").read_text()

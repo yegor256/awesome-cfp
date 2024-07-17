@@ -61,7 +61,7 @@ def generate(yaml_path, md_path):
             markdown_table = markdown_table[:-1]
             markdown_table += "\n"
 
-    readme = Path(md_path).read_text(md_path)
+    readme = Path(md_path).read_text()
 
     p = readme.split(sep)
 
