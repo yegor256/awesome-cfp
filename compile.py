@@ -109,7 +109,7 @@ def md_rows(yaml_as_dict: dict[str, ConfInfoDict], markdown_table_row_template: 
 
 def validate_url(url: str) -> str:
     response = httpx.get(url)
-    if response.status_code != httpx.codes.OK:
+    if not (httpx.codes.is_success(response.status_code) or httpx.codes.is_redirect(response.status_code)):
         raise InvalidUrlError("Url = '{0}' return status = {1}".format(url, response.status_code))
     return url
 
