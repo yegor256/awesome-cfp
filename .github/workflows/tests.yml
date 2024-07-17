@@ -36,7 +36,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run pytest
-        run: |
+        run: >
           pytest test_compile.py compile.py
             -s
             -vv
