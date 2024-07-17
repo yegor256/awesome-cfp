@@ -20,11 +20,15 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+import datetime
 import sys
 from pathlib import Path
-from typing import TypedDict
+from typing import Literal, TypeAlias, TypedDict
 
 import yaml
+
+DateAsStrT: TypeAlias = str
+RawDateT: TypeAlias = DateAsStrT | Literal["closed"]
 
 
 class ConfInfoDict(TypedDict):
@@ -55,6 +59,19 @@ def build_name(conf_name: str, conf_info: ConfInfoDict) -> str:
     return "[{0}'{1}](<{2}>)".format(conf_name, year_last_two_digit, conf_info["url"])
 
 
+def render_date(raw_date: RawDateT):
+    """Render date.
+
+    >>> render_date("2020-01-01")
+    '20-Jan'
+    >>> render_date("closed")
+    'closed'
+    """
+    if raw_date == "closed":
+        return "closed"
+    return datetime.datetime.strptime(raw_date, "%Y-%m-%d").strftime("%y-%b")
+
+
 def build_row(conf_name: str, conf_info: list[dict], markdown_table_row_template: str):
     conf_info_dict = {}
     for row in conf_info:
@@ -69,7 +86,7 @@ def build_row(conf_name: str, conf_info: list[dict], markdown_table_row_template
         short=conf_info_dict["short"],
         full=conf_info_dict["full"],
         format=conf_info_dict["format"],
-        cfp=conf_info_dict["cfp"],
+        cfp=render_date(conf_info_dict["cfp"]),
         country=conf_info_dict["country"],
     )
 
