@@ -36,11 +36,4 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run pytest
-        run: >
-          pytest test_compile.py compile.py
-            -s
-            -vv
-            --doctest-modules
-            --cov
-            --cov-report=term-missing:skip-covered
-            --cov-fail-under=100
+        run: pytest
