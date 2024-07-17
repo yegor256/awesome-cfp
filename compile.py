@@ -45,7 +45,7 @@ class ConfInfoDict(TypedDict):
 
 def _build_name(conf_name: str, conf_info: ConfInfoDict) -> str:
     """Build name.
-    
+
     >>> _build_name('ABC', {'year': '2099', 'url': 'https://google.com'})
     "[ABC'99](https://google.com)"
     >>> _build_name('ABC', {'url': 'https://google.com'})
@@ -58,7 +58,9 @@ def _build_name(conf_name: str, conf_info: ConfInfoDict) -> str:
 def _build_row(conf_name: str, conf_info: ConfInfoDict, markdown_table_row_template: str):
     conf_info_dict = {}
     for row in conf_info:
-        conf_info_dict[next(iter(row.keys()))] = next(iter(row.values()))
+        row_key = next(iter(row.keys()))
+        row_value = next(iter(row.values()))
+        conf_info_dict[row_key] = row_value
     return markdown_table_row_template.format(
         name=_build_name(conf_name, conf_info_dict),
         publisher=conf_info_dict["publisher"],
@@ -90,15 +92,19 @@ def generate(yaml_path, md_path):
         "| {full} ",
         "| {format} ",
         "| {cfp} ",
-        "| {country} |\n"
+        "| {country} |\n",
     ])
     markdown_table_rows = ["| {0} |".format(" | ".join(headers))]
-    markdown_table_rows.append("| {0} |".format(" | ".join(["---"] * len(headers))))
+    markdown_table_rows.append(
+        "| {0} |".format(
+            " | ".join(["---" for _ in range(len(headers))]),
+        ),
+    )
     markdown_table_rows.extend(
         _md_rows(
             yaml.safe_load(Path(yaml_path).read_text()),
             markdown_table_row_template,
-        )
+        ),
     )
     sep = "<!-- events -->"
     splitted_md = Path(md_path).read_text().split(sep)
@@ -106,5 +112,5 @@ def generate(yaml_path, md_path):
     Path(md_path).write_text(sep.join(splitted_md))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     generate(sys.argv[1], sys.argv[2])
