@@ -20,56 +20,97 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-import yaml
 import sys
 from pathlib import Path
+from typing import TypedDict
+
+import yaml
+
+
+class ConfInfoDict(TypedDict):
+
+    name: str
+    year: str
+    url: str
+    publisher: str
+    rank: str
+    core: str
+    scope: str
+    short: str
+    full: str
+    format: str
+    cfp: str
+    country: str
+
+
+def build_name(conf_name: str, conf_info: ConfInfoDict) -> str:
+    """Build name.
+
+    >>> build_name('ABC', {'year': '2099', 'url': 'https://google.com'})
+    "[ABC'99](<https://google.com>)"
+    >>> build_name('ABC', {'year': 2099, 'url': 'https://google.com'})
+    "[ABC'99](<https://google.com>)"
+    """
+    year_last_two_digit = str(conf_info["year"])[-2:]
+    return "[{0}'{1}](<{2}>)".format(conf_name, year_last_two_digit, conf_info["url"])
+
+
+def build_row(conf_name: str, conf_info: list[dict], markdown_table_row_template: str):
+    conf_info_dict = {}
+    for row in conf_info:
+        row_key = next(iter(row.keys()))
+        row_value = next(iter(row.values()))
+        conf_info_dict[row_key] = row_value
+    return markdown_table_row_template.format(
+        name=build_name(conf_name, conf_info_dict),
+        publisher=conf_info_dict["publisher"],
+        rank="[{0}](<{1}>)".format(conf_info_dict["rank"], conf_info_dict["core"]),
+        scope=conf_info_dict["scope"],
+        short=conf_info_dict["short"],
+        full=conf_info_dict["full"],
+        format=conf_info_dict["format"],
+        cfp=conf_info_dict["cfp"],
+        country=conf_info_dict["country"],
+    )
+
+
+def md_rows(yaml_as_dict: dict[str, ConfInfoDict], markdown_table_row_template: str):
+    return [
+        build_row(conf_name, conf_info, markdown_table_row_template)
+        for conf_name, conf_info in yaml_as_dict.items()
+    ]
 
 
 def generate(yaml_path, md_path):
-    rows = []
-    yaml_content = yaml.safe_load(Path(yaml_path).read_text())
-    rows.append(yaml_content)
-
-    headers = ['name', 'publisher', 'rank', 'scope', 'short', 'full', 'format', 'cfp', 'country']
-
+    headers = ["name", "publisher", "rank", "scope", "short", "full", "format", "cfp", "country"]
+    markdown_table_row_template = "".join([
+        "| {name} ",
+        "| {publisher} ",
+        "| {rank} ",
+        "| {scope} ",
+        "| {short} ",
+        "| {full} ",
+        "| {format} ",
+        "| {cfp} ",
+        "| {country} |\n",
+    ])
+    markdown_table_rows = ["| {0} |".format(" | ".join(headers))]
+    markdown_table_rows.append(
+        "| {0} |".format(
+            " | ".join(["---" for _ in range(len(headers))]),
+        ),
+    )
+    markdown_table_rows.extend(
+        md_rows(
+            yaml.safe_load(Path(yaml_path).read_text()),
+            markdown_table_row_template,
+        ),
+    )
     sep = "<!-- events -->"
-    markdown_table = "| " + " | ".join(headers) + " |\n"
-    markdown_table += "| " + " | ".join(["---"] * len(headers)) + " |\n"
-
-    for row in rows:
-        for key, val in row.items():
-            title = key
-            markdown_table += "| "
-            for i in val:
-                for k, v in i.items():
-                    if v is None:
-                        v = " "
-                    if not isinstance(v, str):
-                        v = str(v)
-                    if k == "year":
-                        title += f"'{v[-2:]}"
-                        continue
-                    if k == "url":
-                        v = f"[{title}](<{v}>)"
-                    if k == "rank":
-                        rank = v
-                        continue
-                    if k == "core":
-                        v = f"[{rank}](<{v}>)"
-                    markdown_table += v + " | "
-                markdown_table.rstrip()
-            markdown_table = markdown_table[:-1]
-            markdown_table += "\n"
-
-    readme = Path(md_path).read_text()
-
-    p = readme.split(sep)
-
-    p[1] = "\n" + markdown_table + "\n"
-    new = sep.join(p)
-
-    Path(md_path).write_text(new)
+    splitted_md = Path(md_path).read_text().split(sep)
+    splitted_md[1] = "\n{0}\n".format("\n".join(markdown_table_rows))
+    Path(md_path).write_text(sep.join(splitted_md))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     generate(sys.argv[1], sys.argv[2])
