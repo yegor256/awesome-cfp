@@ -32,26 +32,26 @@ def generate(yaml_path, md_path):
     sep = "<!-- events -->"
     markdown_table = "| {0} |\n".format(" | ".join(headers))
     markdown_table += "| {0} |\n".format(" | ".join(["---"] * len(headers)))
-    for key, val in yaml_content.items():
-        title = key
+    for conf_name, conf_info in yaml_content.items():
+        title = conf_name
         markdown_table += "| "
-        for i in val:
-            for k, v in i.items():
-                if v is None:
-                    v = " "
-                if not isinstance(v, str):
-                    v = str(v)
-                if k == "year":
-                    title += "'{0}".format(v[-2:])
+        for info_item in conf_info:
+            for info_item_key, info_item_val in info_item.items():
+                if info_item_val is None:
+                    info_item_val = " "
+                if not isinstance(info_item_val, str):
+                    info_item_val = str(info_item_val)
+                if info_item_key == "year":
+                    title += "'{0}".format(info_item_val[-2:])
                     continue
-                if k == "url":
-                    v = "[{0}](<{1}>)".format(title, v)
-                if k == "rank":
-                    rank = v
+                if info_item_key == "url":
+                    info_item_val = "[{0}](<{1}>)".format(title, info_item_val)
+                if info_item_key == "rank":
+                    rank = info_item_val
                     continue
-                if k == "core":
-                    v = "[{0}](<{1}>)".format(rank, v)
-                markdown_table += v + " | "
+                if info_item_key == "core":
+                    info_item_val = "[{0}](<{1}>)".format(rank, info_item_val)
+                markdown_table += info_item_val + " | "
             markdown_table.rstrip()
         markdown_table = markdown_table[:-1]
         markdown_table += "\n"
