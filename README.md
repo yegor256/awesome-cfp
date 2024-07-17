@@ -56,6 +56,7 @@ please send us a pull request.
 | [QRS'24](<https://qrs24.techconf.org>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/1185>) | SE | 10 | 12 | 2C | 2024-04-15 | UK |
 
 <!-- events -->
+
 **SE** stands for "Software Engineering",
 **SA** for "Software Architecture",
 **PL** for "Programming Languages",
