@@ -22,42 +22,76 @@
 
 import sys
 from pathlib import Path
+from typing import TypedDict
 
 import yaml
+
+
+class ConfInfoDict(TypedDict):
+
+    name: str
+    year: str
+    url: str
+    publisher: str
+    rank: str
+    core: str
+    scope: str
+    short: str
+    full: str
+    format: str
+    cfp: str
+    country: str
+
+
+def _build_name(conf_name: str, conf_info: ConfInfoDict) -> str:
+    """Build name.
+    
+    >>> _build_name('ABC', {'year': '2099', 'url': 'https://google.com'})
+    "[ABC'99](https://google.com)"
+    >>> _build_name('ABC', {'url': 'https://google.com'})
+    '[ABC](https://google.com)'
+    """
+    year_last_two_digit = conf_info["year"][-2:]
+    return "[{0}'{1}](<{2}>)".format(conf_name, year_last_two_digit, conf_info["url"])
 
 
 def generate(yaml_path, md_path):
     yaml_content = yaml.safe_load(Path(yaml_path).read_text())
     headers = ["name", "publisher", "rank", "scope", "short", "full", "format", "cfp", "country"]
     sep = "<!-- events -->"
-    markdown_table = "| {0} |\n".format(" | ".join(headers))
-    markdown_table += "| {0} |\n".format(" | ".join(["---"] * len(headers)))
+    markdown_table_row_template = "".join([
+        "| {name} ",
+        "| {publisher} ",
+        "| {rank} ",
+        "| {scope} ",
+        "| {short} ",
+        "| {full} ",
+        "| {format} ",
+        "| {cfp} ",
+        "| {country} |\n"
+    ])
+    markdown_table_rows = ["| {0} |".format(" | ".join(headers))]
+    markdown_table_rows.append("| {0} |".format(" | ".join(["---"] * len(headers))))
     for conf_name, conf_info in yaml_content.items():
-        title = conf_name
-        markdown_table += "| "
-        for info_item in conf_info:
-            for info_item_key, info_item_val in info_item.items():
-                if info_item_val is None:
-                    info_item_val = " "
-                if not isinstance(info_item_val, str):
-                    info_item_val = str(info_item_val)
-                if info_item_key == "year":
-                    title += "'{0}".format(info_item_val[-2:])
-                    continue
-                if info_item_key == "url":
-                    info_item_val = "[{0}](<{1}>)".format(title, info_item_val)
-                if info_item_key == "rank":
-                    rank = info_item_val
-                    continue
-                if info_item_key == "core":
-                    info_item_val = "[{0}](<{1}>)".format(rank, info_item_val)
-                markdown_table += info_item_val + " | "
-            markdown_table.rstrip()
-        markdown_table = markdown_table[:-1]
-        markdown_table += "\n"
+        conf_info_dict = {}
+        for row in conf_info:
+            conf_info_dict[next(iter(row.keys()))] = next(iter(row.values()))
+        markdown_table_rows.append(
+            markdown_table_row_template.format(
+                name=_build_name(conf_name, conf_info_dict),
+                publisher=conf_info_dict["publisher"],
+                rank="[{0}](<{1}>)".format(conf_info_dict["rank"], conf_info_dict["core"]),
+                scope=conf_info_dict["scope"],
+                short=conf_info_dict["short"],
+                full=conf_info_dict["full"],
+                format=conf_info_dict["format"],
+                cfp=conf_info_dict["cfp"],
+                country=conf_info_dict["country"],
+            )
+        )
     readme = Path(md_path).read_text()
     p = readme.split(sep)
-    p[1] = "\n" + markdown_table + "\n"
+    p[1] = "\n" + "\n".join(markdown_table_rows) + "\n"
     new = sep.join(p)
     Path(md_path).write_text(new)
 
