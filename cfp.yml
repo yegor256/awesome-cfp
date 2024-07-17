@@ -43,7 +43,7 @@
   - short:
   - full: 25
   - format:
-  - cfp: "2025-07-11"
+  - cfp: "11-Jul"
   - country: US
 
 "ICSE":
@@ -56,7 +56,7 @@
   - short:
   - full: 10
   - format:
-  - cfp: "2025-08-02"
+  - cfp: "02-Aug"
   - country: CA
 
 "ICSE-NIER":
@@ -69,7 +69,7 @@
   - short: 4
   - full:
   - format:
-  - cfp: "2025-10-10"
+  - cfp: "10-Oct"
   - country: CA
 
 "ICSE-SRC":
@@ -95,7 +95,7 @@
   - short:
   - full: 18
   - format:
-  - cfp: "2024-09-05"
+  - cfp: "05-Sep"
   - country: "NO"
 
 "ASE":
@@ -108,7 +108,7 @@
   - short:
   - full: 10
   - format:
-  - cfp: "2024-06-07"
+  - cfp: "07-Jun"
   - country: US
 
 "ASPLOS":
@@ -121,7 +121,7 @@
   - short:
   - full: 11
   - format:
-  - cfp: "2025-06-24"
+  - cfp: "24-Jun"
   - country: US
 
 "ICFP":
@@ -147,7 +147,7 @@
   - short: 3
   - full:
   - format: 1C
-  - cfp: "2024-05-23"
+  - cfp: "23-May"
   - country: IT
 
 "SPLASH":
@@ -173,7 +173,7 @@
   - short:
   - full:
   - format:
-  - cfp: "2024-05-05"
+  - cfp: "05-May"
   - country: US
 
 "SPLASH-Onward!":
@@ -186,7 +186,7 @@
   - short:
   - full:
   - format:
-  - cfp: "2024-04-25"
+  - cfp: "25-Apr"
   - country: US
 
 "CGO":
@@ -212,7 +212,7 @@
   - short: 8
   - full: 10
   - format:
-  - cfp: "2024-10-28"
+  - cfp: "28-Oct"
   - country: DK
 
 "MSR":
@@ -238,7 +238,7 @@
   - short:
   - full: 10
   - format:
-  - cfp: "2024-04-11"
+  - cfp: "11-Apr"
   - country: US
 
 "SANER":
@@ -264,7 +264,7 @@
   - short:
   - full: 18
   - format: 1C
-  - cfp: "2024-10-31"
+  - cfp: "31-Oct"
   - country: "NO"
 
 "ICSM":
@@ -277,7 +277,7 @@
   - short:
   - full:
   - format:
-  - cfp: "2024-03-25"
+  - cfp: "25-Mar"
   - country: UK
 
 "ESOP":
@@ -290,7 +290,7 @@
   - short:
   - full: 25
   - format: LNCS
-  - cfp: "2024-05-30"
+  - cfp: "30-May"
   - country: CZ
 
 "ICPC":
@@ -316,7 +316,7 @@
   - short:
   - full: 16
   - format: LNCS
-  - cfp: "2024-04-18"
+  - cfp: "18-Apr"
   - country: LU
 
 "ICST":
@@ -329,7 +329,7 @@
   - short:
   - full: 10
   - format: 2C
-  - cfp: "2024-09-25"
+  - cfp: "25-Sep"
   - country: IT
 
 "EASE":
@@ -342,7 +342,7 @@
   - short:
   - full: 10
   - format:
-  - cfp: "2024-01-18"
+  - cfp: "18-Jan"
   - country: IT
 
 "EASE-NIER":
@@ -355,7 +355,7 @@
   - short: 6
   - full:
   - format:
-  - cfp: "2024-03-10"
+  - cfp: "10-Mar"
   - country: IT
 
 "CC":
@@ -381,7 +381,7 @@
   - short:
   - full: 17
   - format: LNCS
-  - cfp: "2024-05-24"
+  - cfp: "24-May"
   - country: JP
 
 "APLAS-SRC":
@@ -394,7 +394,7 @@
   - short: 3
   - full:
   - format: LNCS
-  - cfp: "2024-07-19"
+  - cfp: "19-Jul"
   - country: JP
 
 "PPoPP":
@@ -420,7 +420,7 @@
   - short: 4
   - full: 8
   - format:
-  - cfp: "2024-05-05"
+  - cfp: "05-May"
   - country: FR
 
 "SLE":
@@ -433,7 +433,7 @@
   - short: 6
   - full: 12
   - format: 2C
-  - cfp: "2024-06-14"
+  - cfp: "14-Jun"
   - country: US
 
 "PPDP":
@@ -446,7 +446,7 @@
   - short: 5
   - full: 12
   - format: 2C
-  - cfp: "2024-05-13"
+  - cfp: "13-May"
   - country: IT
 
 "ICFEM":
@@ -459,7 +459,7 @@
   - short: 12
   - full: 18
   - format: LNCS
-  - cfp: "2024-06-24"
+  - cfp: "24-Jun"
   - country: JP
 
 "SCAM":
@@ -472,7 +472,7 @@
   - short:
   - full: 12
   - format:
-  - cfp: "2024-06-21"
+  - cfp: "21-Jun"
   - country: US
 
 "QRS":
@@ -485,5 +485,5 @@
   - short: 10
   - full: 12
   - format: 2C
-  - cfp: "2024-04-15"
+  - cfp: "15-Apr"
   - country: UK
