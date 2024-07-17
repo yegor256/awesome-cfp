@@ -53,7 +53,7 @@ def build_name(conf_name: str, conf_info: ConfInfoDict) -> str:
     return "[{0}'{1}](<{2}>)".format(conf_name, year_last_two_digit, conf_info["url"])
 
 
-def build_row(conf_name: str, conf_info: ConfInfoDict, markdown_table_row_template: str):
+def build_row(conf_name: str, conf_info: list[dict], markdown_table_row_template: str):
     conf_info_dict = {}
     for row in conf_info:
         row_key = next(iter(row.keys()))
