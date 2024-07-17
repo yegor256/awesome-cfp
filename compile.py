@@ -23,7 +23,7 @@
 import datetime
 import sys
 from pathlib import Path
-from typing import TypedDict, TypeAlias, Literal
+from typing import Literal, TypeAlias, TypedDict
 
 import yaml
 
