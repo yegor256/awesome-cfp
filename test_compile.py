@@ -22,10 +22,10 @@
 
 from pathlib import Path
 
-import pytest
 import httpx
+import pytest
 
-from compile import generate, InvalidUrlError
+from compile import InvalidUrlError, generate
 
 
 @pytest.fixture

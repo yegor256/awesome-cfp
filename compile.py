@@ -25,8 +25,8 @@ import sys
 from pathlib import Path
 from typing import Literal, TypeAlias, TypedDict
 
-import yaml
 import httpx
+import yaml
 
 
 class InvalidUrlError(Exception):
@@ -109,7 +109,7 @@ def md_rows(yaml_as_dict: dict[str, ConfInfoDict], markdown_table_row_template: 
 
 def validate_url(url: str) -> str:
     response = httpx.get(url)
-    if response.status_code != 200:
+    if response.status_code != httpx.codes.OK:
         raise InvalidUrlError("Url = '{0}' return status = {1}".format(url, response.status_code))
     return url
 
