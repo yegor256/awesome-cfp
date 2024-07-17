@@ -30,13 +30,10 @@ def generate(yaml_path, md_path):
     rows = []
     yaml_content = yaml.safe_load(Path(yaml_path).read_text())
     rows.append(yaml_content)
-
     headers = ["name", "publisher", "rank", "scope", "short", "full", "format", "cfp", "country"]
-
     sep = "<!-- events -->"
     markdown_table = "| " + " | ".join(headers) + " |\n"
     markdown_table += "| " + " | ".join(["---"] * len(headers)) + " |\n"
-
     for row in rows:
         for key, val in row.items():
             title = key
@@ -61,14 +58,10 @@ def generate(yaml_path, md_path):
                 markdown_table.rstrip()
             markdown_table = markdown_table[:-1]
             markdown_table += "\n"
-
     readme = Path(md_path).read_text()
-
     p = readme.split(sep)
-
     p[1] = "\n" + markdown_table + "\n"
     new = sep.join(p)
-
     Path(md_path).write_text(new)
 
 
