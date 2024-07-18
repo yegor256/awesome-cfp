@@ -134,4 +134,4 @@ def generate(yaml_path, md_path):
 
 
 if __name__ == "__main__":
-    generate(sys.argv[1], sys.argv[2])
+    generate(sys.argv[1], sys.argv[2])  # pragma: no cover
