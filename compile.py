@@ -81,7 +81,7 @@ def date_actual(date: datetime.date) -> datetime.date:
 def render_date(raw_date: RawDateT | None):
     """Render date.
 
-    >>> render_date("2020-01-01")
+    >>> render_date("2090-01-01")
     '20-Jan'
     >>> render_date("closed")
     'closed'
