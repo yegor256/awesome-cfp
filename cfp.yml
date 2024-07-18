@@ -487,3 +487,16 @@
   - format: 2C
   - cfp: "2024-04-15"
   - country: UK
+
+"ISSRE":
+  - year: 2024
+  - url: "https://issre.github.io/2024/index.html"
+  - publisher: IEEE
+  - rank: "A"
+  - core: "https://portal.core.edu.au/conf-ranks/1411"
+  - scope: SE
+  - short: 10
+  - full: 12
+  - format: 2C
+  - cfp: "2024-05-15"
+  - country: JP 
