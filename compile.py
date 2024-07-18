@@ -36,7 +36,7 @@ class InvalidUrlError(Exception):
 
 
 class ExpiredCfpError(Exception):
-    """Exception throwed on fail ping url."""
+    """Exception throwed on call for papers date expired."""
 
 
 DateAsStrT: TypeAlias = str
