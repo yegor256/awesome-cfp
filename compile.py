@@ -95,9 +95,9 @@ def build_row(conf_name: str, conf_info: list[dict], markdown_table_row_template
         publisher=conf_info_dict["publisher"],
         rank="[{0}](<{1}>)".format(conf_info_dict["rank"], validate_url(conf_info_dict["core"])),
         scope=conf_info_dict["scope"],
-        short=conf_info_dict["short"],
-        full=conf_info_dict["full"],
-        format=conf_info_dict["format"],
+        short=conf_info_dict["short"] or "",
+        full=conf_info_dict["full"] or "",
+        format=conf_info_dict["format"] or "",
         cfp=render_date(conf_info_dict["cfp"]),
         country=conf_info_dict["country"],
     )
@@ -151,4 +151,4 @@ def generate(yaml_path, md_path):
 
 
 if __name__ == "__main__":
-    generate(sys.argv[1], sys.argv[2])
+    generate(sys.argv[1], sys.argv[2])  # pragma: no cover
