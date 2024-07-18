@@ -21,6 +21,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+pip install -r requirements.txt
 for dir in fixtures/*
 do
   python3 compile.py "$dir/input.yml" "$dir/README.md"
