@@ -25,7 +25,7 @@ from pathlib import Path
 import httpx
 import pytest
 
-from compile import InvalidUrlError, generate
+from compile import InvalidUrlError, generate, ExpiredCfpError
 
 
 @pytest.fixture
@@ -56,4 +56,10 @@ def test_format(fixture_dir):
 @pytest.mark.usefixtures("_mock_fail_http")
 def test_http_fail():
     with pytest.raises(InvalidUrlError):
+        generate("fixtures/simple/input.yml", "fixtures/simple/README.md")
+
+
+def test_expired_cfp(time_machine):
+    time_machine.move_to('2100-01-01')
+    with pytest.raises(ExpiredCfpError):
         generate("fixtures/simple/input.yml", "fixtures/simple/README.md")
