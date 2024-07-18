@@ -82,7 +82,7 @@ def render_date(raw_date: RawDateT | None):
     """Render date.
 
     >>> render_date("2090-01-01")
-    '20-Jan'
+    '90-Jan'
     >>> render_date("closed")
     'closed'
     >>> render_date(None)
