@@ -25,7 +25,7 @@ from pathlib import Path
 import httpx
 import pytest
 
-from compile import InvalidUrlError, generate, ExpiredCfpError
+from compile import ExpiredCfpError, InvalidUrlError, generate
 
 
 @pytest.fixture
