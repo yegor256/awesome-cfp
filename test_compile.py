@@ -20,12 +20,15 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+import sys
+import os
+import shutil
 from pathlib import Path
 
 import httpx
 import pytest
 
-from compile import ExpiredCfpError, InvalidUrlError, generate
+from compile import InvalidUrlError, generate
 
 
 @pytest.fixture
@@ -47,10 +50,11 @@ def _mock_fail_http(respx_mock):
 
 @pytest.mark.usefixtures("_mock_http")
 @pytest.mark.parametrize("fixture_dir", list(Path("fixtures").iterdir()))
-def test_format(fixture_dir):
-    generate(fixture_dir / "input.yml", fixture_dir / "README.md")
+def test_format(fixture_dir, tmp_path):
+    shutil.copytree(fixture_dir, tmp_path, dirs_exist_ok=True)
+    generate(tmp_path / "input.yml", tmp_path / "README.md")
 
-    assert (fixture_dir / "README.md").read_text() == (fixture_dir / "expected.md").read_text()
+    assert (tmp_path / "README.md").read_text() == (tmp_path / "expected.md").read_text()
 
 
 @pytest.mark.usefixtures("_mock_fail_http")
@@ -59,7 +63,9 @@ def test_http_fail():
         generate("fixtures/simple/input.yml", "fixtures/simple/README.md")
 
 
-def test_expired_cfp(time_machine):
-    time_machine.move_to('2100-01-01')
-    with pytest.raises(ExpiredCfpError):
-        generate("fixtures/simple/input.yml", "fixtures/simple/README.md")
+def test_expired_date_updated(tmp_path):
+    shutil.copytree(Path("fixtures/update-expired-date"), tmp_path, dirs_exist_ok=True)
+    generate(tmp_path / "input.yml", tmp_path / "README.md")
+
+    assert (tmp_path / "input.yml").read_text().count("  cfp: closed")
+    assert (tmp_path / "input.yml").read_text().count("# SOFTWARE.\n---"), "yml file not contain license"
