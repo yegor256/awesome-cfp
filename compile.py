@@ -35,6 +35,10 @@ class InvalidUrlError(Exception):
     """Exception throwed on fail ping url."""
 
 
+class ExpiredCfpError(Exception):
+    """Exception throwed on call for papers date expired."""
+
+
 DateAsStrT: TypeAlias = str
 RawDateT: TypeAlias = DateAsStrT | Literal["closed"]
 
@@ -67,11 +71,18 @@ def build_name(conf_name: str, conf_info: ConfInfoDict) -> str:
     return "[{0}'{1}](<{2}>)".format(conf_name, year_last_two_digit, validate_url(conf_info["url"]))
 
 
+def date_actual(date: datetime.date) -> datetime.date:
+    today = datetime.datetime.now(tz=datetime.UTC).date()
+    if date > today:
+        return date
+    raise ExpiredCfpError("{0} expired for today {1}".format(date, today))
+
+
 def render_date(raw_date: RawDateT | None):
     """Render date.
 
-    >>> render_date("2020-01-01")
-    '20-Jan'
+    >>> render_date("2090-01-01")
+    '90-Jan'
     >>> render_date("closed")
     'closed'
     >>> render_date(None)
@@ -81,7 +92,8 @@ def render_date(raw_date: RawDateT | None):
         return ""
     if raw_date == "closed":
         return "closed"
-    return datetime.datetime.strptime(raw_date, "%Y-%m-%d").strftime("%y-%b")
+    parsed_date = datetime.datetime.strptime(raw_date, "%Y-%m-%d").date()
+    return date_actual(parsed_date).strftime("%y-%b")
 
 
 def build_row(conf_name: str, conf_info: list[dict], markdown_table_row_template: str):
