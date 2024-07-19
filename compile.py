@@ -141,7 +141,7 @@ def mark_expired_dates(yaml_path: str):
         except ExpiredCfpError:
             updated_yaml[conf_name]["cfp"] = "closed"
     Path(yaml_path).write_text(
-        "{0}\n---\n{1}".format(
+        "{0}---\n{1}".format(
             yaml_content.split("---")[0],
             yaml.safe_dump(updated_yaml),
         ),

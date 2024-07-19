@@ -68,3 +68,4 @@ def test_expired_date_updated(tmp_path):
     generate(tmp_path / "input.yml", tmp_path / "README.md")
 
     assert (tmp_path / "input.yml").read_text().count("  cfp: closed")
+    assert (tmp_path / "input.yml").read_text().count("# SOFTWARE.\n---"), "yml file not contain license"
