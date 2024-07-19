@@ -26,6 +26,7 @@ import datetime
 import sys
 from pathlib import Path
 from typing import Literal, TypeAlias, TypedDict
+from copy import deepcopy
 
 import httpx
 import yaml
@@ -93,7 +94,7 @@ def render_date(raw_date: RawDateT | None):
     if raw_date == "closed":
         return "closed"
     parsed_date = datetime.datetime.strptime(raw_date, "%Y-%m-%d").date()
-    return date_actual(parsed_date).strftime("%y-%b")
+    return parsed_date.strftime("%y-%b")
 
 
 def build_row(conf_name: str, conf_info: list[dict], markdown_table_row_template: str):
@@ -126,7 +127,29 @@ def validate_url(url: str) -> str:
     return url
 
 
+def mark_expired_dates(yaml_path: str):
+    yaml_content = Path(yaml_path).read_text()
+    origin_yaml = yaml.safe_load(yaml_content)
+    updated_yaml = deepcopy(origin_yaml)
+    for conf_name, conf_info in yaml.safe_load(yaml_content).items():
+        if not conf_info["cfp"] or conf_info["cfp"] == "closed":
+            continue
+        try:
+            date_actual(
+                datetime.datetime.strptime(conf_info["cfp"], "%Y-%m-%d").date(),
+            )
+        except ExpiredCfpError:
+            updated_yaml[conf_name]["cfp"] = "closed"
+    Path(yaml_path).write_text(
+        "{0}\n---\n{1}".format(
+            yaml_content.split("---")[0],
+            yaml.safe_dump(updated_yaml),
+        ),
+    )
+
+
 def generate(yaml_path, md_path):
+    mark_expired_dates(yaml_path)
     headers = ["name", "publisher", "rank", "scope", "short", "full", "format", "cfp", "country"]
     markdown_table_row_template = "".join([
         "| {name} ",

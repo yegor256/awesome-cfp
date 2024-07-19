@@ -19,14 +19,9 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-
-
-
-
-
 ---
 ABC:
-  cfp: '2099-12-31'
+  cfp: "2020-01-01"
   core: https://portal.core.edu.au/conf-ranks/2099
   country: Antarctica
   format: 1C
