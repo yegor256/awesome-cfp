@@ -20,12 +20,24 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+# flake8: noqa: WPS202
+
 import datetime
 import sys
 from pathlib import Path
 from typing import Literal, TypeAlias, TypedDict
 
+import httpx
 import yaml
+
+
+class InvalidUrlError(Exception):
+    """Exception throwed on fail ping url."""
+
+
+class ExpiredCfpError(Exception):
+    """Exception throwed on call for papers date expired."""
+
 
 DateAsStrT: TypeAlias = str
 RawDateT: TypeAlias = DateAsStrT | Literal["closed"]
@@ -56,14 +68,21 @@ def build_name(conf_name: str, conf_info: ConfInfoDict) -> str:
     "[ABC'99](<https://google.com>)"
     """
     year_last_two_digit = str(conf_info["year"])[-2:]
-    return "[{0}'{1}](<{2}>)".format(conf_name, year_last_two_digit, conf_info["url"])
+    return "[{0}'{1}](<{2}>)".format(conf_name, year_last_two_digit, validate_url(conf_info["url"]))
+
+
+def date_actual(date: datetime.date) -> datetime.date:
+    today = datetime.datetime.now(tz=datetime.UTC).date()
+    if date > today:
+        return date
+    raise ExpiredCfpError("{0} expired for today {1}".format(date, today))
 
 
 def render_date(raw_date: RawDateT | None):
     """Render date.
 
-    >>> render_date("2020-01-01")
-    '20-Jan'
+    >>> render_date("2090-01-01")
+    '90-Jan'
     >>> render_date("closed")
     'closed'
     >>> render_date(None)
@@ -73,25 +92,21 @@ def render_date(raw_date: RawDateT | None):
         return ""
     if raw_date == "closed":
         return "closed"
-    return datetime.datetime.strptime(raw_date, "%Y-%m-%d").strftime("%y-%b")
+    parsed_date = datetime.datetime.strptime(raw_date, "%Y-%m-%d").date()
+    return date_actual(parsed_date).strftime("%y-%b")
 
 
 def build_row(conf_name: str, conf_info: list[dict], markdown_table_row_template: str):
-    conf_info_dict = {}
-    for row in conf_info:
-        row_key = next(iter(row.keys()))
-        row_value = next(iter(row.values()))
-        conf_info_dict[row_key] = row_value
     return markdown_table_row_template.format(
-        name=build_name(conf_name, conf_info_dict),
-        publisher=conf_info_dict["publisher"],
-        rank="[{0}](<{1}>)".format(conf_info_dict["rank"], conf_info_dict["core"]),
-        scope=conf_info_dict["scope"],
-        short=conf_info_dict["short"],
-        full=conf_info_dict["full"],
-        format=conf_info_dict["format"],
-        cfp=render_date(conf_info_dict["cfp"]),
-        country=conf_info_dict["country"],
+        name=build_name(conf_name, conf_info),
+        publisher=conf_info["publisher"],
+        rank="[{0}](<{1}>)".format(conf_info["rank"], validate_url(conf_info["core"])),
+        scope=conf_info["scope"],
+        short=conf_info["short"] or "",
+        full=conf_info["full"] or "",
+        format=conf_info["format"] or "",
+        cfp=render_date(conf_info["cfp"]),
+        country=conf_info["country"],
     )
 
 
@@ -100,6 +115,15 @@ def md_rows(yaml_as_dict: dict[str, ConfInfoDict], markdown_table_row_template: 
         build_row(conf_name, conf_info, markdown_table_row_template)
         for conf_name, conf_info in yaml_as_dict.items()
     ]
+
+
+def validate_url(url: str) -> str:
+    response = httpx.get(url)
+    status_success = httpx.codes.is_success(response.status_code)
+    allow_status = status_success or httpx.codes.is_redirect(response.status_code)
+    if not allow_status:
+        raise InvalidUrlError("Url = '{0}' return status = {1}".format(url, response.status_code))
+    return url
 
 
 def generate(yaml_path, md_path):
@@ -134,4 +158,4 @@ def generate(yaml_path, md_path):
 
 
 if __name__ == "__main__":
-    generate(sys.argv[1], sys.argv[2])
+    generate(sys.argv[1], sys.argv[2])  # pragma: no cover

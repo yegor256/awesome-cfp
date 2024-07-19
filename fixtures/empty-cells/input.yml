@@ -1,4 +1,3 @@
-#!/bin/bash -e
 # MIT License
 #
 # Copyright (c) 2024 Yegor Bugayenko
@@ -20,15 +19,16 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-
-pip install -r requirements.txt
-for dir in fixtures/*
-do
-  python3 compile.py "$dir/input.yml" "$dir/README.md"
-  diff "$dir/expected.md" "$dir/README.md"
-  if [ $? -eq 0 ]; then
-    echo "Test passed for $dir"
-  else
-    echo "Test failed for $dir"
-  fi
-done
+---
+"ABC":
+  year: "2099"
+  url: "https://conf.researchr.org/series/abc"
+  publisher: IEEE
+  rank: "C"
+  core: "https://portal.core.edu.au/conf-ranks/2099"
+  scope: "SE"
+  short:
+  full:
+  format:
+  cfp:
+  country: Antarctica
