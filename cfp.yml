@@ -500,3 +500,16 @@
   format: 2C
   cfp: "2024-05-15"
   country: JP 
+
+"CLEI":
+  year: 2024
+  url: "https://conferencia2024.clei.org"
+  publisher: IEEE
+  rank: "C"
+  core: "https://portal.core.edu.au/conf-ranks/1589"
+  scope: SE
+  short: 4
+  full: 10
+  format:
+  cfp: "2024-04-21"
+  country: AR
