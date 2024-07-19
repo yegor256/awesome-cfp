@@ -97,21 +97,16 @@ def render_date(raw_date: RawDateT | None):
 
 
 def build_row(conf_name: str, conf_info: list[dict], markdown_table_row_template: str):
-    conf_info_dict = {}
-    for row in conf_info:
-        row_key = next(iter(row.keys()))
-        row_value = next(iter(row.values()))
-        conf_info_dict[row_key] = row_value
     return markdown_table_row_template.format(
-        name=build_name(conf_name, conf_info_dict),
-        publisher=conf_info_dict["publisher"],
-        rank="[{0}](<{1}>)".format(conf_info_dict["rank"], validate_url(conf_info_dict["core"])),
-        scope=conf_info_dict["scope"],
-        short=conf_info_dict["short"] or "",
-        full=conf_info_dict["full"] or "",
-        format=conf_info_dict["format"] or "",
-        cfp=render_date(conf_info_dict["cfp"]),
-        country=conf_info_dict["country"],
+        name=build_name(conf_name, conf_info),
+        publisher=conf_info["publisher"],
+        rank="[{0}](<{1}>)".format(conf_info["rank"], validate_url(conf_info["core"])),
+        scope=conf_info["scope"],
+        short=conf_info["short"] or "",
+        full=conf_info["full"] or "",
+        format=conf_info["format"] or "",
+        cfp=render_date(conf_info["cfp"]),
+        country=conf_info["country"],
     )
 
 
