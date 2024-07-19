@@ -21,14 +21,14 @@
 # SOFTWARE.
 ---
 "ABC":
-  - year: "2099"
-  - url: "https://conf.researchr.org/series/abc"
-  - publisher: IEEE
-  - rank: "C"
-  - core: "https://portal.core.edu.au/conf-ranks/2099"
-  - scope: "SE"
-  - short: "2"
-  - full: "10"
-  - format: 1C
-  - cfp: "2099-12-31"
-  - country: Antarctica
+  year: "2099"
+  url: "https://conf.researchr.org/series/abc"
+  publisher: IEEE
+  rank: "C"
+  core: "https://portal.core.edu.au/conf-ranks/2099"
+  scope: "SE"
+  short: "2"
+  full: "10"
+  format: 1C
+  cfp: "2099-12-31"
+  country: Antarctica
