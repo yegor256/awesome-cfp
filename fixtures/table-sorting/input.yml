@@ -1,0 +1,70 @@
+# MIT License
+#
+# Copyright (c) 2024 Yegor Bugayenko
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+---
+APLAS:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/171
+  country: JP
+  format: LNCS
+  full: 17
+  publisher: Springer
+  rank: B
+  scope: PL
+  short: null
+  url: https://conf.researchr.org/home/aplas-2024
+  year: 2024
+ASPLOS:
+  cfp: '2025-06-24'
+  core: https://portal.core.edu.au/conf-ranks/147
+  country: US
+  format: null
+  full: 11
+  publisher: ACM
+  rank: A*
+  scope: SE
+  short: null
+  url: https://www.asplos-conference.org/asplos2025/cfp/
+  year: 2025
+ICFEM:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/1031
+  country: JP
+  format: LNCS
+  full: 18
+  publisher: Springer
+  rank: C
+  scope: SE
+  short: 12
+  url: https://icfem2024.info
+  year: 2024
+ICFP-SRC:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/1037
+  country: IT
+  format: 1C
+  full: null
+  publisher: ACM
+  rank: A
+  scope: PL
+  short: 3
+  url: https://icfp24.sigplan.org/track/icfp-2024-student-research-competition
+  year: 2024
