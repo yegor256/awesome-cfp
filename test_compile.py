@@ -20,8 +20,6 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-import sys
-import os
 import shutil
 from pathlib import Path
 
@@ -69,3 +67,12 @@ def test_expired_date_updated(tmp_path):
 
     assert (tmp_path / "input.yml").read_text().count("  cfp: closed")
     assert (tmp_path / "input.yml").read_text().count("# SOFTWARE.\n---"), "yml file not contain license"
+
+
+@pytest.mark.slow
+def test_cfp_content(tmp_path):
+    shutil.copytree(Path("fixtures/simple"), tmp_path, dirs_exist_ok=True)
+    shutil.copy2(Path("cfp.yml"), tmp_path)
+    generate(tmp_path / "cfp.yml", tmp_path / "README.md")
+
+    assert (tmp_path / "README.md").read_text().split('<!-- events -->')[1].splitlines()
