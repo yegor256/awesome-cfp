@@ -61,6 +61,7 @@ def test_http_fail():
         generate("fixtures/simple/input.yml", "fixtures/simple/README.md")
 
 
+@pytest.mark.usefixtures("_mock_http")
 def test_expired_date_updated(tmp_path):
     shutil.copytree(Path("fixtures/update-expired-date"), tmp_path, dirs_exist_ok=True)
     generate(tmp_path / "input.yml", tmp_path / "README.md")
