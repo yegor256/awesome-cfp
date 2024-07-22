@@ -112,9 +112,13 @@ def build_row(conf_name: str, conf_info: list[dict], markdown_table_row_template
 
 
 def md_rows(yaml_as_dict: dict[str, ConfInfoDict], markdown_table_row_template: str):
+    sorting_dict = {char: idx for idx, char in enumerate(["A*", "A", "B", "C", "D", "E", "F"])}
     return [
         build_row(conf_name, conf_info, markdown_table_row_template)
-        for conf_name, conf_info in yaml_as_dict.items()
+        for conf_name, conf_info in sorted(
+            yaml_as_dict.items(),
+            key=lambda x: sorting_dict[x[1]["rank"]]
+        )
     ]
 
 
