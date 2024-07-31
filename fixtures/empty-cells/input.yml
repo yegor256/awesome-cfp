@@ -23,7 +23,7 @@
 "ABC":
   year: "2099"
   url: "https://conf.researchr.org/series/abc"
-  publisher: IEEE
+  publisher:
   rank: "C"
   core: "https://portal.core.edu.au/conf-ranks/2099"
   scope: "SE"

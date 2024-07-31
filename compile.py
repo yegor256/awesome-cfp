@@ -100,7 +100,7 @@ def render_date(raw_date: RawDateT | None):
 def build_row(conf_name: str, conf_info: list[dict], markdown_table_row_template: str):
     return markdown_table_row_template.format(
         name=build_name(conf_name, conf_info),
-        publisher=conf_info["publisher"],
+        publisher=conf_info["publisher"] or "",
         rank="[{0}](<{1}>)".format(conf_info["rank"], validate_url(conf_info["core"])),
         scope=conf_info["scope"],
         short=conf_info["short"] or "",
