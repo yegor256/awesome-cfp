@@ -30,12 +30,12 @@ please send us a pull request.
 | [EASE'24](<https://conf.researchr.org/series/ease>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1022>) | SE |  | 10 |  | closed | IT |
 | [EASE-NIER'24](<https://conf.researchr.org/track/ease-2024/ease-2024-nier>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1221>) | SE | 6 |  |  | closed | IT |
 | [ECSA'24](<https://conf.researchr.org/home/ecsa-2024>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/2165>) | SA |  | 16 | LNCS | closed | LU |
-| [ESOP'25](<https://etaps.org/2025/conferences/esop/>) | None | [A](<https://portal.core.edu.au/conf-ranks/514>) | PL |  | 25 | LNCS | closed | CZ |
+| [ESOP'25](<https://etaps.org/2025/conferences/esop/>) |  | [A](<https://portal.core.edu.au/conf-ranks/514>) | PL |  | 25 | LNCS | closed | CZ |
 | [ICFP'24](<https://icfp24.sigplan.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | 12 | 25 | 1C | closed | IT |
 | [ICFP-SRC'24](<https://icfp24.sigplan.org/track/icfp-2024-student-research-competition>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | 3 |  | 1C | closed | IT |
 | [ICPC'24](<https://conf.researchr.org/home/icpc-2024>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1181>) | SE |  | 10 |  |  | PT |
 | [ICSA'25](<https://conf.researchr.org/home/icsa-2025>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/791>) | SE, SA | 8 | 10 |  | 24-Oct | DK |
-| [ICSM'24](<https://waset.org/software-maintenance-conference-in-july-2024-in-london>) | None | [A](<https://portal.core.edu.au/conf-ranks/676>) | SE |  |  |  | closed | UK |
+| [ICSM'24](<https://waset.org>) |  | [A](<https://portal.core.edu.au/conf-ranks/676>) | SE |  |  |  | closed | UK |
 | [ICSME'24](<https://conf.researchr.org/home/icsme-2024>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/676>) | SE |  | 10 |  | closed | US |
 | [ICST'25](<https://conf.researchr.org/series/icst>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/1221>) | ST |  | 10 | 2C | 24-Sep | IT |
 | [ISSRE'24](<https://issre.github.io/2024/index.html>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/1411>) | SE | 10 | 12 | 2C | closed | JP |
