@@ -81,9 +81,13 @@ def test_cfp_content(tmp_path):
 
 
 @pytest.mark.slow
-def test_links(subtests):
-    for _, conf_info in yaml.safe_load(Path("cfp.yml").read_text()).items():
-        with subtests.test(msg="Url: {0} failed".format(conf_info["core"])):
-            assert httpx.get(conf_info["core"]).status_code in range(200, 400)
-        with subtests.test(msg="Url: {0} failed".format(conf_info["url"])):
-            assert httpx.get(conf_info["url"]).status_code in range(200, 400)
+@pytest.mark.parametrize(
+    'url',
+    [
+        conf_info["core"] for conf_info in yaml.safe_load(Path("cfp.yml").read_text()).values()
+    ] + [
+        conf_info["url"] for conf_info in yaml.safe_load(Path("cfp.yml").read_text()).values()
+    ]
+)
+def test_links(url):
+    assert httpx.get(url).status_code in range(200, 400)
