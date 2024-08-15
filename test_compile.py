@@ -20,7 +20,6 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-import operator
 import shutil
 from pathlib import Path
 
@@ -86,7 +85,7 @@ def test_cfp_content(tmp_path):
 @pytest.mark.parametrize(
     "url",
     flatten([
-        operator.itemgetter("core", "url")(conf_info)
+        (conf_info["core"], conf_info["url"])
         for conf_info in yaml.safe_load(Path("cfp.yml").read_text()).values()
     ]),
 )
