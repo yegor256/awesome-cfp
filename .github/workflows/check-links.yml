@@ -20,8 +20,11 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 ---
-name: tests
-on: [ "push", "pull_request" ]
+name: weekly-check-links
+on:
+  schedule:
+    - cron: '38 1 * * 1'
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-22.04
@@ -33,5 +36,5 @@ jobs:
           python-version: "3.12.5"
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Run pytest
-        run: pytest
+      - name: Check links
+        run: pytest test_compile.py::test_links

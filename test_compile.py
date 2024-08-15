@@ -25,6 +25,8 @@ from pathlib import Path
 
 import httpx
 import pytest
+import yaml
+from more_itertools import flatten
 
 from compile import InvalidUrlError, generate
 
@@ -77,3 +79,15 @@ def test_cfp_content(tmp_path):
     generate(tmp_path / "cfp.yml", tmp_path / "README.md")
 
     assert (tmp_path / "README.md").read_text().split('<!-- events -->')[1].splitlines()
+
+
+@pytest.mark.slow
+@pytest.mark.parametrize(
+    "url",
+    flatten(
+        (conf_info["core"], conf_info["url"])
+        for conf_info in yaml.safe_load(Path("cfp.yml").read_text()).values()
+    ),
+)
+def test_links(url):
+    assert httpx.get(url).status_code in range(200, 400)
