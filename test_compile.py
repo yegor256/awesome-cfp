@@ -23,9 +23,9 @@
 import shutil
 from pathlib import Path
 
-import yaml
 import httpx
 import pytest
+import yaml
 
 from compile import InvalidUrlError, generate
 
