@@ -20,12 +20,14 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+import operator
 import shutil
 from pathlib import Path
 
 import httpx
 import pytest
 import yaml
+from more_itertools import flatten
 
 from compile import InvalidUrlError, generate
 
@@ -82,12 +84,11 @@ def test_cfp_content(tmp_path):
 
 @pytest.mark.slow
 @pytest.mark.parametrize(
-    'url',
-    [
-        conf_info["core"] for conf_info in yaml.safe_load(Path("cfp.yml").read_text()).values()
-    ] + [
-        conf_info["url"] for conf_info in yaml.safe_load(Path("cfp.yml").read_text()).values()
-    ]
+    "url",
+    list(flatten([
+        operator.itemgetter("core", "url")(conf_info)
+        for conf_info in yaml.safe_load(Path("cfp.yml").read_text()).values()
+    ])),
 )
 def test_links(url):
     assert httpx.get(url).status_code in range(200, 400)
