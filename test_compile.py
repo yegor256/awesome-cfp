@@ -85,10 +85,10 @@ def test_cfp_content(tmp_path):
 @pytest.mark.slow
 @pytest.mark.parametrize(
     "url",
-    list(flatten([
+    flatten([
         operator.itemgetter("core", "url")(conf_info)
         for conf_info in yaml.safe_load(Path("cfp.yml").read_text()).values()
-    ])),
+    ]),
 )
 def test_links(url):
     assert httpx.get(url).status_code in range(200, 400)
