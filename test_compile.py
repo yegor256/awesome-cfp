@@ -23,6 +23,7 @@
 import shutil
 from pathlib import Path
 
+import yaml
 import httpx
 import pytest
 
@@ -71,9 +72,9 @@ def test_expired_date_updated(tmp_path):
 
 
 @pytest.mark.slow
-def test_cfp_content(tmp_path):
-    shutil.copytree(Path("fixtures/simple"), tmp_path, dirs_exist_ok=True)
-    shutil.copy2(Path("cfp.yml"), tmp_path)
-    generate(tmp_path / "cfp.yml", tmp_path / "README.md")
-
-    assert (tmp_path / "README.md").read_text().split('<!-- events -->')[1].splitlines()
+def test_links(subtests):
+    for _, conf_info in yaml.safe_load(Path("cfp.yml").read_text()).items():
+        with subtests.test(msg="Url: {0} failed".format(conf_info["core"])):
+            assert httpx.get(conf_info["core"]).status_code in range(200, 400)
+        with subtests.test(msg="Url: {0} failed".format(conf_info["url"])):
+            assert httpx.get(conf_info["url"]).status_code in range(200, 400)
