@@ -1,4 +1,3 @@
-#!/bin/bash -e
 # MIT License
 #
 # Copyright (c) 2024 Yegor Bugayenko
@@ -20,14 +19,22 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-
-for dir in fixtures/*
-do
-  python3 compile.py "$dir/input.yml" "$dir/README.md"
-  diff "$dir/expected.md" "$dir/README.md"
-  if [ $? -eq 0 ]; then
-    echo "Test passed for $dir"
-  else
-    echo "Test failed for $dir"
-  fi
-done
+---
+name: weekly-check-links
+on:
+  schedule:
+    - cron: '38 1 * * 1'
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12.5"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Check links
+        run: pytest test_compile.py::test_links

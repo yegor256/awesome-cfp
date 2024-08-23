@@ -19,23 +19,16 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-
-[tool:pytest]
-testpaths =
-    compile.py
-    test_compile.py
-addopts =
-    --doctest-modules
-    --cov
-    --cov-report=term-missing:skip-covered
-    --cov-fail-under=100
-markers = 
-    slow: marks tests as slow (deselect with '-m "not slow"')
-
-[flake8]
-max-line-length = 120
-exps-for-one-empty-line = 0
-ignore =
-    # Ingore missing docstrings
-    D,
-inline-quotes = "
+---
+ABC:
+  cfp: "2020-01-01"
+  core: https://portal.core.edu.au/conf-ranks/2099
+  country: Antarctica
+  format: 1C
+  full: '10'
+  publisher: IEEE
+  rank: C
+  scope: SE
+  short: '2'
+  url: https://conf.researchr.org/series/abc
+  year: '2099'

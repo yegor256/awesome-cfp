@@ -19,23 +19,29 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+---
+"ABC":
+  year: "2099"
+  url: "https://conf.researchr.org/series/abc"
+  publisher: IEEE
+  rank: "C"
+  core: "https://portal.core.edu.au/conf-ranks/2099"
+  scope: "SE"
+  short: "2"
+  full: "10"
+  format: 1C
+  cfp: "2099-12-31"
+  country: Antarctica
 
-[tool:pytest]
-testpaths =
-    compile.py
-    test_compile.py
-addopts =
-    --doctest-modules
-    --cov
-    --cov-report=term-missing:skip-covered
-    --cov-fail-under=100
-markers = 
-    slow: marks tests as slow (deselect with '-m "not slow"')
-
-[flake8]
-max-line-length = 120
-exps-for-one-empty-line = 0
-ignore =
-    # Ingore missing docstrings
-    D,
-inline-quotes = "
+"ICCQ":
+  year: "2050"
+  url: "https://conf.researchr.org/series/abc"
+  publisher: ICCQ
+  rank: "A*"
+  core: "https://portal.core.edu.au/conf-ranks/2099"
+  scope: "SE"
+  short: "2"
+  full: "10"
+  format: 1C
+  cfp: "2050-12-31"
+  country: Russia

@@ -20,470 +20,459 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 ---
-"PLDI":
-  - year: 2025
-  - url: "https://conf.researchr.org/series/pldi"
-  - publisher: ACM
-  - rank: "A*"
-  - core: "https://portal.core.edu.au/conf-ranks/84"
-  - scope: PL
-  - short:
-  - full: 20
-  - format: 1C
-  - cfp:
-  - country: DK
-
-"POPL":
-  - year: 2025
-  - url: "https://conf.researchr.org/home/POPL-2025"
-  - publisher: ACM
-  - rank: "A*"
-  - core: "https://portal.core.edu.au/conf-ranks/82"
-  - scope: SE
-  - short:
-  - full: 25
-  - format:
-  - cfp: "2025-07-11"
-  - country: US
-
-"ICSE":
-  - year: 2025
-  - url: "https://conf.researchr.org/home/icse-2025"
-  - publisher: ACM
-  - rank: "A*"
-  - core: "https://portal.core.edu.au/conf-ranks/1209"
-  - scope: SE
-  - short:
-  - full: 10
-  - format:
-  - cfp: "2025-08-02"
-  - country: CA
-
-"ICSE-NIER":
-  - year: 2025
-  - url: "https://conf.researchr.org/track/icse-2025/icse-2025-nier"
-  - publisher: ACM
-  - rank: "A*"
-  - core: "https://portal.core.edu.au/conf-ranks/1209"
-  - scope: SE
-  - short: 4
-  - full:
-  - format:
-  - cfp: "2025-10-10"
-  - country: CA
-
-"ICSE-SRC":
-  - year: 2025
-  - url: "https://conf.researchr.org/track/icse-2025/icse-2025-SRC"
-  - publisher: ACM
-  - rank: "A*"
-  - core: "https://portal.core.edu.au/conf-ranks/1209"
-  - scope: SE
-  - short: 2
-  - full:
-  - format:
-  - cfp:
-  - country: CA
-
-"FSE":
-  - year: 2025
-  - url: "https://conf.researchr.org/home/fse-2025"
-  - publisher: ACM
-  - rank: "A*"
-  - core: "https://portal.core.edu.au/conf-ranks/52"
-  - scope: SE
-  - short:
-  - full: 18
-  - format:
-  - cfp: "2024-09-05"
-  - country: "NO"
-
-"ASE":
-  - year: 2024
-  - url: "https://conf.researchr.org/home/ase-2024"
-  - publisher: ACM
-  - rank: "A*"
-  - core: "https://portal.core.edu.au/conf-ranks/279"
-  - scope: SE
-  - short:
-  - full: 10
-  - format:
-  - cfp: "2024-06-07"
-  - country: US
-
-"ASPLOS":
-  - year: 2025
-  - url: "https://www.asplos-conference.org/asplos-2025-call-for-papers"
-  - publisher: ACM
-  - rank: "A*"
-  - core: "https://portal.core.edu.au/conf-ranks/147"
-  - scope: SE
-  - short:
-  - full: 11
-  - format:
-  - cfp: "2025-06-24"
-  - country: US
-
-"ICFP":
-  - year: 2024
-  - url: "https://icfp24.sigplan.org"
-  - publisher: ACM
-  - rank: "A"
-  - core: "https://portal.core.edu.au/conf-ranks/1037"
-  - scope: PL
-  - short: 12
-  - full: 25
-  - format: 1C
-  - cfp: "closed"
-  - country: IT
-
-"ICFP-SRC":
-  - year: 2024
-  - url: "https://icfp24.sigplan.org/track/icfp-2024-student-research-competition"
-  - publisher: ACM
-  - rank: "A"
-  - core: "https://portal.core.edu.au/conf-ranks/1037"
-  - scope: PL
-  - short: 3
-  - full:
-  - format: 1C
-  - cfp: "2024-05-23"
-  - country: IT
-
-"SPLASH":
-  - year: 2024
-  - url: "https://2024.splashcon.org"
-  - publisher: ACM
-  - rank: "A"
-  - core: "https://portal.core.edu.au/conf-ranks/18"
-  - scope: PL
-  - short:
-  - full:
-  - format:
-  - cfp: "closed"
-  - country: US
-
-"SPLASH-SAS":
-  - year: 2024
-  - url: "https://2024.splashcon.org/home/sas-2024"
-  - publisher: ACM
-  - rank: "A"
-  - core: "https://portal.core.edu.au/conf-ranks/18"
-  - scope: PL
-  - short:
-  - full:
-  - format:
-  - cfp: "2024-05-05"
-  - country: US
-
-"SPLASH-Onward!":
-  - year: 2024
-  - url: "https://2024.splashcon.org/track/splash-2024-Onward-Essays"
-  - publisher: ACM
-  - rank: "A"
-  - core: "https://portal.core.edu.au/conf-ranks/18"
-  - scope: PL
-  - short:
-  - full:
-  - format:
-  - cfp: "2024-04-25"
-  - country: US
-
-"CGO":
-  - year: 2025
-  - url: "https://conf.researchr.org/series/cgo"
-  - publisher: ACM
-  - rank: "A"
-  - core: "https://portal.core.edu.au/conf-ranks/1362"
-  - scope: PL
-  - short:
-  - full: 11
-  - format:
-  - cfp:
-  - country: US
-
-"ICSA":
-  - year: 2025
-  - url: "https://conf.researchr.org/home/icsa-2025"
-  - publisher: IEEE
-  - rank: "A"
-  - core: "https://portal.core.edu.au/conf-ranks/791"
-  - scope: SE, SA
-  - short: 8
-  - full: 10
-  - format:
-  - cfp: "2024-10-28"
-  - country: DK
-
-"MSR":
-  - year: 2025
-  - url: "https://www.msrconf.org"
-  - publisher: IEEE
-  - rank: "A"
-  - core: "https://portal.core.edu.au/conf-ranks/711"
-  - scope: SE
-  - short: 4
-  - full: 10
-  - format:
-  - cfp: ""
-  - country: CA
-
-"ICSME":
-  - year: 2024
-  - url: "https://conf.researchr.org/home/icsme-2024"
-  - publisher: IEEE
-  - rank: "A"
-  - core: "https://portal.core.edu.au/conf-ranks/676"
-  - scope: SE
-  - short:
-  - full: 10
-  - format:
-  - cfp: "2024-04-11"
-  - country: US
-
-"SANER":
-  - year: 2025
-  - url: "https://conf.researchr.org/series/saner"
-  - publisher: IEEE
-  - rank: "A"
-  - core: "https://portal.core.edu.au/conf-ranks/2280"
-  - scope: SE
-  - short:
-  - full: 12
-  - format:
-  - cfp: ""
-  - country: CA
-
-"ISSTA":
-  - year: 2025
-  - url: "https://conf.researchr.org/home/issta-2025"
-  - publisher: ACM
-  - rank: "A"
-  - core: "https://portal.core.edu.au/conf-ranks/1412"
-  - scope: ST
-  - short:
-  - full: 18
-  - format: 1C
-  - cfp: "2024-10-31"
-  - country: "NO"
-
-"ICSM":
-  - year: 2024
-  - url: "https://waset.org/software-maintenance-conference-in-july-2024-in-london"
-  - publisher:
-  - rank: "A"
-  - core: "https://portal.core.edu.au/conf-ranks/676"
-  - scope: SE
-  - short:
-  - full:
-  - format:
-  - cfp: "2024-03-25"
-  - country: UK
-
-"ESOP":
-  - year: 2025
-  - url: "https://etaps.org/2025/conferences/esop/"
-  - publisher:
-  - rank: "A"
-  - core: "https://portal.core.edu.au/conf-ranks/514"
-  - scope: PL
-  - short:
-  - full: 25
-  - format: LNCS
-  - cfp: "2024-05-30"
-  - country: CZ
-
-"ICPC":
-  - year: 2024
-  - url: "https://conf.researchr.org/home/icpc-2024"
-  - publisher: ACM
-  - rank: "A"
-  - core: "https://portal.core.edu.au/conf-ranks/1181"
-  - scope: SE
-  - short:
-  - full: 10
-  - format:
-  - cfp:
-  - country: PT
-
-"ECSA":
-  - year: 2024
-  - url: "https://conf.researchr.org/home/ecsa-2024"
-  - publisher: Springer
-  - rank: "A"
-  - core: "https://portal.core.edu.au/conf-ranks/2165"
-  - scope: SA
-  - short:
-  - full: 16
-  - format: LNCS
-  - cfp: "2024-04-18"
-  - country: LU
-
-"ICST":
-  - year: 2025
-  - url: "https://conf.researchr.org/series/icst"
-  - publisher: IEEE
-  - rank: "A"
-  - core: "https://portal.core.edu.au/conf-ranks/1221"
-  - scope: ST
-  - short:
-  - full: 10
-  - format: 2C
-  - cfp: "2024-09-25"
-  - country: IT
-
-"EASE":
-  - year: 2024
-  - url: "https://conf.researchr.org/series/ease"
-  - publisher: ACM
-  - rank: "A"
-  - core: "https://portal.core.edu.au/conf-ranks/1022"
-  - scope: SE
-  - short:
-  - full: 10
-  - format:
-  - cfp: "2024-01-18"
-  - country: IT
-
-"EASE-NIER":
-  - year: 2024
-  - url: "https://conf.researchr.org/track/ease-2024/ease-2024-nier"
-  - publisher: ACM
-  - rank: "A"
-  - core: "https://portal.core.edu.au/conf-ranks/1221"
-  - scope: SE
-  - short: 6
-  - full:
-  - format:
-  - cfp: "2024-03-10"
-  - country: IT
-
-"CC":
-  - year: 2025
-  - url: "https://conf.researchr.org/series/CC"
-  - publisher: ACM
-  - rank: "B"
-  - core: "https://portal.core.edu.au/conf-ranks/936"
-  - scope: PL
-  - short:
-  - full: 10
-  - format: 2C
-  - cfp:
-  - country: UK
-
-"APLAS":
-  - year: 2024
-  - url: "https://conf.researchr.org/home/aplas-2024"
-  - publisher: Springer
-  - rank: "B"
-  - core: "https://portal.core.edu.au/conf-ranks/171"
-  - scope: PL
-  - short:
-  - full: 17
-  - format: LNCS
-  - cfp: "2024-05-24"
-  - country: JP
-
-"APLAS-SRC":
-  - year: 2025
-  - url: "https://conf.researchr.org/track/aplas-2024/src-and-posters"
-  - publisher: ACM
-  - rank: "B"
-  - core: "https://portal.core.edu.au/conf-ranks/936"
-  - scope: PL
-  - short: 3
-  - full:
-  - format: LNCS
-  - cfp: "2024-07-19"
-  - country: JP
-
-"PPoPP":
-  - year: 2024
-  - url: "https://conf.researchr.org/home/ppopp-2024"
-  - publisher: ACM
-  - rank: "B"
-  - core: "https://portal.core.edu.au/conf-ranks/1691"
-  - scope: PL
-  - short:
-  - full: 10
-  - format:
-  - cfp:
-  - country: UK
-
-"SEAA":
-  - year: 2024
-  - url: "https://dsd-seaa.com/seaa2024"
-  - publisher: IEEE
-  - rank: "B"
-  - core: "https://portal.core.edu.au/conf-ranks/464"
-  - scope: SE, PL
-  - short: 4
-  - full: 8
-  - format:
-  - cfp: "2024-05-05"
-  - country: FR
-
-"SLE":
-  - year: 2024
-  - url: "http://www.sleconf.org/2024"
-  - publisher: ACM
-  - rank: "B"
-  - core: "https://portal.core.edu.au/conf-ranks/1215"
-  - scope: SE, PL
-  - short: 6
-  - full: 12
-  - format: 2C
-  - cfp: "2024-06-14"
-  - country: US
-
-"PPDP":
-  - year: 2024
-  - url: "https://ppdp2024.github.io"
-  - publisher: ACM
-  - rank: "C"
-  - core: "https://portal.core.edu.au/conf-ranks/1176"
-  - scope: PL
-  - short: 5
-  - full: 12
-  - format: 2C
-  - cfp: "2024-05-13"
-  - country: IT
-
-"ICFEM":
-  - year: 2024
-  - url: "https://icfem2024.info"
-  - publisher: Springer
-  - rank: "C"
-  - core: "https://portal.core.edu.au/conf-ranks/1031"
-  - scope: SE
-  - short: 12
-  - full: 18
-  - format: LNCS
-  - cfp: "2024-06-24"
-  - country: JP
-
-"SCAM":
-  - year: 2024
-  - url: "https://conf.researchr.org/home/scam-2024"
-  - publisher: IEEE
-  - rank: "C"
-  - core: "https://portal.core.edu.au/conf-ranks/718"
-  - scope: SE
-  - short:
-  - full: 12
-  - format:
-  - cfp: "2024-06-21"
-  - country: US
-
-"QRS":
-  - year: 2024
-  - url: "https://qrs24.techconf.org"
-  - publisher: IEEE
-  - rank: "C"
-  - core: "https://portal.core.edu.au/conf-ranks/1185"
-  - scope: SE
-  - short: 10
-  - full: 12
-  - format: 2C
-  - cfp: "2024-04-15"
-  - country: UK
+APLAS:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/171
+  country: JP
+  format: LNCS
+  full: 17
+  publisher: Springer
+  rank: B
+  scope: PL
+  short: null
+  url: https://conf.researchr.org/home/aplas-2024
+  year: 2024
+APLAS-SRC:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/936
+  country: JP
+  format: LNCS
+  full: null
+  publisher: ACM
+  rank: B
+  scope: PL
+  short: 3
+  url: https://conf.researchr.org/track/aplas-2024/src-and-posters
+  year: 2025
+ASE:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/279
+  country: US
+  format: null
+  full: 10
+  publisher: ACM
+  rank: A*
+  scope: SE
+  short: null
+  url: https://conf.researchr.org/home/ase-2024
+  year: 2024
+ASPLOS:
+  cfp: '2025-06-24'
+  core: https://portal.core.edu.au/conf-ranks/147
+  country: US
+  format: null
+  full: 11
+  publisher: ACM
+  rank: A*
+  scope: SE
+  short: null
+  url: https://www.asplos-conference.org/asplos2025/cfp/
+  year: 2025
+CC:
+  cfp: null
+  core: https://portal.core.edu.au/conf-ranks/936
+  country: UK
+  format: 2C
+  full: 10
+  publisher: ACM
+  rank: B
+  scope: PL
+  short: null
+  url: https://conf.researchr.org/series/CC
+  year: 2025
+CGO:
+  cfp: null
+  core: https://portal.core.edu.au/conf-ranks/1362
+  country: US
+  format: null
+  full: 11
+  publisher: ACM
+  rank: A
+  scope: PL
+  short: null
+  url: https://conf.researchr.org/series/cgo
+  year: 2025
+CLEI:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/1589
+  country: AR
+  format: null
+  full: 10
+  publisher: IEEE
+  rank: C
+  scope: SE
+  short: 4
+  url: https://conferencia2024.clei.org
+  year: 2024
+EASE:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/1022
+  country: IT
+  format: null
+  full: 10
+  publisher: ACM
+  rank: A
+  scope: SE
+  short: null
+  url: https://conf.researchr.org/series/ease
+  year: 2024
+EASE-NIER:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/1221
+  country: IT
+  format: null
+  full: null
+  publisher: ACM
+  rank: A
+  scope: SE
+  short: 6
+  url: https://conf.researchr.org/track/ease-2024/ease-2024-nier
+  year: 2024
+ECSA:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/2165
+  country: LU
+  format: LNCS
+  full: 16
+  publisher: Springer
+  rank: A
+  scope: SA
+  short: null
+  url: https://conf.researchr.org/home/ecsa-2024
+  year: 2024
+ESOP:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/514
+  country: CZ
+  format: LNCS
+  full: 25
+  publisher: null
+  rank: A
+  scope: PL
+  short: null
+  url: https://etaps.org/2025/conferences/esop/
+  year: 2025
+FSE:
+  cfp: '2024-09-05'
+  core: https://portal.core.edu.au/conf-ranks/52
+  country: 'NO'
+  format: null
+  full: 18
+  publisher: ACM
+  rank: A*
+  scope: SE
+  short: null
+  url: https://conf.researchr.org/home/fse-2025
+  year: 2025
+ICFEM:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/1031
+  country: JP
+  format: LNCS
+  full: 18
+  publisher: Springer
+  rank: C
+  scope: SE
+  short: 12
+  url: https://icfem2024.info
+  year: 2024
+ICFP:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/1037
+  country: IT
+  format: 1C
+  full: 25
+  publisher: ACM
+  rank: A
+  scope: PL
+  short: 12
+  url: https://icfp24.sigplan.org
+  year: 2024
+ICFP-SRC:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/1037
+  country: IT
+  format: 1C
+  full: null
+  publisher: ACM
+  rank: A
+  scope: PL
+  short: 3
+  url: https://icfp24.sigplan.org/track/icfp-2024-student-research-competition
+  year: 2024
+ICPC:
+  cfp: null
+  core: https://portal.core.edu.au/conf-ranks/1181
+  country: PT
+  format: null
+  full: 10
+  publisher: ACM
+  rank: A
+  scope: SE
+  short: null
+  url: https://conf.researchr.org/home/icpc-2024
+  year: 2024
+ICSA:
+  cfp: '2024-10-28'
+  core: https://portal.core.edu.au/conf-ranks/791
+  country: DK
+  format: null
+  full: 10
+  publisher: IEEE
+  rank: A
+  scope: SE, SA
+  short: 8
+  url: https://conf.researchr.org/home/icsa-2025
+  year: 2025
+ICSE:
+  cfp: '2025-08-02'
+  core: https://portal.core.edu.au/conf-ranks/1209
+  country: CA
+  format: null
+  full: 10
+  publisher: ACM
+  rank: A*
+  scope: SE
+  short: null
+  url: https://conf.researchr.org/home/icse-2025
+  year: 2025
+ICSE-NIER:
+  cfp: '2025-10-10'
+  core: https://portal.core.edu.au/conf-ranks/1209
+  country: CA
+  format: null
+  full: null
+  publisher: ACM
+  rank: A*
+  scope: SE
+  short: 4
+  url: https://conf.researchr.org/track/icse-2025/icse-2025-nier
+  year: 2025
+ICSE-SRC:
+  cfp: null
+  core: https://portal.core.edu.au/conf-ranks/1209
+  country: CA
+  format: null
+  full: null
+  publisher: ACM
+  rank: A*
+  scope: SE
+  short: 2
+  url: https://conf.researchr.org/track/icse-2025/icse-2025-SRC
+  year: 2025
+ICSME:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/676
+  country: US
+  format: null
+  full: 10
+  publisher: IEEE
+  rank: A
+  scope: SE
+  short: null
+  url: https://conf.researchr.org/home/icsme-2024
+  year: 2024
+ICST:
+  cfp: '2024-09-25'
+  core: https://portal.core.edu.au/conf-ranks/1221
+  country: IT
+  format: 2C
+  full: 10
+  publisher: IEEE
+  rank: A
+  scope: ST
+  short: null
+  url: https://conf.researchr.org/series/icst
+  year: 2025
+ISSRE:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/1411
+  country: JP
+  format: 2C
+  full: 12
+  publisher: IEEE
+  rank: A
+  scope: SE
+  short: 10
+  url: https://issre.github.io/2024/index.html
+  year: 2024
+ISSTA:
+  cfp: '2024-10-31'
+  core: https://portal.core.edu.au/conf-ranks/1412
+  country: 'NO'
+  format: 1C
+  full: 18
+  publisher: ACM
+  rank: A
+  scope: ST
+  short: null
+  url: https://conf.researchr.org/home/issta-2025
+  year: 2025
+MSR:
+  cfp: ''
+  core: https://portal.core.edu.au/conf-ranks/711
+  country: CA
+  format: null
+  full: 10
+  publisher: IEEE
+  rank: A
+  scope: SE
+  short: 4
+  url: https://www.msrconf.org
+  year: 2025
+PLDI:
+  cfp: null
+  core: https://portal.core.edu.au/conf-ranks/84
+  country: DK
+  format: 1C
+  full: 20
+  publisher: ACM
+  rank: A*
+  scope: PL
+  short: null
+  url: https://conf.researchr.org/series/pldi
+  year: 2025
+POPL:
+  cfp: '2025-07-11'
+  core: https://portal.core.edu.au/conf-ranks/82
+  country: US
+  format: null
+  full: 25
+  publisher: ACM
+  rank: A*
+  scope: SE
+  short: null
+  url: https://conf.researchr.org/home/POPL-2025
+  year: 2025
+PPDP:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/1176
+  country: IT
+  format: 2C
+  full: 12
+  publisher: ACM
+  rank: C
+  scope: PL
+  short: 5
+  url: https://ppdp2024.github.io
+  year: 2024
+PPoPP:
+  cfp: null
+  core: https://portal.core.edu.au/conf-ranks/1691
+  country: UK
+  format: null
+  full: 10
+  publisher: ACM
+  rank: B
+  scope: PL
+  short: null
+  url: https://conf.researchr.org/home/ppopp-2024
+  year: 2024
+QRS:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/1185
+  country: UK
+  format: 2C
+  full: 12
+  publisher: IEEE
+  rank: C
+  scope: SE
+  short: 10
+  url: https://qrs24.techconf.org
+  year: 2024
+SANER:
+  cfp: ''
+  core: https://portal.core.edu.au/conf-ranks/2280
+  country: CA
+  format: null
+  full: 12
+  publisher: IEEE
+  rank: A
+  scope: SE
+  short: null
+  url: https://conf.researchr.org/series/saner
+  year: 2025
+SCAM:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/718
+  country: US
+  format: null
+  full: 12
+  publisher: IEEE
+  rank: C
+  scope: SE
+  short: null
+  url: https://conf.researchr.org/home/scam-2024
+  year: 2024
+SEAA:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/464
+  country: FR
+  format: null
+  full: 8
+  publisher: IEEE
+  rank: B
+  scope: SE, PL
+  short: 4
+  url: https://dsd-seaa.com/seaa2024
+  year: 2024
+SLE:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/1215
+  country: US
+  format: 2C
+  full: 12
+  publisher: ACM
+  rank: B
+  scope: SE, PL
+  short: 6
+  url: http://www.sleconf.org/2024
+  year: 2024
+SPLASH:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/18
+  country: US
+  format: null
+  full: null
+  publisher: ACM
+  rank: A
+  scope: PL
+  short: null
+  url: https://2024.splashcon.org
+  year: 2024
+SPLASH-Onward!:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/18
+  country: US
+  format: null
+  full: null
+  publisher: ACM
+  rank: A
+  scope: PL
+  short: null
+  url: https://2024.splashcon.org/track/splash-2024-Onward-Essays
+  year: 2024
+SPLASH-SAS:
+  cfp: closed
+  core: https://portal.core.edu.au/conf-ranks/18
+  country: US
+  format: null
+  full: null
+  publisher: ACM
+  rank: A
+  scope: PL
+  short: null
+  url: https://2024.splashcon.org/home/sas-2024
+  year: 2024
+REFSQ:
+  cfp: '2024-11-08'
+  core: https://portal.core.edu.au/conf-ranks/1521
+  country: ES
+  format: LNCS
+  full: 15
+  publisher: Springer
+  rank: B
+  scope: SE
+  short: 8
+  url: https://2025.refsq.org
+  year: 2025
