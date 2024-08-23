@@ -476,3 +476,15 @@ REFSQ:
   short: 8
   url: https://2025.refsq.org
   year: 2025
+SEAMS:
+  cfp: '2024-10-08'
+  core: https://portal.core.edu.au/conf-ranks/2281
+  country: CA
+  format: null
+  full: 10
+  publisher: IEEE
+  rank: A
+  scope: SE
+  short: 6
+  url: https://conf.researchr.org/home/seams-2025
+  year: 2025
