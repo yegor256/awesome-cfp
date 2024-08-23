@@ -35,13 +35,13 @@ please send us a pull request.
 | [ICFP-SRC'24](<https://icfp24.sigplan.org/track/icfp-2024-student-research-competition>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | 3 |  | 1C | closed | IT |
 | [ICPC'24](<https://conf.researchr.org/home/icpc-2024>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1181>) | SE |  | 10 |  |  | PT |
 | [ICSA'25](<https://conf.researchr.org/home/icsa-2025>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/791>) | SE, SA | 8 | 10 |  | 24-Oct | DK |
-| [ICSM'24](<https://waset.org>) |  | [A](<https://portal.core.edu.au/conf-ranks/676>) | SE |  |  |  | closed | UK |
 | [ICSME'24](<https://conf.researchr.org/home/icsme-2024>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/676>) | SE |  | 10 |  | closed | US |
 | [ICST'25](<https://conf.researchr.org/series/icst>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/1221>) | ST |  | 10 | 2C | 24-Sep | IT |
 | [ISSRE'24](<https://issre.github.io/2024/index.html>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/1411>) | SE | 10 | 12 | 2C | closed | JP |
 | [ISSTA'25](<https://conf.researchr.org/home/issta-2025>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1412>) | ST |  | 18 | 1C | 24-Oct | NO |
 | [MSR'25](<https://www.msrconf.org>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/711>) | SE | 4 | 10 |  |  | CA |
 | [SANER'25](<https://conf.researchr.org/series/saner>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/2280>) | SE |  | 12 |  |  | CA |
+| [SEAMS'25](<https://conf.researchr.org/home/seams-2025>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/2281>) | SE | 6 | 10 |  | 24-Oct | CA |
 | [SPLASH'24](<https://2024.splashcon.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/18>) | PL |  |  |  | closed | US |
 | [SPLASH-Onward!'24](<https://2024.splashcon.org/track/splash-2024-Onward-Essays>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/18>) | PL |  |  |  | closed | US |
 | [SPLASH-SAS'24](<https://2024.splashcon.org/home/sas-2024>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/18>) | PL |  |  |  | closed | US |
@@ -49,6 +49,7 @@ please send us a pull request.
 | [APLAS-SRC'25](<https://conf.researchr.org/track/aplas-2024/src-and-posters>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/936>) | PL | 3 |  | LNCS | closed | JP |
 | [CC'25](<https://conf.researchr.org/series/CC>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/936>) | PL |  | 10 | 2C |  | UK |
 | [PPoPP'24](<https://conf.researchr.org/home/ppopp-2024>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/1691>) | PL |  | 10 |  |  | UK |
+| [REFSQ'25](<https://2025.refsq.org>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/1521>) | SE | 8 | 15 | LNCS | 24-Nov | ES |
 | [SEAA'24](<https://dsd-seaa.com/seaa2024>) | IEEE | [B](<https://portal.core.edu.au/conf-ranks/464>) | SE, PL | 4 | 8 |  | closed | FR |
 | [SLE'24](<http://www.sleconf.org/2024>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/1215>) | SE, PL | 6 | 12 | 2C | closed | US |
 | [CLEI'24](<https://conferencia2024.clei.org>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/1589>) | SE | 4 | 10 |  | closed | AR |

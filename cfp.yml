@@ -380,6 +380,18 @@ QRS:
   short: 10
   url: https://qrs24.techconf.org
   year: 2024
+REFSQ:
+  cfp: '2024-11-08'
+  core: https://portal.core.edu.au/conf-ranks/1521
+  country: ES
+  format: LNCS
+  full: 15
+  publisher: Springer
+  rank: B
+  scope: SE
+  short: 8
+  url: https://2025.refsq.org
+  year: 2025
 SANER:
   cfp: ''
   core: https://portal.core.edu.au/conf-ranks/2280
@@ -416,6 +428,18 @@ SEAA:
   short: 4
   url: https://dsd-seaa.com/seaa2024
   year: 2024
+SEAMS:
+  cfp: '2024-10-08'
+  core: https://portal.core.edu.au/conf-ranks/2281
+  country: CA
+  format: null
+  full: 10
+  publisher: IEEE
+  rank: A
+  scope: SE
+  short: 6
+  url: https://conf.researchr.org/home/seams-2025
+  year: 2025
 SLE:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1215
@@ -464,27 +488,3 @@ SPLASH-SAS:
   short: null
   url: https://2024.splashcon.org/home/sas-2024
   year: 2024
-REFSQ:
-  cfp: '2024-11-08'
-  core: https://portal.core.edu.au/conf-ranks/1521
-  country: ES
-  format: LNCS
-  full: 15
-  publisher: Springer
-  rank: B
-  scope: SE
-  short: 8
-  url: https://2025.refsq.org
-  year: 2025
-SEAMS:
-  cfp: '2024-10-08'
-  core: https://portal.core.edu.au/conf-ranks/2281
-  country: CA
-  format: null
-  full: 10
-  publisher: IEEE
-  rank: A
-  scope: SE
-  short: 6
-  url: https://conf.researchr.org/home/seams-2025
-  year: 2025
