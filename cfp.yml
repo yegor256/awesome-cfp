@@ -380,6 +380,18 @@ QRS:
   short: 10
   url: https://qrs24.techconf.org
   year: 2024
+REFSQ:
+  cfp: '2024-11-08'
+  core: https://portal.core.edu.au/conf-ranks/1521
+  country: ES
+  format: LNCS
+  full: 15
+  publisher: Springer
+  rank: B
+  scope: SE
+  short: 8
+  url: https://2025.refsq.org
+  year: 2025
 SANER:
   cfp: ''
   core: https://portal.core.edu.au/conf-ranks/2280
@@ -464,15 +476,3 @@ SPLASH-SAS:
   short: null
   url: https://2024.splashcon.org/home/sas-2024
   year: 2024
-REFSQ:
-  cfp: '2024-11-08'
-  core: https://portal.core.edu.au/conf-ranks/1521
-  country: ES
-  format: LNCS
-  full: 15
-  publisher: Springer
-  rank: B
-  scope: SE
-  short: 8
-  url: https://2025.refsq.org
-  year: 2025
