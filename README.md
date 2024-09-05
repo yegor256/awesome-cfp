@@ -1,6 +1,7 @@
 # Curated List of CFPs
 
 [![tests](https://github.com/yegor256/awesome-cfp/actions/workflows/tests.yml/badge.svg)](https://github.com/yegor256/awesome-cfp/actions/workflows/tests.yml)
+[![links-valid](https://github.com/yegor256/awesome-cfp/actions/workflows/check-links.yml/badge.svg)](https://github.com/yegor256/awesome-cfp/actions/workflows/check-links.yml)
 
 This is a curated list of currently open Calls for Papers for computer
 science conferences. You are welcome to make changes and suggest conferences
