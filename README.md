@@ -21,7 +21,7 @@ please send us a pull request.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [ASE'24](<https://conf.researchr.org/home/ase-2024>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/279>) | SE |  | 10 |  | closed | US |
 | [ASPLOS'25](<https://www.asplos-conference.org/asplos2025/cfp/>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/147>) | SE |  | 11 |  | 25-Jun | US |
-| [FSE'25](<https://conf.researchr.org/home/fse-2025>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/52>) | SE |  | 18 |  | 24-Sep | NO |
+| [FSE'25](<https://conf.researchr.org/home/fse-2025>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/52>) | SE |  | 18 |  | closed | NO |
 | [ICSE'25](<https://conf.researchr.org/home/icse-2025>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE |  | 10 |  | 25-Aug | CA |
 | [ICSE-NIER'25](<https://conf.researchr.org/track/icse-2025/icse-2025-nier>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 4 |  |  | 25-Oct | CA |
 | [ICSE-SRC'25](<https://conf.researchr.org/track/icse-2025/icse-2025-SRC>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 2 |  |  |  | CA |
@@ -53,6 +53,7 @@ please send us a pull request.
 | [REFSQ'25](<https://2025.refsq.org>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/1521>) | SE | 8 | 15 | LNCS | 24-Nov | ES |
 | [SEAA'24](<https://dsd-seaa.com/seaa2024>) | IEEE | [B](<https://portal.core.edu.au/conf-ranks/464>) | SE, PL | 4 | 8 |  | closed | FR |
 | [SLE'24](<http://www.sleconf.org/2024>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/1215>) | SE, PL | 6 | 12 | 2C | closed | US |
+| [SSBSE'25](<https://ssbse.info>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/2283>) | SE | 6 | 15 | LNCS |  | BR |
 | [CLEI'24](<https://conferencia2024.clei.org>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/1589>) | SE | 4 | 10 |  | closed | AR |
 | [ICFEM'24](<https://icfem2024.info>) | Springer | [C](<https://portal.core.edu.au/conf-ranks/1031>) | SE | 12 | 18 | LNCS | closed | JP |
 | [PPDP'24](<https://ppdp2024.github.io>) | ACM | [C](<https://portal.core.edu.au/conf-ranks/1176>) | PL | 5 | 12 | 2C | closed | IT |

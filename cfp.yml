@@ -153,7 +153,7 @@ ESOP:
   url: https://etaps.org/2025/conferences/esop/
   year: 2025
 FSE:
-  cfp: '2024-09-05'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/52
   country: 'NO'
   format: null
@@ -489,7 +489,7 @@ SPLASH-SAS:
   url: https://2024.splashcon.org/home/sas-2024
   year: 2024
 SSBSE:
-  cfp:
+  cfp: null
   core: https://portal.core.edu.au/conf-ranks/2283
   country: BR
   format: LNCS
