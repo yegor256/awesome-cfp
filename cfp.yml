@@ -488,3 +488,15 @@ SPLASH-SAS:
   short: null
   url: https://2024.splashcon.org/home/sas-2024
   year: 2024
+SSBSE:
+  cfp:
+  core: https://portal.core.edu.au/conf-ranks/2283
+  country: BR
+  format: LNCS
+  full: 15
+  publisher: Springer
+  rank: B
+  scope: SE
+  short: 6
+  url: https://ssbse.info
+  year: 2025
