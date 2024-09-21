@@ -21,7 +21,7 @@
 # SOFTWARE.
 ---
 docker:
-  image: yegor256/rultor-image:1.23.1
+  image: yegor256/rultor-python
 merge:
   script: |
     pip install -r requirements.txt
