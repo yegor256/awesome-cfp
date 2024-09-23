@@ -1,5 +1,5 @@
 anyio==4.6.0
-certifi==2024.7.4
+certifi==2024.8.30
 coverage==7.6.1
 h11==0.14.0
 httpcore==1.0.5
