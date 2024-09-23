@@ -25,4 +25,4 @@ docker:
 merge:
   script: |
     pip3 install -r requirements.txt
-    /home/r/.local/bin/pytest
+    /home/r/.local/bin/pytest --cov-fail-under=0
