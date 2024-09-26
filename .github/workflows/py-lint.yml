@@ -24,12 +24,12 @@ name: py-lint
 on: [ "push", "pull_request" ]
 jobs:
   py-lint:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: cclauss/GitHub-Action-for-pylint@0.7.0
   pep8:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - name: 'Run PEP8'
@@ -37,7 +37,7 @@ jobs:
         with:
           arguments: '--max-line-length=120'
   wemake-python-styleguide:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python 3.12
