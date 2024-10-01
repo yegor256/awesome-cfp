@@ -2,7 +2,7 @@ anyio==4.6.0
 certifi==2024.8.30
 coverage==7.6.1
 h11==0.14.0
-httpcore==1.0.5
+httpcore==1.0.6
 httpx==0.27.2
 idna==3.7
 iniconfig==2.0.0
