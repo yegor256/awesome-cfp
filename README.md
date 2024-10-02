@@ -37,7 +37,7 @@ please send us a pull request.
 | [ICPC'24](<https://conf.researchr.org/home/icpc-2024>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1181>) | SE |  | 10 |  |  | PT |
 | [ICSA'25](<https://conf.researchr.org/home/icsa-2025>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/791>) | SE, SA | 8 | 10 |  | 24-Oct | DK |
 | [ICSME'24](<https://conf.researchr.org/home/icsme-2024>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/676>) | SE |  | 10 |  | closed | US |
-| [ICST'25](<https://conf.researchr.org/series/icst>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/1221>) | ST |  | 10 | 2C | 24-Sep | IT |
+| [ICST'25](<https://conf.researchr.org/series/icst>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/1221>) | ST |  | 10 | 2C | closed | IT |
 | [ISSRE'24](<https://issre.github.io/2024/index.html>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/1411>) | SE | 10 | 12 | 2C | closed | JP |
 | [ISSTA'25](<https://conf.researchr.org/home/issta-2025>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1412>) | ST |  | 18 | 1C | 24-Oct | NO |
 | [MSR'25](<https://www.msrconf.org>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/711>) | SE | 4 | 10 |  |  | CA |
