@@ -42,7 +42,7 @@ please send us a pull request.
 | [ISSTA'25](<https://conf.researchr.org/home/issta-2025>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1412>) | ST |  | 18 | 1C | 24-Oct | NO |
 | [MSR'25](<https://www.msrconf.org>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/711>) | SE | 4 | 10 |  |  | CA |
 | [SANER'25](<https://conf.researchr.org/series/saner>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/2280>) | SE |  | 12 |  |  | CA |
-| [SEAMS'25](<https://conf.researchr.org/home/seams-2025>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/2281>) | SE | 6 | 10 |  | 24-Oct | CA |
+| [SEAMS'25](<https://conf.researchr.org/home/seams-2025>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/2281>) | SE | 6 | 10 |  | closed | CA |
 | [SPLASH'24](<https://2024.splashcon.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/18>) | PL |  |  |  | closed | US |
 | [SPLASH-Onward!'24](<https://2024.splashcon.org/track/splash-2024-Onward-Essays>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/18>) | PL |  |  |  | closed | US |
 | [SPLASH-SAS'24](<https://2024.splashcon.org/home/sas-2024>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/18>) | PL |  |  |  | closed | US |
