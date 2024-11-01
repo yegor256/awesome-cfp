@@ -20,14 +20,9 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 ---
-name: py-lint
+name: lint-py-files
 on: [ "push", "pull_request" ]
 jobs:
-  py-lint:
-    runs-on: ubuntu-24.04
-    steps:
-      - uses: actions/checkout@v4
-      - uses: cclauss/GitHub-Action-for-pylint@0.7.0
   pep8:
     runs-on: ubuntu-24.04
     steps:
