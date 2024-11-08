@@ -153,10 +153,10 @@ ESOP:
   url: https://etaps.org/2025/conferences/esop/
   year: 2025
 FSE:
-  cfp: closed
+  cfp: '2024-11-22'
   core: https://portal.core.edu.au/conf-ranks/52
   country: 'NO'
-  format: null
+  format: 1C
   full: 18
   publisher: ACM
   rank: A*
