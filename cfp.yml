@@ -225,7 +225,7 @@ ICSA:
   url: https://conf.researchr.org/home/icsa-2025
   year: 2025
 ICSE:
-  cfp: '2025-08-02'
+  cfp: '2024-11-09'
   core: https://portal.core.edu.au/conf-ranks/1209
   country: CA
   format: null
@@ -237,7 +237,7 @@ ICSE:
   url: https://conf.researchr.org/home/icse-2025
   year: 2025
 ICSE-NIER:
-  cfp: '2025-10-10'
+  cfp: '2024-10-10'
   core: https://portal.core.edu.au/conf-ranks/1209
   country: CA
   format: null
@@ -249,7 +249,7 @@ ICSE-NIER:
   url: https://conf.researchr.org/track/icse-2025/icse-2025-nier
   year: 2025
 ICSE-SRC:
-  cfp: null
+  cfp: '2024-11-15'
   core: https://portal.core.edu.au/conf-ranks/1209
   country: CA
   format: null
