@@ -225,7 +225,7 @@ ICSA:
   url: https://conf.researchr.org/home/icsa-2025
   year: 2025
 ICSE:
-  cfp: '2024-11-09'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1209
   country: CA
   format: null
@@ -237,7 +237,7 @@ ICSE:
   url: https://conf.researchr.org/home/icse-2025
   year: 2025
 ICSE-NIER:
-  cfp: '2024-10-10'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1209
   country: CA
   format: null
@@ -249,7 +249,7 @@ ICSE-NIER:
   url: https://conf.researchr.org/track/icse-2025/icse-2025-nier
   year: 2025
 ICSE-SRC:
-  cfp: '2024-11-15'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1209
   country: CA
   format: null
@@ -321,7 +321,7 @@ MSR:
   url: https://www.msrconf.org
   year: 2025
 PLDI:
-  cfp: '2024-11-14'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/84
   country: DK
   format: 1C
@@ -381,7 +381,7 @@ QRS:
   url: https://qrs24.techconf.org
   year: 2024
 REFSQ:
-  cfp: '2024-11-08'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1521
   country: ES
   format: LNCS
