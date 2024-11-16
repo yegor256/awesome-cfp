@@ -21,11 +21,11 @@ please send us a pull request.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [ASE'25](<https://conf.researchr.org/home/ase-2025>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/279>) | SE |  |  |  | 25-Nov | KR |
 | [ASPLOS'25](<https://www.asplos-conference.org/asplos2025/cfp/>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/147>) | SE |  | 11 |  | 25-Jun | US |
-| [FSE'25](<https://conf.researchr.org/home/fse-2025>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/52>) | SE |  | 18 |  | closed | NO |
-| [ICSE'25](<https://conf.researchr.org/home/icse-2025>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE |  | 10 |  | 25-Aug | CA |
-| [ICSE-NIER'25](<https://conf.researchr.org/track/icse-2025/icse-2025-nier>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 4 |  |  | 25-Oct | CA |
-| [ICSE-SRC'25](<https://conf.researchr.org/track/icse-2025/icse-2025-SRC>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 2 |  |  |  | CA |
-| [PLDI'25](<https://conf.researchr.org/series/pldi>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/84>) | PL |  | 20 | 1C |  | DK |
+| [FSE'25](<https://conf.researchr.org/home/fse-2025>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/52>) | SE |  | 18 | 1C | 24-Nov | NO |
+| [ICSE'25](<https://conf.researchr.org/home/icse-2025>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE |  | 10 |  | closed | CA |
+| [ICSE-NIER'25](<https://conf.researchr.org/track/icse-2025/icse-2025-nier>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 4 |  |  | closed | CA |
+| [ICSE-SRC'25](<https://conf.researchr.org/track/icse-2025/icse-2025-SRC>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 2 |  |  | closed | CA |
+| [PLDI'25](<https://conf.researchr.org/series/pldi>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/84>) | PL |  | 20 | 1C | closed | DK |
 | [POPL'25](<https://conf.researchr.org/home/POPL-2025>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/82>) | SE |  | 25 |  | 25-Jul | US |
 | [CGO'25](<https://conf.researchr.org/series/cgo>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1362>) | PL |  | 11 |  |  | US |
 | [EASE'24](<https://conf.researchr.org/series/ease>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1022>) | SE |  | 10 |  | closed | IT |
@@ -50,7 +50,7 @@ please send us a pull request.
 | [APLAS-SRC'25](<https://conf.researchr.org/track/aplas-2024/src-and-posters>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/936>) | PL | 3 |  | LNCS | closed | JP |
 | [CC'25](<https://conf.researchr.org/series/CC>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/936>) | PL |  | 10 | 2C |  | UK |
 | [PPoPP'24](<https://conf.researchr.org/home/ppopp-2024>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/1691>) | PL |  | 10 |  |  | UK |
-| [REFSQ'25](<https://2025.refsq.org>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/1521>) | SE | 8 | 15 | LNCS | 24-Nov | ES |
+| [REFSQ'25](<https://2025.refsq.org>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/1521>) | SE | 8 | 15 | LNCS | closed | ES |
 | [SEAA'24](<https://dsd-seaa.com/seaa2024>) | IEEE | [B](<https://portal.core.edu.au/conf-ranks/464>) | SE, PL | 4 | 8 |  | closed | FR |
 | [SLE'24](<http://www.sleconf.org/2024>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/1215>) | SE, PL | 6 | 12 | 2C | closed | US |
 | [SSBSE'25](<https://ssbse.info>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/2283>) | SE | 6 | 15 | LNCS |  | BR |
