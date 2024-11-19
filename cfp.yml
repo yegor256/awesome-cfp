@@ -81,10 +81,10 @@ CC:
   url: https://conf.researchr.org/series/CC
   year: 2025
 CGO:
-  cfp: null
+  cfp: '2024-12-15'
   core: https://portal.core.edu.au/conf-ranks/1362
   country: US
-  format: null
+  format: 2C
   full: 11
   publisher: ACM
   rank: A
