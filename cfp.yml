@@ -129,17 +129,17 @@ EASE-NIER:
   url: https://conf.researchr.org/track/ease-2024/ease-2024-nier
   year: 2024
 ECSA:
-  cfp: closed
+  cfp: '2025-03-14'
   core: https://portal.core.edu.au/conf-ranks/2165
-  country: LU
+  country: CY
   format: LNCS
   full: 16
   publisher: Springer
   rank: A
   scope: SA
-  short: null
-  url: https://conf.researchr.org/home/ecsa-2024
-  year: 2024
+  short: 8
+  url: https://conf.researchr.org/home/ecsa-2025
+  year: 2025
 ESOP:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/514
