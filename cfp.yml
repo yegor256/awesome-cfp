@@ -146,10 +146,10 @@ ESOP:
   country: CZ
   format: LNCS
   full: 25
-  publisher: null
+  publisher: Springer
   rank: A
   scope: PL
-  short: null
+  short: 15
   url: https://etaps.org/2025/conferences/esop/
   year: 2025
 FSE:
