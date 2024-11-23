@@ -201,17 +201,17 @@ ICFP-SRC:
   url: https://icfp24.sigplan.org/track/icfp-2024-student-research-competition
   year: 2024
 ICPC:
-  cfp: null
+  cfp: '2024-12-06'
   core: https://portal.core.edu.au/conf-ranks/1181
-  country: PT
+  country: CA
   format: null
   full: 10
   publisher: ACM
   rank: A
   scope: SE
   short: null
-  url: https://conf.researchr.org/home/icpc-2024
-  year: 2024
+  url: https://conf.researchr.org/home/icpc-2025
+  year: 2025
 ICSA:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/791
