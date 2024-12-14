@@ -34,7 +34,7 @@ please send us a pull request.
 | [ESOP'25](<https://etaps.org/2025/conferences/esop/>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/514>) | PL | 15 | 25 | LNCS | closed | CZ |
 | [ICFP'24](<https://icfp24.sigplan.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | 12 | 25 | 1C | closed | IT |
 | [ICFP-SRC'24](<https://icfp24.sigplan.org/track/icfp-2024-student-research-competition>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | 3 |  | 1C | closed | IT |
-| [ICPC'25](<https://conf.researchr.org/home/icpc-2025>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1181>) | SE |  | 10 |  | 24-Dec | CA |
+| [ICPC'25](<https://conf.researchr.org/home/icpc-2025>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1181>) | SE |  | 10 |  | closed | CA |
 | [ICSA'25](<https://conf.researchr.org/home/icsa-2025>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/791>) | SE, SA | 8 | 10 |  | closed | DK |
 | [ICSME'24](<https://conf.researchr.org/home/icsme-2024>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/676>) | SE |  | 10 |  | closed | US |
 | [ICST'25](<https://conf.researchr.org/series/icst>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/1221>) | ST |  | 10 | 2C | closed | IT |
