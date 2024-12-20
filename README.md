@@ -27,14 +27,14 @@ please send us a pull request.
 | [ICSE-SRC'25](<https://conf.researchr.org/track/icse-2025/icse-2025-SRC>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 2 |  |  | closed | CA |
 | [PLDI'25](<https://conf.researchr.org/series/pldi>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/84>) | PL |  | 20 | 1C | closed | DK |
 | [POPL'25](<https://conf.researchr.org/home/POPL-2025>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/82>) | SE |  | 25 |  | 25-Jul | US |
-| [CGO'25](<https://conf.researchr.org/series/cgo>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1362>) | PL |  | 11 | 2C | 24-Dec | US |
+| [CGO'25](<https://conf.researchr.org/series/cgo>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1362>) | PL |  | 11 | 2C | closed | US |
 | [EASE'24](<https://conf.researchr.org/series/ease>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1022>) | SE |  | 10 |  | closed | IT |
 | [EASE-NIER'24](<https://conf.researchr.org/track/ease-2024/ease-2024-nier>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1221>) | SE | 6 |  |  | closed | IT |
 | [ECSA'25](<https://conf.researchr.org/home/ecsa-2025>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/2165>) | SA | 8 | 16 | LNCS | 25-Mar | CY |
 | [ESOP'25](<https://etaps.org/2025/conferences/esop/>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/514>) | PL | 15 | 25 | LNCS | closed | CZ |
 | [ICFP'24](<https://icfp24.sigplan.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | 12 | 25 | 1C | closed | IT |
 | [ICFP-SRC'24](<https://icfp24.sigplan.org/track/icfp-2024-student-research-competition>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | 3 |  | 1C | closed | IT |
-| [ICPC'25](<https://conf.researchr.org/home/icpc-2025>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1181>) | SE |  | 10 |  | 24-Dec | CA |
+| [ICPC'25](<https://conf.researchr.org/home/icpc-2025>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1181>) | SE |  | 10 |  | closed | CA |
 | [ICSA'25](<https://conf.researchr.org/home/icsa-2025>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/791>) | SE, SA | 8 | 10 |  | closed | DK |
 | [ICSME'24](<https://conf.researchr.org/home/icsme-2024>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/676>) | SE |  | 10 |  | closed | US |
 | [ICST'25](<https://conf.researchr.org/series/icst>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/1221>) | ST |  | 10 | 2C | closed | IT |
