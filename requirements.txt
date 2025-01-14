@@ -26,7 +26,7 @@ idna==3.10
     #   httpx
 iniconfig==2.0.0
     # via pytest
-more-itertools==10.5.0
+more-itertools==10.6.0
     # via -r requirements.in
 packaging==24.2
     # via pytest
