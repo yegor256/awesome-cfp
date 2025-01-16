@@ -453,41 +453,41 @@ SLE:
   url: http://www.sleconf.org/2024
   year: 2024
 SPLASH:
-  cfp: closed
+  cfp: '2025-05-04'
   core: https://portal.core.edu.au/conf-ranks/18
-  country: US
+  country: SG
   format: null
   full: null
   publisher: ACM
   rank: A
   scope: PL
   short: null
-  url: https://2024.splashcon.org
-  year: 2024
-SPLASH-Onward!:
-  cfp: closed
+  url: https://2025.splashcon.org
+  year: 2025
+SPLASH-ICFP:
+  cfp: '2025-05-04'
   core: https://portal.core.edu.au/conf-ranks/18
-  country: US
+  country: SG
   format: null
   full: null
   publisher: ACM
   rank: A
   scope: PL
   short: null
-  url: https://2024.splashcon.org/track/splash-2024-Onward-Essays
-  year: 2024
+  url: https://conf.researchr.org/home/icfp-splash-2025
+  year: 2025
 SPLASH-SAS:
-  cfp: closed
+  cfp: '2025-05-04' 
   core: https://portal.core.edu.au/conf-ranks/18
-  country: US
+  country: SG
   format: null
   full: null
   publisher: ACM
   rank: A
   scope: PL
   short: null
-  url: https://2024.splashcon.org/home/sas-2024
-  year: 2024
+  url: https://2025.splashcon.org/home/sas-2025
+  year: 2025
 SSBSE:
   cfp: null
   core: https://portal.core.edu.au/conf-ranks/2283
