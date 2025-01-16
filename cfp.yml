@@ -81,7 +81,7 @@ CC:
   url: https://conf.researchr.org/series/CC
   year: 2025
 CGO:
-  cfp: '2024-12-15'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1362
   country: US
   format: 2C
@@ -201,7 +201,7 @@ ICFP-SRC:
   url: https://icfp24.sigplan.org/track/icfp-2024-student-research-competition
   year: 2024
 ICPC:
-  cfp: '2024-12-06'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1181
   country: CA
   format: null
@@ -357,7 +357,7 @@ PPDP:
   url: https://ppdp2024.github.io
   year: 2024
 PPoPP:
-  cfp: '2025-01-10'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1691
   country: UK
   format: null
@@ -477,7 +477,7 @@ SPLASH-ICFP:
   url: https://conf.researchr.org/home/icfp-splash-2025
   year: 2025
 SPLASH-SAS:
-  cfp: '2025-05-04' 
+  cfp: '2025-05-04'
   core: https://portal.core.edu.au/conf-ranks/18
   country: SG
   format: null
