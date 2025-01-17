@@ -105,7 +105,7 @@ CLEI:
   url: https://conferencia2024.clei.org
   year: 2024
 EASE:
-  cfp: closed
+  cfp: '2025-01-31'
   core: https://portal.core.edu.au/conf-ranks/1022
   country: IT
   format: null
@@ -114,20 +114,8 @@ EASE:
   rank: A
   scope: SE
   short: null
-  url: https://conf.researchr.org/series/ease
-  year: 2024
-EASE-NIER:
-  cfp: closed
-  core: https://portal.core.edu.au/conf-ranks/1221
-  country: IT
-  format: null
-  full: null
-  publisher: ACM
-  rank: A
-  scope: SE
-  short: 6
-  url: https://conf.researchr.org/track/ease-2024/ease-2024-nier
-  year: 2024
+  url: https://conf.researchr.org/home/ease-2025
+  year: 2025
 ECSA:
   cfp: '2025-03-14'
   core: https://portal.core.edu.au/conf-ranks/2165
