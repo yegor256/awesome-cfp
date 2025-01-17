@@ -249,17 +249,17 @@ ICSE-SRC:
   url: https://conf.researchr.org/track/icse-2025/icse-2025-SRC
   year: 2025
 ICSME:
-  cfp: closed
+  cfp: '2025-03-13'
   core: https://portal.core.edu.au/conf-ranks/676
-  country: US
+  country: NZ
   format: null
   full: 10
   publisher: IEEE
   rank: A
   scope: SE
   short: null
-  url: https://conf.researchr.org/home/icsme-2024
-  year: 2024
+  url: https://conf.researchr.org/home/icsme-2025
+  year: 2025
 ICST:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1221
