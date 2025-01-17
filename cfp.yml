@@ -177,7 +177,7 @@ ICFEM:
   url: https://icfem2024.info
   year: 2024
 ICFP:
-  cfp: closed
+  cfp: '2025-02-27'
   core: https://portal.core.edu.au/conf-ranks/1037
   country: IT
   format: 1C
@@ -186,10 +186,10 @@ ICFP:
   rank: A
   scope: PL
   short: 12
-  url: https://icfp24.sigplan.org
-  year: 2024
-ICFP-SRC:
-  cfp: closed
+  url: https://icfp25.sigplan.org
+  year: 2025
+ICFP-SPLASH:
+  cfp: '2025-05-08'
   core: https://portal.core.edu.au/conf-ranks/1037
   country: IT
   format: 1C
@@ -198,8 +198,8 @@ ICFP-SRC:
   rank: A
   scope: PL
   short: 3
-  url: https://icfp24.sigplan.org/track/icfp-2024-student-research-competition
-  year: 2024
+  url: https://icfp25.sigplan.org/track/icfp-splash-2025-workshops
+  year: 2025
 ICPC:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1181
