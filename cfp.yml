@@ -21,7 +21,7 @@
 # SOFTWARE.
 ---
 APLAS:
-  cfp: closed
+  cfp: '2025-05-31'
   core: https://portal.core.edu.au/conf-ranks/171
   country: JP
   format: LNCS
@@ -30,19 +30,7 @@ APLAS:
   rank: B
   scope: PL
   short: null
-  url: https://conf.researchr.org/home/aplas-2024
-  year: 2024
-APLAS-SRC:
-  cfp: closed
-  core: https://portal.core.edu.au/conf-ranks/936
-  country: JP
-  format: LNCS
-  full: null
-  publisher: ACM
-  rank: B
-  scope: PL
-  short: 3
-  url: https://conf.researchr.org/track/aplas-2024/src-and-posters
+  url: https://conf.researchr.org/home/aplas-2025
   year: 2025
 ASE:
   cfp: '2025-11-16'
