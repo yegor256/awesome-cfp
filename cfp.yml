@@ -273,17 +273,17 @@ ICST:
   url: https://conf.researchr.org/series/icst
   year: 2025
 ISSRE:
-  cfp: closed
+  cfp: '2025-05-10'
   core: https://portal.core.edu.au/conf-ranks/1411
-  country: JP
+  country: BR
   format: 2C
   full: 12
   publisher: IEEE
   rank: A
   scope: SE
   short: 10
-  url: https://issre.github.io/2024/index.html
-  year: 2024
+  url: https://issre.github.io/2025/index.html
+  year: 2025
 ISSTA:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1412
