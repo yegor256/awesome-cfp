@@ -405,17 +405,17 @@ SCAM:
   url: https://conf.researchr.org/home/scam-2024
   year: 2024
 SEAA:
-  cfp: closed
+  cfp: '2025-04-15'
   core: https://portal.core.edu.au/conf-ranks/464
-  country: FR
-  format: null
+  country: IT
+  format: 2C
   full: 8
   publisher: IEEE
   rank: B
   scope: SE, PL
   short: 4
-  url: https://dsd-seaa.com/seaa2024
-  year: 2024
+  url: https://dsd-seaa.com/seaa2025
+  year: 2025
 SEAMS:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/2281
