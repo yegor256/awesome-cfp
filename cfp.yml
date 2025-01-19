@@ -81,17 +81,17 @@ CGO:
   url: https://conf.researchr.org/series/cgo
   year: 2025
 CLEI:
-  cfp: closed
+  cfp: '2025-04-04'
   core: https://portal.core.edu.au/conf-ranks/1589
-  country: AR
+  country: CL
   format: null
   full: 10
   publisher: IEEE
   rank: C
   scope: SE
   short: 4
-  url: https://conferencia2024.clei.org
-  year: 2024
+  url: https://conferencia2025.clei.org
+  year: 2025
 EASE:
   cfp: '2025-01-31'
   core: https://portal.core.edu.au/conf-ranks/1022
