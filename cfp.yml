@@ -417,17 +417,17 @@ SEAMS:
   url: https://conf.researchr.org/home/seams-2025
   year: 2025
 SLE:
-  cfp: closed
+  cfp: '2025-02-14'
   core: https://portal.core.edu.au/conf-ranks/1215
-  country: US
+  country: DE
   format: 2C
   full: 12
   publisher: ACM
   rank: B
   scope: SE, PL
   short: 6
-  url: http://www.sleconf.org/2024
-  year: 2024
+  url: http://www.sleconf.org/2025
+  year: 2025
 SPLASH:
   cfp: '2025-05-04'
   core: https://portal.core.edu.au/conf-ranks/18
