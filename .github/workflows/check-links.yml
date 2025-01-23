@@ -21,7 +21,7 @@
 # SOFTWARE.
 ---
 name: daily-check-links
-on:
+'on':
   schedule:
     - cron: '38 1 * * *'
   workflow_dispatch:

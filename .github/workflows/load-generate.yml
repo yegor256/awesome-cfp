@@ -21,7 +21,7 @@
 # SOFTWARE.
 ---
 name: load-generate
-on:
+'on':
   push:
     branches:
       - master
