@@ -40,6 +40,6 @@ jobs:
         with:
           python-version: "3.12.5"
       - name: Install wemake-python-styleguide
-        run: pip install wemake-python-styleguide==0.19.2
-      - name: Run wemake-python-styleguide
-        run: flake8 compile.py
+        run: pip install wemake-python-styleguide==1.0.0 ruff==0.9.3
+      - name: Run ruff and wemake-python-styleguide
+        run: ruff check compile.py && flake8 compile.py
