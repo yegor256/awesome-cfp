@@ -99,4 +99,8 @@ def test_cfp_content(tmp_path):
     ),
 )
 def test_links(url):
-    assert httpx.get(url).status_code in range(200, 400)
+    resource_status = httpx.get(url).status_code
+
+    assert resource_status in range(200, 400), "Resource '{0}' unavailable. Failed with: {1}".format(
+        url, resource_status,
+    )
