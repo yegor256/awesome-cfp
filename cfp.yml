@@ -32,6 +32,7 @@ APLAS:
   short: null
   url: https://conf.researchr.org/home/aplas-2025
   year: 2025
+  later: false
 ASE:
   cfp: '2025-11-16'
   core: https://portal.core.edu.au/conf-ranks/279
@@ -44,6 +45,7 @@ ASE:
   short: null
   url: https://conf.researchr.org/home/ase-2025
   year: 2025
+  later: false
 ASPLOS:
   cfp: '2025-06-24'
   core: https://portal.core.edu.au/conf-ranks/147
@@ -56,6 +58,7 @@ ASPLOS:
   short: null
   url: https://www.asplos-conference.org/asplos2025/cfp/
   year: 2025
+  later: false
 CC:
   cfp: '2025-01-24'
   core: https://portal.core.edu.au/conf-ranks/936
@@ -68,6 +71,7 @@ CC:
   short: null
   url: https://conf.researchr.org/series/CC
   year: 2025
+  later: false
 CGO:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1362
@@ -80,6 +84,7 @@ CGO:
   short: null
   url: https://conf.researchr.org/series/cgo
   year: 2025
+  later: false
 CLEI:
   cfp: '2025-04-04'
   core: https://portal.core.edu.au/conf-ranks/1589
@@ -92,6 +97,7 @@ CLEI:
   short: 4
   url: https://conferencia2025.clei.org
   year: 2025
+  later: false
 EASE:
   cfp: '2025-01-31'
   core: https://portal.core.edu.au/conf-ranks/1022
@@ -104,6 +110,7 @@ EASE:
   short: null
   url: https://conf.researchr.org/home/ease-2025
   year: 2025
+  later: false
 ECSA:
   cfp: '2025-03-14'
   core: https://portal.core.edu.au/conf-ranks/2165
@@ -116,6 +123,7 @@ ECSA:
   short: 8
   url: https://conf.researchr.org/home/ecsa-2025
   year: 2025
+  later: false
 ESOP:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/514
@@ -128,6 +136,7 @@ ESOP:
   short: 15
   url: https://etaps.org/2025/conferences/esop/
   year: 2025
+  later: false
 FSE:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/52
@@ -140,6 +149,7 @@ FSE:
   short: null
   url: https://conf.researchr.org/home/fse-2025
   year: 2025
+  later: false
 ICFEM:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1031
@@ -152,6 +162,7 @@ ICFEM:
   short: 12
   url: https://icfem2024.info
   year: 2024
+  later: false
 ICFP:
   cfp: '2025-02-27'
   core: https://portal.core.edu.au/conf-ranks/1037
@@ -164,6 +175,7 @@ ICFP:
   short: 12
   url: https://icfp25.sigplan.org
   year: 2025
+  later: false
 ICFP-SPLASH:
   cfp: '2025-05-08'
   core: https://portal.core.edu.au/conf-ranks/1037
@@ -176,6 +188,7 @@ ICFP-SPLASH:
   short: 3
   url: https://icfp25.sigplan.org/track/icfp-splash-2025-workshops
   year: 2025
+  later: false
 ICPC:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1181
@@ -188,6 +201,7 @@ ICPC:
   short: null
   url: https://conf.researchr.org/home/icpc-2025
   year: 2025
+  later: false
 ICSA:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/791
@@ -200,6 +214,7 @@ ICSA:
   short: 8
   url: https://conf.researchr.org/home/icsa-2025
   year: 2025
+  later: false
 ICSE:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1209
@@ -212,6 +227,7 @@ ICSE:
   short: null
   url: https://conf.researchr.org/home/icse-2025
   year: 2025
+  later: false
 ICSE-NIER:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1209
@@ -224,6 +240,7 @@ ICSE-NIER:
   short: 4
   url: https://conf.researchr.org/track/icse-2025/icse-2025-nier
   year: 2025
+  later: false
 ICSE-SRC:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1209
@@ -236,6 +253,7 @@ ICSE-SRC:
   short: 2
   url: https://conf.researchr.org/track/icse-2025/icse-2025-SRC
   year: 2025
+  later: false
 ICSME:
   cfp: '2025-03-13'
   core: https://portal.core.edu.au/conf-ranks/676
@@ -248,6 +266,7 @@ ICSME:
   short: null
   url: https://conf.researchr.org/home/icsme-2025
   year: 2025
+  later: false
 ICST:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1221
@@ -260,6 +279,7 @@ ICST:
   short: null
   url: https://conf.researchr.org/series/icst
   year: 2025
+  later: false
 ISSRE:
   cfp: '2025-05-10'
   core: https://portal.core.edu.au/conf-ranks/1411
@@ -272,6 +292,7 @@ ISSRE:
   short: 10
   url: https://issre.github.io/2025/index.html
   year: 2025
+  later: false
 ISSTA:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1412
@@ -284,6 +305,7 @@ ISSTA:
   short: null
   url: https://conf.researchr.org/home/issta-2025
   year: 2025
+  later: false
 MSR:
   cfp: ''
   core: https://portal.core.edu.au/conf-ranks/711
@@ -296,6 +318,7 @@ MSR:
   short: 4
   url: https://www.msrconf.org
   year: 2025
+  later: false
 PLDI:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/84
@@ -308,6 +331,7 @@ PLDI:
   short: null
   url: https://conf.researchr.org/series/pldi
   year: 2025
+  later: false
 POPL:
   cfp: '2025-07-11'
   core: https://portal.core.edu.au/conf-ranks/82
@@ -320,6 +344,7 @@ POPL:
   short: null
   url: https://conf.researchr.org/home/POPL-2025
   year: 2025
+  later: false
 PPDP:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1176
@@ -332,6 +357,7 @@ PPDP:
   short: 5
   url: https://ppdp2024.github.io
   year: 2024
+  later: false
 PPoPP:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1691
@@ -344,6 +370,7 @@ PPoPP:
   short: null
   url: https://conf.researchr.org/home/ppopp-2025
   year: 2025
+  later: false
 QRS:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1185
@@ -356,6 +383,7 @@ QRS:
   short: 10
   url: https://qrs24.techconf.org
   year: 2024
+  later: false
 REFSQ:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1521
@@ -368,6 +396,7 @@ REFSQ:
   short: 8
   url: https://2025.refsq.org
   year: 2025
+  later: false
 SANER:
   cfp: ''
   core: https://portal.core.edu.au/conf-ranks/2280
@@ -380,6 +409,7 @@ SANER:
   short: null
   url: https://conf.researchr.org/series/saner
   year: 2025
+  later: false
 SCAM:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/718
@@ -392,6 +422,7 @@ SCAM:
   short: null
   url: https://conf.researchr.org/home/scam-2024
   year: 2024
+  later: false
 SEAA:
   cfp: '2025-04-15'
   core: https://portal.core.edu.au/conf-ranks/464
@@ -404,6 +435,7 @@ SEAA:
   short: 4
   url: https://dsd-seaa.com/seaa2025
   year: 2025
+  later: false
 SEAMS:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/2281
@@ -416,6 +448,7 @@ SEAMS:
   short: 6
   url: https://conf.researchr.org/home/seams-2025
   year: 2025
+  later: false
 SLE:
   cfp: '2025-02-14'
   core: https://portal.core.edu.au/conf-ranks/1215
@@ -428,6 +461,7 @@ SLE:
   short: 6
   url: http://www.sleconf.org/2025
   year: 2025
+  later: false
 SPLASH:
   cfp: '2025-05-04'
   core: https://portal.core.edu.au/conf-ranks/18
@@ -440,6 +474,7 @@ SPLASH:
   short: null
   url: https://2025.splashcon.org
   year: 2025
+  later: false
 SPLASH-ICFP:
   cfp: '2025-05-04'
   core: https://portal.core.edu.au/conf-ranks/18
@@ -452,6 +487,7 @@ SPLASH-ICFP:
   short: null
   url: https://conf.researchr.org/home/icfp-splash-2025
   year: 2025
+  later: false
 SPLASH-SAS:
   cfp: '2025-05-04'
   core: https://portal.core.edu.au/conf-ranks/18
@@ -464,6 +500,7 @@ SPLASH-SAS:
   short: null
   url: https://2025.splashcon.org/home/sas-2025
   year: 2025
+  later: false
 SSBSE:
   cfp: null
   core: https://portal.core.edu.au/conf-ranks/2283
@@ -476,3 +513,4 @@ SSBSE:
   short: 6
   url: https://ssbse.info
   year: 2025
+  later: true

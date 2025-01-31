@@ -72,6 +72,14 @@ def test_expired_date_updated(tmp_path):
     assert (tmp_path / "input.yml").read_text().count("# SOFTWARE.\n---"), "yml file not contain license"
 
 
+@pytest.mark.usefixtures("_mock_fail_http")
+def test_later_conf(tmp_path):
+    shutil.copytree(Path("fixtures/later_conf"), tmp_path, dirs_exist_ok=True)
+    generate(tmp_path / "input.yml", tmp_path / "README.md")
+
+    assert (tmp_path / "README.md").read_text() == (tmp_path / "expected.md").read_text()
+
+
 @pytest.mark.slow
 def test_cfp_content(tmp_path):
     shutil.copytree(Path("fixtures/simple"), tmp_path, dirs_exist_ok=True)
@@ -87,6 +95,7 @@ def test_cfp_content(tmp_path):
     flatten(
         (conf_info["core"], conf_info["url"])
         for conf_info in yaml.safe_load(Path("cfp.yml").read_text()).values()
+        if not conf_info["later"]
     ),
 )
 def test_links(url):

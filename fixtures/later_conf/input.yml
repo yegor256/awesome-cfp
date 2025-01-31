@@ -20,55 +20,16 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 ---
-APLAS:
-  cfp: closed
-  core: https://portal.core.edu.au/conf-ranks/171
-  country: JP
-  format: LNCS
-  full: 17
-  publisher: Springer
-  rank: B
-  scope: PL
-  short: null
-  url: https://conf.researchr.org/home/aplas-2024
-  year: 2024
-  later: false
-ASPLOS:
-  cfp: '2025-06-24'
-  core: https://portal.core.edu.au/conf-ranks/147
-  country: US
-  format: null
-  full: 11
-  publisher: ACM
-  rank: A*
-  scope: SE
-  short: null
-  url: https://www.asplos-conference.org/asplos2025/cfp/
-  year: 2025
-  later: false
-ICFEM:
-  cfp: closed
-  core: https://portal.core.edu.au/conf-ranks/1031
-  country: JP
-  format: LNCS
-  full: 18
-  publisher: Springer
+ABC:
+  cfp: '2099-12-31'
+  core: https://www.google.com/404
+  country: Antarctica
+  format: 1C
+  full: '10'
+  later: true
+  publisher: IEEE
   rank: C
   scope: SE
-  short: 12
-  url: https://icfem2024.info
-  year: 2024
-  later: false
-ICFP-SRC:
-  cfp: closed
-  core: https://portal.core.edu.au/conf-ranks/1037
-  country: IT
-  format: 1C
-  full: null
-  publisher: ACM
-  rank: A
-  scope: PL
-  short: 3
-  url: https://icfp24.sigplan.org/track/icfp-2024-student-research-competition
-  year: 2024
-  later: false
+  short: '2'
+  url: https://www.google.com/404
+  year: '2099'

@@ -26,6 +26,7 @@ ABC:
   country: Antarctica
   format: 1C
   full: '10'
+  later: false
   publisher: IEEE
   rank: C
   scope: SE

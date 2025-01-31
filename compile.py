@@ -63,13 +63,17 @@ class ConfInfoDict(TypedDict):
 def build_name(conf_name: str, conf_info: ConfInfoDict) -> str:
     """Build name.
 
-    >>> build_name('ABC', {'year': '2099', 'url': 'https://google.com'})
+    >>> build_name('ABC', {'year': '2099', 'url': 'https://google.com', 'later': False})
     "[ABC'99](<https://google.com>)"
-    >>> build_name('ABC', {'year': 2099, 'url': 'https://google.com'})
+    >>> build_name('ABC', {'year': 2099, 'url': 'https://google.com', 'later': False})
     "[ABC'99](<https://google.com>)"
     """
     year_last_two_digit = str(conf_info["year"])[-2:]
-    return "[{0}'{1}](<{2}>)".format(conf_name, year_last_two_digit, validate_url(conf_info["url"]))
+    return "[{0}'{1}](<{2}>)".format(
+        conf_name,
+        year_last_two_digit,
+        validate_url(conf_info["url"]) if not conf_info["later"] else conf_info["url"],
+    )
 
 
 def date_actual(date: datetime.date) -> datetime.date:
@@ -101,7 +105,10 @@ def build_row(conf_name: str, conf_info: list[dict], markdown_table_row_template
     return markdown_table_row_template.format(
         name=build_name(conf_name, conf_info),
         publisher=conf_info["publisher"] or "",
-        rank="[{0}](<{1}>)".format(conf_info["rank"], validate_url(conf_info["core"])),
+        rank="[{0}](<{1}>)".format(
+            conf_info["rank"],
+            validate_url(conf_info["core"]) if not conf_info["later"] else conf_info["url"],
+        ),
         scope=conf_info["scope"],
         short=conf_info["short"] or "",
         full=conf_info["full"] or "",
