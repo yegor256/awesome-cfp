@@ -63,9 +63,9 @@ class ConfInfoDict(TypedDict):
 def build_name(conf_name: str, conf_info: ConfInfoDict) -> str:
     """Build name.
 
-    >>> build_name('ABC', {'year': '2099', 'url': 'https://google.com'})
+    >>> build_name('ABC', {'year': '2099', 'url': 'https://google.com', 'later': False})
     "[ABC'99](<https://google.com>)"
-    >>> build_name('ABC', {'year': 2099, 'url': 'https://google.com'})
+    >>> build_name('ABC', {'year': 2099, 'url': 'https://google.com', 'later': False})
     "[ABC'99](<https://google.com>)"
     """
     year_last_two_digit = str(conf_info["year"])[-2:]
