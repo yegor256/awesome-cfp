@@ -50,7 +50,7 @@ please send us a pull request.
 | [PPoPP'25](<https://conf.researchr.org/home/ppopp-2025>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/1691>) | PL |  | 10 |  | closed | UK |
 | [REFSQ'25](<https://2025.refsq.org>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/1521>) | SE | 8 | 15 | LNCS | closed | ES |
 | [SEAA'25](<https://dsd-seaa.com/seaa2025>) | IEEE | [B](<https://portal.core.edu.au/conf-ranks/464>) | SE, PL | 4 | 8 | 2C | 25-Apr | IT |
-| [SLE'25](<http://www.sleconf.org/2025>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/1215>) | SE, PL | 6 | 12 | 2C | 25-Feb | DE |
+| [SLE'25](<http://www.sleconf.org/2025>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/1215>) | SE, PL | 6 | 12 | 2C | closed | DE |
 | [SSBSE'25](<https://ssbse.info>) | Springer | [B](<https://ssbse.info>) | SE | 6 | 15 | LNCS |  | BR |
 | [CLEI'25](<https://conferencia2025.clei.org>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/1589>) | SE | 4 | 10 |  | 25-Apr | CL |
 | [ICFEM'24](<https://icfem2024.info>) | Springer | [C](<https://portal.core.edu.au/conf-ranks/1031>) | SE | 12 | 18 | LNCS | closed | JP |
