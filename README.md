@@ -31,7 +31,7 @@ please send us a pull request.
 | [EASE'25](<https://conf.researchr.org/home/ease-2025>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1022>) | SE |  | 10 |  | closed | IT |
 | [ECSA'25](<https://conf.researchr.org/home/ecsa-2025>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/2165>) | SA | 8 | 16 | LNCS | 25-Mar | CY |
 | [ESOP'25](<https://etaps.org/2025/conferences/esop/>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/514>) | PL | 15 | 25 | LNCS | closed | CZ |
-| [ICFP'25](<https://icfp25.sigplan.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | 12 | 25 | 1C | 25-Feb | IT |
+| [ICFP'25](<https://icfp25.sigplan.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | 12 | 25 | 1C | closed | IT |
 | [ICFP-SPLASH'25](<https://icfp25.sigplan.org/track/icfp-splash-2025-workshops>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | 3 |  | 1C | 25-May | IT |
 | [ICPC'25](<https://conf.researchr.org/home/icpc-2025>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1181>) | SE |  | 10 |  | closed | CA |
 | [ICSA'25](<https://conf.researchr.org/home/icsa-2025>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/791>) | SE, SA | 8 | 10 |  | closed | DK |
