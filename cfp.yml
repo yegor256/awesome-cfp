@@ -134,7 +134,7 @@ FSE:
 ICFEM:
   cfp: '2025-06-01'
   core: https://portal.core.edu.au/conf-ranks/1031
-  country: JP
+  country: CN
   format: LNCS
   full: 16
   later: false
