@@ -327,7 +327,7 @@ POPL:
   url: https://conf.researchr.org/home/POPL-2025
   year: 2025
 PPDP:
-  cfp: closed
+  cfp: '2025-05-30'
   core: https://portal.core.edu.au/conf-ranks/1176
   country: IT
   format: 2C
@@ -337,8 +337,8 @@ PPDP:
   rank: C
   scope: PL
   short: 5
-  url: https://ppdp2024.github.io
-  year: 2024
+  url: https://ppdp25.github.io/site
+  year: 2025
 PPoPP:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1691
