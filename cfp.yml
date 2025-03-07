@@ -132,18 +132,18 @@ FSE:
   url: https://conf.researchr.org/home/fse-2025
   year: 2025
 ICFEM:
-  cfp: closed
+  cfp: '2025-06-01'
   core: https://portal.core.edu.au/conf-ranks/1031
-  country: JP
+  country: CN
   format: LNCS
-  full: 18
+  full: 16
   later: false
   publisher: Springer
   rank: C
   scope: SE
-  short: 12
-  url: https://icfem2024.info
-  year: 2024
+  short: null
+  url: https://icfem2025.github.io/
+  year: 2025
 ICFP:
   cfp: '2025-02-27'
   core: https://portal.core.edu.au/conf-ranks/1037
