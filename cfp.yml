@@ -392,17 +392,17 @@ SANER:
   country: CA
   later: false
 SCAM:
-  year: 2024
-  url: https://conf.researchr.org/home/scam-2024
+  year: 2025
+  url: https://conf.researchr.org/home/scam-2025
   publisher: IEEE
   rank: C
   core: https://portal.core.edu.au/conf-ranks/718
   scope: SE
   short: null
   full: 12
-  format: null
-  cfp: closed
-  country: US
+  format: 2C
+  cfp: "2025-06-05"
+  country: NZ
   later: false
 SEAA:
   year: 2025
