@@ -3,7 +3,7 @@
 ---
 # yamllint disable rule:line-length
 docker:
-  image: yegor256/python
+  image: python:3.13.2-bookworm
 merge:
   script: |
     pip3 install -r requirements.txt
