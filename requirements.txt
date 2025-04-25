@@ -14,7 +14,7 @@ coverage[toml]==7.6.12
     # via pytest-cov
 h11==0.14.0
     # via httpcore
-httpcore==1.0.7
+httpcore==1.0.9
     # via httpx
 httpx==0.28.1
     # via
