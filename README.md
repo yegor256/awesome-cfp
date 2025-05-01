@@ -29,13 +29,13 @@ please send us a pull request.
 | [POPL'25](<https://conf.researchr.org/home/POPL-2025>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/82>) | SE |  | 25 |  | 25-Jul | US |
 | [CGO'25](<https://conf.researchr.org/series/cgo>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1362>) | PL |  | 11 | 2C | closed | US |
 | [EASE'25](<https://conf.researchr.org/home/ease-2025>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1022>) | SE |  | 10 |  | closed | IT |
-| [ECSA'25](<https://conf.researchr.org/home/ecsa-2025>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/2165>) | SA | 8 | 16 | LNCS | 25-Mar | CY |
+| [ECSA'25](<https://conf.researchr.org/home/ecsa-2025>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/2165>) | SA | 8 | 16 | LNCS | closed | CY |
 | [ESOP'25](<https://etaps.org/2025/conferences/esop/>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/514>) | PL | 15 | 25 | LNCS | closed | CZ |
 | [ICFP'25](<https://icfp25.sigplan.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | 12 | 25 | 1C | closed | IT |
 | [ICFP-SPLASH'25](<https://icfp25.sigplan.org/track/icfp-splash-2025-workshops>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | 3 |  | 1C | 25-May | IT |
 | [ICPC'25](<https://conf.researchr.org/home/icpc-2025>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1181>) | SE |  | 10 |  | closed | CA |
 | [ICSA'25](<https://conf.researchr.org/home/icsa-2025>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/791>) | SE, SA | 8 | 10 |  | closed | DK |
-| [ICSME'25](<https://conf.researchr.org/home/icsme-2025>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/676>) | SE |  | 10 |  | 25-Mar | NZ |
+| [ICSME'25](<https://conf.researchr.org/home/icsme-2025>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/676>) | SE |  | 10 |  | closed | NZ |
 | [ICST'25](<https://conf.researchr.org/series/icst>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/1221>) | ST |  | 10 | 2C | closed | IT |
 | [ISSRE'25](<https://issre.github.io/2025/index.html>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/1411>) | SE | 10 | 12 | 2C | 25-May | BR |
 | [ISSTA'25](<https://conf.researchr.org/home/issta-2025>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1412>) | ST |  | 18 | 1C | closed | NO |
@@ -55,8 +55,8 @@ please send us a pull request.
 | [CLEI'25](<https://conferencia2025.clei.org>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/1589>) | SE | 4 | 10 |  | 25-Apr | CL |
 | [ICFEM'25](<https://icfem2025.github.io/>) | Springer | [C](<https://portal.core.edu.au/conf-ranks/1031>) | SE |  | 16 | LNCS | 25-Jun | CN |
 | [PPDP'25](<https://ppdp25.github.io/site>) | ACM | [C](<https://portal.core.edu.au/conf-ranks/1176>) | PL | 5 | 12 | 2C | 25-May | IT |
-| [QRS'24](<https://qrs24.techconf.org>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/1185>) | SE | 10 | 12 | 2C | closed | UK |
-| [SCAM'24](<https://conf.researchr.org/home/scam-2024>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/718>) | SE |  | 12 |  | closed | US |
+| [QRS'25](<https://qrs25.techconf.org>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/1185>) | SE | 10 | 12 | 2C | 25-Apr | CN |
+| [SCAM'25](<https://conf.researchr.org/home/scam-2025>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/718>) | SE |  | 12 | 2C | 25-Jun | NZ |
 
 <!-- events -->
 
