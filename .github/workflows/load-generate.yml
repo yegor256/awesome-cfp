@@ -21,6 +21,7 @@ jobs:
       - run: python compile.py cfp.yml README.md
       - uses: peter-evans/create-pull-request@v7
         with:
+          sign-commits: true
           branch: load-data
           commit-message: 'new CFP data'
           delete-branch: true
