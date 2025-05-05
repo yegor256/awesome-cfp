@@ -1,25 +1,90 @@
 
+__pycache__/
+__pypackages__/
 !*.svg  # comment out if you don't need vector files
+._*
+.apdisk
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.cache
+.com.apple.timemachine.donotpresent
+.coverage
+.coverage.*
+.dmypy.json
+.DocumentRevisions-V100
+.DS_Store
+.eggs/
+.env
+.fseventsd
+.hypothesis/
+.idea/
+.installed.cfg
+.ipynb_checkpoints
+.LSOverride
+.mypy_cache/
+.netrwhist
+.nox/
+.pdm.toml
+.pybuilder/
+.pyre/
+.pytest_cache/
+.Python
+.pytype/
+.ropeproject
+.ruff_cache/
+.scrapy
+.Spotlight-V100
+.spyderproject
+.spyproject
+.TemporaryItems
+.tox/
+.Trashes
+.venv
+.VolumeIcon.icns
+.webassets-cache
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]*.un~
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+*.cover
+*.egg
+*.egg-info/
+*.icloud
+*.log
+*.manifest
+*.mo
+*.pot
+*.py,cover
+*.py[cod]
+*.sage.py
+*.so
+*.spec
+*~
+*$py.class
+/site
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   For a library or package, you might want to ignore these files since the code is
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
-#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
 #   commonly ignored for libraries.
+#   For a library or package, you might want to ignore these files since the code is
 #   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
 #   https://pdm.fming.dev/#use-with-ide
 #   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
 #   in version control.
 #   install all needed dependencies.
 #   intended to run in multiple environments; otherwise, check them in:
 #   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  Usually these files are written by a python script from a template
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#  Usually these files are written by a python script from a template
 # .python-version
 # Auto-generated tag files
 # Byte-compiled / optimized / DLL files
@@ -36,19 +101,28 @@
 # Files that might appear in the root of a volume
 # Flask stuff:
 # General
-# IPython
+# iCloud generated files
 # Icon must end with two \r
 # Installer logs
+# IPython
 # Jupyter Notebook
 # LSP config files
+# mkdocs documentation
+# mypy
+# pdm
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 # Persistent undo
+# pipenv
+# poetry
 # Poetry local configuration file - https://python-poetry.org/docs/configuration/#local-configuration
 # PyBuilder
 # PyCharm
+# pyenv
 # PyInstaller
 # Pyre type checker
+# pytype static type analyzer
 # Rope project settings
+# ruff
 # SageMath parsed files
 # Scrapy stuff:
 # Session
@@ -59,95 +133,14 @@
 # Thumbnails
 # Translations
 # Unit test / coverage reports
-# iCloud generated files
-# mkdocs documentation
-# mypy
-# pdm
-# pipenv
-# poetry
-# pyenv
-# pytype static type analyzer
-# ruff
+### macOS ###
+### macOS Patch ###
 ### Python ###
 ### Python Patch ###
 ### Vim ###
-### macOS ###
-### macOS Patch ###
-#Pipfile.lock
 #pdm.lock
+#Pipfile.lock
 #poetry.lock
-*$py.class
-*.cover
-*.egg
-*.egg-info/
-*.icloud
-*.log
-*.manifest
-*.mo
-*.pot
-*.py,cover
-*.py[cod]
-*.sage.py
-*.so
-*.spec
-*~
-.AppleDB
-.AppleDesktop
-.AppleDouble
-.DS_Store
-.DocumentRevisions-V100
-.LSOverride
-.Python
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-._*
-.apdisk
-.cache
-.com.apple.timemachine.donotpresent
-.coverage
-.coverage.*
-.dmypy.json
-.eggs/
-.env
-.fseventsd
-.hypothesis/
-.idea/
-.installed.cfg
-.ipynb_checkpoints
-.mypy_cache/
-.netrwhist
-.nox/
-.pdm.toml
-.pybuilder/
-.pyre/
-.pytest_cache/
-.pytype/
-.ropeproject
-.ruff_cache/
-.scrapy
-.spyderproject
-.spyproject
-.tox/
-.venv
-.webassets-cache
-/site
-ENV/
-Icon
-MANIFEST
-Network Trash Folder
-Session.vim
-Sessionx.vim
-Temporary Items
-[._]*.s[a-v][a-z]
-[._]*.sw[a-p]
-[._]*.un~
-[._]s[a-rt-v][a-z]
-[._]ss[a-gi-z]
-[._]sw[a-p]
-__pycache__/
-__pypackages__/
 build/
 celerybeat-schedule
 celerybeat.pid
@@ -164,12 +157,16 @@ downloads/
 eggs/
 env.bak/
 env/
+ENV/
 htmlcov/
+Icon
 instance/
 ipython_config.py
 lib/
 lib64/
 local_settings.py
+MANIFEST
+Network Trash Folder
 node_modules/
 nosetests.xml
 parts/
@@ -179,9 +176,12 @@ poetry.toml
 profile_default/
 pyrightconfig.json
 sdist/
+Session.vim
+Sessionx.vim
 share/python-wheels/
 tags
 target/
+Temporary Items
 var/
 venv.bak/
 venv/
