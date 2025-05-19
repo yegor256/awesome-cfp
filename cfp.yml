@@ -67,7 +67,7 @@ CGO:
   url: https://conf.researchr.org/series/cgo
   year: 2025
 CLEI:
-  cfp: '2025-04-04'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1589
   country: CL
   format: null
@@ -158,7 +158,7 @@ ICFP:
   url: https://icfp25.sigplan.org
   year: 2025
 ICFP-SPLASH:
-  cfp: '2025-05-08'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1037
   country: IT
   format: 1C
@@ -262,7 +262,7 @@ ICST:
   url: https://conf.researchr.org/series/icst
   year: 2025
 ISSRE:
-  cfp: '2025-05-10'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1411
   country: BR
   format: 2C
@@ -353,7 +353,7 @@ PPoPP:
   url: https://conf.researchr.org/home/ppopp-2025
   year: 2025
 QRS:
-  cfp: '2025-04-01'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1185
   country: CN
   format: 2C
@@ -405,7 +405,7 @@ SCAM:
   url: https://conf.researchr.org/home/scam-2025
   year: 2025
 SEAA:
-  cfp: '2025-04-15'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/464
   country: IT
   format: 2C
@@ -444,7 +444,7 @@ SLE:
   url: http://www.sleconf.org/2025
   year: 2025
 SPLASH:
-  cfp: '2025-05-04'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/18
   country: SG
   format: null
@@ -457,7 +457,7 @@ SPLASH:
   url: https://2025.splashcon.org
   year: 2025
 SPLASH-ICFP:
-  cfp: '2025-05-04'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/18
   country: SG
   format: null
@@ -470,7 +470,7 @@ SPLASH-ICFP:
   url: https://conf.researchr.org/home/icfp-splash-2025
   year: 2025
 SPLASH-SAS:
-  cfp: '2025-05-04'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/18
   country: SG
   format: null
