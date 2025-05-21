@@ -132,10 +132,46 @@ def mark_expired_dates(yaml_path: str):
             )
         except ExpiredCfpError:
             updated_yaml[conf_name]["cfp"] = "closed"
-    Path(yaml_path).write_text(
+    write_yaml_file(yaml_path, updated_yaml)
+
+
+def write_yaml_file(path, yaml_structure):
+    yaml_content = Path(path).read_text()
+    weights = {
+        name: idx
+        for idx, name in enumerate([
+            "year",
+            "url",
+            "publisher",
+            "rank",
+            "core",
+            "scope",
+            "short",
+            "full",
+            "format",
+            "cfp",
+            "country",
+            "later",
+        ])
+    }
+    sorted_records = []
+    for name, record in yaml_structure.items():
+        dumped_str = yaml.safe_dump({name: record})
+        record_lines = dumped_str.splitlines()[1::]
+        sorted_record_lines = sorted(
+            record_lines,
+            key=lambda record_line: weights[record_line.strip().split(":")[0]]
+        )
+        sorted_records.append(
+            "{}\n{}".format(
+                dumped_str.splitlines()[0],
+                "\n".join(sorted_record_lines),
+            ),
+        )
+    Path(path).write_text(
         "{0}---\n{1}".format(
             yaml_content.split("---")[0],
-            yaml.safe_dump(updated_yaml),
+            "\n".join(sorted_records)
         ),
     )
 
