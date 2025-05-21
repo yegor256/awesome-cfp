@@ -163,7 +163,7 @@ def write_yaml_file(path, yaml_structure):
             key=lambda record_line: weights[record_line.strip().split(":")[0]]
         )
         sorted_records.append(
-            "{0}\n{1}".format(
+            "{0}\n{1}\n".format(
                 dumped_str.splitlines()[0],
                 "\n".join(sorted_record_lines),
             ),
