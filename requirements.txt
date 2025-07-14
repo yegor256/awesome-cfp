@@ -6,7 +6,7 @@
 #
 anyio==4.9.0
     # via httpx
-certifi==2024.12.14
+certifi==2025.7.14
     # via
     #   httpcore
     #   httpx
