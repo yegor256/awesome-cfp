@@ -14,11 +14,11 @@ import yaml
 
 
 class InvalidUrlError(Exception):
-    """Exception throwed on fail ping url."""
+    """Exception threw on fail ping url."""
 
 
 class ExpiredCfpError(Exception):
-    """Exception throwed on call for papers date expired."""
+    """Exception threw on call for papers date expired."""
 
 
 DateAsStrT: TypeAlias = str
