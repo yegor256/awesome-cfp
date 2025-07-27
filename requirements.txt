@@ -26,18 +26,22 @@ idna==3.10
     #   httpx
 iniconfig==2.1.0
     # via pytest
-more-itertools==10.6.0
+more-itertools==10.7.0
     # via -r requirements.in
 packaging==25.0
     # via pytest
 pluggy==1.6.0
+    # via
+    #   pytest
+    #   pytest-cov
+pygments==2.19.2
     # via pytest
-pytest==8.3.4
+pytest==8.4.1
     # via
     #   -r requirements.in
     #   pytest-cov
     #   pytest-randomly
-pytest-cov==6.0.0
+pytest-cov==6.2.1
     # via -r requirements.in
 pytest-randomly==3.16.0
     # via -r requirements.in
