@@ -20,13 +20,13 @@ please send us a pull request.
 | name | publisher | rank | scope | short | full | format | cfp | country |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [ASE'25](<https://conf.researchr.org/home/ase-2025>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/279>) | SE |  |  |  | 25-Nov | KR |
-| [ASPLOS'25](<https://www.asplos-conference.org/asplos2025/cfp/>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/147>) | SE |  | 11 |  | 25-Jun | US |
+| [ASPLOS'25](<https://www.asplos-conference.org/asplos2025/cfp/>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/147>) | SE |  | 11 |  | closed | US |
 | [FSE'25](<https://conf.researchr.org/home/fse-2025>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/52>) | SE |  | 18 | 1C | closed | NO |
 | [ICSE'25](<https://conf.researchr.org/home/icse-2025>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE |  | 10 |  | closed | CA |
 | [ICSE-NIER'25](<https://conf.researchr.org/track/icse-2025/icse-2025-nier>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 4 |  |  | closed | CA |
 | [ICSE-SRC'25](<https://conf.researchr.org/track/icse-2025/icse-2025-SRC>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 2 |  |  | closed | CA |
 | [PLDI'25](<https://conf.researchr.org/series/pldi>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/84>) | PL |  | 20 | 1C | closed | DK |
-| [POPL'25](<https://conf.researchr.org/home/POPL-2025>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/82>) | SE |  | 25 |  | 25-Jul | US |
+| [POPL'25](<https://conf.researchr.org/home/POPL-2025>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/82>) | SE |  | 25 |  | closed | US |
 | [CGO'25](<https://conf.researchr.org/series/cgo>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1362>) | PL |  | 11 | 2C | closed | US |
 | [EASE'25](<https://conf.researchr.org/home/ease-2025>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1022>) | SE |  | 10 |  | closed | IT |
 | [ECSA'25](<https://conf.researchr.org/home/ecsa-2025>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/2165>) | SA | 8 | 16 | LNCS | closed | CY |
