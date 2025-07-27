@@ -28,7 +28,7 @@ ASE:
   url: https://conf.researchr.org/home/ase-2025
   year: 2025
 ASPLOS:
-  cfp: '2025-06-24'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/147
   country: US
   format: null
@@ -314,7 +314,7 @@ PLDI:
   url: https://conf.researchr.org/series/pldi
   year: 2025
 POPL:
-  cfp: '2025-07-11'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/82
   country: US
   format: null
