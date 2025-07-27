@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 ---
 APLAS:
-  cfp: '2025-05-31'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/171
   country: IN
   format: LNCS
@@ -132,7 +132,7 @@ FSE:
   url: https://conf.researchr.org/home/fse-2025
   year: 2025
 ICFEM:
-  cfp: '2025-06-01'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1031
   country: CN
   format: LNCS
@@ -327,7 +327,7 @@ POPL:
   url: https://conf.researchr.org/home/POPL-2025
   year: 2025
 PPDP:
-  cfp: '2025-05-30'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/1176
   country: IT
   format: 2C
@@ -392,7 +392,7 @@ SANER:
   url: https://conf.researchr.org/series/saner
   year: 2025
 SCAM:
-  cfp: '2025-06-05'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/718
   country: NZ
   format: 2C
