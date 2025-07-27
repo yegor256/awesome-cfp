@@ -6,15 +6,15 @@
 #
 anyio==4.9.0
     # via httpx
-certifi==2024.12.14
+certifi==2025.7.14
     # via
     #   httpcore
     #   httpx
-coverage[toml]==7.6.12
+coverage[toml]==7.10.1
     # via pytest-cov
-h11==0.14.0
+h11==0.16.0
     # via httpcore
-httpcore==1.0.7
+httpcore==1.0.9
     # via httpx
 httpx==0.28.1
     # via
@@ -26,13 +26,13 @@ idna==3.10
     #   httpx
 iniconfig==2.1.0
     # via pytest
-more-itertools==10.7.0
+more-itertools==10.6.0
     # via -r requirements.in
 packaging==25.0
     # via pytest
-pluggy==1.5.0
+pluggy==1.6.0
     # via pytest
-pytest==8.3.5
+pytest==8.3.4
     # via
     #   -r requirements.in
     #   pytest-cov

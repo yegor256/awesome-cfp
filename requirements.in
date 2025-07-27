@@ -16,3 +16,4 @@ pytest-cov==6.0.0
 pytest-randomly==3.16.0
 time-machine==2.16.0
 more-itertools==10.6.0
+time-machine==2.16.0
