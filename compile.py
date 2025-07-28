@@ -14,11 +14,11 @@ import yaml
 
 
 class InvalidUrlError(Exception):
-    """Exception throwed on fail ping url."""
+    """Exception threw on fail ping url."""
 
 
 class ExpiredCfpError(Exception):
-    """Exception throwed on call for papers date expired."""
+    """Exception threw on call for papers date expired."""
 
 
 DateAsStrT: TypeAlias = str
@@ -167,9 +167,9 @@ def generate(yaml_path, md_path):
         ),
     )
     sep = "<!-- events -->"
-    splitted_md = Path(md_path).read_text().split(sep)
-    splitted_md[1] = "\n{0}\n\n".format("\n".join(markdown_table_rows))
-    Path(md_path).write_text(sep.join(splitted_md))
+    split_md = Path(md_path).read_text().split(sep)
+    split_md[1] = "\n{0}\n\n".format("\n".join(markdown_table_rows))
+    Path(md_path).write_text(sep.join(split_md))
 
 
 if __name__ == "__main__":
