@@ -92,6 +92,19 @@ EASE:
   short: null
   url: https://conf.researchr.org/home/ease-2025
   year: 2025
+ECOOP:
+  cfp: '2025-05-02'
+  core: https://portal.core.edu.au/conf-ranks/488
+  country: NO
+  format: null
+  full: 25
+  later: false
+  publisher: ACM
+  rank: A
+  scope: SE
+  short: 12
+  url: https://2025.ecoop.org
+  year: 2025
 ECSA:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/2165
