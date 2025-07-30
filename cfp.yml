@@ -93,9 +93,9 @@ EASE:
   url: https://conf.researchr.org/home/ease-2025
   year: 2025
 ECOOP:
-  cfp: '2025-05-02'
+  cfp: closed
   core: https://portal.core.edu.au/conf-ranks/488
-  country: NO
+  country: false
   format: null
   full: 25
   later: false
