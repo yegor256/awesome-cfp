@@ -20,7 +20,11 @@ class ExpiredCfpError(Exception):
 
 
 DateAsStrT: TypeAlias = str
-RawDateT: TypeAlias = DateAsStrT | Literal["closed"]
+ClosedStrLiteral = "closed"
+UrlStrLiteral = "url"
+RankStrLiteral = "rank"
+CfpStrLiteral = "cfp"
+RawDateT: TypeAlias = DateAsStrT | Literal[ClosedStrLiteral]
 
 
 class ConfInfoDict(TypedDict):
@@ -39,7 +43,7 @@ class ConfInfoDict(TypedDict):
     country: str
 
 
-def build_name(name: str, info: ConfInfoDict) -> str:
+def build_name(name: str, inf: ConfInfoDict) -> str:
     """Build name.
 
     >>> build_name('ABC', {'year': '2099', 'url': 'https://google.com', 'later': False})
@@ -47,11 +51,11 @@ def build_name(name: str, info: ConfInfoDict) -> str:
     >>> build_name('ABC', {'year': 2099, 'url': 'https://google.com', 'later': False})
     "[ABC'99](<https://google.com>)"
     """
-    year = str(info["year"])[-2:]
+    year = str(inf["year"])[-2:]
     return "[{0}'{1}](<{2}>)".format(
         name,
         year,
-        validate_url(info["url"]) if not info["later"] else info["url"],
+        inf[UrlStrLiteral] if inf["later"] else validate_url(inf[UrlStrLiteral])
     )
 
 
@@ -74,38 +78,45 @@ def render_date(date: RawDateT | None):
     """
     if not date:
         return ""
-    if date == "closed":
-        return "closed"
+    if date == ClosedStrLiteral:
+        return ClosedStrLiteral
     parsed = datetime.datetime.strptime(date, "%Y-%m-%d").date()
     return parsed.strftime("%y-%b")
 
 
-def build_row(name: str, info: list[dict], template: str):
+def build_row(name: str, inf: list[dict], template: str):
     return template.format(
-        name=build_name(name, info),
-        publisher=info["publisher"] or "",
+        name=build_name(name, inf),
+        publisher=inf["publisher"] or "",
         rank="[{0}](<{1}>)".format(
-            info["rank"],
-            validate_url(info["core"]) if not info["later"] else info["url"],
+            inf[RankStrLiteral],
+            inf[UrlStrLiteral] if inf["later"] else validate_url(inf["core"]),
         ),
-        scope=info["scope"],
-        short=info["short"] or "",
-        full=info["full"] or "",
-        format=info["format"] or "",
-        cfp=render_date(info["cfp"]),
-        country=info["country"],
+        scope=inf["scope"],
+        short=inf["short"] or "",
+        full=inf["full"] or "",
+        format=inf["format"] or "",
+        cfp=render_date(inf[CfpStrLiteral]),
+        country=inf["country"],
     )
 
 
 def md_rows(yml: dict[str, ConfInfoDict], template: str):
-    srtd = {char: idx for idx, char in enumerate(["A*", "A", "B", "C", "D", "E", "F"])}
     return [
-        build_row(name, info, template)
-        for name, info in sorted(
+        build_row(name, inf, template)
+        for name, inf in sorted(
             yml.items(),
-            key=lambda x: srtd[x[1]["rank"]]
+            key=_sort_key,
         )
     ]
+
+
+def _sort_key(elem):
+    srtd = {
+        char: idx
+        for idx, char in enumerate(["A*", "A", "B", "C", "D", "E", "F"])
+    }
+    return srtd[elem[1][RankStrLiteral]]
 
 
 def validate_url(url: str) -> str:
@@ -121,43 +132,25 @@ def mark_expired_dates(path: str):
     yml = Path(path).read_text()
     origin = yaml.safe_load(yml)
     updated = deepcopy(origin)
-    for name, info in yaml.safe_load(yml).items():
-        if not info["cfp"] or info["cfp"] == "closed":
+    for name, inf in yaml.safe_load(yml).items():
+        if not inf[CfpStrLiteral] or inf[CfpStrLiteral] == ClosedStrLiteral:
             continue
         try:
             date_actual(
-                datetime.datetime.strptime(info["cfp"], "%Y-%m-%d").date(),
+                datetime.datetime.strptime(inf[CfpStrLiteral], "%Y-%m-%d").date(),
             )
         except ExpiredCfpError:
-            updated[name]["cfp"] = "closed"
+            updated[name][CfpStrLiteral] = ClosedStrLiteral
     write_yaml_file(path, updated)
 
 
 def write_yaml_file(path, yml):
-    content = Path(path).read_text()
-    weights = {
-        name: idx
-        for idx, name in enumerate([
-            "year",
-            "url",
-            "publisher",
-            "rank",
-            "core",
-            "scope",
-            "short",
-            "full",
-            "format",
-            "cfp",
-            "country",
-            "later",
-        ])
-    }
     records = []
     for name, record in yml.items():
         dumped = yaml.safe_dump({name: record})
         lines = sorted(
             dumped.splitlines()[1::],
-            key=lambda line: weights[line.strip().split(":")[0]]
+            key=_sort_lines_key,
         )
         records.append(
             "{0}\n{1}\n".format(
@@ -167,15 +160,36 @@ def write_yaml_file(path, yml):
         )
     Path(path).write_text(
         "{0}---\n{1}".format(
-            content.split("---")[0],
+            Path(path).read_text().split("---")[0],
             "\n".join(records)
         ),
     )
 
 
+def _sort_lines_key(line):
+    weights = {
+        name: idx
+        for idx, name in enumerate([
+            "year",
+            UrlStrLiteral,
+            "publisher",
+            RankStrLiteral,
+            "core",
+            "scope",
+            "short",
+            "full",
+            "format",
+            CfpStrLiteral,
+            "country",
+            "later",
+        ])
+    }
+    return weights[line.strip().split(":")[0]]
+
+
 def generate(yml, md):
     mark_expired_dates(yml)
-    headers = ["name", "publisher", "rank", "scope", "short", "full", "format", "cfp", "country"]
+    headers = ["name", "publisher", RankStrLiteral, "scope", "short", "full", "format", CfpStrLiteral, "country"]
     template = "".join([
         "| {name} ",
         "| {publisher} ",
