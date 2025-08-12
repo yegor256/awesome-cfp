@@ -1,13 +1,13 @@
 # SPDX-FileCopyrightText: Copyright (c) 2024-2025 Yegor Bugayenko
 # SPDX-License-Identifier: MIT
 
-# flake8: noqa: WPS202
+from __future__ import annotations
 
 import datetime
 import sys
+from copy import deepcopy
 from pathlib import Path
 from typing import Literal, TypeAlias, TypedDict
-from copy import deepcopy
 
 import httpx
 import yaml
@@ -22,7 +22,11 @@ class ExpiredCfpError(Exception):
 
 
 DateAsStrT: TypeAlias = str
-RawDateT: TypeAlias = DateAsStrT | Literal["closed"]
+ClosedStrLiteral = "closed"
+UrlStrLiteral = "url"
+RankStrLiteral = "rank"
+CfpStrLiteral = "cfp"
+RawDateT: TypeAlias = DateAsStrT | Literal[ClosedStrLiteral]
 
 
 class ConfInfoDict(TypedDict):
@@ -41,7 +45,7 @@ class ConfInfoDict(TypedDict):
     country: str
 
 
-def build_name(conf_name: str, conf_info: ConfInfoDict) -> str:
+def build_name(name: str, inf: ConfInfoDict) -> str:
     """Build name.
 
     >>> build_name('ABC', {'year': '2099', 'url': 'https://google.com', 'later': False})
@@ -49,11 +53,11 @@ def build_name(conf_name: str, conf_info: ConfInfoDict) -> str:
     >>> build_name('ABC', {'year': 2099, 'url': 'https://google.com', 'later': False})
     "[ABC'99](<https://google.com>)"
     """
-    year_last_two_digit = str(conf_info["year"])[-2:]
+    year = str(inf["year"])[-2:]
     return "[{0}'{1}](<{2}>)".format(
-        conf_name,
-        year_last_two_digit,
-        validate_url(conf_info["url"]) if not conf_info["later"] else conf_info["url"],
+        name,
+        year,
+        inf[UrlStrLiteral] if inf["later"] else validate_url(inf[UrlStrLiteral]),
     )
 
 
@@ -61,10 +65,11 @@ def date_actual(date: datetime.date) -> datetime.date:
     today = datetime.datetime.now(tz=datetime.UTC).date()
     if date > today:
         return date
-    raise ExpiredCfpError("{0} expired for today {1}".format(date, today))
+    msg = f"{date} expired for today {today}"
+    raise ExpiredCfpError(msg)
 
 
-def render_date(raw_date: RawDateT | None):
+def render_date(date: RawDateT | None) -> str:
     """Render date.
 
     >>> render_date("2090-01-01")
@@ -74,92 +79,87 @@ def render_date(raw_date: RawDateT | None):
     >>> render_date(None)
     ''
     """
-    if not raw_date:
+    if not date:
         return ""
-    if raw_date == "closed":
-        return "closed"
-    parsed_date = datetime.datetime.strptime(raw_date, "%Y-%m-%d").date()
-    return parsed_date.strftime("%y-%b")
+    if date == ClosedStrLiteral:
+        return ClosedStrLiteral
+    parsed = datetime.datetime.strptime(
+        date, "%Y-%m-%d",
+    ).replace(tzinfo=datetime.UTC).date()
+    return parsed.strftime("%y-%b")
 
 
-def build_row(conf_name: str, conf_info: list[dict], markdown_table_row_template: str):
-    return markdown_table_row_template.format(
-        name=build_name(conf_name, conf_info),
-        publisher=conf_info["publisher"] or "",
+def build_row(name: str, inf: list[dict], template: str) -> str:
+    return template.format(
+        name=build_name(name, inf),
+        publisher=inf["publisher"] or "",
         rank="[{0}](<{1}>)".format(
-            conf_info["rank"],
-            validate_url(conf_info["core"]) if not conf_info["later"] else conf_info["url"],
+            inf[RankStrLiteral],
+            inf[UrlStrLiteral] if inf["later"] else validate_url(inf["core"]),
         ),
-        scope=conf_info["scope"],
-        short=conf_info["short"] or "",
-        full=conf_info["full"] or "",
-        format=conf_info["format"] or "",
-        cfp=render_date(conf_info["cfp"]),
-        country=conf_info["country"],
+        scope=inf["scope"],
+        short=inf["short"] or "",
+        full=inf["full"] or "",
+        format=inf["format"] or "",
+        cfp=render_date(inf[CfpStrLiteral]),
+        country=inf["country"],
     )
 
 
-def md_rows(yaml_as_dict: dict[str, ConfInfoDict], markdown_table_row_template: str):
-    sorting_dict = {char: idx for idx, char in enumerate(["A*", "A", "B", "C", "D", "E", "F"])}
+def md_rows(yml: dict[str, ConfInfoDict], template: str) -> list[str]:
     return [
-        build_row(conf_name, conf_info, markdown_table_row_template)
-        for conf_name, conf_info in sorted(
-            yaml_as_dict.items(),
-            key=lambda x: sorting_dict[x[1]["rank"]]
+        build_row(name, inf, template)
+        for name, inf in sorted(
+            yml.items(),
+            key=_sort_key,
         )
     ]
 
 
+def _sort_key(elem: str) -> int:
+    srtd = {
+        char: idx
+        for idx, char in enumerate(["A*", "A", "B", "C", "D", "E", "F"])
+    }
+    return srtd[elem[1][RankStrLiteral]]
+
+
 def validate_url(url: str) -> str:
     response = httpx.get(url)
-    status_success = httpx.codes.is_success(response.status_code)
-    allow_status = status_success or httpx.codes.is_redirect(response.status_code)
-    if not allow_status:
-        raise InvalidUrlError("Url = '{0}' return status = {1}".format(url, response.status_code))
+    success = httpx.codes.is_success(response.status_code)
+    allow = success or httpx.codes.is_redirect(response.status_code)
+    if not allow:
+        msg = f"Url = '{url}' return status = {response.status_code}"
+        raise InvalidUrlError(msg)
     return url
 
 
-def mark_expired_dates(yaml_path: str):
-    yaml_content = Path(yaml_path).read_text()
-    origin_yaml = yaml.safe_load(yaml_content)
-    updated_yaml = deepcopy(origin_yaml)
-    for conf_name, conf_info in yaml.safe_load(yaml_content).items():
-        if not conf_info["cfp"] or conf_info["cfp"] == "closed":
+def mark_expired_dates(path: str) -> None:
+    yml = Path(path).read_text()
+    origin = yaml.safe_load(yml)
+    updated = deepcopy(origin)
+    for name, inf in yaml.safe_load(yml).items():
+        if not inf[CfpStrLiteral] or inf[CfpStrLiteral] == ClosedStrLiteral:
             continue
         try:
             date_actual(
-                datetime.datetime.strptime(conf_info["cfp"], "%Y-%m-%d").date(),
+                datetime.datetime.strptime(
+                    inf[CfpStrLiteral],
+                    "%Y-%m-%d",
+                ).replace(tzinfo=datetime.UTC).date(),
             )
         except ExpiredCfpError:
-            updated_yaml[conf_name]["cfp"] = "closed"
-    write_yaml_file(yaml_path, updated_yaml)
+            updated[name][CfpStrLiteral] = ClosedStrLiteral
+    write_yaml_file(path, updated)
 
 
-def write_yaml_file(path, yaml_structure):
-    content = Path(path).read_text()
-    weights = {
-        name: idx
-        for idx, name in enumerate([
-            "year",
-            "url",
-            "publisher",
-            "rank",
-            "core",
-            "scope",
-            "short",
-            "full",
-            "format",
-            "cfp",
-            "country",
-            "later",
-        ])
-    }
+def write_yaml_file(path: str, yml: ConfInfoDict) -> None:
     records = []
-    for name, record in yaml_structure.items():
+    for name, record in yml.items():
         dumped = yaml.safe_dump({name: record})
         lines = sorted(
             dumped.splitlines()[1::],
-            key=lambda line: weights[line.strip().split(":")[0]]
+            key=_sort_lines_key,
         )
         records.append(
             "{0}\n{1}\n".format(
@@ -169,16 +169,47 @@ def write_yaml_file(path, yaml_structure):
         )
     Path(path).write_text(
         "{0}---\n{1}".format(
-            content.split("---")[0],
-            "\n".join(records)
+            Path(path).read_text().split("---")[0],
+            "\n".join(records),
         ),
     )
 
 
-def generate(yaml_path, md_path):
-    mark_expired_dates(yaml_path)
-    headers = ["name", "publisher", "rank", "scope", "short", "full", "format", "cfp", "country"]
-    markdown_table_row_template = "".join([
+def _sort_lines_key(line: str) -> int:
+    weights = {
+        name: idx
+        for idx, name in enumerate([
+            "year",
+            UrlStrLiteral,
+            "publisher",
+            RankStrLiteral,
+            "core",
+            "scope",
+            "short",
+            "full",
+            "format",
+            CfpStrLiteral,
+            "country",
+            "later",
+        ])
+    }
+    return weights[line.strip().split(":")[0]]
+
+
+def generate(yml: str, md: str) -> None:
+    mark_expired_dates(yml)
+    headers = [
+        "name",
+        "publisher",
+        RankStrLiteral,
+        "scope",
+        "short",
+        "full",
+        "format",
+        CfpStrLiteral,
+        "country",
+    ]
+    template = "".join([
         "| {name} ",
         "| {publisher} ",
         "| {rank} ",
@@ -189,22 +220,22 @@ def generate(yaml_path, md_path):
         "| {cfp} ",
         "| {country} |",
     ])
-    markdown_table_rows = ["| {0} |".format(" | ".join(headers))]
-    markdown_table_rows.append(
+    rows = ["| {0} |".format(" | ".join(headers))]
+    rows.append(
         "| {0} |".format(
             " | ".join(["---" for _ in range(len(headers))]),
         ),
     )
-    markdown_table_rows.extend(
+    rows.extend(
         md_rows(
-            yaml.safe_load(Path(yaml_path).read_text()),
-            markdown_table_row_template,
+            yaml.safe_load(Path(yml).read_text()),
+            template,
         ),
     )
     sep = "<!-- events -->"
-    split_md = Path(md_path).read_text().split(sep)
-    split_md[1] = "\n{0}\n\n".format("\n".join(markdown_table_rows))
-    Path(md_path).write_text(sep.join(split_md))
+    split = Path(md).read_text().split(sep)
+    split[1] = "\n{0}\n\n".format("\n".join(rows))
+    Path(md).write_text(sep.join(split))
 
 
 if __name__ == "__main__":
