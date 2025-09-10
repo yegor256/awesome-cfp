@@ -95,7 +95,7 @@ EASE:
 ECOOP:
   cfp: closed
   core: https://portal.core.edu.au/conf-ranks/488
-  country: false
+  country: 'NO'
   format: null
   full: 25
   later: false
