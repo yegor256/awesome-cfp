@@ -47,7 +47,7 @@ pytest-randomly==4.0.1
     # via -r requirements.in
 python-dateutil==2.9.0.post0
     # via time-machine
-pyyaml==6.0.2
+pyyaml==6.0.3
     # via -r requirements.in
 respx==0.22.0
     # via -r requirements.in
