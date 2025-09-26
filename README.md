@@ -29,7 +29,7 @@ please send us a pull request.
 | [POPL'25](<https://conf.researchr.org/home/POPL-2025>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/82>) | SE |  | 25 |  | closed | US |
 | [CGO'25](<https://conf.researchr.org/series/cgo>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1362>) | PL |  | 11 | 2C | closed | US |
 | [EASE'25](<https://conf.researchr.org/home/ease-2025>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1022>) | SE |  | 10 |  | closed | IT |
-| [ECOOP'25](<https://2025.ecoop.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/488>) | SE | 12 | 25 |  | closed | False |
+| [ECOOP'25](<https://2025.ecoop.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/488>) | SE | 12 | 25 |  | closed | NO |
 | [ECSA'25](<https://conf.researchr.org/home/ecsa-2025>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/2165>) | SA | 8 | 16 | LNCS | closed | CY |
 | [ESOP'25](<https://etaps.org/2025/conferences/esop/>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/514>) | PL | 15 | 25 | LNCS | closed | CZ |
 | [ICFP'25](<https://icfp25.sigplan.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | 12 | 25 | 1C | closed | IT |
