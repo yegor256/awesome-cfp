@@ -20,7 +20,7 @@ httpx==0.28.1
     # via
     #   -r requirements.in
     #   respx
-idna==3.10
+idna==3.11
     # via
     #   anyio
     #   httpx
