@@ -89,20 +89,26 @@ def render_date(date: RawDateT | None) -> str:
     return parsed.strftime("%y-%b")
 
 
+def _padded_row(row: str) -> str:
+    if not row:
+        return " "
+    return f" {row} "
+
+
 def build_row(name: str, inf: list[dict], template: str) -> str:
     return template.format(
-        name=build_name(name, inf),
-        publisher=inf["publisher"] or "",
-        rank="[{0}](<{1}>)".format(
+        name=_padded_row(build_name(name, inf)),
+        publisher=_padded_row(inf["publisher"] or ""),
+        rank=_padded_row("[{0}](<{1}>)".format(
             inf[RankStrLiteral],
             inf[UrlStrLiteral] if inf["later"] else validate_url(inf["core"]),
-        ),
-        scope=inf["scope"],
-        short=inf["short"] or "",
-        full=inf["full"] or "",
-        format=inf["format"] or "",
-        cfp=render_date(inf[CfpStrLiteral]),
-        country=inf["country"],
+        )),
+        scope=_padded_row(inf["scope"]),
+        short=_padded_row(inf["short"] or ""),
+        full=_padded_row(inf["full"] or ""),
+        format=_padded_row(inf["format"] or ""),
+        cfp=_padded_row(render_date(inf[CfpStrLiteral])),
+        country=_padded_row(inf["country"]),
     )
 
 
@@ -210,15 +216,15 @@ def generate(yml: str, md: str) -> None:
         "country",
     ]
     template = "".join([
-        "| {name} ",
-        "| {publisher} ",
-        "| {rank} ",
-        "| {scope} ",
-        "| {short} ",
-        "| {full} ",
-        "| {format} ",
-        "| {cfp} ",
-        "| {country} |",
+        "|{name}",
+        "|{publisher}",
+        "|{rank}",
+        "|{scope}",
+        "|{short}",
+        "|{full}",
+        "|{format}",
+        "|{cfp}",
+        "|{country}|",
     ])
     rows = ["| {0} |".format(" | ".join(headers))]
     rows.append(
