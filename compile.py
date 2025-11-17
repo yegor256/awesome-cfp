@@ -238,7 +238,6 @@ def generate(yml: str, md: str) -> None:
             template,
         ),
     )
-    print(rows)
     sep = "<!-- events -->"
     split = Path(md).read_text().split(sep)
     split[1] = "\n{0}\n\n".format("\n".join(rows))
