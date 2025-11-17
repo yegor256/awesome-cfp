@@ -89,10 +89,10 @@ def render_date(date: RawDateT | None) -> str:
     return parsed.strftime("%y-%b")
 
 
-def _padded_row(val: str) -> str:
-    if not val:
+def _padded_row(row: str) -> str:
+    if not row:
         return " "
-    return f" {val} "
+    return f" {row} "
 
 
 def build_row(name: str, inf: list[dict], template: str) -> str:
