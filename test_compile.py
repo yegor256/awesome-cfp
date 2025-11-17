@@ -32,6 +32,7 @@ def _mock_fail_http(respx_mock):
 @pytest.mark.usefixtures("_mock_http")
 @pytest.mark.parametrize("fixture_dir", list(Path("fixtures").iterdir()))
 def test_format(fixture_dir, tmp_path, time_machine):
+    print('!!!', fixture_dir)
     time_machine.move_to("2024-07-19")
     shutil.copytree(fixture_dir, tmp_path, dirs_exist_ok=True)
     generate(tmp_path / "input.yml", tmp_path / "README.md")

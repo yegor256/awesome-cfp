@@ -2,7 +2,7 @@
 <!-- events -->
 | name | publisher | rank | scope | short | full | format | cfp | country |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [ABC'99](<https://conf.researchr.org/series/abc>) |  | [C](<https://portal.core.edu.au/conf-ranks/2099>) | SE |  |  |  |  | Antarctica |
+| [ABC'99](<https://conf.researchr.org/series/abc>) | | [C](<https://portal.core.edu.au/conf-ranks/2099>) | SE | | | | | Antarctica |
 
 <!-- events -->
 Explanations for abbreviations.
