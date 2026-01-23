@@ -16,17 +16,17 @@ APLAS:
   later: false
 
 ASE:
-  year: 2025
-  url: https://conf.researchr.org/home/ase-2025
+  year: 2026
+  url: https://conf.researchr.org/home/ase-2026
   publisher: ACM
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/279
   scope: SE
   short: null
-  full: null
+  full: 10
   format: null
-  cfp: closed
-  country: KR
+  cfp: 2026-03-26
+  country: DE
   later: false
 
 ASPLOS:
