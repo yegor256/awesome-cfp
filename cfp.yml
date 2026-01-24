@@ -142,8 +142,8 @@ ESOP:
   later: false
 
 FSE:
-  year: 2025
-  url: https://conf.researchr.org/home/fse-2025
+  year: 2026
+  url: https://conf.researchr.org/home/fse-2026
   publisher: ACM
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/52
@@ -151,8 +151,8 @@ FSE:
   short: null
   full: 18
   format: 1C
-  cfp: closed
-  country: 'NO'
+  cfp: '2026-02-16'
+  country: 'CA'
   later: false
 
 ICFEM:
