@@ -30,15 +30,15 @@ ASE:
   later: false
 
 ASPLOS:
-  year: 2025
-  url: https://www.asplos-conference.org/asplos2025/cfp/
+  year: 2026
+  url: https://www.asplos-conference.org/asplos2026/cfp/
   publisher: ACM
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/147
   scope: SE
   short: null
   full: 11
-  format: null
+  format: 2C
   cfp: closed
   country: US
   later: false
