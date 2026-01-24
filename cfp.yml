@@ -352,8 +352,8 @@ PLDI:
   later: false
 
 POPL:
-  year: 2025
-  url: https://conf.researchr.org/home/POPL-2025
+  year: 2026
+  url: https://conf.researchr.org/home/POPL-2026
   publisher: ACM
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/82
@@ -362,7 +362,7 @@ POPL:
   full: 25
   format: null
   cfp: closed
-  country: US
+  country: FR
   later: false
 
 PPDP:
