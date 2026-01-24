@@ -338,7 +338,7 @@ MSR:
   later: false
 
 PLDI:
-  year: 2025
+  year: 2026
   url: https://conf.researchr.org/series/pldi
   publisher: ACM
   rank: A*
@@ -347,8 +347,8 @@ PLDI:
   short: null
   full: 20
   format: 1C
-  cfp: closed
-  country: DK
+  cfp: '2026-03-22'
+  country: US
   later: false
 
 POPL:
