@@ -58,8 +58,8 @@ CC:
   later: false
 
 CGO:
-  year: 2025
-  url: https://conf.researchr.org/series/cgo
+  year: 2026
+  url: https://2026.cgo.org
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1362
@@ -68,7 +68,7 @@ CGO:
   full: 11
   format: 2C
   cfp: closed
-  country: US
+  country: AU
   later: false
 
 CLEI:
