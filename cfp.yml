@@ -100,8 +100,8 @@ EASE:
   later: false
 
 ECOOP:
-  year: 2025
-  url: https://2025.ecoop.org
+  year: 2026
+  url: https://2026.ecoop.org
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/488
@@ -109,8 +109,8 @@ ECOOP:
   short: 12
   full: 25
   format: null
-  cfp: closed
-  country: 'NO'
+  cfp: '2026-03-06'
+  country: BE
   later: false
 
 ECSA:
