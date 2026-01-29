@@ -22,14 +22,14 @@ please send us a pull request.
 | [ASE'26](<https://conf.researchr.org/home/ase-2026>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/279>) | SE | | 10 | | 26-Mar | DE |
 | [ASPLOS'26](<https://www.asplos-conference.org/asplos2026/cfp/>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/147>) | SE | | 11 | 2C | closed | US |
 | [FSE'26](<https://conf.researchr.org/home/fse-2026>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/52>) | SE | | 18 | 1C | 26-Feb | CA |
-| [ICSE'26](<https://conf.researchr.org/home/icse-2026>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | | 10 | | 26-Jan | BR |
+| [ICSE'26](<https://conf.researchr.org/home/icse-2026>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | | 10 | | closed | BR |
 | [ICSE-NIER'26](<https://conf.researchr.org/track/icse-2026/icse-2026-nier>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 4 | | | closed | BR |
 | [ICSE-SRC'26](<https://conf.researchr.org/track/icse-2026/icse-2026-SRC>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 2 | | | closed | BR |
 | [PLDI'26](<https://conf.researchr.org/series/pldi>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/84>) | PL | | 20 | 1C | 26-Mar | US |
 | [POPL'26](<https://conf.researchr.org/home/POPL-2026>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/82>) | SE | | 25 | | closed | FR |
-| [CGO'25](<https://conf.researchr.org/series/cgo>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1362>) | PL | | 11 | 2C | closed | US |
-| [EASE'25](<https://conf.researchr.org/home/ease-2025>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1022>) | SE | | 10 | | closed | IT |
-| [ECOOP'25](<https://2025.ecoop.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/488>) | SE | 12 | 25 | | closed | NO |
+| [CGO'26](<https://2026.cgo.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1362>) | PL | | 11 | 2C | closed | AU |
+| [EASE'26](<https://conf.researchr.org/home/ease-2026>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1022>) | SE | | 10 | | 26-Mar | UK |
+| [ECOOP'26](<https://2026.ecoop.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/488>) | SE | 12 | 25 | | 26-Mar | BE |
 | [ECSA'25](<https://conf.researchr.org/home/ecsa-2025>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/2165>) | SA | 8 | 16 | LNCS | closed | CY |
 | [ESOP'25](<https://etaps.org/2025/conferences/esop/>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/514>) | PL | 15 | 25 | LNCS | closed | CZ |
 | [ICFP'25](<https://icfp25.sigplan.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | 12 | 25 | 1C | closed | IT |
