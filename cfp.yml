@@ -128,8 +128,8 @@ ECSA:
   later: false
 
 ESOP:
-  year: 2025
-  url: https://etaps.org/2025/conferences/esop/
+  year: 2026
+  url: https://etaps.org/2026/conferences/esop/
   publisher: Springer
   rank: A
   core: https://portal.core.edu.au/conf-ranks/514
@@ -137,7 +137,7 @@ ESOP:
   short: 15
   full: 25
   format: LNCS
-  cfp: closed
+  cfp: '2026-02-12'
   country: CZ
   later: false
 
