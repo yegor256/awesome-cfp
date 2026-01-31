@@ -198,8 +198,8 @@ ICFP-SPLASH:
   later: false
 
 ICPC:
-  year: 2025
-  url: https://conf.researchr.org/home/icpc-2025
+  year: 2026
+  url: https://conf.researchr.org/home/icpc-2026
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1181
@@ -207,7 +207,7 @@ ICPC:
   short: null
   full: 10
   format: null
-  cfp: closed
+  cfp: '2026-01-26'
   country: CA
   later: false
 
