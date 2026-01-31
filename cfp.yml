@@ -212,8 +212,8 @@ ICPC:
   later: false
 
 ICSA:
-  year: 2025
-  url: https://conf.researchr.org/home/icsa-2025
+  year: 2026
+  url: https://conf.researchr.org/home/icsa-2026
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/791
@@ -221,8 +221,8 @@ ICSA:
   short: 8
   full: 10
   format: null
-  cfp: closed
-  country: DK
+  cfp: '2026-02-13'
+  country: NL
   later: false
 
 ICSE:
