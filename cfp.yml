@@ -296,8 +296,8 @@ ICST:
   later: false
 
 ISSRE:
-  year: 2025
-  url: https://issre.github.io/2025/index.html
+  year: 2026
+  url: https://cyprusconferences.org/issre2026/
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1411
@@ -305,8 +305,8 @@ ISSRE:
   short: 10
   full: 12
   format: 2C
-  cfp: closed
-  country: BR
+  cfp: '2026-04-17'
+  country: CY
   later: false
 
 ISSTA:
