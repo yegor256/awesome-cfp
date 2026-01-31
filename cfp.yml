@@ -170,8 +170,8 @@ ICFEM:
   later: false
 
 ICFP:
-  year: 2025
-  url: https://icfp25.sigplan.org
+  year: 2026
+  url: https://icfp26.sigplan.org
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1037
@@ -179,8 +179,8 @@ ICFP:
   short: 12
   full: 25
   format: 1C
-  cfp: closed
-  country: IT
+  cfp: '2026-02-19'
+  country: US
   later: false
 
 ICFP-SPLASH:
