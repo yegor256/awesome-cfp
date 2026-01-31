@@ -114,8 +114,8 @@ ECOOP:
   later: false
 
 ECSA:
-  year: 2025
-  url: https://conf.researchr.org/home/ecsa-2025
+  year: 2026
+  url: https://conf.researchr.org/home/ecsa-2026
   publisher: Springer
   rank: A
   core: https://portal.core.edu.au/conf-ranks/2165
@@ -123,8 +123,8 @@ ECSA:
   short: 8
   full: 16
   format: LNCS
-  cfp: closed
-  country: CY
+  cfp: '2026-03-20'
+  country: IT
   later: false
 
 ESOP:
