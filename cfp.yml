@@ -184,8 +184,8 @@ ICFP:
   later: false
 
 ICFP-SPLASH:
-  year: 2025
-  url: https://icfp25.sigplan.org/track/icfp-splash-2025-workshops
+  year: 2026
+  url: https://icfp26.sigplan.org/track/icfp-2026-icfp-workshops
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1037
@@ -193,8 +193,8 @@ ICFP-SPLASH:
   short: 3
   full: null
   format: 1C
-  cfp: closed
-  country: IT
+  cfp: '2026-01-15'
+  country: US
   later: false
 
 ICPC:
