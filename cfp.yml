@@ -268,8 +268,8 @@ ICSE-SRC:
   later: false
 
 ICSME:
-  year: 2025
-  url: https://conf.researchr.org/home/icsme-2025
+  year: 2026
+  url: https://conf.researchr.org/home/icsme-2026
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/676
@@ -277,8 +277,8 @@ ICSME:
   short: null
   full: 10
   format: null
-  cfp: closed
-  country: NZ
+  cfp: '2026-03-06'
+  country: IT
   later: false
 
 ICST:
