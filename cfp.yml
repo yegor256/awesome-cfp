@@ -282,8 +282,8 @@ ICSME:
   later: false
 
 ICST:
-  year: 2025
-  url: https://conf.researchr.org/series/icst
+  year: 2026
+  url: https://conf.researchr.org/home/icst-2026
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1221
@@ -291,8 +291,8 @@ ICST:
   short: null
   full: 10
   format: 2C
-  cfp: closed
-  country: IT
+  cfp: '2026-02-20'
+  country: KR
   later: false
 
 ISSRE:
