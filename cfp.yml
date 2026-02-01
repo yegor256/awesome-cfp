@@ -114,8 +114,8 @@ ECOOP:
   later: false
 
 ECSA:
-  year: 2025
-  url: https://conf.researchr.org/home/ecsa-2025
+  year: 2026
+  url: https://conf.researchr.org/home/ecsa-2026
   publisher: Springer
   rank: A
   core: https://portal.core.edu.au/conf-ranks/2165
@@ -123,13 +123,13 @@ ECSA:
   short: 8
   full: 16
   format: LNCS
-  cfp: closed
-  country: CY
+  cfp: '2026-03-20'
+  country: IT
   later: false
 
 ESOP:
-  year: 2025
-  url: https://etaps.org/2025/conferences/esop/
+  year: 2026
+  url: https://etaps.org/2026/conferences/esop/
   publisher: Springer
   rank: A
   core: https://portal.core.edu.au/conf-ranks/514
@@ -137,7 +137,7 @@ ESOP:
   short: 15
   full: 25
   format: LNCS
-  cfp: closed
+  cfp: '2026-02-12'
   country: CZ
   later: false
 
@@ -170,8 +170,8 @@ ICFEM:
   later: false
 
 ICFP:
-  year: 2025
-  url: https://icfp25.sigplan.org
+  year: 2026
+  url: https://icfp26.sigplan.org
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1037
@@ -179,13 +179,13 @@ ICFP:
   short: 12
   full: 25
   format: 1C
-  cfp: closed
-  country: IT
+  cfp: '2026-02-19'
+  country: US
   later: false
 
 ICFP-SPLASH:
-  year: 2025
-  url: https://icfp25.sigplan.org/track/icfp-splash-2025-workshops
+  year: 2026
+  url: https://icfp26.sigplan.org/track/icfp-2026-icfp-workshops
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1037
@@ -193,13 +193,13 @@ ICFP-SPLASH:
   short: 3
   full: null
   format: 1C
-  cfp: closed
-  country: IT
+  cfp: '2026-01-15'
+  country: US
   later: false
 
 ICPC:
-  year: 2025
-  url: https://conf.researchr.org/home/icpc-2025
+  year: 2026
+  url: https://conf.researchr.org/home/icpc-2026
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1181
@@ -207,13 +207,13 @@ ICPC:
   short: null
   full: 10
   format: null
-  cfp: closed
+  cfp: '2026-01-26'
   country: CA
   later: false
 
 ICSA:
-  year: 2025
-  url: https://conf.researchr.org/home/icsa-2025
+  year: 2026
+  url: https://conf.researchr.org/home/icsa-2026
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/791
@@ -221,8 +221,8 @@ ICSA:
   short: 8
   full: 10
   format: null
-  cfp: closed
-  country: DK
+  cfp: '2026-02-13'
+  country: NL
   later: false
 
 ICSE:
@@ -268,8 +268,8 @@ ICSE-SRC:
   later: false
 
 ICSME:
-  year: 2025
-  url: https://conf.researchr.org/home/icsme-2025
+  year: 2026
+  url: https://conf.researchr.org/home/icsme-2026
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/676
@@ -277,13 +277,13 @@ ICSME:
   short: null
   full: 10
   format: null
-  cfp: closed
-  country: NZ
+  cfp: '2026-03-06'
+  country: IT
   later: false
 
 ICST:
-  year: 2025
-  url: https://conf.researchr.org/series/icst
+  year: 2026
+  url: https://conf.researchr.org/home/icst-2026
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1221
@@ -291,13 +291,13 @@ ICST:
   short: null
   full: 10
   format: 2C
-  cfp: closed
-  country: IT
+  cfp: '2026-02-20'
+  country: KR
   later: false
 
 ISSRE:
-  year: 2025
-  url: https://issre.github.io/2025/index.html
+  year: 2026
+  url: https://cyprusconferences.org/issre2026/
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1411
@@ -305,8 +305,8 @@ ISSRE:
   short: 10
   full: 12
   format: 2C
-  cfp: closed
-  country: BR
+  cfp: '2026-04-17'
+  country: CY
   later: false
 
 ISSTA:
