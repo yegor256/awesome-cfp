@@ -41,7 +41,7 @@ pytest==9.0.2
     #   -r requirements.in
     #   pytest-cov
     #   pytest-randomly
-pytest-cov==6.3.0
+pytest-cov==7.0.0
     # via -r requirements.in
 pytest-randomly==4.0.1
     # via -r requirements.in
