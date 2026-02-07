@@ -310,8 +310,8 @@ ISSRE:
   later: false
 
 ISSTA:
-  year: 2025
-  url: https://conf.researchr.org/home/issta-2025
+  year: 2026
+  url: https://conf.researchr.org/home/issta-2026
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1412
@@ -319,8 +319,8 @@ ISSTA:
   short: null
   full: 18
   format: 1C
-  cfp: closed
-  country: 'NO'
+  cfp: '2026-06-25'
+  country: US
   later: false
 
 MSR:
