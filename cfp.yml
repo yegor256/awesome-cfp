@@ -422,8 +422,8 @@ REFSQ:
   later: false
 
 SANER:
-  year: 2025
-  url: https://conf.researchr.org/series/saner
+  year: 2026
+  url: https://conf.researchr.org/home/saner-2026
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/2280
@@ -431,8 +431,8 @@ SANER:
   short: null
   full: 12
   format: null
-  cfp: ''
-  country: CA
+  cfp: '2025-10-16'
+  country: CY
   later: false
 
 SCAM:
