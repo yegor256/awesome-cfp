@@ -39,9 +39,9 @@ please send us a pull request.
 | [ICSME'26](<https://conf.researchr.org/home/icsme-2026>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/676>) | SE | | 10 | | 26-Mar | IT |
 | [ICST'26](<https://conf.researchr.org/home/icst-2026>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/1221>) | ST | | 10 | 2C | 26-Feb | KR |
 | [ISSRE'26](<https://cyprusconferences.org/issre2026/>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/1411>) | SE | 10 | 12 | 2C | 26-Apr | CY |
-| [ISSTA'25](<https://conf.researchr.org/home/issta-2025>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1412>) | ST | | 18 | 1C | closed | NO |
-| [MSR'25](<https://www.msrconf.org>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/711>) | SE | 4 | 10 | | | CA |
-| [SANER'25](<https://conf.researchr.org/series/saner>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/2280>) | SE | | 12 | | | CA |
+| [ISSTA'26](<https://conf.researchr.org/home/issta-2026>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1412>) | ST | | 18 | 1C | 26-Jun | US |
+| [MSR'26](<https://2026.msrconf.org>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/711>) | SE | 4 | 10 | | closed | BR |
+| [SANER'26](<https://conf.researchr.org/home/saner-2026>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/2280>) | SE | | 12 | | closed | CY |
 | [SEAMS'25](<https://conf.researchr.org/home/seams-2025>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/2281>) | SE | 6 | 10 | | closed | CA |
 | [SPLASH'25](<https://2025.splashcon.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/18>) | PL | | | | closed | SG |
 | [SPLASH-ICFP'25](<https://conf.researchr.org/home/icfp-splash-2025>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/18>) | PL | | | | closed | SG |
