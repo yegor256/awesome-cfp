@@ -333,7 +333,7 @@ MSR:
   short: 4
   full: 10
   format: null
-  cfp: '2025-12-23'
+  cfp: closed
   country: BR
   later: false
 
@@ -431,7 +431,7 @@ SANER:
   short: null
   full: 12
   format: null
-  cfp: '2025-10-16'
+  cfp: closed
   country: CY
   later: false
 
