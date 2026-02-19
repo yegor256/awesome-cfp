@@ -464,8 +464,8 @@ SEAA:
   later: false
 
 SEAMS:
-  year: 2025
-  url: https://conf.researchr.org/home/seams-2025
+  year: 2026
+  url: https://conf.researchr.org/home/seams-2026
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/2281
@@ -473,8 +473,8 @@ SEAMS:
   short: 6
   full: 10
   format: null
-  cfp: closed
-  country: CA
+  cfp: '2025-10-23'
+  country: BR
   later: false
 
 SLE:
