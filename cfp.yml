@@ -478,8 +478,8 @@ SEAMS:
   later: false
 
 SLE:
-  year: 2025
-  url: http://www.sleconf.org/2025
+  year: 2026
+  url: http://www.sleconf.org/2026
   publisher: ACM
   rank: B
   core: https://portal.core.edu.au/conf-ranks/1215
@@ -487,8 +487,8 @@ SLE:
   short: 6
   full: 12
   format: 2C
-  cfp: closed
-  country: DE
+  cfp: '2026-03-06'
+  country: FR
   later: false
 
 SPLASH:
