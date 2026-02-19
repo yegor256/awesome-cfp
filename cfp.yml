@@ -492,8 +492,8 @@ SLE:
   later: false
 
 SPLASH:
-  year: 2025
-  url: https://2025.splashcon.org
+  year: 2026
+  url: https://2026.splashcon.org
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/18
@@ -501,35 +501,7 @@ SPLASH:
   short: null
   full: null
   format: null
-  cfp: closed
-  country: SG
-  later: false
-
-SPLASH-ICFP:
-  year: 2025
-  url: https://conf.researchr.org/home/icfp-splash-2025
-  publisher: ACM
-  rank: A
-  core: https://portal.core.edu.au/conf-ranks/18
-  scope: PL
-  short: null
-  full: null
-  format: null
-  cfp: closed
-  country: SG
-  later: false
-
-SPLASH-SAS:
-  year: 2025
-  url: https://2025.splashcon.org/home/sas-2025
-  publisher: ACM
-  rank: A
-  core: https://portal.core.edu.au/conf-ranks/18
-  scope: PL
-  short: null
-  full: null
-  format: null
-  cfp: closed
+  cfp: '2026-06-26'
   country: SG
   later: false
 
