@@ -408,8 +408,8 @@ QRS:
   later: false
 
 REFSQ:
-  year: 2025
-  url: https://2025.refsq.org
+  year: 2026
+  url: https://2026.refsq.org
   publisher: Springer
   rank: B
   core: https://portal.core.edu.au/conf-ranks/1521
@@ -417,8 +417,8 @@ REFSQ:
   short: 8
   full: 15
   format: LNCS
-  cfp: closed
-  country: ES
+  cfp: '2025-10-17'
+  country: PL
   later: false
 
 SANER:
