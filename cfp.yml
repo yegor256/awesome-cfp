@@ -2,8 +2,8 @@
 # SPDX-License-Identifier: MIT
 ---
 APLAS:
-  year: 2025
-  url: https://conf.researchr.org/home/aplas-2025
+  year: 2026
+  url: https://conf.researchr.org/home/aplas-atva-2026
   publisher: Springer
   rank: B
   core: https://portal.core.edu.au/conf-ranks/171
@@ -11,7 +11,7 @@ APLAS:
   short: null
   full: 17
   format: LNCS
-  cfp: closed
+  cfp: '2026-06-08'
   country: IN
   later: false
 
