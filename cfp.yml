@@ -2,8 +2,8 @@
 # SPDX-License-Identifier: MIT
 ---
 APLAS:
-  year: 2025
-  url: https://conf.researchr.org/home/aplas-2025
+  year: 2026
+  url: https://conf.researchr.org/home/aplas-atva-2026
   publisher: Springer
   rank: B
   core: https://portal.core.edu.au/conf-ranks/171
@@ -11,7 +11,7 @@ APLAS:
   short: null
   full: 17
   format: LNCS
-  cfp: closed
+  cfp: '2026-06-08'
   country: IN
   later: false
 
@@ -44,8 +44,8 @@ ASPLOS:
   later: false
 
 CC:
-  year: 2025
-  url: https://conf.researchr.org/series/CC
+  year: 2026
+  url: https://conf.researchr.org/home/CC-2026
   publisher: ACM
   rank: B
   core: https://portal.core.edu.au/conf-ranks/936
@@ -53,8 +53,8 @@ CC:
   short: null
   full: 10
   format: 2C
-  cfp: closed
-  country: UK
+  cfp: '2025-11-11'
+  country: AU
   later: false
 
 CGO:
@@ -380,8 +380,8 @@ PPDP:
   later: false
 
 PPoPP:
-  year: 2025
-  url: https://conf.researchr.org/home/ppopp-2025
+  year: 2026
+  url: https://conf.researchr.org/home/ppopp-2026
   publisher: ACM
   rank: B
   core: https://portal.core.edu.au/conf-ranks/1691
@@ -389,8 +389,8 @@ PPoPP:
   short: null
   full: 10
   format: null
-  cfp: closed
-  country: UK
+  cfp: '2025-09-01'
+  country: AU
   later: false
 
 QRS:
@@ -408,8 +408,8 @@ QRS:
   later: false
 
 REFSQ:
-  year: 2025
-  url: https://2025.refsq.org
+  year: 2026
+  url: https://2026.refsq.org
   publisher: Springer
   rank: B
   core: https://portal.core.edu.au/conf-ranks/1521
@@ -417,8 +417,8 @@ REFSQ:
   short: 8
   full: 15
   format: LNCS
-  cfp: closed
-  country: ES
+  cfp: '2025-10-17'
+  country: PL
   later: false
 
 SANER:
