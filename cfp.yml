@@ -44,8 +44,8 @@ ASPLOS:
   later: false
 
 CC:
-  year: 2025
-  url: https://conf.researchr.org/series/CC
+  year: 2026
+  url: https://conf.researchr.org/home/CC-2026
   publisher: ACM
   rank: B
   core: https://portal.core.edu.au/conf-ranks/936
@@ -53,8 +53,8 @@ CC:
   short: null
   full: 10
   format: 2C
-  cfp: closed
-  country: UK
+  cfp: '2025-11-11'
+  country: AU
   later: false
 
 CGO:
