@@ -380,8 +380,8 @@ PPDP:
   later: false
 
 PPoPP:
-  year: 2025
-  url: https://conf.researchr.org/home/ppopp-2025
+  year: 2026
+  url: https://conf.researchr.org/home/ppopp-2026
   publisher: ACM
   rank: B
   core: https://portal.core.edu.au/conf-ranks/1691
@@ -389,8 +389,8 @@ PPoPP:
   short: null
   full: 10
   format: null
-  cfp: closed
-  country: UK
+  cfp: '2025-09-01'
+  country: AU
   later: false
 
 QRS:
