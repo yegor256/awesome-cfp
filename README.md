@@ -44,10 +44,10 @@ please send us a pull request.
 | [SANER'26](<https://conf.researchr.org/home/saner-2026>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/2280>) | SE | | 12 | | closed | CY |
 | [SEAMS'26](<https://conf.researchr.org/home/seams-2026>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/2281>) | SE | 6 | 10 | | closed | BR |
 | [SPLASH'26](<https://2026.splashcon.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/18>) | PL | | | | 26-Jun | SG |
-| [APLAS'25](<https://conf.researchr.org/home/aplas-2025>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/171>) | PL | | 17 | LNCS | closed | IN |
-| [CC'25](<https://conf.researchr.org/series/CC>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/936>) | PL | | 10 | 2C | closed | UK |
-| [PPoPP'25](<https://conf.researchr.org/home/ppopp-2025>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/1691>) | PL | | 10 | | closed | UK |
-| [REFSQ'25](<https://2025.refsq.org>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/1521>) | SE | 8 | 15 | LNCS | closed | ES |
+| [APLAS'26](<https://conf.researchr.org/home/aplas-atva-2026>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/171>) | PL | | 17 | LNCS | 26-Jun | IN |
+| [CC'26](<https://conf.researchr.org/home/CC-2026>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/936>) | PL | | 10 | 2C | closed | AU |
+| [PPoPP'26](<https://conf.researchr.org/home/ppopp-2026>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/1691>) | PL | | 10 | | closed | AU |
+| [REFSQ'26](<https://2026.refsq.org>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/1521>) | SE | 8 | 15 | LNCS | closed | PL |
 | [SEAA'25](<https://dsd-seaa.com/seaa2025>) | IEEE | [B](<https://portal.core.edu.au/conf-ranks/464>) | SE, PL | 4 | 8 | 2C | closed | IT |
 | [SLE'26](<http://www.sleconf.org/2026>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/1215>) | SE, PL | 6 | 12 | 2C | 26-Mar | FR |
 | [SSBSE'25](<https://ssbse.info>) | Springer | [B](<https://ssbse.info>) | SE | 6 | 15 | LNCS | | BR |
