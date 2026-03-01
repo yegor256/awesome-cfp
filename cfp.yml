@@ -137,7 +137,7 @@ ESOP:
   short: 15
   full: 25
   format: LNCS
-  cfp: '2026-02-12'
+  cfp: closed
   country: CZ
   later: false
 
@@ -151,7 +151,7 @@ FSE:
   short: null
   full: 18
   format: 1C
-  cfp: '2026-02-16'
+  cfp: closed
   country: CA
   later: false
 
@@ -179,7 +179,7 @@ ICFP:
   short: 12
   full: 25
   format: 1C
-  cfp: '2026-02-19'
+  cfp: closed
   country: US
   later: false
 
@@ -221,7 +221,7 @@ ICSA:
   short: 8
   full: 10
   format: null
-  cfp: '2026-02-13'
+  cfp: closed
   country: NL
   later: false
 
@@ -291,7 +291,7 @@ ICST:
   short: null
   full: 10
   format: 2C
-  cfp: '2026-02-20'
+  cfp: closed
   country: KR
   later: false
 
@@ -473,7 +473,7 @@ SEAMS:
   short: 6
   full: 10
   format: null
-  cfp: '2025-10-23'
+  cfp: closed
   country: BR
   later: false
 
