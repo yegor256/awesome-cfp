@@ -72,8 +72,8 @@ CGO:
   later: false
 
 CLEI:
-  year: 2025
-  url: https://conferencia2025.clei.org
+  year: 2026
+  url: https://conferencia2026.clei.org
   publisher: IEEE
   rank: C
   core: https://portal.core.edu.au/conf-ranks/1589
@@ -81,8 +81,8 @@ CLEI:
   short: 4
   full: 10
   format: null
-  cfp: closed
-  country: CL
+  cfp: '2026-03-29'
+  country: MX
   later: false
 
 EASE:
