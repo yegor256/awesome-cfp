@@ -450,8 +450,8 @@ SCAM:
   later: false
 
 SEAA:
-  year: 2025
-  url: https://dsd-seaa.com/seaa2025
+  year: 2026
+  url: https://dsd-seaa.com/seaa2026
   publisher: IEEE
   rank: B
   core: https://portal.core.edu.au/conf-ranks/464
@@ -459,8 +459,8 @@ SEAA:
   short: 4
   full: 8
   format: 2C
-  cfp: closed
-  country: IT
+  cfp: '2026-04-15'
+  country: PL
   later: false
 
 SEAMS:
