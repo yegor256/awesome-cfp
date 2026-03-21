@@ -156,8 +156,8 @@ FSE:
   later: false
 
 ICFEM:
-  year: 2025
-  url: https://icfem2025.github.io/
+  year: 2026
+  url: https://icfem2026.github.io/
   publisher: Springer
   rank: C
   core: https://portal.core.edu.au/conf-ranks/1031
@@ -165,8 +165,8 @@ ICFEM:
   short: null
   full: 16
   format: LNCS
-  cfp: closed
-  country: CN
+  cfp: '2026-06-08'
+  country: UK
   later: false
 
 ICFP:
