@@ -72,8 +72,8 @@ CGO:
   later: false
 
 CLEI:
-  year: 2025
-  url: https://conferencia2025.clei.org
+  year: 2026
+  url: https://conferencia2026.clei.org
   publisher: IEEE
   rank: C
   core: https://portal.core.edu.au/conf-ranks/1589
@@ -81,8 +81,8 @@ CLEI:
   short: 4
   full: 10
   format: null
-  cfp: closed
-  country: CL
+  cfp: '2026-03-29'
+  country: MX
   later: false
 
 EASE:
@@ -156,8 +156,8 @@ FSE:
   later: false
 
 ICFEM:
-  year: 2025
-  url: https://icfem2025.github.io/
+  year: 2026
+  url: https://icfem2026.github.io/
   publisher: Springer
   rank: C
   core: https://portal.core.edu.au/conf-ranks/1031
@@ -165,8 +165,8 @@ ICFEM:
   short: null
   full: 16
   format: LNCS
-  cfp: closed
-  country: CN
+  cfp: '2026-06-08'
+  country: UK
   later: false
 
 ICFP:
@@ -450,8 +450,8 @@ SCAM:
   later: false
 
 SEAA:
-  year: 2025
-  url: https://dsd-seaa.com/seaa2025
+  year: 2026
+  url: https://dsd-seaa.com/seaa2026
   publisher: IEEE
   rank: B
   core: https://portal.core.edu.au/conf-ranks/464
@@ -459,8 +459,8 @@ SEAA:
   short: 4
   full: 8
   format: 2C
-  cfp: closed
-  country: IT
+  cfp: '2026-04-15'
+  country: PL
   later: false
 
 SEAMS:
@@ -506,8 +506,8 @@ SPLASH:
   later: false
 
 SSBSE:
-  year: 2025
-  url: https://ssbse.info
+  year: 2026
+  url: https://conf.researchr.org/home/ssbse-2026
   publisher: Springer
   rank: B
   core: https://portal.core.edu.au/conf-ranks/2283
@@ -515,6 +515,6 @@ SSBSE:
   short: 6
   full: 15
   format: LNCS
-  cfp: null
-  country: BR
+  cfp: '2026-03-24'
+  country: CA
   later: true
