@@ -95,7 +95,7 @@ EASE:
   short: null
   full: 10
   format: null
-  cfp: '2026-03-02'
+  cfp: closed
   country: UK
   later: false
 
@@ -109,7 +109,7 @@ ECOOP:
   short: 12
   full: 25
   format: null
-  cfp: '2026-03-06'
+  cfp: closed
   country: BE
   later: false
 
@@ -123,7 +123,7 @@ ECSA:
   short: 8
   full: 16
   format: LNCS
-  cfp: '2026-03-20'
+  cfp: closed
   country: IT
   later: false
 
@@ -277,7 +277,7 @@ ICSME:
   short: null
   full: 10
   format: null
-  cfp: '2026-03-06'
+  cfp: closed
   country: IT
   later: false
 
@@ -347,7 +347,7 @@ PLDI:
   short: null
   full: 20
   format: 1C
-  cfp: '2026-03-22'
+  cfp: closed
   country: US
   later: false
 
@@ -487,7 +487,7 @@ SLE:
   short: 6
   full: 12
   format: 2C
-  cfp: '2026-03-06'
+  cfp: closed
   country: FR
   later: false
 
