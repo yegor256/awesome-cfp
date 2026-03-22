@@ -53,7 +53,7 @@ CC:
   short: null
   full: 10
   format: 2C
-  cfp: '2025-11-11'
+  cfp: closed
   country: AU
   later: false
 
@@ -389,7 +389,7 @@ PPoPP:
   short: null
   full: 10
   format: null
-  cfp: '2025-09-01'
+  cfp: closed
   country: AU
   later: false
 
@@ -417,7 +417,7 @@ REFSQ:
   short: 8
   full: 15
   format: LNCS
-  cfp: '2025-10-17'
+  cfp: closed
   country: PL
   later: false
 
