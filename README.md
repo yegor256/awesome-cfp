@@ -19,7 +19,7 @@ please send us a pull request.
 <!-- events -->
 | name | publisher | rank | scope | short | full | format | cfp | country |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [ASE'26](<https://conf.researchr.org/home/ase-2026>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/279>) | SE | | 10 | | 26-Mar | DE |
+| [ASE'26](<https://conf.researchr.org/home/ase-2026>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/279>) | SE | | 10 | | closed | DE |
 | [ASPLOS'26](<https://www.asplos-conference.org/asplos2026/cfp/>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/147>) | SE | | 11 | 2C | closed | US |
 | [FSE'26](<https://conf.researchr.org/home/fse-2026>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/52>) | SE | | 18 | 1C | closed | CA |
 | [ICSE'26](<https://conf.researchr.org/home/icse-2026>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | | 10 | | closed | BR |
@@ -50,8 +50,8 @@ please send us a pull request.
 | [REFSQ'26](<https://2026.refsq.org>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/1521>) | SE | 8 | 15 | LNCS | closed | PL |
 | [SEAA'26](<https://dsd-seaa.com/seaa2026>) | IEEE | [B](<https://portal.core.edu.au/conf-ranks/464>) | SE, PL | 4 | 8 | 2C | 26-Apr | PL |
 | [SLE'26](<http://www.sleconf.org/2026>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/1215>) | SE, PL | 6 | 12 | 2C | closed | FR |
-| [SSBSE'26](<https://conf.researchr.org/home/ssbse-2026>) | Springer | [B](<https://conf.researchr.org/home/ssbse-2026>) | SE | 6 | 15 | LNCS | 26-Mar | CA |
-| [CLEI'26](<https://conferencia2026.clei.org>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/1589>) | SE | 4 | 10 | | 26-Mar | MX |
+| [SSBSE'26](<https://conf.researchr.org/home/ssbse-2026>) | Springer | [B](<https://conf.researchr.org/home/ssbse-2026>) | SE | 6 | 15 | LNCS | closed | CA |
+| [CLEI'26](<https://conferencia2026.clei.org>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/1589>) | SE | 4 | 10 | | closed | MX |
 | [ICFEM'26](<https://icfem2026.github.io/>) | Springer | [C](<https://portal.core.edu.au/conf-ranks/1031>) | SE | | 16 | LNCS | 26-Jun | UK |
 | [PPDP'25](<https://ppdp25.github.io/site>) | ACM | [C](<https://portal.core.edu.au/conf-ranks/1176>) | PL | 5 | 12 | 2C | closed | IT |
 | [QRS'25](<https://qrs25.techconf.org>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/1185>) | SE | 10 | 12 | 2C | closed | CN |
