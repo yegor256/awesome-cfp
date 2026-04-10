@@ -394,8 +394,8 @@ PPoPP:
   later: false
 
 QRS:
-  year: 2025
-  url: https://qrs25.techconf.org
+  year: 2026
+  url: https://qrs26.techconf.org
   publisher: IEEE
   rank: C
   core: https://portal.core.edu.au/conf-ranks/1185
@@ -403,8 +403,8 @@ QRS:
   short: 10
   full: 12
   format: 2C
-  cfp: closed
-  country: CN
+  cfp: '2026-04-15'
+  country: IT
   later: false
 
 REFSQ:
