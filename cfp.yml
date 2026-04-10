@@ -366,8 +366,8 @@ POPL:
   later: false
 
 PPDP:
-  year: 2025
-  url: https://ppdp25.github.io/site
+  year: 2026
+  url: https://icfp26.sigplan.org/home/lopstr-ppdp-2026
   publisher: ACM
   rank: C
   core: https://portal.core.edu.au/conf-ranks/1176
@@ -375,8 +375,8 @@ PPDP:
   short: 5
   full: 12
   format: 2C
-  cfp: closed
-  country: IT
+  cfp: '2026-05-27'
+  country: US
   later: false
 
 PPoPP:
@@ -394,8 +394,8 @@ PPoPP:
   later: false
 
 QRS:
-  year: 2025
-  url: https://qrs25.techconf.org
+  year: 2026
+  url: https://qrs26.techconf.org
   publisher: IEEE
   rank: C
   core: https://portal.core.edu.au/conf-ranks/1185
@@ -403,8 +403,8 @@ QRS:
   short: 10
   full: 12
   format: 2C
-  cfp: closed
-  country: CN
+  cfp: '2026-04-15'
+  country: IT
   later: false
 
 REFSQ:
@@ -436,8 +436,8 @@ SANER:
   later: false
 
 SCAM:
-  year: 2025
-  url: https://conf.researchr.org/home/scam-2025
+  year: 2026
+  url: https://conf.researchr.org/home/scam-2026
   publisher: IEEE
   rank: C
   core: https://portal.core.edu.au/conf-ranks/718
@@ -445,8 +445,8 @@ SCAM:
   short: null
   full: 12
   format: 2C
-  cfp: closed
-  country: NZ
+  cfp: '2026-06-11'
+  country: IT
   later: false
 
 SEAA:
