@@ -366,8 +366,8 @@ POPL:
   later: false
 
 PPDP:
-  year: 2025
-  url: https://ppdp25.github.io/site
+  year: 2026
+  url: https://icfp26.sigplan.org/home/lopstr-ppdp-2026
   publisher: ACM
   rank: C
   core: https://portal.core.edu.au/conf-ranks/1176
@@ -375,8 +375,8 @@ PPDP:
   short: 5
   full: 12
   format: 2C
-  cfp: closed
-  country: IT
+  cfp: '2026-05-27'
+  country: US
   later: false
 
 PPoPP:
