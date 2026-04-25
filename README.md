@@ -53,9 +53,9 @@ please send us a pull request.
 | [SSBSE'26](<https://conf.researchr.org/home/ssbse-2026>) | Springer | [B](<https://conf.researchr.org/home/ssbse-2026>) | SE | 6 | 15 | LNCS | closed | CA |
 | [CLEI'26](<https://conferencia2026.clei.org>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/1589>) | SE | 4 | 10 | | closed | MX |
 | [ICFEM'26](<https://icfem2026.github.io/>) | Springer | [C](<https://portal.core.edu.au/conf-ranks/1031>) | SE | | 16 | LNCS | 26-Jun | UK |
-| [PPDP'25](<https://ppdp25.github.io/site>) | ACM | [C](<https://portal.core.edu.au/conf-ranks/1176>) | PL | 5 | 12 | 2C | closed | IT |
-| [QRS'25](<https://qrs25.techconf.org>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/1185>) | SE | 10 | 12 | 2C | closed | CN |
-| [SCAM'25](<https://conf.researchr.org/home/scam-2025>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/718>) | SE | | 12 | 2C | closed | NZ |
+| [PPDP'26](<https://icfp26.sigplan.org/home/lopstr-ppdp-2026>) | ACM | [C](<https://portal.core.edu.au/conf-ranks/1176>) | PL | 5 | 12 | 2C | 26-May | US |
+| [QRS'26](<https://qrs26.techconf.org>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/1185>) | SE | 10 | 12 | 2C | closed | IT |
+| [SCAM'26](<https://conf.researchr.org/home/scam-2026>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/718>) | SE | | 12 | 2C | 26-Jun | IT |
 
 <!-- events -->
 
