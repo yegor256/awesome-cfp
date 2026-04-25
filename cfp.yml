@@ -30,8 +30,8 @@ ASE:
   later: false
 
 ASPLOS:
-  year: 2026
-  url: https://www.asplos-conference.org/asplos2026/cfp/
+  year: 2027
+  url: https://www.asplos-conference.org/asplos2027/cfp/
   publisher: ACM
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/147
@@ -39,8 +39,8 @@ ASPLOS:
   short: null
   full: 11
   format: 2C
-  cfp: closed
-  country: US
+  cfp: '2026-09-09'
+  country: GR
   later: false
 
 CC:
@@ -352,8 +352,8 @@ PLDI:
   later: false
 
 POPL:
-  year: 2026
-  url: https://conf.researchr.org/home/POPL-2026
+  year: 2027
+  url: https://conf.researchr.org/home/POPL-2027
   publisher: ACM
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/82
@@ -361,8 +361,8 @@ POPL:
   short: null
   full: 25
   format: null
-  cfp: closed
-  country: FR
+  cfp: '2026-07-09'
+  country: MX
   later: false
 
 PPDP:
@@ -422,8 +422,8 @@ REFSQ:
   later: false
 
 SANER:
-  year: 2026
-  url: https://conf.researchr.org/home/saner-2026
+  year: 2027
+  url: https://conf.researchr.org/home/saner-2027
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/2280
@@ -432,7 +432,7 @@ SANER:
   full: 12
   format: null
   cfp: closed
-  country: CY
+  country: US
   later: false
 
 SCAM:
