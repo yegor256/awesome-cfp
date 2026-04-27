@@ -226,8 +226,8 @@ ICSA:
   later: false
 
 ICSE:
-  year: 2026
-  url: https://conf.researchr.org/home/icse-2026
+  year: 2027
+  url: https://conf.researchr.org/home/icse-2027
   publisher: ACM
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/1209
@@ -235,8 +235,8 @@ ICSE:
   short: null
   full: 10
   format: null
-  cfp: closed
-  country: BR
+  cfp: '2026-06-30'
+  country: IE
   later: false
 
 ICSE-NIER:
@@ -254,8 +254,8 @@ ICSE-NIER:
   later: false
 
 ICSE-SRC:
-  year: 2026
-  url: https://conf.researchr.org/track/icse-2026/icse-2026-SRC
+  year: 2027
+  url: https://conf.researchr.org/track/icse-2027/icse-2027-src
   publisher: ACM
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/1209
@@ -263,8 +263,8 @@ ICSE-SRC:
   short: 2
   full: null
   format: null
-  cfp: closed
-  country: BR
+  cfp: '2026-11-13'
+  country: IE
   later: false
 
 ICSME:
@@ -408,8 +408,8 @@ QRS:
   later: false
 
 REFSQ:
-  year: 2026
-  url: https://2026.refsq.org
+  year: 2027
+  url: https://2027.refsq.org
   publisher: Springer
   rank: B
   core: https://portal.core.edu.au/conf-ranks/1521
@@ -417,8 +417,8 @@ REFSQ:
   short: 8
   full: 15
   format: LNCS
-  cfp: closed
-  country: PL
+  cfp: '2026-11-12'
+  country: CH
   later: false
 
 SANER:
