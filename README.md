@@ -48,7 +48,7 @@ please send us a pull request.
 | [CC'26](<https://conf.researchr.org/home/CC-2026>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/936>) | PL | | 10 | 2C | closed | AU |
 | [PPoPP'26](<https://conf.researchr.org/home/ppopp-2026>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/1691>) | PL | | 10 | | closed | AU |
 | [REFSQ'27](<https://2027.refsq.org>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/1521>) | SE | 8 | 15 | LNCS | 26-Nov | CH |
-| [SEAA'26](<https://dsd-seaa.com/seaa2026>) | IEEE | [B](<https://portal.core.edu.au/conf-ranks/464>) | SE, PL | 4 | 8 | 2C | 26-Apr | PL |
+| [SEAA'26](<https://dsd-seaa.com/seaa2026>) | IEEE | [B](<https://portal.core.edu.au/conf-ranks/464>) | SE, PL | 4 | 8 | 2C | closed | PL |
 | [SLE'26](<http://www.sleconf.org/2026>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/1215>) | SE, PL | 6 | 12 | 2C | closed | FR |
 | [SSBSE'26](<https://conf.researchr.org/home/ssbse-2026>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/2283>) | SE | 6 | 15 | LNCS | closed | CA |
 | [CLEI'26](<https://conferencia2026.clei.org>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/1589>) | SE | 4 | 10 | | closed | MX |
