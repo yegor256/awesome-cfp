@@ -240,8 +240,8 @@ ICSE:
   later: false
 
 ICSE-NIER:
-  year: 2026
-  url: https://conf.researchr.org/track/icse-2026/icse-2026-nier
+  year: 2027
+  url: https://conf.researchr.org/track/icse-2027/icse-2027-nier
   publisher: ACM
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/1209
@@ -250,8 +250,8 @@ ICSE-NIER:
   full: null
   format: null
   cfp: closed
-  country: BR
-  later: false
+  country: IE
+  later: true
 
 ICSE-SRC:
   year: 2027
@@ -324,8 +324,8 @@ ISSTA:
   later: false
 
 MSR:
-  year: 2026
-  url: https://2026.msrconf.org
+  year: 2027
+  url: https://2027.msrconf.org
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/711
@@ -334,8 +334,8 @@ MSR:
   full: 10
   format: null
   cfp: closed
-  country: BR
-  later: false
+  country: IE
+  later: true
 
 PLDI:
   year: 2026
@@ -464,8 +464,8 @@ SEAA:
   later: false
 
 SEAMS:
-  year: 2026
-  url: https://conf.researchr.org/home/seams-2026
+  year: 2027
+  url: https://conf.researchr.org/home/seams-2027
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/2281
@@ -474,8 +474,8 @@ SEAMS:
   full: 10
   format: null
   cfp: closed
-  country: BR
-  later: false
+  country: IE
+  later: true
 
 SLE:
   year: 2026
