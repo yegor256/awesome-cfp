@@ -58,8 +58,8 @@ CC:
   later: false
 
 CGO:
-  year: 2026
-  url: https://2026.cgo.org
+  year: 2027
+  url: https://conf.researchr.org/home/cgo-2027
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1362
@@ -67,8 +67,8 @@ CGO:
   short: null
   full: 11
   format: 2C
-  cfp: closed
-  country: AU
+  cfp: '2026-06-11'
+  country: US
   later: false
 
 CLEI:
@@ -128,8 +128,8 @@ ECSA:
   later: false
 
 ESOP:
-  year: 2026
-  url: https://etaps.org/2026/conferences/esop/
+  year: 2027
+  url: https://etaps.org/2027/conferences/esop/
   publisher: Springer
   rank: A
   core: https://portal.core.edu.au/conf-ranks/514
@@ -137,13 +137,13 @@ ESOP:
   short: 15
   full: 25
   format: LNCS
-  cfp: closed
-  country: CZ
+  cfp: '2026-05-28'
+  country: DK
   later: false
 
 FSE:
-  year: 2026
-  url: https://conf.researchr.org/home/fse-2026
+  year: 2027
+  url: https://conf.researchr.org/home/fse-2027
   publisher: ACM
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/52
@@ -151,8 +151,8 @@ FSE:
   short: null
   full: 18
   format: 1C
-  cfp: closed
-  country: CA
+  cfp: '2026-10-02'
+  country: CN
   later: false
 
 ICFEM:
@@ -212,8 +212,8 @@ ICPC:
   later: false
 
 ICSA:
-  year: 2026
-  url: https://conf.researchr.org/home/icsa-2026
+  year: 2027
+  url: https://conf.researchr.org/home/icsa-2027
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/791
@@ -221,8 +221,8 @@ ICSA:
   short: 8
   full: 10
   format: null
-  cfp: closed
-  country: NL
+  cfp: '2026-11-04'
+  country: AU
   later: false
 
 ICSE:
