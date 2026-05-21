@@ -62,6 +62,7 @@ def test_later_conf(tmp_path):
     assert (tmp_path / "README.md").read_text() == (tmp_path / "expected.md").read_text()
 
 
+@pytest.mark.content
 @pytest.mark.slow
 def test_cfp_content(tmp_path):
     shutil.copytree(Path("fixtures/simple"), tmp_path, dirs_exist_ok=True)
@@ -71,6 +72,7 @@ def test_cfp_content(tmp_path):
     assert (tmp_path / "README.md").read_text().split('<!-- events -->')[1].splitlines()
 
 
+@pytest.mark.content
 @pytest.mark.slow
 @pytest.mark.parametrize(
     "url",

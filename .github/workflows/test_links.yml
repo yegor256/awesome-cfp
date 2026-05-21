@@ -3,7 +3,13 @@
 ---
 # yamllint disable rule:line-length
 name: tests
-on: [ "push", "pull_request" ]
+on:
+  push:
+    paths:
+      - 'cfp.yml'
+  pull_request:
+    paths:
+      - 'cfp.yml'
 jobs:
   build:
     timeout-minutes: 15
@@ -14,4 +20,4 @@ jobs:
         with:
           python-version: "3.14.5"
       - run: pip install -r requirements.txt
-      - run: pytest -m 'not content'
+      - run: pytest -m 'content'
