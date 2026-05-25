@@ -23,7 +23,7 @@ please send us a pull request.
 | [ASPLOS'27](<https://www.asplos-conference.org/asplos2027/cfp/>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/147>) | SE | | 11 | 2C | 26-Sep | GR |
 | [FSE'27](<https://conf.researchr.org/home/fse-2027>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/52>) | SE | | 18 | 1C | 26-Oct | CN |
 | [ICSE'27](<https://conf.researchr.org/home/icse-2027>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | | 10 | | 26-Jun | IE |
-| [ICSE-NIER'27](<https://conf.researchr.org/track/icse-2027/icse-2027-nier>) | ACM | [A*](<https://conf.researchr.org/track/icse-2027/icse-2027-nier>) | SE | 4 | | | closed | IE |
+| [ICSE-NIER'27](<https://conf.researchr.org/track/icse-2027/icse-2027-new-ideas-and-emerging-results--nier->) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 4 | | | 26-Oct | IE |
 | [ICSE-SRC'27](<https://conf.researchr.org/track/icse-2027/icse-2027-src>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 2 | | | 26-Nov | IE |
 | [PLDI'27](<https://pldi27.sigplan.org>) | ACM | [A*](<https://pldi27.sigplan.org>) | PL | | 20 | 1C | closed | US |
 | [POPL'27](<https://conf.researchr.org/home/POPL-2027>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/82>) | SE | | 25 | | 26-Jul | MX |
