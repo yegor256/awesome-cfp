@@ -241,7 +241,7 @@ ICSE:
 
 ICSE-NIER:
   year: 2027
-  url: https://conf.researchr.org/track/icse-2027/icse-2027-nier
+  url: https://conf.researchr.org/track/icse-2027/icse-2027-new-ideas-and-emerging-results--nier-
   publisher: ACM
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/1209
@@ -249,9 +249,9 @@ ICSE-NIER:
   short: 4
   full: null
   format: null
-  cfp: closed
+  cfp: '2026-10-23'
   country: IE
-  later: true
+  later: false
 
 ICSE-SRC:
   year: 2027
