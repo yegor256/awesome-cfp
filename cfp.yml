@@ -137,7 +137,7 @@ ESOP:
   short: 15
   full: 25
   format: LNCS
-  cfp: '2026-05-28'
+  cfp: '2026-10-15'
   country: DK
   later: false
 
@@ -366,8 +366,8 @@ POPL:
   later: false
 
 PPDP:
-  year: 2026
-  url: https://icfp26.sigplan.org/home/lopstr-ppdp-2026
+  year: 2027
+  url: https://icfp27.sigplan.org/home/lopstr-ppdp-2027
   publisher: ACM
   rank: C
   core: https://portal.core.edu.au/conf-ranks/1176
@@ -375,9 +375,9 @@ PPDP:
   short: 5
   full: 12
   format: 2C
-  cfp: '2026-05-27'
+  cfp: closed
   country: US
-  later: false
+  later: true
 
 PPoPP:
   year: 2027
