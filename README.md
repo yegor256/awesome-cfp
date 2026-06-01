@@ -31,7 +31,7 @@ please send us a pull request.
 | [EASE'27](<https://conf.researchr.org/home/ease-2027>) | ACM | [A](<https://conf.researchr.org/home/ease-2027>) | SE | | 10 | | closed | UK |
 | [ECOOP'27](<https://2027.ecoop.org>) | ACM | [A](<https://2027.ecoop.org>) | SE | 12 | 25 | | closed | BE |
 | [ECSA'27](<https://conf.researchr.org/home/ecsa-2027>) | Springer | [A](<https://conf.researchr.org/home/ecsa-2027>) | SA | 8 | 16 | LNCS | closed | IT |
-| [ESOP'27](<https://etaps.org/2027/conferences/esop/>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/514>) | PL | 15 | 25 | LNCS | 26-May | DK |
+| [ESOP'27](<https://etaps.org/2027/conferences/esop/>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/514>) | PL | 15 | 25 | LNCS | 26-Oct | DK |
 | [ICFP'27](<https://icfp27.sigplan.org>) | ACM | [A](<https://icfp27.sigplan.org>) | PL | 12 | 25 | 1C | closed | US |
 | [ICFP-SPLASH'27](<https://icfp27.sigplan.org/track/icfp-2027-icfp-workshops>) | ACM | [A](<https://icfp27.sigplan.org/track/icfp-2027-icfp-workshops>) | PL | 3 | | 1C | closed | US |
 | [ICPC'27](<https://conf.researchr.org/home/icpc-2027>) | ACM | [A](<https://conf.researchr.org/home/icpc-2027>) | SE | | 10 | | closed | CA |
@@ -53,7 +53,7 @@ please send us a pull request.
 | [SSBSE'27](<https://conf.researchr.org/home/ssbse-2027>) | Springer | [B](<https://conf.researchr.org/home/ssbse-2027>) | SE | 6 | 15 | LNCS | closed | CA |
 | [CLEI'27](<https://conferencia2027.clei.org>) | IEEE | [C](<https://conferencia2027.clei.org>) | SE | 4 | 10 | | closed | MX |
 | [ICFEM'26](<https://icfem2026.github.io/>) | Springer | [C](<https://portal.core.edu.au/conf-ranks/1031>) | SE | | 16 | LNCS | 26-Jun | UK |
-| [PPDP'26](<https://icfp26.sigplan.org/home/lopstr-ppdp-2026>) | ACM | [C](<https://portal.core.edu.au/conf-ranks/1176>) | PL | 5 | 12 | 2C | 26-May | US |
+| [PPDP'27](<https://icfp27.sigplan.org/home/lopstr-ppdp-2027>) | ACM | [C](<https://icfp27.sigplan.org/home/lopstr-ppdp-2027>) | PL | 5 | 12 | 2C | closed | US |
 | [QRS'27](<https://qrs27.techconf.org>) | IEEE | [C](<https://qrs27.techconf.org>) | SE | 10 | 12 | 2C | closed | IT |
 | [SCAM'26](<https://conf.researchr.org/home/scam-2026>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/718>) | SE | | 12 | 2C | 26-Jun | IT |
 
