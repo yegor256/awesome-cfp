@@ -11,7 +11,7 @@ APLAS:
   short: null
   full: 17
   format: LNCS
-  cfp: '2026-06-08'
+  cfp: '2026-06-15'
   country: IN
   later: false
 
@@ -54,7 +54,7 @@ CC:
   full: 10
   format: 2C
   cfp: closed
-  country: AU
+  country: US
   later: true
 
 CGO:
@@ -165,7 +165,7 @@ ICFEM:
   short: null
   full: 16
   format: LNCS
-  cfp: '2026-06-08'
+  cfp: '2026-06-22'
   country: UK
   later: false
 
@@ -292,7 +292,7 @@ ICST:
   full: 10
   format: 2C
   cfp: closed
-  country: KR
+  country: ES
   later: true
 
 ISSRE:
@@ -389,9 +389,9 @@ PPoPP:
   short: null
   full: 10
   format: null
-  cfp: closed
-  country: AU
-  later: true
+  cfp: '2026-08-03'
+  country: US
+  later: false
 
 QRS:
   year: 2027
@@ -422,8 +422,8 @@ REFSQ:
   later: false
 
 SANER:
-  year: 2028
-  url: https://conf.researchr.org/home/saner-2028
+  year: 2027
+  url: https://conf.researchr.org/home/saner-2027
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/2280
@@ -431,9 +431,9 @@ SANER:
   short: null
   full: 12
   format: null
-  cfp: closed
+  cfp: '2026-09-25'
   country: US
-  later: true
+  later: false
 
 SCAM:
   year: 2026
@@ -502,7 +502,7 @@ SPLASH:
   full: null
   format: null
   cfp: '2026-06-26'
-  country: SG
+  country: US
   later: false
 
 SSBSE:
