@@ -67,7 +67,7 @@ CGO:
   short: null
   full: 11
   format: 2C
-  cfp: '2026-06-11'
+  cfp: '2026-09-10'
   country: US
   later: false
 
@@ -445,7 +445,7 @@ SCAM:
   short: null
   full: 12
   format: 2C
-  cfp: '2026-06-11'
+  cfp: '2026-06-18'
   country: IT
   later: false
 

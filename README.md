@@ -27,7 +27,7 @@ please send us a pull request.
 | [ICSE-SRC'27](<https://conf.researchr.org/track/icse-2027/icse-2027-src>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 2 | | | 26-Nov | IE |
 | [PLDI'27](<https://pldi27.sigplan.org>) | ACM | [A*](<https://pldi27.sigplan.org>) | PL | | 20 | 1C | closed | US |
 | [POPL'27](<https://conf.researchr.org/home/POPL-2027>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/82>) | SE | | 25 | | 26-Jul | MX |
-| [CGO'27](<https://conf.researchr.org/home/cgo-2027>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1362>) | PL | | 11 | 2C | 26-Jun | US |
+| [CGO'27](<https://conf.researchr.org/home/cgo-2027>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1362>) | PL | | 11 | 2C | 26-Sep | US |
 | [EASE'27](<https://conf.researchr.org/home/ease-2027>) | ACM | [A](<https://conf.researchr.org/home/ease-2027>) | SE | | 10 | | closed | UK |
 | [ECOOP'27](<https://2027.ecoop.org>) | ACM | [A](<https://2027.ecoop.org>) | SE | 12 | 25 | | closed | BE |
 | [ECSA'27](<https://conf.researchr.org/home/ecsa-2027>) | Springer | [A](<https://conf.researchr.org/home/ecsa-2027>) | SA | 8 | 16 | LNCS | closed | IT |
