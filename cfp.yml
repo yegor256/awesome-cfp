@@ -11,7 +11,7 @@ APLAS:
   short: null
   full: 17
   format: LNCS
-  cfp: '2026-06-15'
+  cfp: closed
   country: IN
   later: false
 
@@ -445,7 +445,7 @@ SCAM:
   short: null
   full: 12
   format: 2C
-  cfp: '2026-06-18'
+  cfp: closed
   country: IT
   later: false
 
