@@ -11,8 +11,8 @@ APLAS:
   short: null
   full: 17
   format: LNCS
-  cfp: closed
-  country: IN
+  cfp: '2026-06-22'
+  country: HK
   later: false
 
 ASE:
