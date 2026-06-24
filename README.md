@@ -44,7 +44,7 @@ please send us a pull request.
 | [SANER'27](<https://conf.researchr.org/home/saner-2027>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/2280>) | SE | | 12 | | 26-Sep | US |
 | [SEAMS'27](<https://conf.researchr.org/home/seams-2027>) | IEEE | [A](<https://conf.researchr.org/home/seams-2027>) | SE | 6 | 10 | | closed | IE |
 | [SPLASH'26](<https://2026.splashcon.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/18>) | PL | | | | 26-Jun | US |
-| [APLAS'26](<https://conf.researchr.org/home/aplas-atva-2026>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/171>) | PL | | 17 | LNCS | closed | IN |
+| [APLAS'26](<https://conf.researchr.org/home/aplas-atva-2026>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/171>) | PL | | 17 | LNCS | closed | HK |
 | [CC'27](<https://conf.researchr.org/home/CC-2027>) | ACM | [B](<https://conf.researchr.org/home/CC-2027>) | PL | | 10 | 2C | closed | US |
 | [PPoPP'27](<https://conf.researchr.org/home/ppopp-2027>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/1691>) | PL | | 10 | | 26-Aug | US |
 | [REFSQ'27](<https://2027.refsq.org>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/1521>) | SE | 8 | 15 | LNCS | 26-Nov | CH |
@@ -52,7 +52,7 @@ please send us a pull request.
 | [SLE'27](<http://www.sleconf.org/2027>) | ACM | [B](<http://www.sleconf.org/2027>) | SE, PL | 6 | 12 | 2C | closed | FR |
 | [SSBSE'27](<https://conf.researchr.org/home/ssbse-2027>) | Springer | [B](<https://conf.researchr.org/home/ssbse-2027>) | SE | 6 | 15 | LNCS | closed | CA |
 | [CLEI'27](<https://conferencia2027.clei.org>) | IEEE | [C](<https://conferencia2027.clei.org>) | SE | 4 | 10 | | closed | MX |
-| [ICFEM'26](<https://icfem2026.github.io/>) | Springer | [C](<https://portal.core.edu.au/conf-ranks/1031>) | SE | | 16 | LNCS | 26-Jun | UK |
+| [ICFEM'26](<https://icfem2026.github.io/>) | Springer | [C](<https://portal.core.edu.au/conf-ranks/1031>) | SE | | 16 | LNCS | closed | UK |
 | [PPDP'27](<https://icfp27.sigplan.org/home/lopstr-ppdp-2027>) | ACM | [C](<https://icfp27.sigplan.org/home/lopstr-ppdp-2027>) | PL | 5 | 12 | 2C | closed | US |
 | [QRS'27](<https://qrs27.techconf.org>) | IEEE | [C](<https://qrs27.techconf.org>) | SE | 10 | 12 | 2C | closed | IT |
 | [SCAM'26](<https://conf.researchr.org/home/scam-2026>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/718>) | SE | | 12 | 2C | closed | IT |
