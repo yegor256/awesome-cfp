@@ -11,7 +11,7 @@ APLAS:
   short: null
   full: 17
   format: LNCS
-  cfp: '2026-06-22'
+  cfp: closed
   country: HK
   later: false
 
@@ -165,7 +165,7 @@ ICFEM:
   short: null
   full: 16
   format: LNCS
-  cfp: '2026-06-22'
+  cfp: closed
   country: UK
   later: false
 
