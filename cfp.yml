@@ -11,7 +11,7 @@ APLAS:
   short: null
   full: 17
   format: LNCS
-  cfp: '2026-06-22'
+  cfp: closed
   country: HK
   later: false
 
@@ -96,7 +96,7 @@ EASE:
   full: 10
   format: null
   cfp: closed
-  country: UK
+  country: VN
   later: true
 
 ECOOP:
@@ -109,9 +109,9 @@ ECOOP:
   short: 12
   full: 25
   format: null
-  cfp: closed
-  country: BE
-  later: true
+  cfp: '2026-11-19'
+  country: IT
+  later: false
 
 ECSA:
   year: 2027
@@ -165,7 +165,7 @@ ICFEM:
   short: null
   full: 16
   format: LNCS
-  cfp: '2026-06-22'
+  cfp: closed
   country: UK
   later: false
 
@@ -207,9 +207,9 @@ ICPC:
   short: null
   full: 10
   format: null
-  cfp: closed
-  country: CA
-  later: true
+  cfp: '2026-11-05'
+  country: IE
+  later: false
 
 ICSA:
   year: 2027
@@ -235,7 +235,7 @@ ICSE:
   short: null
   full: 10
   format: null
-  cfp: '2026-06-30'
+  cfp: closed
   country: IE
   later: false
 
@@ -291,9 +291,9 @@ ICST:
   short: null
   full: 10
   format: 2C
-  cfp: closed
+  cfp: '2026-11-02'
   country: ES
-  later: true
+  later: false
 
 ISSRE:
   year: 2027
@@ -319,7 +319,7 @@ ISSTA:
   short: null
   full: 18
   format: 1C
-  cfp: '2026-06-25'
+  cfp: closed
   country: US
   later: false
 
@@ -333,9 +333,9 @@ MSR:
   short: 4
   full: 10
   format: null
-  cfp: closed
+  cfp: '2026-10-23'
   country: IE
-  later: true
+  later: false
 
 PLDI:
   year: 2027
@@ -361,7 +361,7 @@ POPL:
   short: null
   full: 25
   format: null
-  cfp: '2026-07-09'
+  cfp: closed
   country: MX
   later: false
 
@@ -473,9 +473,9 @@ SEAMS:
   short: 6
   full: 10
   format: null
-  cfp: closed
+  cfp: '2026-10-21'
   country: IE
-  later: true
+  later: false
 
 SLE:
   year: 2027
@@ -501,7 +501,7 @@ SPLASH:
   short: null
   full: null
   format: null
-  cfp: '2026-06-26'
+  cfp: closed
   country: US
   later: false
 
