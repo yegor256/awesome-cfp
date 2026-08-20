@@ -11,7 +11,7 @@ APLAS:
   short: null
   full: 17
   format: LNCS
-  cfp: '2026-06-22'
+  cfp: closed
   country: HK
   later: false
 
@@ -165,7 +165,7 @@ ICFEM:
   short: null
   full: 16
   format: LNCS
-  cfp: '2026-06-22'
+  cfp: closed
   country: UK
   later: false
 
@@ -235,7 +235,7 @@ ICSE:
   short: null
   full: 10
   format: null
-  cfp: '2026-06-30'
+  cfp: closed
   country: IE
   later: false
 
@@ -319,7 +319,7 @@ ISSTA:
   short: null
   full: 18
   format: 1C
-  cfp: '2026-06-25'
+  cfp: closed
   country: US
   later: false
 
@@ -361,7 +361,7 @@ POPL:
   short: null
   full: 25
   format: null
-  cfp: '2026-07-09'
+  cfp: closed
   country: MX
   later: false
 
@@ -389,7 +389,7 @@ PPoPP:
   short: null
   full: 10
   format: null
-  cfp: '2026-08-03'
+  cfp: closed
   country: US
   later: false
 
@@ -501,7 +501,7 @@ SPLASH:
   short: null
   full: null
   format: null
-  cfp: '2026-06-26'
+  cfp: closed
   country: US
   later: false
 
