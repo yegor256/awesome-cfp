@@ -6,14 +6,13 @@
 # Runtime dependencies
 
 httpx==0.28.1
-PyYAML==6.0.2
+PyYAML==6.0.3
 
 # Dev dependencies
 
-respx==0.22.0
-pytest==8.4.1
-pytest-cov==6.2.1
-pytest-randomly==3.16.0
-time-machine==2.16.0
-more-itertools==10.7.0
-time-machine==2.16.0
+respx==0.23.1
+pytest==9.1.1
+pytest-cov==7.1.0
+pytest-randomly==4.1.0
+time-machine==3.4.0
+more-itertools==11.1.0

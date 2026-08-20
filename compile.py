@@ -164,7 +164,7 @@ def write_yaml_file(path: str, yml: ConfInfoDict) -> None:
     for name, record in yml.items():
         dumped = yaml.safe_dump({name: record})
         lines = sorted(
-            dumped.splitlines()[1::],
+            dumped.splitlines()[1:],
             key=_sort_lines_key,
         )
         records.append(
