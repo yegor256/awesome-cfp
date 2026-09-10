@@ -11,7 +11,7 @@ APLAS:
   short: null
   full: 17
   format: LNCS
-  cfp: '2026-06-22'
+  cfp: closed
   country: HK
   later: false
 
@@ -109,8 +109,8 @@ ECOOP:
   short: 12
   full: 25
   format: null
-  cfp: closed
-  country: BE
+  cfp: '2026-11-19'
+  country: IT
   later: true
 
 ECSA:
@@ -165,7 +165,7 @@ ICFEM:
   short: null
   full: 16
   format: LNCS
-  cfp: '2026-06-22'
+  cfp: closed
   country: UK
   later: false
 
@@ -207,8 +207,8 @@ ICPC:
   short: null
   full: 10
   format: null
-  cfp: closed
-  country: CA
+  cfp: '2026-11-05'
+  country: IE
   later: true
 
 ICSA:
@@ -235,7 +235,7 @@ ICSE:
   short: null
   full: 10
   format: null
-  cfp: '2026-06-30'
+  cfp: closed
   country: IE
   later: false
 
@@ -291,7 +291,7 @@ ICST:
   short: null
   full: 10
   format: 2C
-  cfp: closed
+  cfp: '2026-11-02'
   country: ES
   later: true
 
@@ -310,8 +310,8 @@ ISSRE:
   later: true
 
 ISSTA:
-  year: 2026
-  url: https://conf.researchr.org/home/issta-2026
+  year: 2027
+  url: https://conf.researchr.org/home/issta-2027
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1412
@@ -319,8 +319,8 @@ ISSTA:
   short: null
   full: 18
   format: 1C
-  cfp: '2026-06-25'
-  country: US
+  cfp: '2027-01-11'
+  country: SG
   later: false
 
 MSR:
@@ -333,7 +333,7 @@ MSR:
   short: 4
   full: 10
   format: null
-  cfp: closed
+  cfp: '2026-10-23'
   country: IE
   later: true
 
@@ -361,7 +361,7 @@ POPL:
   short: null
   full: 25
   format: null
-  cfp: '2026-07-09'
+  cfp: closed
   country: MX
   later: false
 
@@ -389,7 +389,7 @@ PPoPP:
   short: null
   full: 10
   format: null
-  cfp: '2026-08-03'
+  cfp: closed
   country: US
   later: false
 
@@ -473,7 +473,7 @@ SEAMS:
   short: 6
   full: 10
   format: null
-  cfp: closed
+  cfp: '2026-10-21'
   country: IE
   later: true
 
@@ -501,7 +501,7 @@ SPLASH:
   short: null
   full: null
   format: null
-  cfp: '2026-06-26'
+  cfp: closed
   country: US
   later: false
 
