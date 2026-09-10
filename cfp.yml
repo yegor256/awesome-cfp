@@ -2,8 +2,8 @@
 # SPDX-License-Identifier: MIT
 ---
 APLAS:
-  year: 2026
-  url: https://conf.researchr.org/home/aplas-atva-2026
+  year: 2027
+  url: https://conf.researchr.org/home/aplas-atva-2027
   publisher: Springer
   rank: B
   core: https://portal.core.edu.au/conf-ranks/171
@@ -11,9 +11,9 @@ APLAS:
   short: null
   full: 17
   format: LNCS
-  cfp: '2026-06-22'
+  cfp: closed
   country: HK
-  later: false
+  later: true
 
 ASE:
   year: 2027
@@ -45,7 +45,7 @@ ASPLOS:
 
 CC:
   year: 2027
-  url: https://conf.researchr.org/home/CC-2027
+  url: https://conf.researchr.org/home/hpca-cgo-ppopp-cc-2027
   publisher: ACM
   rank: B
   core: https://portal.core.edu.au/conf-ranks/936
@@ -96,7 +96,7 @@ EASE:
   full: 10
   format: null
   cfp: closed
-  country: UK
+  country: VN
   later: true
 
 ECOOP:
@@ -109,9 +109,9 @@ ECOOP:
   short: 12
   full: 25
   format: null
-  cfp: closed
-  country: BE
-  later: true
+  cfp: '2026-11-19'
+  country: IT
+  later: false
 
 ECSA:
   year: 2027
@@ -156,8 +156,8 @@ FSE:
   later: false
 
 ICFEM:
-  year: 2026
-  url: https://icfem2026.github.io/
+  year: 2027
+  url: https://icfem2027.github.io/
   publisher: Springer
   rank: C
   core: https://portal.core.edu.au/conf-ranks/1031
@@ -165,9 +165,9 @@ ICFEM:
   short: null
   full: 16
   format: LNCS
-  cfp: '2026-06-22'
+  cfp: closed
   country: UK
-  later: false
+  later: true
 
 ICFP:
   year: 2027
@@ -207,9 +207,9 @@ ICPC:
   short: null
   full: 10
   format: null
-  cfp: closed
-  country: CA
-  later: true
+  cfp: '2026-11-05'
+  country: IE
+  later: false
 
 ICSA:
   year: 2027
@@ -235,9 +235,9 @@ ICSE:
   short: null
   full: 10
   format: null
-  cfp: '2026-06-30'
+  cfp: closed
   country: IE
-  later: false
+  later: true
 
 ICSE-NIER:
   year: 2027
@@ -291,9 +291,9 @@ ICST:
   short: null
   full: 10
   format: 2C
-  cfp: closed
+  cfp: '2026-11-02'
   country: ES
-  later: true
+  later: false
 
 ISSRE:
   year: 2027
@@ -310,8 +310,8 @@ ISSRE:
   later: true
 
 ISSTA:
-  year: 2026
-  url: https://conf.researchr.org/home/issta-2026
+  year: 2027
+  url: https://conf.researchr.org/home/issta-2027
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1412
@@ -319,9 +319,9 @@ ISSTA:
   short: null
   full: 18
   format: 1C
-  cfp: '2026-06-25'
+  cfp: closed
   country: US
-  later: false
+  later: true
 
 MSR:
   year: 2027
@@ -333,9 +333,9 @@ MSR:
   short: 4
   full: 10
   format: null
-  cfp: closed
+  cfp: '2026-10-23'
   country: IE
-  later: true
+  later: false
 
 PLDI:
   year: 2027
@@ -361,9 +361,9 @@ POPL:
   short: null
   full: 25
   format: null
-  cfp: '2026-07-09'
+  cfp: closed
   country: MX
-  later: false
+  later: true
 
 PPDP:
   year: 2027
@@ -436,8 +436,8 @@ SANER:
   later: false
 
 SCAM:
-  year: 2026
-  url: https://conf.researchr.org/home/scam-2026
+  year: 2027
+  url: https://conf.researchr.org/home/scam-2027
   publisher: IEEE
   rank: C
   core: https://portal.core.edu.au/conf-ranks/718
@@ -447,7 +447,7 @@ SCAM:
   format: 2C
   cfp: closed
   country: IT
-  later: false
+  later: true
 
 SEAA:
   year: 2027
@@ -473,9 +473,9 @@ SEAMS:
   short: 6
   full: 10
   format: null
-  cfp: closed
+  cfp: '2026-10-21'
   country: IE
-  later: true
+  later: false
 
 SLE:
   year: 2027
@@ -492,8 +492,8 @@ SLE:
   later: true
 
 SPLASH:
-  year: 2026
-  url: https://2026.splashcon.org
+  year: 2027
+  url: https://2027.splashcon.org
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/18
@@ -501,9 +501,9 @@ SPLASH:
   short: null
   full: null
   format: null
-  cfp: '2026-06-26'
+  cfp: closed
   country: US
-  later: false
+  later: true
 
 SSBSE:
   year: 2027
