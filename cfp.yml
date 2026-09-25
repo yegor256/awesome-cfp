@@ -13,11 +13,11 @@ APLAS:
   format: LNCS
   cfp: closed
   country: HK
-  later: false
+  later: true
 
 ASE:
-  year: 2027
-  url: https://conf.researchr.org/home/ase-2027
+  year: 2026
+  url: https://conf.researchr.org/home/ase-2026
   publisher: ACM
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/279
@@ -27,7 +27,7 @@ ASE:
   format: null
   cfp: closed
   country: DE
-  later: true
+  later: false
 
 ASPLOS:
   year: 2027
@@ -39,13 +39,13 @@ ASPLOS:
   short: null
   full: 11
   format: 2C
-  cfp: '2026-09-09'
+  cfp: closed
   country: GR
-  later: false
+  later: true
 
 CC:
   year: 2027
-  url: https://conf.researchr.org/home/CC-2027
+  url: https://conf.researchr.org/home/hpca-cgo-ppopp-cc-2027
   publisher: ACM
   rank: B
   core: https://portal.core.edu.au/conf-ranks/936
@@ -55,11 +55,11 @@ CC:
   format: 2C
   cfp: closed
   country: US
-  later: true
+  later: false
 
 CGO:
   year: 2027
-  url: https://conf.researchr.org/home/cgo-2027
+  url: https://2027.cgo.org
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1362
@@ -67,13 +67,13 @@ CGO:
   short: null
   full: 11
   format: 2C
-  cfp: '2026-09-10'
+  cfp: closed
   country: US
-  later: false
+  later: true
 
 CLEI:
   year: 2027
-  url: https://conferencia2027.clei.org
+  url: https://clei.org/en/
   publisher: IEEE
   rank: C
   core: https://portal.core.edu.au/conf-ranks/1589
@@ -83,7 +83,7 @@ CLEI:
   format: null
   cfp: closed
   country: MX
-  later: true
+  later: false
 
 EASE:
   year: 2027
@@ -124,7 +124,7 @@ ECSA:
   full: 16
   format: LNCS
   cfp: closed
-  country: IT
+  country: PT
   later: true
 
 ESOP:
@@ -167,7 +167,7 @@ ICFEM:
   format: LNCS
   cfp: closed
   country: UK
-  later: false
+  later: true
 
 ICFP:
   year: 2027
@@ -185,7 +185,7 @@ ICFP:
 
 ICFP-SPLASH:
   year: 2027
-  url: https://icfp27.sigplan.org/track/icfp-2027-icfp-workshops
+  url: https://icfp27.sigplan.org
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1037
@@ -194,7 +194,7 @@ ICFP-SPLASH:
   full: null
   format: 1C
   cfp: closed
-  country: US
+  country: NL
   later: true
 
 ICPC:
@@ -226,8 +226,8 @@ ICSA:
   later: false
 
 ICSE:
-  year: 2027
-  url: https://conf.researchr.org/home/icse-2027
+  year: 2028
+  url: https://conf.researchr.org/home/icse-2028
   publisher: ACM
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/1209
@@ -236,8 +236,8 @@ ICSE:
   full: 10
   format: null
   cfp: closed
-  country: IE
-  later: false
+  country: US
+  later: true
 
 ICSE-NIER:
   year: 2027
@@ -277,9 +277,9 @@ ICSME:
   short: null
   full: 10
   format: null
-  cfp: closed
-  country: IT
-  later: true
+  cfp: '2027-03-05'
+  country: CA
+  later: false
 
 ICST:
   year: 2027
@@ -363,11 +363,11 @@ POPL:
   format: null
   cfp: closed
   country: MX
-  later: false
+  later: true
 
 PPDP:
-  year: 2027
-  url: https://icfp27.sigplan.org/home/lopstr-ppdp-2027
+  year: 2026
+  url: https://icfp26.sigplan.org/home/lopstr-ppdp-2026
   publisher: ACM
   rank: C
   core: https://portal.core.edu.au/conf-ranks/1176
@@ -376,7 +376,7 @@ PPDP:
   full: 12
   format: 2C
   cfp: closed
-  country: US
+  country: NL
   later: true
 
 PPoPP:
@@ -391,11 +391,11 @@ PPoPP:
   format: null
   cfp: closed
   country: US
-  later: false
+  later: true
 
 QRS:
-  year: 2027
-  url: https://qrs27.techconf.org
+  year: 2026
+  url: https://qrs26.techconf.org/
   publisher: IEEE
   rank: C
   core: https://portal.core.edu.au/conf-ranks/1185
@@ -405,7 +405,7 @@ QRS:
   format: 2C
   cfp: closed
   country: IT
-  later: true
+  later: false
 
 REFSQ:
   year: 2027
@@ -451,7 +451,7 @@ SCAM:
 
 SEAA:
   year: 2027
-  url: https://dsd-seaa.com/seaa2027
+  url: https://dsd-seaa.com/
   publisher: IEEE
   rank: B
   core: https://portal.core.edu.au/conf-ranks/464
@@ -461,7 +461,7 @@ SEAA:
   format: 2C
   cfp: closed
   country: PL
-  later: true
+  later: false
 
 SEAMS:
   year: 2027
@@ -479,7 +479,7 @@ SEAMS:
 
 SLE:
   year: 2027
-  url: http://www.sleconf.org/2027
+  url: https://www.sleconf.org/
   publisher: ACM
   rank: B
   core: https://portal.core.edu.au/conf-ranks/1215
@@ -489,11 +489,11 @@ SLE:
   format: 2C
   cfp: closed
   country: FR
-  later: true
+  later: false
 
 SPLASH:
   year: 2027
-  url: https://2027.splashcon.org
+  url: https://conf.researchr.org/home/splash-2027
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/18
@@ -507,7 +507,7 @@ SPLASH:
 
 SSBSE:
   year: 2027
-  url: https://conf.researchr.org/home/ssbse-2027
+  url: https://conf.researchr.org/series/ssbse
   publisher: Springer
   rank: B
   core: https://portal.core.edu.au/conf-ranks/2283
@@ -517,4 +517,4 @@ SSBSE:
   format: LNCS
   cfp: closed
   country: CA
-  later: true
+  later: false
