@@ -374,9 +374,9 @@ PPDP:
   scope: PL
   short: 5
   full: 12
-  format: 2C
+  format: LNCS
   cfp: closed
-  country: NL
+  country: US
   later: true
 
 PPoPP:
@@ -431,13 +431,13 @@ SANER:
   short: null
   full: 12
   format: null
-  cfp: closed
+  cfp: '2026-10-23'
   country: US
   later: false
 
 SCAM:
-  year: 2026
-  url: https://conf.researchr.org/home/scam-2026
+  year: 2027
+  url: http://www.ieee-scam.org/
   publisher: IEEE
   rank: C
   core: https://portal.core.edu.au/conf-ranks/718
@@ -446,8 +446,8 @@ SCAM:
   full: 12
   format: 2C
   cfp: closed
-  country: IT
-  later: false
+  country: CA
+  later: true
 
 SEAA:
   year: 2027
