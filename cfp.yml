@@ -151,7 +151,7 @@ FSE:
   short: null
   full: 18
   format: 1C
-  cfp: '2026-10-02'
+  cfp: closed
   country: CN
   later: false
 
@@ -193,9 +193,9 @@ ICFP-SPLASH:
   short: 3
   full: null
   format: 1C
-  cfp: closed
+  cfp: '2027-02-25'
   country: NL
-  later: true
+  later: false
 
 ICPC:
   year: 2027
