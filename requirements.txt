@@ -30,7 +30,7 @@ more-itertools==11.2.1
     # via -r requirements.in
 packaging==26.3
     # via pytest
-pluggy==1.6.0
+pluggy==1.7.0
     # via
     #   pytest
     #   pytest-cov
