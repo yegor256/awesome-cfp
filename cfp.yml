@@ -137,7 +137,7 @@ ESOP:
   short: 15
   full: 25
   format: LNCS
-  cfp: '2026-10-15'
+  cfp: closed
   country: DK
   later: false
 
@@ -501,7 +501,7 @@ SPLASH:
   short: null
   full: null
   format: null
-  cfp: '2026-10-14'
+  cfp: closed
   country: CZ
   later: false
 
