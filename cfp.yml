@@ -137,7 +137,7 @@ ESOP:
   short: 15
   full: 25
   format: LNCS
-  cfp: '2026-10-15'
+  cfp: closed
   country: DK
   later: false
 
@@ -249,7 +249,7 @@ ICSE-NIER:
   short: 4
   full: null
   format: null
-  cfp: '2026-10-23'
+  cfp: closed
   country: IE
   later: false
 
@@ -333,7 +333,7 @@ MSR:
   short: 4
   full: 10
   format: null
-  cfp: '2026-10-23'
+  cfp: closed
   country: IE
   later: false
 
@@ -431,7 +431,7 @@ SANER:
   short: null
   full: 12
   format: null
-  cfp: '2026-10-23'
+  cfp: closed
   country: US
   later: false
 
@@ -473,7 +473,7 @@ SEAMS:
   short: 6
   full: 10
   format: null
-  cfp: '2026-10-23'
+  cfp: closed
   country: IE
   later: false
 
@@ -501,7 +501,7 @@ SPLASH:
   short: null
   full: null
   format: null
-  cfp: '2026-10-14'
+  cfp: closed
   country: CZ
   later: false
 
