@@ -123,13 +123,13 @@ ECSA:
   short: 8
   full: 16
   format: LNCS
-  cfp: closed
+  cfp: '2027-03-19'
   country: PT
   later: true
 
 ESOP:
-  year: 2027
-  url: https://etaps.org/2027/conferences/esop/
+  year: 2028
+  url: https://etaps.org/2028
   publisher: Springer
   rank: A
   core: https://portal.core.edu.au/conf-ranks/514
@@ -137,8 +137,8 @@ ESOP:
   short: 15
   full: 25
   format: LNCS
-  cfp: '2026-10-15'
-  country: DK
+  cfp: closed
+  country: DE
   later: false
 
 FSE:
@@ -240,8 +240,8 @@ ICSE:
   later: true
 
 ICSE-NIER:
-  year: 2027
-  url: https://conf.researchr.org/track/icse-2027/icse-2027-new-ideas-and-emerging-results--nier-
+  year: 2028
+  url: https://icse-conferences.org/
   publisher: ACM
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/1209
@@ -249,8 +249,8 @@ ICSE-NIER:
   short: 4
   full: null
   format: null
-  cfp: '2026-10-23'
-  country: IE
+  cfp: closed
+  country: US
   later: false
 
 ICSE-SRC:
@@ -324,8 +324,8 @@ ISSTA:
   later: false
 
 MSR:
-  year: 2027
-  url: https://2027.msrconf.org
+  year: 2028
+  url: https://www.msrconf.org
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/711
@@ -333,8 +333,8 @@ MSR:
   short: 4
   full: 10
   format: null
-  cfp: '2026-10-23'
-  country: IE
+  cfp: closed
+  country: US
   later: false
 
 PLDI:
@@ -422,8 +422,8 @@ REFSQ:
   later: false
 
 SANER:
-  year: 2027
-  url: https://conf.researchr.org/home/saner-2027
+  year: 2028
+  url: https://conf.researchr.org/series/saner
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/2280
@@ -431,7 +431,7 @@ SANER:
   short: null
   full: 12
   format: null
-  cfp: '2026-10-23'
+  cfp: closed
   country: US
   later: false
 
@@ -464,8 +464,8 @@ SEAA:
   later: false
 
 SEAMS:
-  year: 2027
-  url: https://conf.researchr.org/home/seams-2027
+  year: 2028
+  url: https://icse-conferences.org/
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/2281
@@ -473,8 +473,8 @@ SEAMS:
   short: 6
   full: 10
   format: null
-  cfp: '2026-10-23'
-  country: IE
+  cfp: closed
+  country: US
   later: false
 
 SLE:
@@ -501,7 +501,7 @@ SPLASH:
   short: null
   full: null
   format: null
-  cfp: '2026-10-14'
+  cfp: '2027-04-07'
   country: CZ
   later: false
 
