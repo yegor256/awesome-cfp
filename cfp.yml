@@ -44,8 +44,8 @@ ASPLOS:
   later: true
 
 CC:
-  year: 2027
-  url: https://conf.researchr.org/home/hpca-cgo-ppopp-cc-2027
+  year: 2026
+  url: https://conf.researchr.org/series/CC
   publisher: ACM
   rank: B
   core: https://portal.core.edu.au/conf-ranks/936
@@ -54,7 +54,7 @@ CC:
   full: 10
   format: 2C
   cfp: closed
-  country: US
+  country: AU
   later: false
 
 CGO:
@@ -72,8 +72,8 @@ CGO:
   later: true
 
 CLEI:
-  year: 2027
-  url: https://clei.org/en/
+  year: 2026
+  url: https://conferencia2026.clei.org
   publisher: IEEE
   rank: C
   core: https://portal.core.edu.au/conf-ranks/1589
@@ -123,7 +123,7 @@ ECSA:
   short: 8
   full: 16
   format: LNCS
-  cfp: closed
+  cfp: '2027-03-19'
   country: PT
   later: true
 
@@ -137,7 +137,7 @@ ESOP:
   short: 15
   full: 25
   format: LNCS
-  cfp: '2026-10-15'
+  cfp: closed
   country: DK
   later: false
 
@@ -151,7 +151,7 @@ FSE:
   short: null
   full: 18
   format: 1C
-  cfp: closed
+  cfp: '2027-01-23'
   country: CN
   later: false
 
@@ -249,7 +249,7 @@ ICSE-NIER:
   short: 4
   full: null
   format: null
-  cfp: '2026-10-23'
+  cfp: closed
   country: IE
   later: false
 
@@ -305,7 +305,7 @@ ISSRE:
   short: 10
   full: 12
   format: 2C
-  cfp: closed
+  cfp: '2027-04-09'
   country: MO
   later: true
 
@@ -333,7 +333,7 @@ MSR:
   short: 4
   full: 10
   format: null
-  cfp: '2026-10-23'
+  cfp: '2026-11-10'
   country: IE
   later: false
 
@@ -431,7 +431,7 @@ SANER:
   short: null
   full: 12
   format: null
-  cfp: '2026-10-23'
+  cfp: closed
   country: US
   later: false
 
@@ -450,8 +450,8 @@ SCAM:
   later: true
 
 SEAA:
-  year: 2027
-  url: https://dsd-seaa.com/
+  year: 2026
+  url: https://dsd-seaa.com/seaa2026/
   publisher: IEEE
   rank: B
   core: https://portal.core.edu.au/conf-ranks/464
@@ -473,12 +473,12 @@ SEAMS:
   short: 6
   full: 10
   format: null
-  cfp: '2026-10-23'
+  cfp: closed
   country: IE
   later: false
 
 SLE:
-  year: 2027
+  year: 2026
   url: https://www.sleconf.org/
   publisher: ACM
   rank: B
@@ -501,7 +501,7 @@ SPLASH:
   short: null
   full: null
   format: null
-  cfp: '2026-10-14'
+  cfp: '2027-04-07'
   country: CZ
   later: false
 
@@ -516,5 +516,5 @@ SSBSE:
   full: 15
   format: LNCS
   cfp: closed
-  country: CA
+  country: CN
   later: false
