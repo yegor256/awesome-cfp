@@ -82,7 +82,7 @@ CLEI:
   full: 10
   format: null
   cfp: closed
-  country: MX
+  country: PY
   later: true
 
 EASE:
@@ -123,13 +123,13 @@ ECSA:
   short: 8
   full: 16
   format: LNCS
-  cfp: closed
+  cfp: '2027-03-19'
   country: PT
-  later: true
+  later: false
 
 ESOP:
-  year: 2027
-  url: https://etaps.org/2027/conferences/esop/
+  year: 2028
+  url: https://etaps.org/2028/
   publisher: Springer
   rank: A
   core: https://portal.core.edu.au/conf-ranks/514
@@ -137,8 +137,8 @@ ESOP:
   short: 15
   full: 25
   format: LNCS
-  cfp: '2026-10-15'
-  country: DK
+  cfp: closed
+  country: DE
   later: false
 
 FSE:
@@ -151,7 +151,7 @@ FSE:
   short: null
   full: 18
   format: 1C
-  cfp: closed
+  cfp: '2027-01-23'
   country: CN
   later: false
 
@@ -240,8 +240,8 @@ ICSE:
   later: true
 
 ICSE-NIER:
-  year: 2027
-  url: https://conf.researchr.org/track/icse-2027/icse-2027-new-ideas-and-emerging-results--nier-
+  year: 2028
+  url: https://conf.researchr.org/home/icse-2028
   publisher: ACM
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/1209
@@ -249,9 +249,9 @@ ICSE-NIER:
   short: 4
   full: null
   format: null
-  cfp: '2026-10-23'
-  country: IE
-  later: false
+  cfp: closed
+  country: US
+  later: true
 
 ICSE-SRC:
   year: 2027
@@ -291,7 +291,7 @@ ICST:
   short: null
   full: 10
   format: 2C
-  cfp: '2026-11-02'
+  cfp: '2027-01-13'
   country: ES
   later: false
 
@@ -305,9 +305,9 @@ ISSRE:
   short: 10
   full: 12
   format: 2C
-  cfp: closed
+  cfp: '2027-04-16'
   country: MO
-  later: true
+  later: false
 
 ISSTA:
   year: 2027
@@ -333,7 +333,7 @@ MSR:
   short: 4
   full: 10
   format: null
-  cfp: '2026-10-23'
+  cfp: '2026-11-10'
   country: IE
   later: false
 
@@ -431,7 +431,7 @@ SANER:
   short: null
   full: 12
   format: null
-  cfp: '2026-10-23'
+  cfp: closed
   country: US
   later: false
 
@@ -473,7 +473,7 @@ SEAMS:
   short: 6
   full: 10
   format: null
-  cfp: '2026-10-23'
+  cfp: closed
   country: IE
   later: false
 
@@ -501,7 +501,7 @@ SPLASH:
   short: null
   full: null
   format: null
-  cfp: '2026-10-14'
+  cfp: '2027-04-07'
   country: CZ
   later: false
 
