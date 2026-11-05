@@ -128,8 +128,8 @@ ECSA:
   later: true
 
 ESOP:
-  year: 2027
-  url: https://etaps.org/2027/conferences/esop/
+  year: 2028
+  url: https://etaps.org/2028/
   publisher: Springer
   rank: A
   core: https://portal.core.edu.au/conf-ranks/514
@@ -137,9 +137,9 @@ ESOP:
   short: 15
   full: 25
   format: LNCS
-  cfp: '2026-10-15'
-  country: DK
-  later: false
+  cfp: closed
+  country: DE
+  later: true
 
 FSE:
   year: 2027
