@@ -10,7 +10,7 @@ certifi==2026.10.23
     # via
     #   httpcore
     #   httpx
-coverage[toml]==7.17.1
+coverage[toml]==7.17.2
     # via pytest-cov
 h11==0.16.0
     # via httpcore
