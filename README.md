@@ -35,7 +35,7 @@ please send us a pull request.
 | [ICFP'27](<https://icfp27.sigplan.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | 12 | 25 | 1C | 27-Feb | NL |
 | [ICFP-SPLASH'27](<https://icfp27.sigplan.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | 3 | | 1C | 27-Feb | NL |
 | [ICPC'27](<https://conf.researchr.org/home/icpc-2027>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1181>) | SE | | 10 | | 26-Nov | IE |
-| [ICSA'27](<https://conf.researchr.org/home/icsa-2027>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/791>) | SE, SA | 8 | 10 | | 26-Nov | AU |
+| [ICSA'27](<https://conf.researchr.org/home/icsa-2027>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/791>) | SE, SA | 8 | 10 | | 26-Dec | AU |
 | [ICSME'27](<https://conf.researchr.org/home/icsme-2027>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/676>) | SE | | 10 | | 27-Mar | CA |
 | [ICST'27](<https://conf.researchr.org/home/icst-2027>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/1221>) | ST | | 10 | 2C | 26-Nov | ES |
 | [ISSRE'27](<https://conf.researchr.org/home/issre-2027>) | IEEE | [A](<https://conf.researchr.org/home/issre-2027>) | SE | 10 | 12 | 2C | closed | MO |
