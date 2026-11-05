@@ -240,8 +240,8 @@ ICSE:
   later: true
 
 ICSE-NIER:
-  year: 2027
-  url: https://conf.researchr.org/track/icse-2027/icse-2027-new-ideas-and-emerging-results--nier-
+  year: 2028
+  url: https://conf.researchr.org/home/icse-2028
   publisher: ACM
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/1209
@@ -249,9 +249,9 @@ ICSE-NIER:
   short: 4
   full: null
   format: null
-  cfp: '2026-10-23'
-  country: IE
-  later: false
+  cfp: closed
+  country: US
+  later: true
 
 ICSE-SRC:
   year: 2027
