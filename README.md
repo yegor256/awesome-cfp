@@ -42,7 +42,7 @@ please send us a pull request.
 | [ISSTA'27](<https://conf.researchr.org/home/issta-2027>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1412>) | ST | | 18 | 1C | 27-Jan | SG |
 | [MSR'27](<https://2027.msrconf.org>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/711>) | SE | 4 | 10 | | 26-Oct | IE |
 | [SANER'27](<https://conf.researchr.org/home/saner-2027>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/2280>) | SE | | 12 | | 26-Oct | US |
-| [SEAMS'27](<https://conf.researchr.org/home/seams-2027>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/2281>) | SE | 6 | 10 | | 26-Oct | IE |
+| [SEAMS'27](<https://conf.researchr.org/home/seams-2027>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/2281>) | SE | 6 | 10 | | closed | IE |
 | [SPLASH'27](<https://conf.researchr.org/home/splash-2027>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/18>) | PL | | | | 26-Oct | CZ |
 | [APLAS'26](<https://conf.researchr.org/home/aplas-atva-2026>) | Springer | [B](<https://conf.researchr.org/home/aplas-atva-2026>) | PL | | 17 | LNCS | closed | HK |
 | [CC'27](<https://conf.researchr.org/home/hpca-cgo-ppopp-cc-2027>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/936>) | PL | | 10 | 2C | closed | US |
