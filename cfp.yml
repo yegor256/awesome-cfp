@@ -123,7 +123,7 @@ ECSA:
   short: 8
   full: 16
   format: LNCS
-  cfp: closed
+  cfp: '2027-03-19'
   country: PT
   later: true
 
@@ -137,7 +137,7 @@ ESOP:
   short: 15
   full: 25
   format: LNCS
-  cfp: '2026-10-15'
+  cfp: closed
   country: DK
   later: false
 
@@ -151,7 +151,7 @@ FSE:
   short: null
   full: 18
   format: 1C
-  cfp: closed
+  cfp: '2027-03-05'
   country: CN
   later: false
 
@@ -207,7 +207,7 @@ ICPC:
   short: null
   full: 10
   format: null
-  cfp: '2026-11-05'
+  cfp: '2026-11-26'
   country: IE
   later: false
 
@@ -221,7 +221,7 @@ ICSA:
   short: 8
   full: 10
   format: null
-  cfp: '2026-11-04'
+  cfp: '2026-12-20'
   country: AU
   later: false
 
@@ -249,7 +249,7 @@ ICSE-NIER:
   short: 4
   full: null
   format: null
-  cfp: '2026-10-23'
+  cfp: closed
   country: IE
   later: false
 
@@ -291,7 +291,7 @@ ICST:
   short: null
   full: 10
   format: 2C
-  cfp: '2026-11-02'
+  cfp: '2027-01-31'
   country: ES
   later: false
 
@@ -305,7 +305,7 @@ ISSRE:
   short: 10
   full: 12
   format: 2C
-  cfp: closed
+  cfp: '2027-04-16'
   country: MO
   later: true
 
@@ -333,7 +333,7 @@ MSR:
   short: 4
   full: 10
   format: null
-  cfp: '2026-10-23'
+  cfp: '2026-11-20'
   country: IE
   later: false
 
@@ -431,7 +431,7 @@ SANER:
   short: null
   full: 12
   format: null
-  cfp: '2026-10-23'
+  cfp: '2026-12-18'
   country: US
   later: false
 
@@ -473,7 +473,7 @@ SEAMS:
   short: 6
   full: 10
   format: null
-  cfp: '2026-10-23'
+  cfp: '2027-01-05'
   country: IE
   later: false
 
@@ -501,7 +501,7 @@ SPLASH:
   short: null
   full: null
   format: null
-  cfp: '2026-10-14'
+  cfp: '2027-01-22'
   country: CZ
   later: false
 
