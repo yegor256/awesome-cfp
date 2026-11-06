@@ -73,7 +73,7 @@ CGO:
 
 CLEI:
   year: 2027
-  url: https://clei.org/en/
+  url: https://clei.org/
   publisher: IEEE
   rank: C
   core: https://portal.core.edu.au/conf-ranks/1589
@@ -82,7 +82,7 @@ CLEI:
   full: 10
   format: null
   cfp: closed
-  country: MX
+  country: PY
   later: true
 
 EASE:
@@ -450,7 +450,7 @@ SCAM:
   later: true
 
 SEAA:
-  year: 2027
+  year: 2026
   url: https://dsd-seaa.com/
   publisher: IEEE
   rank: B
@@ -478,7 +478,7 @@ SEAMS:
   later: false
 
 SLE:
-  year: 2027
+  year: 2026
   url: https://www.sleconf.org/
   publisher: ACM
   rank: B
@@ -506,7 +506,7 @@ SPLASH:
   later: false
 
 SSBSE:
-  year: 2027
+  year: 2026
   url: https://conf.researchr.org/series/ssbse
   publisher: Springer
   rank: B
