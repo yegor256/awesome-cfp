@@ -143,15 +143,15 @@ ESOP:
 
 FSE:
   year: 2027
-  url: https://conf.researchr.org/home/fse-2027
+  url: https://conf.researchr.org/track/fse-2027/fse-2027-industry-papers
   publisher: ACM
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/52
   scope: SE
-  short: null
-  full: 18
-  format: 1C
-  cfp: '2027-03-05'
+  short: 5
+  full: 10
+  format: 2C
+  cfp: '2027-01-23'
   country: CN
   later: false
 
@@ -283,7 +283,7 @@ ICSME:
 
 ICST:
   year: 2027
-  url: https://conf.researchr.org/home/icst-2027
+  url: https://conf.researchr.org/track/icst-2027/icst-2027-industry
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1221
@@ -291,7 +291,7 @@ ICST:
   short: null
   full: 10
   format: 2C
-  cfp: '2027-01-31'
+  cfp: '2027-01-21'
   country: ES
   later: false
 
@@ -431,7 +431,7 @@ SANER:
   short: null
   full: 12
   format: null
-  cfp: '2026-12-18'
+  cfp: closed
   country: US
   later: false
 
@@ -465,15 +465,15 @@ SEAA:
 
 SEAMS:
   year: 2027
-  url: https://conf.researchr.org/home/seams-2027
+  url: https://conf.researchr.org/track/seams-2027/seams-2027-community-debate
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/2281
   scope: SE
-  short: 6
-  full: 10
-  format: null
-  cfp: '2027-01-05'
+  short: 2
+  full: null
+  format: 2C
+  cfp: '2027-01-15'
   country: IE
   later: false
 
@@ -493,15 +493,15 @@ SLE:
 
 SPLASH:
   year: 2027
-  url: https://conf.researchr.org/home/splash-2027
+  url: https://2027.splashcon.org/track/splashoopsla2027
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/18
   scope: PL
   short: null
-  full: null
-  format: null
-  cfp: '2027-01-22'
+  full: 23
+  format: 1C
+  cfp: '2027-04-07'
   country: CZ
   later: false
 
