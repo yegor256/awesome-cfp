@@ -43,7 +43,7 @@ pytest==9.2.0
     #   pytest-randomly
 pytest-cov==7.1.0
     # via -r requirements.in
-pytest-randomly==5.0.0
+pytest-randomly==5.1.0
     # via -r requirements.in
 python-dateutil==4.0.0
     # via time-machine
