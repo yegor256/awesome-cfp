@@ -45,7 +45,7 @@ ASPLOS:
 
 CC:
   year: 2027
-  url: https://conf.researchr.org/home/hpca-cgo-ppopp-cc-2027
+  url: https://conf.researchr.org/home/CC-2027
   publisher: ACM
   rank: B
   core: https://portal.core.edu.au/conf-ranks/936
@@ -53,7 +53,7 @@ CC:
   short: null
   full: 10
   format: 2C
-  cfp: closed
+  cfp: '2026-12-03'
   country: US
   later: false
 
