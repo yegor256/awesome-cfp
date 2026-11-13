@@ -102,13 +102,13 @@ EASE:
 ECOOP:
   year: 2027
   url: https://2027.ecoop.org
-  publisher: ACM
+  publisher: Dagstuhl
   rank: A
   core: https://portal.core.edu.au/conf-ranks/488
   scope: SE
-  short: 12
-  full: 25
-  format: null
+  short: null
+  full: null
+  format: 1C
   cfp: '2026-11-19'
   country: IT
   later: false
