@@ -248,7 +248,7 @@ ICSE-NIER:
   scope: SE
   short: 4
   full: null
-  format: null
+  format: 2C
   cfp: closed
   country: IE
   later: false
@@ -262,7 +262,7 @@ ICSE-SRC:
   scope: SE
   short: 2
   full: null
-  format: null
+  format: 2C
   cfp: '2026-11-13'
   country: IE
   later: false
