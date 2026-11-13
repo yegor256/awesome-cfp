@@ -276,8 +276,8 @@ ICSME:
   scope: SE
   short: null
   full: 10
-  format: null
-  cfp: '2027-03-05'
+  format: 2C
+  cfp: '2027-02-26'
   country: CA
   later: false
 
