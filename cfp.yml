@@ -506,15 +506,15 @@ SPLASH:
   later: false
 
 SSBSE:
-  year: 2026
-  url: https://conf.researchr.org/series/ssbse
+  year: 2027
+  url: https://conf.researchr.org/home/ssbse-2027
   publisher: Springer
   rank: B
   core: https://portal.core.edu.au/conf-ranks/2283
   scope: SE
-  short: 6
-  full: 15
-  format: LNCS
-  cfp: closed
-  country: CA
+  short: null
+  full: null
+  format: null
+  cfp: null
+  country: CN
   later: false
