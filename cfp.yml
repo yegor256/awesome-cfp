@@ -263,7 +263,7 @@ ICSE-SRC:
   short: 2
   full: null
   format: null
-  cfp: '2026-11-13'
+  cfp: closed
   country: IE
   later: false
 
@@ -347,7 +347,7 @@ PLDI:
   short: null
   full: 20
   format: 1C
-  cfp: '2026-11-12'
+  cfp: closed
   country: US
   later: false
 
@@ -417,7 +417,7 @@ REFSQ:
   short: 8
   full: 15
   format: LNCS
-  cfp: '2026-11-12'
+  cfp: closed
   country: CH
   later: false
 
