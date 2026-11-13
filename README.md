@@ -53,7 +53,7 @@ please send us a pull request.
 | [SSBSE'27](<https://conf.researchr.org/series/ssbse>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/2283>) | SE | 6 | 15 | LNCS | closed | CA |
 | [CLEI'27](<https://clei.org/en/>) | IEEE | [C](<https://clei.org/en/>) | SE | 4 | 10 | | closed | MX |
 | [ICFEM'26](<https://icfem2026.github.io/>) | Springer | [C](<https://icfem2026.github.io/>) | SE | | 16 | LNCS | closed | UK |
-| [PPDP'26](<https://icfp26.sigplan.org/home/lopstr-ppdp-2026>) | ACM | [C](<https://icfp26.sigplan.org/home/lopstr-ppdp-2026>) | PL | 5 | 12 | LNCS | closed | US |
+| [PPDP'26](<https://icfp26.sigplan.org/home/lopstr-ppdp-2026>) | Springer | [C](<https://icfp26.sigplan.org/home/lopstr-ppdp-2026>) | PL | 8 | 15 | LNCS | closed | US |
 | [QRS'26](<https://qrs26.techconf.org/>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/1185>) | SE | 10 | 12 | 2C | closed | IT |
 | [SCAM'27](<http://www.ieee-scam.org/>) | IEEE | [C](<http://www.ieee-scam.org/>) | SE | | 12 | 2C | closed | CA |
 
