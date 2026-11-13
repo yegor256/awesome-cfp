@@ -423,14 +423,14 @@ REFSQ:
 
 SANER:
   year: 2027
-  url: https://conf.researchr.org/home/saner-2027
+  url: https://conf.researchr.org/track/saner-2027/saner-2027-doctoral-symposium-track
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/2280
   scope: SE
   short: null
-  full: 12
-  format: null
+  full: 5
+  format: 2C
   cfp: '2026-12-18'
   country: US
   later: false
