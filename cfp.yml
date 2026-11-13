@@ -227,17 +227,17 @@ ICSA:
 
 ICSE:
   year: 2028
-  url: https://conf.researchr.org/home/icse-2028
+  url: https://conf.researchr.org/track/icse-2028/icse-2028-papers
   publisher: ACM
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/1209
   scope: SE
   short: null
   full: 10
-  format: null
-  cfp: closed
+  format: 2C
+  cfp: '2027-07-01'
   country: US
-  later: true
+  later: false
 
 ICSE-NIER:
   year: 2027
@@ -248,7 +248,7 @@ ICSE-NIER:
   scope: SE
   short: 4
   full: null
-  format: null
+  format: 2C
   cfp: closed
   country: IE
   later: false
@@ -262,7 +262,7 @@ ICSE-SRC:
   scope: SE
   short: 2
   full: null
-  format: null
+  format: 2C
   cfp: '2026-11-13'
   country: IE
   later: false
