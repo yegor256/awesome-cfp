@@ -465,15 +465,15 @@ SEAA:
 
 SEAMS:
   year: 2027
-  url: https://conf.researchr.org/home/seams-2027
+  url: https://conf.researchr.org/track/seams-2027/seams-2027-artifact-track
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/2281
   scope: SE
-  short: 6
-  full: 10
+  short: null
+  full: 6
   format: null
-  cfp: '2027-01-05'
+  cfp: '2026-12-07'
   country: IE
   later: false
 
