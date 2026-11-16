@@ -16,17 +16,17 @@ APLAS:
   later: true
 
 ASE:
-  year: 2026
-  url: https://conf.researchr.org/home/ase-2026
-  publisher: ACM
+  year: 2027
+  url: https://conf.researchr.org/track/ase-2027/ase-2027-research-track
+  publisher: null
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/279
   scope: SE
   short: null
-  full: 10
+  full: null
   format: null
-  cfp: closed
-  country: DE
+  cfp: '2027-03-10'
+  country: US
   later: false
 
 ASPLOS:
@@ -263,7 +263,7 @@ ICSE-SRC:
   short: 2
   full: null
   format: null
-  cfp: '2026-11-13'
+  cfp: closed
   country: IE
   later: false
 
@@ -347,7 +347,7 @@ PLDI:
   short: null
   full: 20
   format: 1C
-  cfp: '2026-11-12'
+  cfp: closed
   country: US
   later: false
 
@@ -409,15 +409,15 @@ QRS:
 
 REFSQ:
   year: 2027
-  url: https://2027.refsq.org
-  publisher: Springer
+  url: https://2027.refsq.org/track/refsq-2027-posters---tools
+  publisher: CEUR-WS
   rank: B
   core: https://portal.core.edu.au/conf-ranks/1521
   scope: SE
-  short: 8
-  full: 15
-  format: LNCS
-  cfp: '2026-11-12'
+  short: 7
+  full: null
+  format: 1C
+  cfp: '2027-02-04'
   country: CH
   later: false
 
