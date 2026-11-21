@@ -92,9 +92,9 @@ EASE:
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1022
   scope: SE
-  short: null
+  short: 6
   full: 10
-  format: null
+  format: 2C
   cfp: '2027-01-22'
   country: VN
   later: false
