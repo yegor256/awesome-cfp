@@ -6,11 +6,11 @@
 #
 anyio==4.16.0
     # via httpx
-certifi==2026.10.23
+certifi==2026.11.20
     # via
     #   httpcore
     #   httpx
-coverage[toml]==7.17.3
+coverage[toml]==7.17.4
     # via pytest-cov
 h11==0.16.0
     # via httpcore
