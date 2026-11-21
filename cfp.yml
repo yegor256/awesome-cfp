@@ -59,17 +59,17 @@ CC:
 
 CGO:
   year: 2027
-  url: https://2027.cgo.org
+  url: https://2027.cgo.org/track/cgo-2027-student-research-competition
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1362
   scope: PL
-  short: null
-  full: 11
+  short: 1
+  full: null
   format: 2C
-  cfp: closed
+  cfp: '2027-01-08'
   country: US
-  later: true
+  later: false
 
 CLEI:
   year: 2027
@@ -109,7 +109,7 @@ ECOOP:
   short: 12
   full: 25
   format: null
-  cfp: '2026-11-19'
+  cfp: '2027-02-11'
   country: IT
   later: false
 
@@ -325,15 +325,15 @@ ISSTA:
 
 MSR:
   year: 2027
-  url: https://2027.msrconf.org
+  url: https://2027.msrconf.org/track/msr-2027-mining-challenge
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/711
   scope: SE
   short: 4
-  full: 10
-  format: null
-  cfp: '2026-11-20'
+  full: null
+  format: 2C
+  cfp: '2026-12-23'
   country: IE
   later: false
 
