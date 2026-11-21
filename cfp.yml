@@ -493,15 +493,15 @@ SLE:
 
 SPLASH:
   year: 2027
-  url: https://conf.researchr.org/home/splash-2027
+  url: https://2027.splashcon.org/track/splashoopsla2027
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/18
   scope: PL
   short: null
-  full: null
-  format: null
-  cfp: '2027-01-22'
+  full: 23
+  format: 1C
+  cfp: '2027-04-07'
   country: CZ
   later: false
 
