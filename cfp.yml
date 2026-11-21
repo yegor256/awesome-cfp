@@ -368,12 +368,12 @@ POPL:
 PPDP:
   year: 2026
   url: https://icfp26.sigplan.org/home/lopstr-ppdp-2026
-  publisher: ACM
+  publisher: Springer
   rank: C
   core: https://portal.core.edu.au/conf-ranks/1176
   scope: PL
-  short: 5
-  full: 12
+  short: 8
+  full: 15
   format: LNCS
   cfp: closed
   country: US
