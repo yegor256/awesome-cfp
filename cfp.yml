@@ -183,44 +183,45 @@ ICFP:
   country: NL
   later: false
 
+# The joint ICFP/SPLASH workshop call has no announced successor.
 ICFP-SPLASH:
-  year: 2027
-  url: https://icfp27.sigplan.org
+  year: 2025
+  url: https://conf.researchr.org/track/icfp-splash-2025/icfp-splash-2025-workshops
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1037
   scope: PL
-  short: 3
+  short: null
   full: null
-  format: 1C
-  cfp: '2027-02-25'
-  country: NL
+  format: null
+  cfp: closed
+  country: SG
   later: false
 
 ICPC:
   year: 2027
-  url: https://conf.researchr.org/home/icpc-2027
+  url: https://conf.researchr.org/track/icpc-2027/icpc-2027-early-research-achievements--era-
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1181
   scope: SE
-  short: null
-  full: 10
-  format: null
+  short: 4
+  full: null
+  format: 2C
   cfp: '2026-11-26'
   country: IE
   later: false
 
 ICSA:
   year: 2027
-  url: https://conf.researchr.org/home/icsa-2027
+  url: https://conf.researchr.org/track/icsa-2027/icsa-2027-new-and-emerging-ideas
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/791
   scope: SE, SA
-  short: 8
-  full: 10
-  format: null
+  short: 5
+  full: null
+  format: 2C
   cfp: '2026-12-20'
   country: AU
   later: false
