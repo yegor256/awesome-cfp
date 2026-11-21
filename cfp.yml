@@ -109,7 +109,7 @@ ECOOP:
   short: 12
   full: 25
   format: null
-  cfp: '2026-11-19'
+  cfp: closed
   country: IT
   later: false
 
@@ -333,7 +333,7 @@ MSR:
   short: 4
   full: 10
   format: null
-  cfp: '2026-11-20'
+  cfp: closed
   country: IE
   later: false
 
