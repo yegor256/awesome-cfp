@@ -396,7 +396,7 @@ PPoPP:
 QRS:
   year: 2026
   url: https://qrs26.techconf.org/
-  publisher: IEEE
+  publisher: Springer
   rank: C
   core: https://portal.core.edu.au/conf-ranks/1185
   scope: SE
