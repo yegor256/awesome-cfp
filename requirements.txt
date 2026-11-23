@@ -6,11 +6,11 @@
 #
 anyio==4.16.0
     # via httpx
-certifi==2026.10.23
+certifi==2026.11.20
     # via
     #   httpcore
     #   httpx
-coverage[toml]==7.17.3
+coverage[toml]==7.17.4
     # via pytest-cov
 h11==0.16.0
     # via httpcore
@@ -47,7 +47,7 @@ pytest-randomly==5.1.0
     # via -r requirements.in
 python-dateutil==4.0.0
     # via time-machine
-pyyaml==6.0.3
+pyyaml==6.0.4
     # via -r requirements.in
 respx==0.23.1
     # via -r requirements.in
