@@ -339,7 +339,7 @@ MSR:
 
 PLDI:
   year: 2027
-  url: https://pldi27.sigplan.org
+  url: https://pldi27.sigplan.org/track/pldi-2027-papers
   publisher: ACM
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/84
@@ -347,7 +347,7 @@ PLDI:
   short: null
   full: 20
   format: 1C
-  cfp: closed
+  cfp: closed  # Paper deadline: 2026-11-12, 23:59 AoE.
   country: US
   later: false
 
