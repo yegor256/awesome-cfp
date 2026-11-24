@@ -450,17 +450,17 @@ SCAM:
   later: true
 
 SEAA:
-  year: 2026
-  url: https://dsd-seaa.com/
-  publisher: IEEE
+  year: 2027
+  url: https://dsd-seaa.com/seaa2027/
+  publisher: null
   rank: B
   core: https://portal.core.edu.au/conf-ranks/464
   scope: SE, PL
-  short: 4
-  full: 8
-  format: 2C
-  cfp: closed
-  country: PL
+  short: null
+  full: null
+  format: null
+  cfp: null
+  country: AT
   later: false
 
 SEAMS:
