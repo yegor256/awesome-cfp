@@ -28,7 +28,7 @@ iniconfig==2.3.1
     # via pytest
 more-itertools==11.2.1
     # via -r requirements.in
-packaging==26.3
+packaging==26.4
     # via pytest
 pluggy==1.7.0
     # via
