@@ -353,7 +353,7 @@ PLDI:
 
 POPL:
   year: 2027
-  url: https://conf.researchr.org/home/POPL-2027
+  url: https://popl27.sigplan.org/track/POPL-2027-popl-research-papers
   publisher: ACM
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/82
@@ -361,7 +361,7 @@ POPL:
   short: null
   full: 25
   format: 1C
-  cfp: closed
+  cfp: closed  # Paper deadline: 2026-07-09, 23:59 AoE.
   country: MX
   later: true
 

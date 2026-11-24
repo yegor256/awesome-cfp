@@ -26,7 +26,7 @@ please send us a pull request.
 | [ICSE-NIER'27](<https://conf.researchr.org/track/icse-2027/icse-2027-new-ideas-and-emerging-results--nier->) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 4 | | | 26-Oct | IE |
 | [ICSE-SRC'27](<https://conf.researchr.org/track/icse-2027/icse-2027-src>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 2 | | | 26-Nov | IE |
 | [PLDI'27](<https://pldi27.sigplan.org>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/84>) | PL | | 20 | 1C | 26-Nov | US |
-| [POPL'27](<https://conf.researchr.org/home/POPL-2027>) | ACM | [A*](<https://conf.researchr.org/home/POPL-2027>) | SE | | 25 | | closed | MX |
+| [POPL'27](<https://popl27.sigplan.org/track/POPL-2027-popl-research-papers>) | ACM | [A*](<https://popl27.sigplan.org/track/POPL-2027-popl-research-papers>) | SE | | 25 | 1C | closed | MX |
 | [CGO'27](<https://2027.cgo.org>) | ACM | [A](<https://2027.cgo.org>) | PL | | 11 | 2C | closed | US |
 | [EASE'27](<https://conf.researchr.org/home/ease-2027>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1022>) | SE | | 10 | | 27-Jan | VN |
 | [ECOOP'27](<https://2027.ecoop.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/488>) | SE | 12 | 25 | | 26-Nov | IT |
