@@ -18,13 +18,13 @@ APLAS:
 ASE:
   year: 2027
   url: https://conf.researchr.org/track/ase-2027/ase-2027-research-track
-  publisher: null
+  publisher: IEEE
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/279
   scope: SE
   short: null
-  full: null
-  format: null
+  full: 10
+  format: 2C
   cfp: '2027-03-10'
   country: US
   later: false
