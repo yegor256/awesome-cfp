@@ -16,17 +16,17 @@ APLAS:
   later: true
 
 ASE:
-  year: 2026
-  url: https://conf.researchr.org/home/ase-2026
-  publisher: ACM
+  year: 2027
+  url: https://conf.researchr.org/track/ase-2027/ase-2027-research-track
+  publisher: null
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/279
   scope: SE
   short: null
-  full: 10
+  full: null
   format: null
-  cfp: closed
-  country: DE
+  cfp: '2027-03-10'
+  country: US
   later: false
 
 ASPLOS:
@@ -45,7 +45,7 @@ ASPLOS:
 
 CC:
   year: 2027
-  url: https://conf.researchr.org/home/hpca-cgo-ppopp-cc-2027
+  url: https://conf.researchr.org/home/CC-2027
   publisher: ACM
   rank: B
   core: https://portal.core.edu.au/conf-ranks/936
@@ -53,23 +53,23 @@ CC:
   short: null
   full: 10
   format: 2C
-  cfp: closed
+  cfp: '2026-12-03'
   country: US
   later: false
 
 CGO:
   year: 2027
-  url: https://2027.cgo.org
+  url: https://2027.cgo.org/track/cgo-2027-student-research-competition
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1362
   scope: PL
-  short: null
-  full: 11
+  short: 1
+  full: null
   format: 2C
-  cfp: closed
+  cfp: '2027-01-08'
   country: US
-  later: true
+  later: false
 
 CLEI:
   year: 2027
@@ -109,7 +109,7 @@ ECOOP:
   short: 12
   full: 25
   format: null
-  cfp: '2026-11-19'
+  cfp: '2027-02-11'
   country: IT
   later: false
 
@@ -227,17 +227,17 @@ ICSA:
 
 ICSE:
   year: 2028
-  url: https://conf.researchr.org/home/icse-2028
+  url: https://conf.researchr.org/track/icse-2028/icse-2028-papers
   publisher: ACM
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/1209
   scope: SE
   short: null
   full: 10
-  format: null
-  cfp: closed
+  format: 2C
+  cfp: '2027-07-01'
   country: US
-  later: true
+  later: false
 
 ICSE-NIER:
   year: 2027
@@ -248,7 +248,7 @@ ICSE-NIER:
   scope: SE
   short: 4
   full: null
-  format: null
+  format: 2C
   cfp: closed
   country: IE
   later: false
@@ -262,8 +262,8 @@ ICSE-SRC:
   scope: SE
   short: 2
   full: null
-  format: null
-  cfp: '2026-11-13'
+  format: 2C
+  cfp: closed
   country: IE
   later: false
 
@@ -325,15 +325,15 @@ ISSTA:
 
 MSR:
   year: 2027
-  url: https://2027.msrconf.org
+  url: https://2027.msrconf.org/track/msr-2027-mining-challenge
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/711
   scope: SE
   short: 4
-  full: 10
-  format: null
-  cfp: '2026-11-20'
+  full: null
+  format: 2C
+  cfp: '2026-12-23'
   country: IE
   later: false
 
@@ -347,7 +347,7 @@ PLDI:
   short: null
   full: 20
   format: 1C
-  cfp: '2026-11-12'
+  cfp: closed
   country: US
   later: false
 
@@ -409,28 +409,28 @@ QRS:
 
 REFSQ:
   year: 2027
-  url: https://2027.refsq.org
-  publisher: Springer
+  url: https://2027.refsq.org/track/refsq-2027-posters---tools
+  publisher: CEUR-WS
   rank: B
   core: https://portal.core.edu.au/conf-ranks/1521
   scope: SE
-  short: 8
-  full: 15
-  format: LNCS
-  cfp: '2026-11-12'
+  short: 7
+  full: null
+  format: 1C
+  cfp: '2027-02-04'
   country: CH
   later: false
 
 SANER:
   year: 2027
-  url: https://conf.researchr.org/home/saner-2027
+  url: https://conf.researchr.org/track/saner-2027/saner-2027-doctoral-symposium-track
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/2280
   scope: SE
   short: null
-  full: 12
-  format: null
+  full: 5
+  format: 2C
   cfp: '2026-12-18'
   country: US
   later: false
