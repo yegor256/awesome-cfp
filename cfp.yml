@@ -253,6 +253,8 @@ ICSE-NIER:
   country: IE
   later: false
 
+# The 2027 SRC submission deadline was 2026-11-13 (AoE); see the track URL.
+# No SRC call is published at https://conf.researchr.org/home/icse-2028 yet.
 ICSE-SRC:
   year: 2027
   url: https://conf.researchr.org/track/icse-2027/icse-2027-src
