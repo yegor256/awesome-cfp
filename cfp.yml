@@ -394,17 +394,17 @@ PPoPP:
   later: true
 
 QRS:
-  year: 2026
-  url: https://qrs26.techconf.org/
-  publisher: IEEE
+  year: 2027
+  url: https://qrs27.techconf.org/
+  publisher: null
   rank: C
   core: https://portal.core.edu.au/conf-ranks/1185
   scope: SE
   short: 10
   full: 12
   format: 2C
-  cfp: closed
-  country: IT
+  cfp: '2027-04-20'
+  country: FR
   later: false
 
 REFSQ:
