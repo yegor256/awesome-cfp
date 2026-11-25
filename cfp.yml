@@ -297,7 +297,7 @@ ICST:
 
 ISSRE:
   year: 2027
-  url: https://conf.researchr.org/home/issre-2027
+  url: https://conf.researchr.org/track/issre-2027/issre-2027-papers
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1411
@@ -307,7 +307,7 @@ ISSRE:
   format: 2C
   cfp: '2027-04-16'
   country: MO
-  later: true
+  later: false
 
 ISSTA:
   year: 2027
