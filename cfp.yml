@@ -436,8 +436,12 @@ SANER:
   later: false
 
 SCAM:
+  # Verified 2026-11-24: https://www.ieee-scam.org/ announces Toronto,
+  # September 7-8, 2027, but publishes no 2027 paper submission deadline.
+  # Its linked https://conf.researchr.org/home/scam-2027 returns 404.
+  # Keep closed until an official paper call supplies a deadline.
   year: 2027
-  url: http://www.ieee-scam.org/
+  url: https://www.ieee-scam.org/
   publisher: IEEE
   rank: C
   core: https://portal.core.edu.au/conf-ranks/718
