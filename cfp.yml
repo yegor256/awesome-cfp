@@ -283,7 +283,7 @@ ICSME:
 
 ICST:
   year: 2027
-  url: https://conf.researchr.org/home/icst-2027
+  url: https://conf.researchr.org/track/icst-2027/icst-2027-industry
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1221
@@ -291,7 +291,7 @@ ICST:
   short: null
   full: 10
   format: 2C
-  cfp: '2027-01-31'
+  cfp: '2027-01-21'
   country: ES
   later: false
 
