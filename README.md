@@ -26,7 +26,7 @@ please send us a pull request.
 | [ICSE-NIER'27](<https://conf.researchr.org/track/icse-2027/icse-2027-new-ideas-and-emerging-results--nier->) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 4 | | | 26-Oct | IE |
 | [ICSE-SRC'27](<https://conf.researchr.org/track/icse-2027/icse-2027-src>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 2 | | | 26-Nov | IE |
 | [PLDI'27](<https://pldi27.sigplan.org/track/pldi-2027-papers>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/84>) | PL | | 20 | 1C | closed | US |
-| [POPL'27](<https://conf.researchr.org/home/POPL-2027>) | ACM | [A*](<https://conf.researchr.org/home/POPL-2027>) | SE | | 25 | | closed | MX |
+| [POPL'27](<https://popl27.sigplan.org/track/POPL-2027-popl-research-papers>) | ACM | [A*](<https://popl27.sigplan.org/track/POPL-2027-popl-research-papers>) | SE | | 25 | 1C | closed | MX |
 | [CGO'27](<https://2027.cgo.org>) | ACM | [A](<https://2027.cgo.org>) | PL | | 11 | 2C | closed | US |
 | [EASE'27](<https://conf.researchr.org/home/ease-2027>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1022>) | SE | | 10 | | 27-Jan | VN |
 | [ECOOP'27](<https://2027.ecoop.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/488>) | SE | 12 | 25 | | 26-Nov | IT |
@@ -53,7 +53,7 @@ please send us a pull request.
 | [SSBSE'27](<https://conf.researchr.org/series/ssbse>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/2283>) | SE | 6 | 15 | LNCS | closed | CA |
 | [CLEI'27](<https://clei.org/en/>) | IEEE | [C](<https://clei.org/en/>) | SE | 4 | 10 | | closed | MX |
 | [ICFEM'26](<https://icfem2026.github.io/>) | Springer | [C](<https://icfem2026.github.io/>) | SE | | 16 | LNCS | closed | UK |
-| [PPDP'26](<https://icfp26.sigplan.org/home/lopstr-ppdp-2026>) | ACM | [C](<https://icfp26.sigplan.org/home/lopstr-ppdp-2026>) | PL | 5 | 12 | LNCS | closed | US |
+| [PPDP'26](<https://icfp26.sigplan.org/home/lopstr-ppdp-2026>) | Springer | [C](<https://icfp26.sigplan.org/home/lopstr-ppdp-2026>) | PL | 8 | 15 | LNCS | closed | US |
 | [QRS'26](<https://qrs26.techconf.org/>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/1185>) | SE | 10 | 12 | 2C | closed | IT |
 | [SCAM'27](<http://www.ieee-scam.org/>) | IEEE | [C](<http://www.ieee-scam.org/>) | SE | | 12 | 2C | closed | CA |
 
