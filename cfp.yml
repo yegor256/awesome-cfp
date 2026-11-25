@@ -388,7 +388,7 @@ PPoPP:
   scope: PL
   short: null
   full: 10
-  format: null
+  format: 2C
   cfp: closed
   country: US
   later: true
