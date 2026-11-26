@@ -22,7 +22,7 @@ please send us a pull request.
 | [ASPLOS'27](<https://www.asplos-conference.org/asplos2027/cfp/>) | ACM | [A*](<https://www.asplos-conference.org/asplos2027/cfp/>) | SE | | 11 | 2C | closed | GR |
 | [FSE'27](<https://conf.researchr.org/track/fse-2027/fse-2027-papers>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/52>) | SE | | 18 | 1C | closed | CN |
 | [ICSE'28](<https://conf.researchr.org/track/icse-2028/icse-2028-papers>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | | 10 | 2C | 2027-07-01 | US |
-| [ICSE-NIER'28](<https://conf.researchr.org/home/icse-2028>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 4 | | 2C | closed | US |
+| [ICSE-NIER'28](<https://conf.researchr.org/home/icse-2028>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 4 | | 2C | | US |
 | [ICSE-SRC'27](<https://conf.researchr.org/track/icse-2027/icse-2027-src>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 2 | | 2C | closed | IE |
 | [PLDI'27](<https://pldi27.sigplan.org/track/pldi-2027-papers>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/84>) | PL | | 20 | 1C | closed | US |
 | [POPL'27](<https://popl27.sigplan.org/track/POPL-2027-popl-research-papers>) | ACM | [A*](<https://popl27.sigplan.org/track/POPL-2027-popl-research-papers>) | SE | | 25 | 1C | closed | MX |
@@ -30,7 +30,7 @@ please send us a pull request.
 | [EASE'27](<https://conf.researchr.org/home/ease-2027>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1022>) | SE | 6 | 10 | 2C | 2027-01-22 | VN |
 | [ECOOP'27](<https://2027.ecoop.org/track/ecoop-2027-technical-papers>) | Dagstuhl | [A](<https://portal.core.edu.au/conf-ranks/488>) | SE | | | 1C | 2027-02-11 | IT |
 | [ECSA'27](<https://conf.researchr.org/track/ecsa-2027/ecsa-2027-research-track>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/2165>) | SA | 8 | 16 | LNCS | 2027-03-19 | PT |
-| [ESOP'28](<https://etaps.org/2028/>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/514>) | PL | 15 | 25 | LNCS | closed | DE |
+| [ESOP'28](<https://etaps.org/2028/>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/514>) | PL | 15 | 25 | LNCS | | DE |
 | [ICFP'27](<https://icfp27.sigplan.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | 12 | 25 | 1C | 2027-02-25 | NL |
 | [ICPC'27](<https://conf.researchr.org/track/icpc-2027/icpc-2027-research-track>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1181>) | SE | | 10 | 2C | closed | IE |
 | [ICSA'27](<https://conf.researchr.org/track/icsa-2027/icsa-2027-papers>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/791>) | SE, SA | | 10 | 2C | closed | AU |
@@ -49,11 +49,11 @@ please send us a pull request.
 | [SEAA'27](<https://dsd-seaa.com/seaa2027/>) | | [B](<https://portal.core.edu.au/conf-ranks/464>) | SE, PL | | | | | AT |
 | [SLE'26](<https://www.sleconf.org/>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/1215>) | SE, PL | 5 | 12 | 2C | closed | FR |
 | [SSBSE'27](<https://conf.researchr.org/home/ssbse-2027>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/2283>) | SE | | | | | CN |
-| [CLEI'27](<https://clei.org/>) | IEEE | [C](<https://clei.org/>) | SE | 4 | 10 | | closed | PY |
+| [CLEI'27](<https://clei.org/>) | IEEE | [C](<https://clei.org/>) | SE | 4 | 10 | | | PY |
 | [ICFEM'26](<https://icfem2026.github.io/>) | Springer | [C](<https://icfem2026.github.io/>) | SE | | 16 | LNCS | closed | UK |
 | [PPDP'26](<https://icfp26.sigplan.org/home/lopstr-ppdp-2026>) | Springer | [C](<https://icfp26.sigplan.org/home/lopstr-ppdp-2026>) | PL | 8 | 15 | LNCS | closed | US |
 | [QRS'27](<https://qrs27.techconf.org/>) | | [C](<https://portal.core.edu.au/conf-ranks/1185>) | SE | 10 | 12 | 2C | 2027-04-20 | FR |
-| [SCAM'27](<https://www.ieee-scam.org/>) | IEEE | [C](<https://www.ieee-scam.org/>) | SE | | 12 | 2C | closed | CA |
+| [SCAM'27](<https://www.ieee-scam.org/>) | IEEE | [C](<https://www.ieee-scam.org/>) | SE | | 12 | 2C | | CA |
 
 **SE** stands for "Software Engineering",
 **SA** for "Software Architecture",
