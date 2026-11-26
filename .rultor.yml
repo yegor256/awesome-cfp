@@ -3,7 +3,7 @@
 ---
 # yamllint disable rule:line-length
 docker:
-  image: yegor256/rultor-image
+  image: yegor256/ruby
 merge:
   script: |
     test -s README.md
