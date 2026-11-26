@@ -32,7 +32,6 @@ please send us a pull request.
 | [ECSA'27](<https://conf.researchr.org/track/ecsa-2027/ecsa-2027-research-track>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/2165>) | SA | 8 | 16 | LNCS | 2027-03-19 | PT |
 | [ESOP'28](<https://etaps.org/2028/>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/514>) | PL | 15 | 25 | LNCS | closed | DE |
 | [ICFP'27](<https://icfp27.sigplan.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | 12 | 25 | 1C | 2027-02-25 | NL |
-| [ICFP-SPLASH'25](<https://conf.researchr.org/track/icfp-splash-2025/icfp-splash-2025-workshops>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | | | | closed | SG |
 | [ICPC'27](<https://conf.researchr.org/track/icpc-2027/icpc-2027-research-track>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1181>) | SE | | 10 | 2C | closed | IE |
 | [ICSA'27](<https://conf.researchr.org/track/icsa-2027/icsa-2027-papers>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/791>) | SE, SA | | 10 | 2C | closed | AU |
 | [ICSME'27](<https://conf.researchr.org/home/icsme-2027>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/676>) | SE | | 10 | 2C | 2027-02-26 | CA |
@@ -82,7 +81,12 @@ Please, follow these rules:
 * **rank** is linked to the [CORE](https://portal.core.edu.au/conf-ranks/)
   page of the conference.
 * **short** and **full** are page limits for short and full papers.
-* **cfp** is the paper submission deadline in `YYYY-MM-DD` format,
+* **cfp** is the full-paper submission deadline of the main technical
+  (research) track, in `YYYY-MM-DD` format,
   or `closed` when it has passed; leave it empty if not yet announced.
+  Deadlines of other tracks (industry, NIER, doctoral, artifacts, posters,
+  workshops, etc.) don't count, and neither do revision or camera-ready dates.
+  If the main track has several submission rounds, use the next open one.
+* **name**, **short**, **full**, and **format** also describe the main track.
 * **country** is the two-letter code of the country where the event takes place.
 * Leave a cell empty when the information is unknown.
