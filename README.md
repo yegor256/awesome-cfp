@@ -22,15 +22,15 @@ please send us a pull request.
 | [ASPLOS'27](<https://www.asplos-conference.org/asplos2027/cfp/>) | ACM | [A*](<https://www.asplos-conference.org/asplos2027/cfp/>) | SE | | 11 | 2C | closed | GR |
 | [FSE'27](<https://conf.researchr.org/track/fse-2027/fse-2027-industry-papers>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/52>) | SE | 5 | 10 | 2C | 2027-01-23 | CN |
 | [ICSE'28](<https://conf.researchr.org/track/icse-2028/icse-2028-papers>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | | 10 | 2C | 2027-07-01 | US |
-| [ICSE-NIER'27](<https://conf.researchr.org/track/icse-2027/icse-2027-new-ideas-and-emerging-results--nier->) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 4 | | 2C | closed | IE |
-| [ICSE-SRC'27](<https://conf.researchr.org/track/icse-2027/icse-2027-src>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 2 | | 2C | 2026-11-26 | IE |
+| [ICSE-NIER'28](<https://conf.researchr.org/home/icse-2028>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 4 | | 2C | closed | US |
+| [ICSE-SRC'27](<https://conf.researchr.org/track/icse-2027/icse-2027-src>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 2 | | 2C | closed | IE |
 | [PLDI'27](<https://pldi27.sigplan.org/track/pldi-2027-papers>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/84>) | PL | | 20 | 1C | closed | US |
 | [POPL'27](<https://popl27.sigplan.org/track/POPL-2027-popl-research-papers>) | ACM | [A*](<https://popl27.sigplan.org/track/POPL-2027-popl-research-papers>) | SE | | 25 | 1C | closed | MX |
 | [CGO'27](<https://2027.cgo.org/track/cgo-2027-student-research-competition>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1362>) | PL | 1 | | 2C | 2027-01-08 | US |
 | [EASE'27](<https://conf.researchr.org/home/ease-2027>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1022>) | SE | 6 | 10 | 2C | 2027-01-22 | VN |
 | [ECOOP'27](<https://2027.ecoop.org/track/ecoop-2027-technical-papers>) | Dagstuhl | [A](<https://portal.core.edu.au/conf-ranks/488>) | SE | | | 1C | 2027-02-11 | IT |
 | [ECSA'27](<https://conf.researchr.org/track/ecsa-2027/ecsa-2027-research-track>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/2165>) | SA | 8 | 16 | LNCS | 2027-03-19 | PT |
-| [ESOP'27](<https://etaps.org/2027/conferences/esop/>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/514>) | PL | 15 | 25 | LNCS | closed | DK |
+| [ESOP'28](<https://etaps.org/2028/>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/514>) | PL | 15 | 25 | LNCS | closed | DE |
 | [ICFP'27](<https://icfp27.sigplan.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | 12 | 25 | 1C | 2027-02-25 | NL |
 | [ICFP-SPLASH'25](<https://conf.researchr.org/track/icfp-splash-2025/icfp-splash-2025-workshops>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | | | | closed | SG |
 | [ICPC'27](<https://conf.researchr.org/track/icpc-2027/icpc-2027-early-research-achievements--era->) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1181>) | SE | 4 | | 2C | closed | IE |
