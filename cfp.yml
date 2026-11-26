@@ -18,13 +18,13 @@ APLAS:
 ASE:
   year: 2027
   url: https://conf.researchr.org/track/ase-2027/ase-2027-research-track
-  publisher: null
+  publisher: IEEE
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/279
   scope: SE
   short: null
-  full: null
-  format: null
+  full: 10
+  format: 2C
   cfp: '2027-03-10'
   country: US
   later: false
@@ -94,28 +94,28 @@ EASE:
   scope: SE
   short: null
   full: 10
-  format: null
+  format: 2C
   cfp: '2027-01-22'
   country: VN
   later: false
 
 ECOOP:
   year: 2027
-  url: https://2027.ecoop.org
-  publisher: ACM
+  url: https://2027.ecoop.org/track/ecoop-2027-technical-papers
+  publisher: Dagstuhl
   rank: A
   core: https://portal.core.edu.au/conf-ranks/488
   scope: SE
-  short: 12
-  full: 25
-  format: null
+  short: null
+  full: null
+  format: 1C
   cfp: '2027-02-11'
   country: IT
   later: false
 
 ECSA:
   year: 2027
-  url: https://conf.researchr.org/home/ecsa-2027
+  url: https://conf.researchr.org/track/ecsa-2027/ecsa-2027-research-track
   publisher: Springer
   rank: A
   core: https://portal.core.edu.au/conf-ranks/2165
@@ -125,7 +125,7 @@ ECSA:
   format: LNCS
   cfp: '2027-03-19'
   country: PT
-  later: true
+  later: false
 
 ESOP:
   year: 2027
@@ -143,15 +143,15 @@ ESOP:
 
 FSE:
   year: 2027
-  url: https://conf.researchr.org/home/fse-2027
+  url: https://conf.researchr.org/track/fse-2027/fse-2027-industry-papers
   publisher: ACM
   rank: A*
   core: https://portal.core.edu.au/conf-ranks/52
   scope: SE
-  short: null
-  full: 18
-  format: 1C
-  cfp: '2027-03-05'
+  short: 5
+  full: 10
+  format: 2C
+  cfp: '2027-01-23'
   country: CN
   later: false
 
@@ -184,43 +184,43 @@ ICFP:
   later: false
 
 ICFP-SPLASH:
-  year: 2027
-  url: https://icfp27.sigplan.org
+  year: 2025
+  url: https://conf.researchr.org/track/icfp-splash-2025/icfp-splash-2025-workshops
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1037
   scope: PL
-  short: 3
+  short: null
   full: null
-  format: 1C
-  cfp: '2027-02-25'
-  country: NL
+  format: null
+  cfp: closed
+  country: SG
   later: false
 
 ICPC:
   year: 2027
-  url: https://conf.researchr.org/home/icpc-2027
+  url: https://conf.researchr.org/track/icpc-2027/icpc-2027-early-research-achievements--era-
   publisher: ACM
   rank: A
   core: https://portal.core.edu.au/conf-ranks/1181
   scope: SE
-  short: null
-  full: 10
-  format: null
+  short: 4
+  full: null
+  format: 2C
   cfp: '2026-11-26'
   country: IE
   later: false
 
 ICSA:
   year: 2027
-  url: https://conf.researchr.org/home/icsa-2027
+  url: https://conf.researchr.org/track/icsa-2027/icsa-2027-new-and-emerging-ideas
   publisher: IEEE
   rank: A
   core: https://portal.core.edu.au/conf-ranks/791
   scope: SE, SA
-  short: 8
-  full: 10
-  format: null
+  short: 5
+  full: null
+  format: 2C
   cfp: '2026-12-20'
   country: AU
   later: false
