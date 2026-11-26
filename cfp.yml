@@ -183,6 +183,7 @@ ICFP:
   country: NL
   later: false
 
+# The joint ICFP/SPLASH workshop call has no announced successor.
 ICFP-SPLASH:
   year: 2025
   url: https://conf.researchr.org/track/icfp-splash-2025/icfp-splash-2025-workshops
