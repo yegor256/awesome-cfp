@@ -3,8 +3,7 @@
 ---
 # yamllint disable rule:line-length
 docker:
-  image: yegor256/python
+  image: yegor256/rultor-image
 merge:
   script: |
-    pip3 install -r requirements.txt
-    /home/r/.local/bin/pytest --cov-fail-under=0
+    test -s README.md

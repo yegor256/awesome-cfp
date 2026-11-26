@@ -1,6 +1,6 @@
 # Curated List of CFPs
 
-[![tests](https://github.com/yegor256/awesome-cfp/actions/workflows/tests.yml/badge.svg)](https://github.com/yegor256/awesome-cfp/actions/workflows/tests.yml)
+[![markdown-lint](https://github.com/yegor256/awesome-cfp/actions/workflows/markdown-lint.yml/badge.svg)](https://github.com/yegor256/awesome-cfp/actions/workflows/markdown-lint.yml)
 [![links-valid](https://github.com/yegor256/awesome-cfp/actions/workflows/check-links.yml/badge.svg)](https://github.com/yegor256/awesome-cfp/actions/workflows/check-links.yml)
 
 This is a curated list of currently open Calls for Papers for computer
@@ -11,53 +11,50 @@ currently open CFPs,
 you may check the [WikiCFP](http://www.wikicfp.com/cfp/) and
 [call4paper](https://www.call4paper.com/) websites.
 
-Our job is to regularly update the last column in the list, ensuring that
+Our job is to regularly update the `cfp` column in the list, ensuring that
 you don't need to visit all conference websites. If you want your favorite
 conference to be included so you won't miss its deadline,
 please send us a pull request.
 
-<!-- events -->
 | name | publisher | rank | scope | short | full | format | cfp | country |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [ASE'26](<https://conf.researchr.org/home/ase-2026>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/279>) | SE | | 10 | | closed | DE |
+| [ASE'27](<https://conf.researchr.org/track/ase-2027/ase-2027-research-track>) | IEEE | [A*](<https://portal.core.edu.au/conf-ranks/279>) | SE | | 10 | 2C | 2027-03-10 | US |
 | [ASPLOS'27](<https://www.asplos-conference.org/asplos2027/cfp/>) | ACM | [A*](<https://www.asplos-conference.org/asplos2027/cfp/>) | SE | | 11 | 2C | closed | GR |
-| [FSE'27](<https://conf.researchr.org/home/fse-2027>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/52>) | SE | | 18 | 1C | closed | CN |
-| [ICSE'28](<https://conf.researchr.org/home/icse-2028>) | ACM | [A*](<https://conf.researchr.org/home/icse-2028>) | SE | | 10 | | closed | US |
-| [ICSE-NIER'27](<https://conf.researchr.org/track/icse-2027/icse-2027-new-ideas-and-emerging-results--nier->) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 4 | | | 26-Oct | IE |
-| [ICSE-SRC'27](<https://conf.researchr.org/track/icse-2027/icse-2027-src>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 2 | | | 26-Nov | IE |
+| [FSE'27](<https://conf.researchr.org/track/fse-2027/fse-2027-industry-papers>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/52>) | SE | 5 | 10 | 2C | 2027-01-23 | CN |
+| [ICSE'28](<https://conf.researchr.org/track/icse-2028/icse-2028-papers>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | | 10 | 2C | 2027-07-01 | US |
+| [ICSE-NIER'27](<https://conf.researchr.org/track/icse-2027/icse-2027-new-ideas-and-emerging-results--nier->) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 4 | | 2C | closed | IE |
+| [ICSE-SRC'27](<https://conf.researchr.org/track/icse-2027/icse-2027-src>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/1209>) | SE | 2 | | 2C | 2026-11-26 | IE |
 | [PLDI'27](<https://pldi27.sigplan.org/track/pldi-2027-papers>) | ACM | [A*](<https://portal.core.edu.au/conf-ranks/84>) | PL | | 20 | 1C | closed | US |
 | [POPL'27](<https://popl27.sigplan.org/track/POPL-2027-popl-research-papers>) | ACM | [A*](<https://popl27.sigplan.org/track/POPL-2027-popl-research-papers>) | SE | | 25 | 1C | closed | MX |
-| [CGO'27](<https://2027.cgo.org>) | ACM | [A](<https://2027.cgo.org>) | PL | | 11 | 2C | closed | US |
-| [EASE'27](<https://conf.researchr.org/home/ease-2027>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1022>) | SE | | 10 | | 27-Jan | VN |
-| [ECOOP'27](<https://2027.ecoop.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/488>) | SE | 12 | 25 | | 26-Nov | IT |
-| [ECSA'27](<https://conf.researchr.org/home/ecsa-2027>) | Springer | [A](<https://conf.researchr.org/home/ecsa-2027>) | SA | 8 | 16 | LNCS | closed | PT |
-| [ESOP'27](<https://etaps.org/2027/conferences/esop/>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/514>) | PL | 15 | 25 | LNCS | 26-Oct | DK |
-| [ICFP'27](<https://icfp27.sigplan.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | 12 | 25 | 1C | 27-Feb | NL |
+| [CGO'27](<https://2027.cgo.org/track/cgo-2027-student-research-competition>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1362>) | PL | 1 | | 2C | 2027-01-08 | US |
+| [EASE'27](<https://conf.researchr.org/home/ease-2027>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1022>) | SE | 6 | 10 | 2C | 2027-01-22 | VN |
+| [ECOOP'27](<https://2027.ecoop.org/track/ecoop-2027-technical-papers>) | Dagstuhl | [A](<https://portal.core.edu.au/conf-ranks/488>) | SE | | | 1C | 2027-02-11 | IT |
+| [ECSA'27](<https://conf.researchr.org/track/ecsa-2027/ecsa-2027-research-track>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/2165>) | SA | 8 | 16 | LNCS | 2027-03-19 | PT |
+| [ESOP'27](<https://etaps.org/2027/conferences/esop/>) | Springer | [A](<https://portal.core.edu.au/conf-ranks/514>) | PL | 15 | 25 | LNCS | closed | DK |
+| [ICFP'27](<https://icfp27.sigplan.org>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | 12 | 25 | 1C | 2027-02-25 | NL |
 | [ICFP-SPLASH'25](<https://conf.researchr.org/track/icfp-splash-2025/icfp-splash-2025-workshops>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1037>) | PL | | | | closed | SG |
-| [ICPC'27](<https://conf.researchr.org/track/icpc-2027/icpc-2027-early-research-achievements--era->) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1181>) | SE | 4 | | 2C | 26-Nov | IE |
-| [ICSA'27](<https://conf.researchr.org/track/icsa-2027/icsa-2027-new-and-emerging-ideas>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/791>) | SE, SA | 5 | | 2C | 26-Dec | AU |
-| [ICSME'27](<https://conf.researchr.org/home/icsme-2027>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/676>) | SE | | 10 | | 27-Mar | CA |
-| [ICST'27](<https://conf.researchr.org/home/icst-2027>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/1221>) | ST | | 10 | 2C | 26-Nov | ES |
-| [ISSRE'27](<https://conf.researchr.org/home/issre-2027>) | IEEE | [A](<https://conf.researchr.org/home/issre-2027>) | SE | 10 | 12 | 2C | closed | MO |
-| [ISSTA'27](<https://conf.researchr.org/home/issta-2027>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1412>) | ST | | 18 | 1C | 27-Jan | SG |
-| [MSR'27](<https://2027.msrconf.org>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/711>) | SE | 4 | 10 | | 26-Oct | IE |
-| [SANER'27](<https://conf.researchr.org/home/saner-2027>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/2280>) | SE | | 12 | | 26-Oct | US |
-| [SEAMS'27](<https://conf.researchr.org/home/seams-2027>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/2281>) | SE | 6 | 10 | | 26-Oct | IE |
-| [SPLASH'27](<https://conf.researchr.org/home/splash-2027>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/18>) | PL | | | | 26-Oct | CZ |
+| [ICPC'27](<https://conf.researchr.org/track/icpc-2027/icpc-2027-early-research-achievements--era->) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1181>) | SE | 4 | | 2C | closed | IE |
+| [ICSA'27](<https://conf.researchr.org/track/icsa-2027/icsa-2027-new-and-emerging-ideas>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/791>) | SE, SA | 5 | | 2C | 2026-12-20 | AU |
+| [ICSME'27](<https://conf.researchr.org/home/icsme-2027>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/676>) | SE | | 10 | 2C | 2027-02-26 | CA |
+| [ICST'27](<https://conf.researchr.org/track/icst-2027/icst-2027-industry>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/1221>) | ST | | 10 | 2C | 2027-01-21 | ES |
+| [ISSRE'27](<https://conf.researchr.org/track/issre-2027/issre-2027-papers>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/1411>) | SE | 10 | 12 | 2C | 2027-04-16 | MO |
+| [ISSTA'27](<https://conf.researchr.org/home/issta-2027>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/1412>) | ST | | 18 | 1C | 2027-01-11 | SG |
+| [MSR'27](<https://2027.msrconf.org/track/msr-2027-mining-challenge>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/711>) | SE | 4 | | 2C | 2026-12-23 | IE |
+| [SANER'27](<https://conf.researchr.org/track/saner-2027/saner-2027-doctoral-symposium-track>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/2280>) | SE | | 5 | 2C | 2026-12-18 | US |
+| [SEAMS'27](<https://conf.researchr.org/track/seams-2027/seams-2027-artifact-track>) | IEEE | [A](<https://portal.core.edu.au/conf-ranks/2281>) | SE | | 6 | | 2026-12-07 | IE |
+| [SPLASH'27](<https://2027.splashcon.org/track/splashoopsla2027>) | ACM | [A](<https://portal.core.edu.au/conf-ranks/18>) | PL | | 23 | 1C | 2027-04-07 | CZ |
 | [APLAS'26](<https://conf.researchr.org/home/aplas-atva-2026>) | Springer | [B](<https://conf.researchr.org/home/aplas-atva-2026>) | PL | | 17 | LNCS | closed | HK |
-| [CC'27](<https://conf.researchr.org/home/hpca-cgo-ppopp-cc-2027>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/936>) | PL | | 10 | 2C | closed | US |
-| [PPoPP'27](<https://conf.researchr.org/home/ppopp-2027>) | ACM | [B](<https://conf.researchr.org/home/ppopp-2027>) | PL | | 10 | | closed | US |
-| [REFSQ'27](<https://2027.refsq.org>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/1521>) | SE | 8 | 15 | LNCS | 26-Nov | CH |
-| [SEAA'27](<https://dsd-seaa.com/>) | IEEE | [B](<https://portal.core.edu.au/conf-ranks/464>) | SE, PL | 4 | 8 | 2C | closed | PL |
-| [SLE'27](<https://www.sleconf.org/>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/1215>) | SE, PL | 6 | 12 | 2C | closed | FR |
-| [SSBSE'27](<https://conf.researchr.org/series/ssbse>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/2283>) | SE | 6 | 15 | LNCS | closed | CA |
-| [CLEI'27](<https://clei.org/en/>) | IEEE | [C](<https://clei.org/en/>) | SE | 4 | 10 | | closed | MX |
+| [CC'27](<https://conf.researchr.org/home/CC-2027>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/936>) | PL | | 10 | 2C | 2026-12-03 | US |
+| [PPoPP'27](<https://conf.researchr.org/home/ppopp-2027>) | ACM | [B](<https://conf.researchr.org/home/ppopp-2027>) | PL | | 10 | 2C | closed | US |
+| [REFSQ'27](<https://2027.refsq.org/track/refsq-2027-posters---tools>) | CEUR-WS | [B](<https://portal.core.edu.au/conf-ranks/1521>) | SE | 7 | | 1C | 2027-02-04 | CH |
+| [SEAA'27](<https://dsd-seaa.com/seaa2027/>) | | [B](<https://portal.core.edu.au/conf-ranks/464>) | SE, PL | | | | | AT |
+| [SLE'26](<https://www.sleconf.org/>) | ACM | [B](<https://portal.core.edu.au/conf-ranks/1215>) | SE, PL | 5 | 12 | 2C | closed | FR |
+| [SSBSE'27](<https://conf.researchr.org/home/ssbse-2027>) | Springer | [B](<https://portal.core.edu.au/conf-ranks/2283>) | SE | | | | | CN |
+| [CLEI'27](<https://clei.org/>) | IEEE | [C](<https://clei.org/>) | SE | 4 | 10 | | closed | PY |
 | [ICFEM'26](<https://icfem2026.github.io/>) | Springer | [C](<https://icfem2026.github.io/>) | SE | | 16 | LNCS | closed | UK |
 | [PPDP'26](<https://icfp26.sigplan.org/home/lopstr-ppdp-2026>) | Springer | [C](<https://icfp26.sigplan.org/home/lopstr-ppdp-2026>) | PL | 8 | 15 | LNCS | closed | US |
-| [QRS'26](<https://qrs26.techconf.org/>) | IEEE | [C](<https://portal.core.edu.au/conf-ranks/1185>) | SE | 10 | 12 | 2C | closed | IT |
-| [SCAM'27](<http://www.ieee-scam.org/>) | IEEE | [C](<http://www.ieee-scam.org/>) | SE | | 12 | 2C | closed | CA |
-
-<!-- events -->
+| [QRS'27](<https://qrs27.techconf.org/>) | | [C](<https://portal.core.edu.au/conf-ranks/1185>) | SE | 10 | 12 | 2C | 2027-04-20 | FR |
+| [SCAM'27](<https://www.ieee-scam.org/>) | IEEE | [C](<https://www.ieee-scam.org/>) | SE | | 12 | 2C | closed | CA |
 
 **SE** stands for "Software Engineering",
 **SA** for "Software Architecture",
@@ -72,3 +69,20 @@ from a single student, who must physically attend the event.
 they _usually_ expect 4-pages papers.
 
 **Format** should be either LNCS, 2C (two columns), or 1C (one column).
+
+## How to Contribute
+
+The table above is the only source of data in this repository,
+there is no generator behind it: just edit `README.md` and submit a pull request.
+Please, follow these rules:
+
+* Keep rows sorted by **rank** (A\*, A, B, C), then alphabetically by **name**.
+* **name** is the conference acronym with a two-digit year,
+  linked to the call for papers.
+* **rank** is linked to the [CORE](https://portal.core.edu.au/conf-ranks/)
+  page of the conference.
+* **short** and **full** are page limits for short and full papers.
+* **cfp** is the paper submission deadline in `YYYY-MM-DD` format,
+  or `closed` when it has passed; leave it empty if not yet announced.
+* **country** is the two-letter code of the country where the event takes place.
+* Leave a cell empty when the information is unknown.
